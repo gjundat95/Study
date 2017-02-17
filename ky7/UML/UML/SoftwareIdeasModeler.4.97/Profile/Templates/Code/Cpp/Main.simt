@@ -1,0 +1,15 @@
+<sim-template version="1.0">
+  <meta>
+    <name>C++</name>
+    <description></description>
+    <type>SourceCode</type>
+  </meta>
+  <files>
+    <file name="Class.cpp" outputName="{Element.Name}.cpp" type="AbstractElement">
+        <settings>
+          <setting name="DefaultType" value="object"></setting>
+          <setting name="NameAdjustment" value="CamelCase"></setting>
+        </settings>
+    </file>
+  </files>
+</sim-template>

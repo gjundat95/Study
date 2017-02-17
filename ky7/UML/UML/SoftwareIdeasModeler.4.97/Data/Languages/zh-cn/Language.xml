@@ -1,0 +1,1102 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<language name="Simplified Chinese" localName="Simplified Chinese" id="zh-CN">
+  <meta>
+    <author>Naiyin Tan</author>
+    <created></created>
+    <info></info>
+  </meta>
+  <items>
+    <!-- Global -->
+    <form id="Global">
+      <!-- Strings -->
+      <group id="Strings">
+        <item key="SimProject" value="SIM 项目"></item>
+        <item key="AllFiles" value="所有文件"></item>
+
+        <item key="Version" value="版本" />
+      </group>
+
+      <group id="Messages">
+        <item key="ItemCannotBeAddedToDiagram" value="此项不能被添加到图表。" />
+        <item key="SaveBeforeExist" value="是否保存变更到项目 ('&lt;filename&gt;')?" />
+        <item key="NewVersionFound" value="发现Software Ideas Modeler的新版本 ('&lt;version&gt;'). 是否跳转到下载页面下载最新版本？" />
+        <item key="UptodateVersion" value="Software Ideas Modeler的当前版本 ('&lt;version&gt;')已经是最新版本。" />
+        <item key="ProjectFileNotFound" value="项目文件 '&lt;?&gt;' 未找到。 可能已经被删除过移动。" title="项目文件未找到" />
+        <item key="NewStyleWarning" value="是否取消对当前样式设置所做过的所有更改？" title="新样式设置"/>
+        <item key="StyleTypeExists" value="尝试添加的样式已存在" title="样式已存在"/>
+        <item key="RenumberingWarning" value="一些内容没有被重新编号。带有原编号的列表必须是空的。" title="重新编号" />
+        <item key="DeleteStyle" value="确定要删除样式 '&lt;?&gt;' 吗？" title="删除样式"/>
+        <item key="StyleClassNameExists" value="该样式名已经被使用。" title="样式类名已存在"/>
+        <item key="NotAllowedStyleClassName" value=" '&lt;?&gt;'不允许作为该样式类名。" title="错误名"/>
+        <item key="SavingError" value="文件不能够被保存。 请确认它是否没有被其它应用程序使用。" title="保存错误"/>
+      </group>
+
+      <group id="DiagramNames">
+        <item key="UmlClassDiagram" value="类图" />
+        <item key="UmlUseCaseDiagram" value="用例图" />
+        <item key="UmlSequenceDiagram" value="序列图" />
+        <item key="UmlActivityDiagram" value="活动图" />
+        <item key="UmlStateMachineDiagram" value="状态机图" />
+        <item key="UmlDeploymentDiagram" value="部署图（配置图）" />
+        <item key="UmlProfileDiagram" value="特性描述图(Profile)" />
+        <item key="UmlObjectDiagram" value="对象图" />
+        <item key="UmlPackageDiagram" value="包图" />
+        <item key="UmlCommunicationDiagram" value="通信图" />
+        <item key="UmlCompositeStructureDiagram" value="组成结构图" />
+        <item key="UmlComponentDiagram" value="组件图" />
+        <item key="UmlInteractionOverviewDiagram" value="交互预览图" />
+        <item key="UmlMixedDiagram" value="混合图" />
+        <item key="DataFlowDiagram" value="数据流图" />
+        <item key="EntityRelationshipDiagram" value="实体关系图（E-R图）" />
+        <item key="RequirementDiagram" value="需求图" />
+        <item key="UserInterfaceDiagram" value="用户界面" />
+        <item key="CrcCardDiagram" value="CRC卡图" />
+      </group>
+
+      <group id="Buttons">
+        <item key="Ok" value="确定(&amp;O)" />
+        <item key="Cancel" value="取消(&amp;C)" />
+        <item key="Yes" value="是(&amp;Y)" />
+        <item key="No" value="否(&amp;N)" />
+        <item key="Add" value="添加(&amp;A)" />
+        <item key="Edit" value="编辑(&amp;E)" />
+        <item key="Remove" value="移除(&amp;R)" />
+        <item key="SelectAll" value="选择全部(&amp;S)" />
+        <item key="SelectNone" value="无(&amp;W)" />
+        <item key="SelectInvert" value="反向(&amp;I)" />
+      </group>
+    </form>
+
+    <form id="MainForm">
+      <group id="StandardBar">
+        <item key="New" tooltip="新建" />
+        <item key="Open" tooltip="打开" />
+        <item key="Save" tooltip="保存" />
+        <item key="Undo" tooltip="撤销" />
+        <item key="Redo" tooltip="重做" />
+        <item key="Cut" tooltip="剪切" />
+        <item key="Copy" tooltip="复制" />
+        <item key="Paste" tooltip="粘贴" />
+        <item key="Print" tooltip="打印" />
+        <item key="PrintPreview" tooltip="打印预览" />
+        <item key="ShowGrid" tooltip="显示网格" />
+      </group>
+      <group id="LayoutBar">
+        <item key="BringToFront" value="置前" />
+        <item key="SendToBack" value="置后" />
+        <item key="ForwardOne" value="向前一个" />
+        <item key="BackOne" value="向后一个" />        
+      </group>
+      <group id="Menu">
+        <!-- File -->
+        <item key="File" value="文件(&amp;F)" />
+        <item key="New" value="新建(&amp;N)" />
+        <item key="Open" value="打开(&amp;O)" />
+        <item key="Save" value="保存(&amp;S)" />
+        <item key="SaveAs" value="另存为(&amp;A)" />
+        <item key="Print" value="打印(&amp;P)" />
+        <item key="PrintPreview" value="打印预览(&amp;W)" />
+        <item key="PrintSetup" value="打印设置(&amp;U)" />
+        <item key="Export" value="导出...(&amp;E)" />
+        <item key="ExportToPdf" value="导出到PDF文件...(&amp;T)" />
+        <item key="RecentProjects" value="最近项目(&amp;R)" />
+        <item key="Exit" value="退出(&amp;X)" />
+        <!-- Edit -->
+        <item key="Edit" value="编辑(&amp;E)" />
+        <item key="Undo" value="撤销(&amp;U)" />
+        <item key="Redo" value="重做(&amp;R)" />
+        <item key="Cut" value="剪切(&amp;C)" />
+        <item key="Copy" value="复制(&amp;P)" />
+        <item key="Paste" value="粘贴 (&amp;T)" />
+        <item key="SelectAll" value="选择全部(&amp;A)" />
+        <item key="SelectAllOfSameType" value="选择所有相同类型(&amp;S)" />
+        <item key="InvertSelection" value="反向选择(&amp;I)" />
+        <item key="Find" value="查找(&amp;F)..." />
+        <!-- View -->
+        <item key="View" value="视图(&amp;V)" />
+        <item key="StandardBar" value="标准工具栏(&amp;B)" />
+        <item key="StatusBar" value="状态栏(&amp;S)" />
+        <item key="LayoutBar" value="布局栏(&amp;L)" />
+        <item key="Toolbox" value="工具箱(&amp;T)" />
+        <item key="SideBar" value="侧边栏(&amp;C)" />
+        <item key="DiagramPreview" value="图表预览(&amp;D)" />
+        <item key="Grid" value="网格(&amp;G)" />
+        <item key="SnapToGrid" value="对齐到网格(&amp;N)" />
+        <item key="RenderingQuality" value="绘制质量(&amp;Q)" />
+        <item key="RenderingQualityDraft" value="草图(&amp;D)" />
+        <item key="RenderingQualityNormal" value="普通(&amp;M)" />
+        <item key="RenderingQualityBest" value="最好(&amp;Z)" />
+        <!-- Arrange -->
+        <item key="Arrange" value="布局(&amp;A)" />
+        <item key="AutoLayout" value="自动布局(&amp;Z)" />
+        <item key="CircleLayout" value="环形布局(&amp;C)" />
+        <item key="RowLayout" value="横布局(&amp;R)" />
+        <item key="SmartLayout" value="智能布局(&amp;S)" />
+        <item key="CascadeLayout" value="层叠布局(&amp;P)" />
+        <item key="AutoSize" value="自动调整大小(&amp;T)" />
+        <item key="Alignment" value="对齐(&amp;D)" />
+        <item key="MakeSame" value="相同大小(&amp;X)" />
+        <item key="Order" value="顺序(&amp;O)" />
+        <item key="Move" value="移动(&amp;M)" />
+        <item key="Size" value="尺寸(&amp;S)" />
+        <item key="HorizontalSpacing" value="水平间隔(&amp;H)" />
+        <item key="VerticalSpacing" value="垂直间隔(&amp;V)" />
+        <item key="SetLocationAndSize" value="设置位置与大小(&amp;L)" />
+        <item key="LockItems" value="锁定对象(&amp;L)" />
+        <item key="GroupItems" value="组合(&amp;G)" />
+        <item key="UngroupItems" value="解除组合(&amp;U)" />
+        <item key="AlignmentLeft" value="左对齐(&amp;L)" />
+        <item key="AlignmentRight" value="右对齐(&amp;R)" />
+        <item key="AlignmentTop" value="顶部对齐(&amp;T)" />
+        <item key="AlignmentBottom" value="底部对齐(&amp;B)" />
+        <item key="AlignmentCenterHorizontally" value="水平居中(&amp;H)" />
+        <item key="AlignmentCenterVertically" value="垂直居中(&amp;V)" />
+        <item key="AlignmentToGrid" value="对齐到网格(&amp;T)" />
+        <item key="MakeSameWidth" value="宽度(&amp;W)" />
+        <item key="MakeSameHeight" value="高度(&amp;H)" />
+        <item key="MakeSameBoth" value="宽度与高度(&amp;B)" />
+        <item key="OrderBringToFront" value="置前(&amp;F)" />
+        <item key="OrderBringToBack" value="置后(&amp;B)" />
+        <item key="OrderForwardOne" value="向前一个(&amp;Q)" />
+        <item key="OrderBackOne" value="向后一个(&amp;H)" />
+        <item key="MoveCustom" value="自定义(&amp;C)" />
+        <item key="MoveLeft" value="向左(&amp;L)" />
+        <item key="MoveRight" value="向右(&amp;R)" />
+        <item key="MoveUp" value="向上(&amp;U)" />
+        <item key="MoveDown" value="向下(&amp;D)" />
+        <item key="SizeCustom" value="自定义(&amp;C)" />
+        <item key="SizeInflate" value="增大(&amp;I)" />
+        <item key="SizeDeflate" value="缩小(&amp;D)" />
+        <item key="SizeWider" value="加宽(&amp;W)" />
+        <item key="SizeNarrower" value="变窄(&amp;N)" />
+        <item key="SizeHigher" value="变高(&amp;H)" />
+        <item key="SizeLower" value="变低(&amp;L)" />
+        <!-- Project -->
+        <item key="Project" value="项目(&amp;P)" />
+        <item key="AddModel" value="加入模型(&amp;M)" />
+        <item key="AddDiagram" value="加入图表(&amp;D)" />
+        <item key="Properties" value="项目属性(&amp;P)..." />
+        <item key="DiagramProperties" value="图表属性(&amp;I)" />
+        <item key="StyleSet" value="样式设置(&amp;Y)" />
+        <item key="LoadStyleSet" value="载入(&amp;L)" />
+        <item key="SaveStyleSet" value="保存(&amp;S)" />
+        <item key="EditStyleSet" value="编辑(&amp;E)" />
+        <item key="RemoveAllCustomStyles" value="移除所有自定义样式(&amp;R)" />
+
+        <!-- Diagram -->
+        <item key="Diagram" value="图表(&amp;D)" />
+        <item key="AddLayer" value="添加图层(&amp;A)" />
+        <item key="Layers" value="图层(&amp;L)" />
+        <item key="ConvertDiagram" value="转换为(&amp;C)" />
+        <item key="ConvertToERDDiagram" value="实体关系图(&amp;E)" />
+        <item key="DiagramProperties" value="图表属性(&amp;P)..." />
+        <item key="CopyToClipboardAsImage" value="作为图像复制到剪贴板(&amp;I)" />
+        <item key="LayersMerge" value="合并图层(&amp;M)" />
+        <item key="LayersShowAll" value="显示全部(&amp;S)" />
+        <item key="LayersHide" value="隐藏(&amp;H)" />
+        <item key="LayersDelete" value="删除(&amp;D)" />
+
+        <!-- Element -->
+        <item key="Element" value="元素(&amp;E)" />
+        <item key="ElementShowID" value="显示ID(&amp;I)" />
+        <item key="ElementShowParentName" value="显示父名称(&amp;P)" />
+        <item key="ElementShowStereotypes" value="显示构造型(Stereotype)(&amp;S)" />
+        <item key="ElementShowAttributes" value="显示属性(&amp;A)" />
+        <item key="ElementShowOperations" value="显示操作(&amp;O)" />
+
+        <item key="ElementModifiers" value="修饰词(&amp;M)" />
+        <item key="ElementAbstractModifier" value="Abstract(&amp;A)" />
+        <item key="ElementPublicModifier" value="Public(&amp;P)" />
+        <item key="ElementPackageModifier" value="Package(&amp;G)" />
+        <item key="ElementProtectedModifier" value="Protected(&amp;T)" />
+        <item key="ElementPrivateModifier" value="Private(&amp;V)" />
+        <item key="ElementStyle" value="样式(&amp;S)..." />
+        <item key="ElementProperties" value="属性(&amp;P)..." />
+        <item key="ElementDocumentation" value="说明文档(&amp;D)..." />
+        <item key="ElementTaggedValues" value="标记值(&amp;T)..." />
+        <!-- Tools -->
+        <item key="Tools" value="工具(&amp;T)" />
+        <item key="GenerateDocumentation" value="生成文档(&amp;D)" />
+        <item key="GenerateSourceCode" value="生成类(&amp;C)" />
+        <item key="GenerateDiagrams" value="生成图表(&amp;I)" />
+        <item key="GenerateERDDiagram" value="ERD 图(&amp;E)" />
+        <item key="GenerateSQL" value="生成SQL(&amp;S)" />
+        <item key="RenumberElementIDs" value="更改元素ID编号(&amp;R)..." />
+        <item key="ImportDatabaseModel" value="导入数据库模型(&amp;B)" />
+        <item key="ImportObjectModel" value="导入对象模型(&amp;O)" />
+        <item key="Languages" value="语言|Languages(&amp;L)" />
+        <item key="Options" value="选项(&amp;O)..." />
+        <!-- Windows -->
+        <item key="Windows" value="窗口(&amp;W)" />
+        <item key="Cascade" value="层叠(&amp;C)" />
+        <item key="TileVertical" value="纵向平铺(&amp;V)" />
+        <item key="TileHorizontal" value="横向平铺(&amp;H)" />
+        <item key="ArrangeIcons" value="重排图标(&amp;I)" />
+        <item key="CloseAll" value="关闭全部(&amp;A)" />
+        <!-- Help -->
+        <item key="Help" value="帮助(&amp;H)" />
+        <item key="OnlineHelp" value="在线帮助(&amp;O)" />
+        <item key="Donate" value="捐赠(&amp;D)" />
+        <item key="WhatsNew" value="最新动态(&amp;N)" />
+        <item key="CheckForUpdates" value="检测更新(&amp;C)" />
+        <item key="About" value="关于 Software Ideas Modeler...(&amp;A)" />
+        <item key="WebSite" value="网站(&amp;W)" />
+      </group>
+
+      <!-- Project Context Menu -->
+      <group id="ProjectCMenu">
+        <item key="AddModel" value="添加模型(&amp;M)" />
+        <item key="AddDiagram" value="添加图表(&amp;D)" />
+
+        <item key="NewDiagram" value="新建图表(&amp;N)" />
+        <item key="Rename" value="重命名(&amp;R)" />
+        <item key="Delete" value="删除(&amp;D)" />
+        <item key="DeleteFromProject" value="从项目中删除(&amp;F)" />
+
+        <item key="UmlClassDiagram" value="类图(&amp;L)" />
+        <item key="UmlUseCaseDiagram" value="用例图(&amp;U)" />
+        <item key="UmlSequenceDiagram" value="序列图(&amp;S)" />
+        <item key="UmlActivityDiagram" value="活动图(&amp;A)" />
+        <item key="UmlStateMachineDiagram" value="状态机图(&amp;M)" />
+        <item key="UmlDeploymentDiagram" value="部署图（配置图）(&amp;D)" />
+        <item key="UmlProfileDiagram" value="特性描述图(Profile)(&amp;P)" />
+        <item key="UmlObjectDiagram" value="对象图(&amp;O)" />
+        <item key="UmlPackageDiagram" value="包图(&amp;P)" />
+        <item key="UmlCommunicationDiagram" value="通信图(&amp;C)" />
+        <item key="UmlCompositeStructureDiagram" value="组成结构图(&amp;Z)" />
+        <item key="UmlComponentDiagram" value="组件图(&amp;J)" />
+        <item key="UmlInteractionOverviewDiagram" value="交互预览图(&amp;I)" />
+        <item key="UmlMixedDiagram" value="混合图(&amp;H)" />
+        <item key="DataFlowDiagram" value="数据流图(&amp;F)" />
+        <item key="EntityRelationshipDiagram" value="实体关系图（E-R图）(&amp;E)" />
+        <item key="RequirementDiagram" value="需求图(&amp;X)" />
+        <item key="UserInterface" value="用户界面(&amp;Y)" />
+        <item key="CrcCardDiagram" value="CRC卡图(&amp;K)" />
+      </group>
+
+      <!-- Project Tree -->
+      <group id="ProjectTreeViews">
+        <item key="HierarchicalView" value="分级视图" />
+        <item key="AllEntitiesView" value="所有实体" />
+      </group>
+
+      <!-- Toolbox -->
+      <group id="Toolbox">
+		<item key="UmlClassDiagram" value="类图" />
+        <item key="UmlUseCaseDiagram" value="用例图" />
+        <item key="UmlSequenceDiagram" value="序列图" />
+        <item key="UmlActivityDiagram" value="活动图" />
+        <item key="UmlStateMachineDiagram" value="状态机图" />
+        <item key="UmlDeploymentDiagram" value="部署图（配置图）" />
+        <item key="UmlProfileDiagram" value="特性描述图(Profile)" />
+        <item key="UmlObjectDiagram" value="对象图" />
+        <item key="UmlPackageDiagram" value="包图" />
+        <item key="UmlCommunicationDiagram" value="通信图" />
+        <item key="UmlCompositeStructureDiagram" value="组成结构图" />
+        <item key="UmlComponentDiagram" value="组件图" />
+        <item key="UmlInteractionOverviewDiagram" value="交互预览图" />
+        <item key="UmlMixedDiagram" value="混合图" />
+        <item key="DataFlowDiagram" value="数据流图" />
+        <item key="EntityRelationshipDiagram" value="实体关系图（E-R图）" />
+        <item key="RequirementDiagram" value="需求图" />
+        <item key="UserInterfaceDiagram" value="用户界面" />
+        <item key="CrcCardDiagram" value="CRC卡图" />
+        
+        <item key="Common" value="通用" />
+        <item key="Drawing" value="绘图" />
+
+        <item key="Selection" value="选择" />
+        <item key="Comment" value="注释" />
+        <item key="Comment Connector" value="注释连接" />
+        <item key="Diagram Description" value="图表描述" />
+
+        <item key="Line" value="线" />
+        <item key="Rectangle" value="矩形" />
+        <item key="Ellipse" value="椭圆" />
+        <item key="Polygon" value="多边形" />
+        <item key="Text" value="文本" />
+        <item key="Left Arrow" value="左箭头" />
+        <item key="Right Arrow" value="右箭头" />
+        <item key="Up Arrow" value="向上箭头" />
+        <item key="Down Arrow" value="向下箭头" />
+
+        <item key="Package" value="包" />
+        <item key="Class" value="类" />
+        <item key="Table" value="表格" />
+        <item key="Signal" value="信号" />
+        <item key="Enumeration" value="枚举" />
+        <item key="Interface" value="接口" />
+        <item key="Realization" value="实现" />
+        <item key="Association" value="关联" />
+        <item key="Unidir. Association" value="单向关联" />
+        <item key="Bidir. Association" value="双向关联" />
+        <item key="N-ary Association" value="n元关联" />
+        <item key="Composition" value="组合聚合" />
+        <item key="Aggregation" value="基本聚合" />
+        <item key="Generalization" value="继承" />
+        <item key="Dependency" value="依赖关系" />
+        <item key="Containment" value="包含关系" />
+
+        <item key="Actor" value="参与者" />
+        <item key="Use Case" value="用例" />
+        <item key="Collaboration" value="协作" />
+        <item key="Include" value="包含" />
+        <item key="Extend" value="扩展" />
+        <item key="System Boundary" value="系统边界" />
+
+        <item key="Lifeline" value="生命线" />
+        <item key="Interaction Operand" value= "交互操作域" />
+        <item key="Activation Bar" value="活动条" />
+        <item key="Fragment" value="片段" />
+        <item key="Call Action" value="调用动作" />
+        <item key="Return Action" value="返回动作" />
+        <item key="Send Action" value="发送动作" />
+        <item key="Destroy Action" value="销毁动作" />
+        <item key="Opt Fragment" value="Opt Fragment" />
+        <item key="Alt Fragment" value="Alt Fragment" />
+        <item key="Loop Fragment" value="Loop Fragment" />
+        <item key="Ref Fragment" value="Ref Fragment" />
+        <item key="Sd Fragment" value="Sd Fragment" />
+        <item key="Par Fragment" value="Par Fragment" />
+        <item key="Neg Fragment" value="Neg Fragment" />
+
+        <item key="Message" value="消息" />
+
+        <item key="Swimlane" value="泳道" />
+        <item key="Activity" value="活动" />
+        <item key="Object" value="对象" />
+
+        <item key="Initial State" value= "开始状态" />
+        <item key="Final State" value=" 终止状态" />
+        <item key="State" value="状态" />
+        <item key="Composite State" value="复合状态" />
+        <item key="Fork/Join" value="分叉/结合" />
+        <item key="Decision" value="判断" />
+        <item key="Transition" value="转换" />
+        <item key="Signal Receipt" value="信号接收" />
+        <item key="Signal Send" value="信号发送" />
+
+        <item key="Composite State" value="复合状态" />
+        <item key="Entry Point" value="入口点" />
+        <item key="Exit Point" value="出口点" />
+
+        <item key="Node" value="节点" />
+        <item key="Component" value="组件" />
+
+        <item key="Import" value="导入" />
+        <item key="Merge" value="合并" />
+        <item key="Use" value="使用" />
+
+        <item key="Profile" value="特性描述Profile" />
+        <item key="Stereotype" value="构造型Stereotype" />
+        <item key="Meta Class" value="元类，Class的构造型" />
+        <item key="Apply" value="Apply" />
+
+        <item key="Entity" value="实体" />
+        <item key="Relation" value="关系" />
+        <item key="1 to 1" value="1 到 1" />
+        <item key="1 to 0..1" value="1 到 0..1" />
+        <item key="1 to 1..n" value="1 到 1..n" />
+        <item key="1 to 0..n" value="1 到 0..n" />
+        <item key="0..n to 0..n" value="0..n 到 0..n" />
+        <item key="1..n to 1..n" value="1..n 到 1..n" />
+
+        <item key="Data Store" value="数据存储" />
+        <item key="Process" value="过程" />
+        <item key="Gate" value="门" />
+        <item key="External" value="外部实体" />
+        <item key="Data Flow" value="数据流" />
+
+        <item key="Requirement" value="需求" />
+        <item key="Model" value="模型" />
+        <item key="Test Case" value="测试用例" />
+
+        <item key="Port" value="端口" />
+        <item key="Part" value="部分" />
+        <item key="Required Interface" value="需求接口" />
+
+        <item key="Window" value="窗口" />
+        <item key="Label" value="标签" />
+        <item key="Button" value="按钮" />
+        <item key="Check Box" value="核选框" />
+        <item key="Radio Button" value="单选按钮" />
+        <item key="Text Box" value="文本框" />
+
+        <item key="CRC Card" value="CRC卡" />        
+      </group>
+
+      <!-- Side Panels -->
+      <group id="SideBars">
+        <item key="Project" value="项目" />
+        <item key="FastEditor" value="快速编辑器" />
+        <item key="Styles" value="样式" />
+        <item key="ItemProperties" value="属性" />
+        <item key="Generation" value="生成" />
+        <item key="Documentation" value="文档" />
+        <item key="Layers" value="图层" />
+        <item key="Preview" value="预览" />
+      </group>
+      <group id="ProjectTabPanel">
+        <item key="NewModel" tooltip="新模型" />
+        <item key="NewDiagram" tooltip="新图表" />
+        <item key="ExpandAll" tooltip="展开全部" />
+        <item key="Refresh" tooltip="刷新" />
+        <item key="UmlClassDiagram" tooltip="类图" />
+        <item key="UmlUseCaseDiagram" tooltip="用例图" />
+        <item key="UmlSequenceDiagram" tooltip="序列图" />
+        <item key="UmlActivityDiagram" tooltip="活动图" />
+        <item key="UmlStateMachineDiagram" tooltip="状态机图" />
+        <item key="UmlDeploymentDiagram" tooltip="部署图(配置图)" />
+        <item key="UmlProfileDiagram" tooltip="特性描述图(Profile)" />
+        <item key="UmlObjectDiagram" tooltip="对象图" />
+        <item key="UmlPackageDiagram" tooltip="包图" />
+        <item key="UmlCommunicationDiagram" tooltip="通信图" />
+        <item key="EntityRelationshipDiagram" tooltip="实体关系图(E-R图)" />
+        <item key="RequirementDiagram" tooltip="需求图" />
+        <item key="UserInterface" tooltip="用户界面" />
+        <item key="CrcCardDiagram" tooltip="CRC卡图" />
+      </group>
+      <group id="GenerationTabPanel">
+        <item key="Generate" value="生成(&amp;G)" />
+      </group>
+      <group id="ItemEditorTabPanel">
+        <item key="ItemDefinition" value="项目释义(&amp;I)" />
+      </group>
+      <group id="StylesTabPanel">
+        <item key="Apply" value="应用(&amp;A)" />
+        <item key="NewStyleSet" tooltip="新建样式设置" />
+        <item key="OpenStyleSet" tooltip="打开样式设置" />
+        <item key="SaveStyleSet" tooltip="保存样式设置" />
+        <item key="AddStyle" tooltip="添加样式" />
+        <item key="SetStyleAsDefault" tooltip="设置为默认样式" />
+        <item key="EditStyle" tooltip="编辑样式" />
+        <item key="DeleteStyle" tooltip="删除样式" />
+      </group>
+    </form>
+    <form id="LayerControl">
+      <group id="Control">
+        <item key="AddLayer" tooltip="添加新图层" />
+        <item key="DeleteLayer" tooltip="删除图层" />
+        <item key="ShowHideLayer" tooltip="显示/隐藏图层" />
+        <item key="MergeAllLayers" tooltip="合并所有图层" />
+      </group>      
+    </form>
+
+    <!-- Context Bar -->
+    <form id="ContextBar">
+      <group id="Control">        
+        <item key="AddAttribute" value="添加属性" />
+        <item key="AddOperation" value="添加操作" />
+        <item key="AddSubClass" value="添加子类" />
+        <item key="AddSuperClass" value="添加超类" />
+        <item key="AddUseCase" value="添加用例" />
+        <item key="AddSwimlane" value="添加泳道" />
+        <item key="Extend" value="扩展" />
+        <item key="Include" value="包含" />
+        <item key="AddComment" value="添加注释" />        
+      </group>
+    </form>
+    
+    <!-- New Diagram  -->
+    <form id="NewDiagramForm">
+      <group id="Form">
+        <item key="Title" value="新建图表" />
+        <item key="SelectItemLabel" value="选择希望被添加到项目的图表类型：" />
+        <item key="NameLabel" value="名称：" />
+
+        <item key="OK" value="确认(&amp;O)" />
+        <item key="Cancel" value="取消(&amp;C)" />
+      </group>
+      <group id="Diagrams">
+        <item key="UMLDiagrams" value="UML图表" />
+        <item key="DatabaseModeling" value="数据库建模" />
+        <item key="Requirements" value="需求" />
+        <item key="Others" value="其它" />
+
+        <item key="UmlClassDiagram" value="类图" />
+        <item key="UmlObjectDiagram" value="对象图" />
+        <item key="UmlPackageDiagram" value="包图" />
+        <item key="UmlUseCaseDiagram" value="用例图" />
+        <item key="UmlSequenceDiagram" value="序列图" />
+        <item key="UmlCommunicationDiagram" value="通信图" />
+        <item key="UmlActivityDiagram" value="活动图" />
+        <item key="UmlStateMachineDiagram" value="状态机图" />
+        <item key="UmlDeploymentDiagram" value="部署图(配置图)" />
+        <item key="UmlProfileDiagram" value="特性描述图(Profile)" />
+        <item key="UmlCompositeStructureDiagram" value="组成结构图" />
+        <item key="UmlComponentDiagram" value="组件图" />
+        <item key="UmlInteractionOverviewDiagram" value="交互预览图" />
+        <item key="UmlMixedDiagram" value="混合图" />
+        <item key="DataFlowDiagram" value="数据流图" />
+        <item key="EntityRelationshipDiagram" value="实体关系图(E-R图)" />
+        <item key="RequirementDiagram" value="需求图" />
+        <item key="UserInterface" value="用户界面" />
+        <item key="CrcCardDiagram" value="CRC卡图" />
+      </group>
+    </form>
+
+    <form id="AboutForm">
+      <group id="Form">
+        <item key="Title" value="关于Software Ideas Modeler" />
+
+        <item key="AboutTab" value="关于" />
+        <item key="WhatsNewTab" value="最新动态" />
+
+        <item key="Author" value="作者:" />
+        <item key="Version" value="版本:" />
+        <item key="Description" value="Software Ideas Modeler是一个使用UML图表进行软件建模的工具." />
+        <item key="Close" value="关闭(&amp;C)" />
+        <item key="Donation" value="如果你喜欢这个软件, 请点击 &quot;donate&quot; 按钮并捐助任意金额以支持这个软件的开发." />
+      </group>
+    </form>
+
+    <form id="StartPageForm">
+      <group id="Form">
+        <item key="Title" value="起始页" />
+
+        <item key="StartWith" value="开始绘制..." />
+        <item key="RecentProjects" value="最近项目" />
+
+        <item key="OpenProject" value="打开项目..." />
+        <item key="NewProject" value="创建新项目..." />
+
+        <item key="DonateNow" value="点击捐助" />
+      </group>
+    </form>
+
+    <form id="ModelOverviewForm">
+      <group id="Form">
+        <item key="Title" value="模型预览" />
+      </group>
+    </form>
+
+    <form id="分类器Form">
+      <group id="Form">
+        <item key="Title" value="类元" />
+        <item key="分类器s" value="类元:" />
+      </group>
+    </form>
+
+    <form id="CommunicationMessageForm">
+      <group id="Form">
+        <item key="Title" value="消息" />
+        <item key="SequenceNumber" value="顺序号：" />
+        <item key="Message" value="消息：" />
+        <item key="Direction" value="方向：" />
+        <item key="NormalDirection" value="正向" />
+        <item key="ReverseDirection" value="反向" />
+      </group>
+    </form>
+
+    <form id="ItemPropertiesForm">
+      <group id="Form">
+        <item key="Title" value="项属性" />
+
+        <item key="General" value="概要" />
+        <item key="Class" value="类" />
+        <item key="Relationship" value="联系" />
+        <item key="Style" value="类型" />
+        <item key="Documentation" value="文档" />
+        <item key="TaggedValues" value="标记值" />
+        <item key="ErdEntity" value="实体" />
+        <item key="ErdRelation" value="联系" />
+        <item key="UmlState" value="状态" />
+        <item key="UmlFragment" value="片段" />
+        <item key="UmlObject" value="对象" />
+        <item key="UmlInteractionOperand" value="交互操作域" />
+        <item key="UmlCommunicationLifeline" value="生命线" />
+        <item key="UmlCommunicationMessage" value="消息" />
+        <item key="UmlTransition" value="转换" />
+        <item key="UmlExtend" value="扩展" />
+        <item key="UmlSwimlane" value="泳道" />
+        <item key="CrcCardHeader" value="Header" />
+        <item key="CrcCard" value="职责" />
+
+        <item key="OK" value="确定(&amp;O)" />
+        <item key="Cancel" value="取消(&amp;C)" />
+
+        <item key="Name" value="名称：" />
+        <item key="ID" value="ID:" />
+        <item key="Stereotypes" value="构造型(&amp;S)" />
+        <item key="AppliedStereotypes" value="应用的构造型(&amp;A)：" />
+        <item key="AvailableStereotypes" value="可应用的构造型(&amp;V)：" />
+        <item key="Add" value="&lt;添加(&amp;A)" />
+        <item key="AddCustom" value="&lt;添加自定义 (&amp;C)" />
+        <item key="Remove" value="移除(&amp;R)&gt;" />
+        <item key="Modifiers" value="修饰符" />
+        <item key="AbstractModifier" value="抽象(&amp;A)" />
+        <item key="StaticModifier" value="静态(&amp;S)" />
+      </group>
+    </form>
+
+    <form id="Style">
+      <group id="Control">
+        <item key="DefaultStyle" value="缺省样式" />
+        <item key="StyleByClass" value="按分类：" />
+        <item key="CustomStyle" value="自定义样式" />
+        <item key="BorderColor" value="边框颜色：" />
+        <item key="BackgroundType" value="背景样式：" />
+        <item key="BackgroundColor" value="背景颜色：" />
+        <item key="BackgroundColor2" value="背景颜色 2：" />
+        <item key="TextColor" value="文本颜色：" />
+        <item key="TextFont" value="文本字体：" />
+        <item key="BorderWidth" value="边框宽度：" />
+        <item key="Gloss" value="光泽" />
+        <item key="Gloss3D" value="3D 光泽效果" />
+        <item key="Shadow" value="阴影：" />
+        <item key="ShadowOffsetX" value="X 轴偏移：" />
+        <item key="ShadowOffsetY" value="Y 轴偏移：" />
+        <item key="ShadowRadius" value="半径：" />
+        <item key="NameFont" value="名称字体：" />
+        <item key="NameColor" value="名称颜色：" />
+        <item key="StereotypeColor" value="构造型颜色：" />
+        <item key="StereotypeFont" value="构造型字体：" />
+      </group>
+    </form>
+
+    <form id="Documentation">
+      <group id="Control">
+        <item key="FontSize" value="字体大小：" />
+        <item key="Bold" tooltip="粗体" />
+        <item key="Italic" tooltip="斜体" />
+        <item key="Underline" tooltip="下划线" />
+        <item key="Strikethrough" tooltip="删除线" />
+      </group>
+    </form>
+
+    <form id="ErdRelationDefinition">
+      <group id="Control">
+        <item key="RelationType" value="关系类型：" />
+        <item key="StartMultiplicity" value="起始多重性：" />
+        <item key="StartRole" value="开始角色：" />
+        <item key="EndMultiplicity" value="结束多重性：" />
+        <item key="EndRole" value="结束角色：" />
+      </group>
+    </form>
+
+    <form id="ErdEntityDefinition">
+      <group id="Control">
+        <item key="Add" value="添加" />
+        <item key="Edit" value="修改" />
+        <item key="Remove" value="移除" />
+        <item key="Attributes" value="属性" />
+        <item key="NameColumn" value="名称" />
+        <item key="TypeColumn" value="类型" />
+        <item key="TypeSizeColumn" value="类型大小" />
+        <item key="NullableColumn" value="可空的" />
+        <item key="DescriptionColumn" value="描述" />
+      </group>
+    </form>
+
+    <form id="ActionDefinition">
+      <group id="Control">
+        <item key="Message" value="消息：" />
+      </group>
+    </form>
+
+    <form id="CommentDefinition">
+      <group id="Control">
+        <item key="Comment" value="注释：" />
+      </group>
+    </form>
+
+    <form id="CommunicationLifelineDefinition">
+      <group id="Control">
+        <item key="分类器" value="分类器：" />
+      </group>
+    </form>
+
+    <form id="CommunicationMessageDefinition">
+      <group id="Control">
+        <item key="Add" value="添加(&amp;A)" />
+        <item key="Edit" value="修改(&amp;E)" />
+        <item key="Remove" value="移除(&amp;R)" />
+      </group>
+    </form>
+
+    <form id="FragmentDefinition">
+      <group id="Control">
+        <item key="InteractionOperator" value="交互操作符：" />
+        <item key="Add" value="添加(&amp;A)" />
+        <item key="Edit" value="修改(&amp;E)" />
+        <item key="Remove" value="移除(&amp;R)" />
+      </group>
+    </form>
+
+    <form id="InteractionOperandDefinition">
+      <group id="Control">
+        <item key="GuardCondition" value="监护条件：" />
+      </group>
+    </form>
+
+    <form id="ObjectDefinition">
+      <group id="Control">
+        <item key="分类器" value="类元:" />
+        <item key="Values" value="值" />
+        <item key="Value" value="值" />
+        <item key="Name" value="名称" />
+      </group>
+    </form>
+
+    <form id="AddObjectAttributeForm">
+      <group id="Form">
+        <item key="Title" value="添加属性" />
+        <item key="Attributes" value="属性" />
+      </group>
+    </form>
+
+    <form id="CrcCardHeaderDefinition">
+      <group id="Control">
+        <item key="Description" value="描述:" />
+        <item key="Superclass" value="超类:" />
+        <item key="Subclasses" value="子类：" />
+        <item key="Subclass" value="子类" />
+      </group>
+    </form>
+
+    <form id="CrcCardDefinition">
+      <group id="Control">
+        <item key="Responsibilities" value="职责" />
+        <item key="Responsibility" value="职责" />
+        <item key="Collaborators" value="协作者" />
+        <item key="Collaborator" value="协作者" />
+      </group>
+    </form>
+
+    <form id="StateDefinition">
+      <group id="Control">
+        <item key="StateGroup" value="状态" />
+        <item key="StateInvariant" value="状态不变量：" />
+        <item key="StandardActions" value="标准动作" />
+        <item key="Entry" value="入口:" />
+        <item key="Do" value="Do:" />
+        <item key="Exit" value="出口:" />
+        <item key="CustomActions" value="自定义操作" />
+        <item key="ActionName" value="动作名称" />
+        <item key="Behavior" value="行为" />
+        <item key="Add" value="添加(&amp;A)" />
+        <item key="Remove" value="移除(&amp;R)" />
+      </group>
+    </form>
+
+    <form id="TransitionDefinition">
+      <group id="Control">
+        <item key="PreCondition" value="前置条件：" />
+        <item key="Operation" value="操作：" />
+        <item key="PostCondition" value="后置条件：" />
+      </group>
+    </form>
+
+    <form id="ErdAttributeForm">
+      <group id="Form">
+        <item key="Title" value="属性" />
+
+        <item key="Name" value="名称：" />
+        <item key="Type" value="类型：" />
+        <item key="TypeSize" value="类型大小：" />
+
+        <item key="PrimaryKey" value="主键" />
+        <item key="ForeignKey" value="外键" />
+        <item key="Nullable" value="可空的" />
+
+        <item key="Description" value="描述：" />
+
+        <item key="OK" value="确定(&amp;O)" />
+        <item key="Cancel" value="取消(&amp;C)" />
+      </group>
+    </form>
+
+    <form id="StereotypeForm">
+      <group id="Form">
+        <item key="Title" value="构造型" />
+
+        <item key="OK" value="确定(&amp;O)" />
+        <item key="Cancel" value="取消(&amp;C)" />
+
+        <item key="Name" value="名称：" />
+      </group>
+    </form>
+
+    <form id="ClassDefinitionForm">
+      <group id="Form">
+        <item key="Title" value="类定义" />
+        <item key="Name" value="名称(&amp;N)：" />
+        <item key="Attributes" value="属性(&amp;A)：" />
+        <item key="Operations" value="操作(&amp;O)：" />
+        <item key="OK" value="确定(&amp;Y)" />
+        <item key="Cancel" value="取消(&amp;C)" />
+
+        <item key="NameColumn" value="名称" />        
+        <item key="TypeColumn" value="类型" />        
+        <item key="VisibilityColumn" value="可见性" />
+        <item key="DefaultValueColumn" value="缺省值" />
+        <item key="ParametersColumn" value="参数" />        
+      </group>
+    </form>
+
+    <form id="RelationDefinitionControl">
+      <group id="Control">
+        <item key="RelationType" value="关系类型：" />
+        <item key="StartMultiplicity" value="起始多重性：" />
+        <item key="StartRole" value="开始角色：" />
+        <item key="EndMultiplicity" value="结束多重性：" />
+        <item key="EndRole" value="结束角色：" />
+
+      </group>
+    </form>
+
+    <form id="ExtendDefinitionControl">
+      <group id="Control">
+        <item key="ExtensionPoint" value="扩展点：" />
+      </group>
+    </form>
+
+    <form id="SwimlaneDefinitionControl">
+      <group id="Control">
+        <item key="Orientation" value="排列方向" />
+        <item key="VerticalOrientation" value="垂直" />
+        <item key="HorizontalOrientation" value="水平" />
+      </group>
+    </form>
+
+    <form id="DiagramControl">
+      <group id="Menu">
+        <item key="AssignNewDiagram" value="添加新图表(&amp;A)" />
+        <item key="AssignExistingDiagram" value="添加已经存在的图表(&amp;E)" />
+
+        <item key="Documentation" value="文档" />
+        <item key="Properties" value="属性" />
+
+        <item key="LockStartPoint" value="锁定起始点" />
+        <item key="LockEndPoint" value="锁定终点" />
+        <item key="LineStyle" value="线样式" />
+        <item key="StraightLineStyle" value="直线" />
+        <item key="RectangularLineStyle" value="垂直线" />
+        <item key="CurveLineStyle" value="曲线" />
+
+        <item key="ExportDiagram" value="导出图表" />
+        <item key="ShowGrid" value="显示网格" />
+        <item key="SnapToGrid" value="对齐到网格" />
+
+        <item key="DeleteFromDiagram" value="从图表中删除" />
+        <item key="DeleteFromProject" value="从项目中删除" />
+        <item key="RelationDeleteFromDiagram" value="从图表中删除" />
+        <item key="RelationDeleteFromProject" value="从项目中删除" />
+        <item key="RelationProperties" value="属性" />
+      </group>
+    </form>
+
+    <form id="StyleSetEditorForm">
+      <group id="Form">
+        <item key="Title" value="样式设置编辑器" />
+
+        <item key="StyleSetName" value="样式名：" />
+
+        <item key="DefaultStyle" value="缺省样式" />
+
+        <item key="New" value="新建" />
+        <item key="Open" value="打开" />
+        <item key="Save" value="保存" />
+      </group>
+    </form>
+
+    <form id="NewStyleForm">
+      <group id="Form">
+        <item key="Title" value="新样式" />
+
+        <item key="General" value="概要" />
+        <item key="ForSpecificElement" value="对于特定元素" />
+
+        <item key="StyleClassName" value="样式类名：" />
+        <item key="ElementType" value="元素类型名：" />
+        <item key="Stereotype" value="构造型：" />
+      </group>
+    </form>
+
+    <form id="IDsRenumberingForm">
+      <group id="Form">
+        <item key="Title" value="ID重编号" />
+
+        <item key="Options" value="选项" />
+        <item key="OriginalNumbering" value="原编号" />
+        <item key="NewNumbering" value="新编号" />
+
+        <item key="StartNumberingFrom" value="开始编号从：" />
+        <item key="OrderByAlphabet" value="按字母顺序排列" />
+        <item key="SameWithoutGaps" value="删除空白" />
+        <item key="Clear" value="清除" />
+      </group>
+    </form>
+
+    <form id="OptionsForm">
+      <group id="Form">
+        <item key="Title" value="选项" />
+
+        <item key="GeneralTab" value="概要" />
+        <item key="DiagramEditorTab" value="图表编辑器" />
+        <item key="Language" value="Language" />
+        <item key="ShowStartPage" value="显示起始页" />
+        <item key="RecentFiles" value="最近文档" />
+        <item key="ItemsInMenu" value="个项目可显示于菜单中" />
+        <item key="ItemsInStartPage" value="个项目可显示于起始页" />
+        <item key="Toolbars" value="工具栏" />
+        <item key="StandardBar" value="标准项" />
+        <item key="SideBar" value="侧边栏" />
+        <item key="LayoutBar" value="布局" />
+        <item key="StatusBar" value="状态栏" />
+        <item key="Toolbox" value="工具箱" />
+
+        <item key="DiagramEditorGeneral" value="概要" />
+        <item key="DiagramEditorBackgroundColor" value="背景色：" />
+        <item key="DiagramEditorBackgroundColor2" value="背景色2：" />
+        <item key="AutoScrolling" value="自动滚屏" />
+        <item key="Grid" value="网格" />
+        <item key="SnapToGrid" value="对齐到网格" />
+        <item key="ShowGrid" value="显示网格" />
+        <item key="GridVerticalSpacing" value="垂向间隔：" />
+        <item key="GridHorizontalSpacing" value="水平间隔：" />
+      </group>
+    </form>
+
+    <form id="StyleEditorForm">
+      <group id="Form">
+        <item key="Title" value="样式编辑" />
+        <item key="NewStyle" value="新样式" />
+
+        <item key="Name" value="名称：" />
+      </group>
+    </form>
+
+    <form id="ProjectPropertiesForm">
+      <group id="Form">
+        <item key="Title" value="项目属性" />
+
+        <item key="Name" value="名称：" />
+        <item key="Authors" value="作者：" />
+        <item key="Description" value="描述：" />
+      </group>
+    </form>
+
+    <form id="DiagramPropertiesForm">
+      <group id="Form">
+        <item key="Title" value="图表属性" />
+
+        <item key="Name" value="名称：" />
+        <item key="Authors" value="作者：" />
+        <item key="Version" value="版本：" />
+        <item key="Created" value="创建于：" />
+        <item key="LastChange" value="上次修改：" />
+        <item key="Description" value="描述：" />
+      </group>
+    </form>
+
+    <form id="DonationForm">
+      <group id="Form">
+        <item key="Title" value="" />
+
+        <item key="Information" value="这个软件的未来取决于您。如果您喜欢Software Ideas Modeler您可通过捐助任意金额来支持本软件未来的开发。" />
+        <item key="Donate" value="我想要进行捐助" />
+        <item key="RemindMeLater" value="以后提醒我" />
+        <item key="NoDonation" value="我已经进行了捐赠" />
+        <item key="AlreadyDonate" value="这个软件毫无价值，我不想进行任何捐助" />
+        <item key="Confirm" value="确认" />
+      </group>
+    </form>
+
+    <form id="TaggedValueEditorForm">
+      <group id="Form">
+        <item key="Title" value="标记值" />
+
+        <item key="TagName" value="标记名称：" />
+        <item key="TaggedValue" value="值:" />
+      </group>
+    </form>
+
+    <form id="CustomMoveForm">
+      <group id="Form">
+        <item key="Title" value="自定义移动" />
+
+        <item key="Right" value="向右：" />
+        <item key="Down" value="向下：" />
+        <item key="Left" value="向左：" />
+        <item key="Up" value="向上：" />
+      </group>
+    </form>
+
+    <form id="CustomSizeForm">
+      <group id="Form">
+        <item key="Title" value="自定义尺寸" />
+
+        <item key="General" value="概要" />
+        <item key="Sides" value="边" />
+        <item key="WidthHeight" value="宽/高比" />
+        
+        <item key="Inflate" value="增大：" />
+        <item key="Deflate" value="缩小：" />
+        <item key="Left" value="左：" />
+        <item key="Right" value="右：" />
+        <item key="Top" value="顶部：" />
+        <item key="Bottom" value="底部：" />
+        <item key="Width" value="宽度：" />
+        <item key="Height" value="高度：" />
+      </group>
+    </form>           
+
+    <form id="TaggedValueControl">
+      <group id="Control">
+        <item key="Name" value="名称" />
+        <item key="Value" value="类型" />
+      </group>
+    </form>
+
+    <form id="UmlOperationEditorForm">
+      <group id="Form">
+        <item key="Title" value="操作编辑器" />
+        
+        <item key="General" value="概要" />
+        <item key="Parameters" value="参数" />
+
+        <item key="Name" value="名称：" />
+        <item key="Type" value="返回类型：" />
+        <item key="Visibility" value="可见性：" />
+
+        <item key="Modifiers" value="限定符" />
+        <item key="Abstract" value="抽象" />
+        <item key="Virtual" value="虚拟" />
+        <item key="Static" value="静态" />
+        
+        <item key="NameColumn" value="名称" />
+        <item key="TypeColumn" value="类型" />
+      </group>
+    </form>
+
+    <form id="UmlAttributeEditorForm">
+      <group id="Form">
+        <item key="Title" value="属性编辑器" />
+
+        <item key="General" value="概要" />
+
+        <item key="Name" value="名称：" />
+        <item key="Type" value="类型：" />
+        <item key="Visibility" value="可见性：" />
+        <item key="DefaultValue" value="缺省值：" />
+
+        <item key="Modifiers" value="限定符" />
+        <item key="Abstract" value="抽象" />
+        <item key="Virtual" value="虚拟" />
+        <item key="Static" value="静态" />
+      </group>
+    </form>
+
+    <form id="FindForm">
+      <group id="Form">
+        <item key="Title" value="查找" />
+
+        <item key="Find" value="查找下一个(&amp;N)" />
+        <item key="FindWhat" value="查找目标:" />        
+      </group>
+    </form>
+    
+  </items>
+</language>
+

@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Settings>
+  <ShowGrid>False</ShowGrid>
+  <DefaultOperationVisiblity>public</DefaultOperationVisiblity>
+  <DontUseCtrlAltShortcutKeys>False</DontUseCtrlAltShortcutKeys>
+  <DefaultAttributeVisibilty>private</DefaultAttributeVisibilty>
+  <GridVerticalSpacing>10</GridVerticalSpacing>
+  <DefaultShowNullability>True</DefaultShowNullability>
+  <LastUpdateCheck>
+  </LastUpdateCheck>
+  <StandardBarX>3</StandardBarX>
+  <ShowStartPage>True</ShowStartPage>
+  <ShowLayoutBar>True</ShowLayoutBar>
+  <RelationsAlwaysOnTop>True</RelationsAlwaysOnTop>
+  <OpenFilePath>D:\THESIS NGUYEN VAN VIET\A MOBILE TOURIST GUIDE\SOFT for THESIS\Software Model Idea</OpenFilePath>
+  <GridType>Lines</GridType>
+  <DiagramBackgroundColor2>255, 192, 128</DiagramBackgroundColor2>
+  <SnapToGrid>False</SnapToGrid>
+  <ShowToolbox>True</ShowToolbox>
+  <DonorCode>
+  </DonorCode>
+  <RecentFilesInStartPage>15</RecentFilesInStartPage>
+  <RecentFilesInMenu>15</RecentFilesInMenu>
+  <SideBarSplitterY>0.63763608087091761</SideBarSplitterY>
+  <IsMainWindowMaximized>False</IsMainWindowMaximized>
+  <ToolboxWidth>190</ToolboxWidth>
+  <RunCounter>58</RunCounter>
+  <SideBarWidth>380</SideBarWidth>
+  <ProjectTreeInitialState>FullyExpanded</ProjectTreeInitialState>
+  <ShowMultipleUsage>True</ShowMultipleUsage>
+  <MainWindowBounds>-8, -8, 1382, 754</MainWindowBounds>
+  <StandardBarY>0</StandardBarY>
+  <ShowStatusBar>True</ShowStatusBar>
+  <UpdateType>NotifyNewVersion</UpdateType>
+  <LayoutBarY>0</LayoutBarY>
+  <LayoutBarX>589</LayoutBarX>
+  <Simd>
+  </Simd>
+  <InstallDate>07/07/2011 23:17:51</InstallDate>
+  <UpgradeRequired>False</UpgradeRequired>
+  <ActivationCode>
+  </ActivationCode>
+  <ShowSideBar>True</ShowSideBar>
+  <BatchExportPath>C:\Users\Alex\Desktop</BatchExportPath>
+  <TabStripHeight>25</TabStripHeight>
+  <ShowAssignedDiagrams>True</ShowAssignedDiagrams>
+  <IsCommercialUse>False</IsCommercialUse>
+  <ShowDiagramPreview>True</ShowDiagramPreview>
+  <Language>en</Language>
+  <SaveFilePath>D:\THESIS NGUYEN VAN VIET\A MOBILE TOURIST GUIDE\SOFT for THESIS\Software Model Idea</SaveFilePath>
+  <DiagramBackgroundColor1>White</DiagramBackgroundColor1>
+  <AutoScrolling>True</AutoScrolling>
+  <ExportPath>D:\THESIS NGUYEN VAN VIET\A MOBILE TOURIST GUIDE\SOFT for THESIS\UML___ MOBILE TOURIST SYSTEM PICTURE\E-tour UML ngay 25-12</ExportPath>
+  <ShowStandardBar>True</ShowStandardBar>
+  <GridHorizontalSpacing>10</GridHorizontalSpacing>
+</Settings>

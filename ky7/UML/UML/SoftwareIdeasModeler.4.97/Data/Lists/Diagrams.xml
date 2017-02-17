@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<diagrams>
+  <group name="UML">
+    <diagram id="uml-activity" name="UML Activity Diagram">
+    </diagram>    
+    <diagram id="uml-class" name="UML Class Diagram">
+    </diagram>
+    <diagram id="uml-communication" name="UML Communication Diagram">
+    </diagram>
+    <diagram id="uml-component" name="UML Component Diagram">
+    </diagram>    
+    <diagram id="uml-composite-structure" name="UML Composite Structure Diagram">
+    </diagram>
+    <diagram id="uml-deployment" name="UML Deployment Diagram">
+    </diagram>    
+    <diagram id="uml-interaction-overview" name="UML Interaction Overview Diagram">
+    </diagram>    
+    <diagram id="uml-object" name="UML Object Diagram">
+    </diagram>    
+    <diagram id="uml-package" name="UML Package Diagram">
+    </diagram>   
+    <diagram id="uml-profile" name="UML Profile Diagram">
+    </diagram>    
+    <diagram id="uml-sequence" name="UML Sequence Diagram">
+    </diagram>    
+    <diagram id="uml-statechart" name="UML State Machine Diagram">
+    </diagram>    
+    <diagram id="uml-timing" name="UML Timing Diagram">
+    </diagram>    
+    <diagram id="uml-usecase" name="UML Use Case Diagram">
+    </diagram>    
+  </group>
+  <group name="Others">
+    <diagram id="uml-mixed" name="UML Mixed Diagram">
+    </diagram>
+    <diagram id="crc-cards" name="CRC Cards Diagram">
+    </diagram>
+    <diagram id="data-flow" name="Data Flow Diagram">
+    </diagram>
+    <diagram id="entity-relationship" name="Entity-Relationship Diagram">
+    </diagram>
+    <diagram id="flowchart" name="Flowchart Diagram">
+    </diagram>
+    <diagram id="robustness" name="Robustness Diagram">
+    </diagram>
+    <diagram id="user-interface" name="User Interface Diagram">
+    </diagram>
+  </group>
+</diagrams>

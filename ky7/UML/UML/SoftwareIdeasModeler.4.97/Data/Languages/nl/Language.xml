@@ -1,0 +1,1910 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<language name="Dutch" localName="Nederlands" id="nl">
+  <meta>
+    <author>Edwin Huijsing / Brecht Missotten</author>
+    <created>31-05-2011</created>
+    <info>Updated 31-05-2011: Fixed typo's and untranslated parts. Up to date with v4.96</info>
+  </meta>
+  <items>
+    <!-- Global -->
+    <form id="Global">
+      <!-- Strings -->
+      <group id="Strings">
+        <item key="SimProject" value="SIM Project"></item>                      <translated key="Done" value="Yes"/>
+        <item key="AllFiles" value="All Bestanden"></item>                      <translated key="Done" value="Yes"/>
+
+        <item key="Version" value="Versie" />                                   <translated key="Done" value="Yes"/>
+		<item key="ReadOnly" value="Alleen-lezen" />							<translated key="Done" value="Yes"/>
+      </group>
+
+      <group id="Messages">
+        <item key="ItemCannotBeAddedToDiagram" value="Het item kan niet worden toegevoegd aan het diagram." />                                                                              <translated key="Done" value="Yes"/>
+        <item key="SaveBeforeExist" value="Wijzigingen opslaan in het project ('&lt;filename&gt;')?" />                                                                                   <translated key="Done" value="Yes"/>
+        <item key="NewVersionFound" value="Er is een nieuwere versie ('&lt;version&gt;') gevonden. Wil je naar de download pagina zodat je deze kan downloaden?" />                         <translated key="Done" value="Yes"/>
+        <item key="UptodateVersion" value="De huidige versie ('&lt;version&gt;') van Software Ideas Modeler is up-to-date." />                                                              <translated key="Done" value="Yes"/>
+        <item key="ProjectFileNotFound" value="Het project bestand '&lt;?&gt;' bestaat niet. De kans is groot dat het bestand verplaats of verwijderd is." title="Project bestand niet gevonden" /><translated key="Done" value="Yes"/>
+        <item key="NewStyleWarning" value="Weet u zeker dat u alle veranderingen ongedaan wil maken in de huidige stijl set?" title="Nieuwe stijl set"/>                                    <translated key="Done" value="Yes"/>
+        <item key="StyleTypeExists" value="De stijl type die u probeert toe tevoegen bestaat al." title="Bestaande stijl type"/>                                                            <translated key="Done" value="Yes"/>
+        <item key="RenumberingWarning" value="Verschillende elementen zijn niet hernummerd. De lijst met oorspronkelijk nummer moet leeg zijn." title="Hernummeringen" />                   <translated key="Done" value="Yes"/>
+        <item key="DeleteStyle" value="Weet u zeker dat u deze stijl wilt verwijderen'&lt;?&gt;'?" title="Verwijder stijl"/>                                                                <translated key="Done" value="Yes"/>
+        <item key="StyleClassNameExists" value="De stijl class naam is reeds gebruikt." title="Bestaande stijl class naam"/>                                                                <translated key="Done" value="Yes"/>
+        <item key="NotAllowedStyleClassName" value="De opgegeven naam '&lt;?&gt;' is niet toegestaan als naam voor de stjl class." title="Verkeerde naam"/>                                 <translated key="Done" value="Yes"/>
+        <item key="SavingError" value="Het bestand kan niet worden opgeslagen, Controleer of het bestand geopend is in een ander programma" title="Fout tijdens het opslaan"/>              <translated key="Done" value="Yes"/>
+        <item key="DeleteTask" value="Weet u zeker dat u deze taak '&lt;?&gt;' wilt verwijderen?" title="Taak verwijderen"/>                                                                <translated key="Done" value="Yes"/>
+        <item key="DeleteToDo" value="Weet u zeker dat u dit item '&lt;?&gt;' wilt verwijderen?" title="Verwijder todo item"/>                                                              <translated key="Done" value="Yes"/>
+        <item key="DeletePerson" value="Weet u zeker dat u deze persoon '&lt;?&gt;' wilt verwijderen?" title="Verwijder persoon"/>                                                          <translated key="Done" value="Yes"/>
+        <item key="DeleteStereotype" value="Weet u zeker dat u deze stereotype '&lt;?&gt;' wilt verwijderen?" title="Verwijderen Stereotype"/>                                               <translated key="Done" value="Yes"/>
+        <item key="NoOutputLanguageSelected" value="Bron code kan niet gegenereerd worden. Er is geen taal gekozen." title="Genereren bron code"/>                                          <translated key="Done" value="Yes"/>
+        <item key="NoOutputDirectorySelected" value="Bron code kan niet gegenereerd worden. Er is geen export map gekozen." title="Genereren bron code"/>                                   <translated key="Done" value="Yes"/>
+        <item key="EmptyConnectionString" value="Er is geen geldige connectie string. De definities van de database tabellen kunnnen niet worden geladen." title="Importeren database"/>    <translated key="Done" value="Yes"/>
+        <item key="CannotLoadTables" value="De definitie van de database tabellen kon worden geladen. \n\n &lt;?&gt;" title="Importeren Database"/>                                             <translated key="Done" value="Yes"/>
+        <item key="RegisteredCopy" value="Deze versie van Software Ideas Modeler is geregistreerd. Het kan nu commercieel worden gebruikt. Dank u voor het ondersteunen van dit project" title="Geregistreerde versie" /><translated key="Done" value="Yes"/>
+        <item key="NewerVersionWarning" value="Het project bestand was opgeslagen met een nieuwere versie van Software Ideas Modeler. Er is een kans dat het niet correct wordt geladen. Wilt u het bestand toch laden?" title="Nieuwer project bestand" /><translated key="Done" value="Yes"/>
+        <item key="ClearRecentProjectList" value="Weet u zeker dat u de lijst met recente projecten wilt leeg maken?" title="Lijst met recente projecten leeg maken"/>                       <translated key="Done" value="Yes"/>
+        <item key="InflateContainer" value="Weet u zeker dat u deze container wil vergroten zodat hij alle elementen bedekt?" title="Vergroten container"/>                                <translated key="Done" value="Yes"/>
+        <item key="WrongOutputDirectory" value="De gekozen map '&lt;?&gt;'bestaat niet of is niet schrijfbaar." title="Verkeerde exporteer map"/>                                           <translated key="Done" value="Yes"/>
+        <item key="InstallUpdate" value="Wilt u de update installeren? Het zal slechts enkele seconden duren." title="Update installeren"/> 												<translated key="Done" value="Yes"/>
+		<item key="FileOpenAsReadOnly" value="Project zal openen als alleen-lezen omdat het al ergens anders geopend is." title="Project Laden"/>
+        <item key="UnauthorizedWriteAccess" value="Bestand is niet toegankelijk om te schrijven." title="Ongeldige schrijfrechten"/>                                                
+      </group>
+
+      <group id="DiagramNames">
+        <item key="UmlClassDiagram" value="Class diagram" />                             <translated key="Done" value="Yes"/>
+        <item key="UmlUseCaseDiagram" value="Use Case diagram" />                        <translated key="Done" value="Yes"/>
+        <item key="UmlSequenceDiagram" value="Sequence diagram" />                       <translated key="Done" value="Yes"/>
+        <item key="UmlActivityDiagram" value="Activity diagram" />                       <translated key="Done" value="Yes"/>
+        <item key="UmlStateMachineDiagram" value="State Machine diagram" />              <translated key="Done" value="Yes"/>
+        <item key="UmlDeploymentDiagram" value="Deployment diagram" />                   <translated key="Done" value="Yes"/>
+        <item key="UmlProfileDiagram" value="Profile diagram" />                         <translated key="Done" value="Yes"/>
+        <item key="UmlObjectDiagram" value="Object diagram" />                           <translated key="Done" value="Yes"/>
+        <item key="UmlPackageDiagram" value="Package diagram" />                         <translated key="Done" value="Yes"/>
+        <item key="UmlCommunicationDiagram" value="Communication diagram" />             <translated key="Done" value="Yes"/>
+        <item key="UmlCompositeStructureDiagram" value="Composite Structure diagram" />  <translated key="Done" value="Yes"/>
+        <item key="UmlComponentDiagram" value="Component diagram" />                     <translated key="Done" value="Yes"/>
+        <item key="UmlInteractionOverviewDiagram" value="Interaction Overview diagram" /><translated key="Done" value="Yes"/>
+        <item key="UmlTimingDiagram" value="Timing diagram" />                           <translated key="Done" value="Yes"/>
+        <item key="UmlMixedDiagram" value="Mixed diagram" />                             <translated key="Done" value="Yes"/>
+        <item key="DataFlowDiagram" value="Data Flow diagram" />                         <translated key="Done" value="Yes"/>
+        <item key="EntityRelationshipDiagram" value="Entity Relationship diagram" />     <translated key="Done" value="Yes"/>
+        <item key="RequirementDiagram" value="Requirement diagram" />                    <translated key="Done" value="Yes"/>
+        <item key="UserInterfaceDiagram" value="User Interface" />                       <translated key="Done" value="Yes"/>
+        <item key="CrcCardDiagram" value="CRC Card diagram" />                           <translated key="Done" value="Yes"/>
+        <item key="FlowchartDiagram" value="Flowchart diagram" />                         <translated key="Done" value="Yes"/>
+        <item key="RobustnessDiagram" value="Robustness diagram" />                      <translated key="Done" value="Yes"/>
+      </group>
+
+      <group id="Buttons">
+        <item key="Ok" value="&amp;OK" />                                       <translated key="Done" value="Fussy"/>
+        <item key="Cancel" value="&amp;Annuleer" />                             <translated key="Done" value="Fussy"/>
+        <item key="Yes" value="&amp;Ja" />                                      <translated key="Done" value="Fussy"/>
+        <item key="No" value="&amp;Nee" />                                      <translated key="Done" value="Fussy"/>
+        <item key="Add" value="&amp;Toevoegen" />                               <translated key="Done" value="Fussy"/>
+        <item key="Edit" value="&amp;Bewerken" />                               <translated key="Done" value="Fussy"/>
+        <item key="Remove" value="&amp;Verwijderen" />                          <translated key="Done" value="Fussy"/>
+        <item key="SelectAll" value="&amp;Alles selecteren" />                  <translated key="Done" value="Fussy"/>
+        <item key="SelectNone" value="&amp;Geen" />                             <translated key="Done" value="Fussy"/>
+        <item key="SelectInvert" value="&amp;Invert" />                         <translated key="Done" value="Fussy"/>
+        <item key="MoreColors" value="Meer Kleuren..." />                       <translated key="Done" value="Fussy"/>
+        <item key="Previous" value="&lt; &amp;Vorige" />                        <translated key="Done" value="Fussy"/>
+        <item key="Next" value="&amp;Volgende &gt;" />                          <translated key="Done" value="Fussy"/>
+        <item key="Import" value="&amp;Importeren" />                           <translated key="Done" value="Fussy"/>
+        <item key="Delete" value="&amp;Verwijderen" />                          <translated key="Done" value="Fussy"/>
+        <item key="Save" value="&amp;Opslaan" />                                <translated key="Done" value="Fussy"/>
+      </group>
+
+    </form>
+
+    <form id="MainForm">
+      <group id="General">
+        <item key="RegisteredCopy" value="Geregistreerde versie." />                      <translated key="Done" value="Yes"/>
+        <item key="OnlyForNonCommercialUse" value="ALLEEN VOOR NIET-COMMERCIEEL GEBRUIK" /><translated key="Done" value="Yes"/>
+      </group>
+
+      <group id="StandardBar">
+        <item key="New" tooltip="Nieuw" />                                      <translated key="Done" value="Yes"/>
+        <item key="Open" tooltip="Openen" />                                      <translated key="Done" value="Yes"/>
+        <item key="Save" tooltip="Opslaan" />                                   <translated key="Done" value="Yes"/>
+        <item key="Undo" tooltip="Ongedaan maken" />                            <translated key="Done" value="Yes"/>
+        <item key="Redo" tooltip="Herhalen" />                                  <translated key="Done" value="Yes"/>
+        <item key="Cut" tooltip="Knippen" />                                    <translated key="Done" value="Yes"/>
+        <item key="Copy" tooltip="Kopieer " />                                  <translated key="Done" value="Yes"/>
+        <item key="Paste" tooltip="Plakken" />                                  <translated key="Done" value="Yes"/>
+        <item key="Print" tooltip="Print" />                                    <translated key="Done" value="Yes"/>
+        <item key="PrintPreview" tooltip="Print voorbeeld" />                   <translated key="Done" value="Yes"/>
+        <item key="ShowGrid" tooltip="Toon Grid" />                             <translated key="Done" value="Yes"/>
+        <item key="ShowAdvancedInfo" tooltip="Toon uitgebreide informatie" />   <translated key="Done" value="Yes"/>
+        <item key="Find" value="Zoeken:" />                                     <translated key="Done" value="Yes"/>
+      </group>
+      <group id="LayoutBar">
+        <item key="BackOne" tooltip="Een plaats naar achteren" />               <translated key="Done" value="Yes"/>
+        <item key="ForwardOne" tooltip="Een plaats naar voren" />               <translated key="Done" value="Yes"/>
+        <item key="SendToBack" tooltip="Plaats achteraan" />                    <translated key="Done" value="Yes"/>
+        <item key="BringToFront" tooltip="Plaats vooraan" />                    <translated key="Done" value="Yes"/>
+
+        <item key="AutoLayoutCascade" value="Trapsgewijze layout" />            <translated key="Done" value="Yes"/>
+        <item key="AutoLayoutRectangle" value="Rechthoek layout" />             <translated key="Done" value="Yes"/>
+        <item key="AutoLayoutCircle" value="Cirkel layout" />                   <translated key="Done" value="Yes"/>
+        <item key="AutoLayoutRows" value="Rijen layout" />                      <translated key="Done" value="Yes"/>
+        <item key="AutoLayoutSmart" value="Slimme layout" />                    <translated key="Done" value="Yes"/>
+      </group>
+      <group id="Menu">
+        <!-- File -->
+        <item key="File" value="&amp;Bestand" />                                <translated key="Done" value="Fussy"/>
+        <item key="New" value="Nieuw" />                                        <translated key="Done" value="Fussy"/>
+        <item key="Open" value="Openen" />                                        <translated key="Done" value="Fussy"/>
+        <item key="Save" value="Opslaan" />                                     <translated key="Done" value="Fussy"/>
+        <item key="SaveAs" value="Opslaan &amp;als" />                          <translated key="Done" value="Fussy"/>
+        <item key="CloseProject" value="&amp;Project Sluiten" />                <translated key="Done" value="Fussy"/>
+        <item key="Print" value="Print" />                                      <translated key="Done" value="Fussy"/>
+        <item key="PrintPreview" value="Print &amp;voorbeeld" />                <translated key="Done" value="Fussy"/>
+        <item key="PrintSetup" value="Print se&amp;tup" />                      <translated key="Done" value="Fussy"/>
+        <item key="Export" value="&amp;Exporteren" />                           <translated key="Done" value="Fussy"/>
+        <item key="ExportToImage" value="&amp;Afbeelding" />                    <translated key="Done" value="Fussy"/>
+        <item key="ExportToPDF" value="&amp;PDF" />                             <translated key="Done" value="Fussy"/>
+        <item key="ExportToXMI" value="&amp;XMI" />                             <translated key="Done" value="Fussy"/>
+        <item key="Import" value="&amp;Importeer" />                            <translated key="Done" value="Fussy"/>
+        <item key="ImportFromXMI" value="&amp;XMI" />                           <translated key="Done" value="Fussy"/>
+        <item key="RecentProjects" value="Re&amp;cente projecten" />            <translated key="Done" value="Fussy"/>
+        <item key="ClearThisList" value="&amp;Lijst leeg maken" />              <translated key="Done" value="Fussy"/>
+        <item key="Exit" value="&amp;Afsluiten" />                              <translated key="Done" value="Fussy"/>
+        <!-- Edit -->
+        <item key="Edit" value="B&amp;ewerken" />                               <translated key="Done" value="Fussy"/>
+        <item key="Undo" value="&amp;Ongedaan maken" />                         <translated key="Done" value="Fussy"/>
+        <item key="Redo" value="&amp;Herhalen" />                               <translated key="Done" value="Fussy"/>
+        <item key="Cut" value="K&amp;nippen" />                                 <translated key="Done" value="Fussy"/>
+        <item key="Copy" value="&amp;Kopieer" />                                <translated key="Done" value="Fussy"/>
+        <item key="Paste" value="&amp;Plakken" />                               <translated key="Done" value="Fussy"/>
+        <item key="Delete" value="&amp;Verwijderen" />                          <translated key="Done" value="Fussy"/>
+        <item key="DeleteWithRelations" value="Verwijderen met re&amp;latie" /> <translated key="Done" value="Fussy"/>
+        <item key="SelectAll" value="&amp;Alles selecteren" />                  <translated key="Done" value="Fussy"/>
+        <item key="SelectAllOfSameType" value="Selecteer alles &amp;van het zelfde type" /><translated key="Done" value="Fussy"/>
+        <item key="InvertSelection" value="&amp;Selectie omkeren" />             <translated key="Done" value="Fussy"/>
+        <item key="Find" value="&amp;Zoeken" />                                 <translated key="Done" value="Fussy"/>
+        <!-- View -->
+        <item key="View" value="Bee&amp;ld" />                                  <translated key="Done" value="Fussy"/>
+        <item key="StandardBar" value="&amp;Standaard balk" />                   <translated key="Done" value="Fussy"/>
+        <item key="StatusBar" value="Status &amp;balk" />                       <translated key="Done" value="Fussy"/>
+        <item key="LayoutBar" value="&amp;Layout balk" />                       <translated key="Done" value="Fussy"/>
+        <item key="Toolbox" value="&amp;Toolbox" />                             <translated key="Done" value="Fussy"/>
+        <item key="SideBar" value="Z&amp;ijbalk" />                             <translated key="Done" value="Yes"/>
+        <item key="DiagramPreview" value="&amp;Diagram voorbeeld" />            <translated key="Done" value="Fussy"/>
+        <item key="StartPage" value="Start &amp;pagina" />                      <translated key="Done" value="Fussy"/>
+        <item key="ElementBrowser" value="&amp;Element browser" />              <translated key="Done" value="Fussy"/>
+        <item key="ShowMultipleUsageOfElement" value="Toon veelvoudig gebruik van een element" /><translated key="Done" value="Fussy"/>
+        <item key="ShowAssignedDiagrams" value="Toon &amp;toegewezen Diagrammen"/><translated key="Done" value="Fussy"/>
+        <item key="Grid" value="&amp;Grid" />                                   <translated key="Done" value="Fussy"/>
+        <item key="SnapToGrid" value="S&amp;nap op Grid" />                     <translated key="Done" value="Fussy"/>
+        <item key="RenderingQuality" value="&amp;Rendering kwaliteit" />        <translated key="Done" value="Fussy"/>
+        <item key="RenderingQualityDraft" value="&amp;Snel" />                  <translated key="Done" value="Fussy"/>
+        <item key="RenderingQualityNormal" value="&amp;Normaal" />              <translated key="Done" value="Fussy"/>
+        <item key="RenderingQualityBest" value="&amp;Best" />                   <translated key="Done" value="Fussy"/>
+        <item key="FullScreen" value="&amp;Volledig scherm" />                 <translated key="Done" value="Fussy"/>
+        <!-- Arrange -->
+        <item key="Arrange" value="&amp;Schikken" />                            <translated key="Done" value="Fussy"/>
+        <item key="AutoLayout" value="&amp;Auto layout" />                      <translated key="Done" value="Fussy"/>
+        <item key="RouteRelation" value="&amp;Relatie layout" />                <translated key="Done" value="Fussy #!"/>
+        <item key="CircleLayout" value="&amp;Cirkel layout" />                  <translated key="Done" value="Fussy"/>
+        <item key="RowLayout" value="&amp;Rijen Layout" />                        <translated key="Done" value="Fussy"/>
+        <item key="SmartLayout" value="&amp;Slimme layout" />                   <translated key="Done" value="Fussy"/>
+        <item key="CascadeLayout" value="&amp;Trapsgewijze layout" />            <translated key="Done" value="Fussy"/>
+        <item key="AutoSize" value="Auto &amp;formaat" />                        <translated key="Done" value="Fussy"/>
+        <item key="Alignment" value="&amp;Uitlijning" />                        <translated key="Done" value="Fussy"/>
+        <item key="MakeSame" value="&amp;Gelijk maken" />                       <translated key="Done" value="Fussy"/>
+        <item key="Order" value="&amp;Schikken" />                              <translated key="Done" value="Fussy"/>
+        <item key="Move" value="&amp;Verplaatsen" />                            <translated key="Done" value="Fussy"/>
+        <item key="Size" value="&amp;Formaat" />                                <translated key="Done" value="Fussy"/>
+        <item key="HorizontalSpacing" value="&amp;Horizontale Spatiering" />        <translated key="Done" value="no"/>
+        <item key="VerticalSpacing" value="&amp;Verticale Spatiering" />            <translated key="Done" value="no"/>
+        <item key="SetLocationAndSize" value="Zet &amp;Locatie en formaat" />    <translated key="Done" value="no"/>
+        <item key="LockItems" value="&amp;Items blokkeren" />                   <translated key="Done" value="Fussy"/>
+        <item key="GroupItems" value="Items &amp;Groeperen" />                  <translated key="Done" value="Fussy"/>
+        <item key="UngroupItems" value="Items &amp;Degroepeer" />                <translated key="Done" value="Fussy"/>
+        <item key="AlignmentLeft" value="&amp;Links" />                         <translated key="Done" value="Fussy"/>
+        <item key="AlignmentRight" value="&amp;Rechts" />                       <translated key="Done" value="Fussy"/>
+        <item key="AlignmentTop" value="&amp;Boven" />                          <translated key="Done" value="Fussy"/>
+        <item key="AlignmentBottom" value="&amp;Onder" />                       <translated key="Done" value="Fussy"/>
+        <item key="AlignmentCenterHorizontally" value="Centreer &amp;Horizontaal" /><translated key="Done" value="no"/>
+        <item key="AlignmentCenterVertically" value="Centreer &amp;Verticaal" /> <translated key="Done" value="no"/>
+        <item key="AlignmentToGrid" value="Op &amp;Grid" />                     <translated key="Done" value="no"/>
+        <item key="MakeSameWidth" value="&amp;Breedte" />                       <translated key="Done" value="Fussy"/>
+        <item key="MakeSameHeight" value="&amp;Hoogte" />                       <translated key="Done" value="Fussy"/>
+        <item key="MakeSameBoth" value="&amp;Beide" />                          <translated key="Done" value="Fussy"/>
+        <item key="OrderBringToFront" value="Plaats &amp;vooraan" />            <translated key="Done" value="Fussy"/>
+        <item key="OrderBringToBack" value="Plaats &amp;achteraan" />           <translated key="Done" value="Fussy"/>
+        <item key="OrderForwardOne" value="Een plaats naar v&amp;oren" />       <translated key="Done" value="Fussy"/>
+        <item key="OrderBackOne" value="Een plaats &amp;naar achteren" />       <translated key="Done" value="Fussy"/>
+        <item key="MoveCustom" value="&amp;Afwijkend" />                        <translated key="Done" value="Fussy"/>
+        <item key="MoveLeft" value="&amp;Links" />                              <translated key="Done" value="Fussy"/>
+        <item key="MoveRight" value="&amp;Rechts" />                            <translated key="Done" value="Fussy"/>
+        <item key="MoveUp" value="&amp;Omhoog" />                               <translated key="Done" value="Fussy"/>
+        <item key="MoveDown" value="&amp;Omlaag" />                             <translated key="Done" value="Fussy"/>
+        <item key="SizeCustom" value="&amp;Afwijkend" />                        <translated key="Done" value="Fussy"/>
+        <item key="SizeInflate" value="&amp;Vergroten" />                       <translated key="Done" value="Fussy"/>
+        <item key="SizeDeflate" value="&amp;Verkleinen" />                      <translated key="Done" value="Fussy"/>
+        <item key="SizeWider" value="&amp;Breder" />                            <translated key="Done" value="Fussy"/>
+        <item key="SizeNarrower" value="&amp;Smaller" />                        <translated key="Done" value="Fussy"/>
+        <item key="SizeHigher" value="&amp;Hoger" />                            <translated key="Done" value="Fussy"/>
+        <item key="SizeLower" value="&amp;Lager" />                             <translated key="Done" value="Fussy"/>
+        <!-- Project -->
+        <item key="Project" value="&amp;Project" />                             <translated key="Done" value="Fussy"/>
+        <item key="AddModel" value="&amp;Model toevoegen" />                    <translated key="Done" value="Fussy"/>
+        <item key="AddDiagram" value="&amp;Diagram toevoegen" />                <translated key="Done" value="Fussy"/>
+        <item key="AddExistingDiagram" value="&amp;Bestaand diagram toevoegen" /><translated key="Done" value="Fussy"/>
+        <item key="Properties" value="Project e&amp;igenschappen" />            <translated key="Done" value="Fussy"/>
+        <item key="ModelProperties" value="&amp;Model eigenschappen" />         <translated key="Done" value="Fussy"/>
+        <item key="StyleSet" value="Stijl &amp;Set" />                          <translated key="Done" value="Fussy"/>
+        <item key="LoadStyleSet" value="&amp;Laden" />                          <translated key="Done" value="Fussy"/>
+        <item key="SaveStyleSet" value="&amp;Opslaan" />                        <translated key="Done" value="Fussy"/>
+        <item key="EditStyleSet" value="&amp;Bewerken" />                       <translated key="Done" value="Fussy"/>
+        <item key="RemoveAllCustomStyles" value="&amp;Verwijder alle afwijkende stijlen" /><translated key="Done" value="Fussy"/>
+        <item key="Tasks" value="&amp;Taken" />                                 <translated key="Done" value="Fussy"/>
+        <item key="Persons" value="&amp;Personen" />                            <translated key="Done" value="Fussy"/>
+
+        <!-- Diagram -->
+        <item key="Diagram" value="&amp;Diagram" />                             <translated key="Done" value="Fussy"/>
+        <item key="AddLayer" value="L&amp;aag toevoegen" />                     <translated key="Done" value="Fussy"/>
+        <item key="Layers" value="&amp;Lagen" />                                <translated key="Done" value="Fussy"/>
+        <item key="ConvertDiagram" value="&amp;Converteer naar" />              <translated key="Done" value="Fussy"/>
+        <item key="ConvertToERDDiagram" value="&amp;Entity Relationship Diagram" /><translated key="Done" value="Yes"/>
+        <item key="ConvertToClassDiagram" value="&amp;Class Diagram" />         <translated key="Done" value="Yes"/>
+        <item key="DiagramProperties" value="&amp;Diagram eigenschappen" />     <translated key="Done" value="Yes"/>
+        <item key="PrintDiagram" value="&amp;Print" />                          <translated key="Done" value="Yes"/>
+        <item key="ExportDiagram" value="E&amp;xporteren" />                    <translated key="Done" value="Yes"/>
+        <item key="ExportDiagramToImage" value="&amp;Afbeelding" />             <translated key="Done" value="Fussy"/>
+        <item key="ExportDiagramToPDF" value="&amp;PDF" />                      <translated key="Done" value="Yes"/>
+        <item key="CopyToClipboardAsImage" value="Kop&amp;iëren als afbeelding" /> <translated key="Done" value="Yes"/>
+        <item key="CopyToClipboardAsMetafile" value="Kopiëren als metabestand"/><translated key="Done" value="Fussy"/>
+        <item key="LayersMerge" value="&amp;Samenvoegen" />                     <translated key="Done" value="Fussy"/>
+        <item key="LayersShowAll" value="&amp;Alles tonen" />                    <translated key="Done" value="Fussy"/>
+        <item key="LayersHide" value="&amp;Verbergen" />                        <translated key="Done" value="Fussy"/>
+        <item key="LayersDelete" value="&amp;Verwijderen" />                    <translated key="Done" value="Fussy"/>
+        <item key="Filter" value="&amp;Filter" />                               <translated key="Done" value="Fussy"/>
+        <item key="ShowAllElements" value="Toon &amp;alle elementen" />         <translated key="Done" value="Fussy"/>
+        <item key="HideComments" value="Verberg &amp;commentaren" />            <translated key="Done" value="Fussy"/>
+        <item key="HideRelations" value="Verberg &amp;relaties" />              <translated key="Done" value="Fussy"/>
+        <item key="HideCollaborations" value="Verberg &amp;collaborations" />   <translated key="Done" value="Fussy"/>
+
+        <!-- Element -->
+        <item key="Element" value="&amp;Element" />                             <translated key="Done" value="no"/>
+
+        <item key="Add" value="&amp;Toevoegen" />                               <translated key="Done" value="Fussy"/>
+        <item key="Stereotype" value="&amp;Stereotype" />                       <translated key="Done" value="Fussy"/>
+        <item key="Attribute" value="&amp;Attribuut" />                         <translated key="Done" value="Fussy"/>
+        <item key="Operation" value="&amp;Methoden" />                          <translated key="Done" value="Fussy"/>
+        <item key="TemplateParameter" value="&amp;Template Parameter" />        <translated key="Done" value="Fussy"/>
+
+        <item key="ElementShowID" value="Toon &amp;ID" />                       <translated key="Done" value="Fussy"/>
+        <item key="ElementShowParentName" value="Toon &amp;parent Naam" />      <translated key="Done" value="Fussy"/>
+        <item key="ElementShowStereotypes" value="Toon &amp;stereotypes" />     <translated key="Done" value="Fussy"/>
+        <item key="ElementShowAttributes" value="Toon &amp;attributen" />       <translated key="Done" value="Fussy"/>
+        <item key="ElementShowOperations" value="Toon &amp;methoden" />         <translated key="Done" value="Fussy"/>
+        <item key="ElementShowTaggedValues" value="Toon &amp;tagged waarders" /><translated key="Done" value="Fussy"/>
+        <item key="ElementShowTemplateParameters" value="Toon t&amp;emplate parameters" /><translated key="Done" value="Fussy"/>
+        <item key="ElementShowOperationParameters" value="Toon methode para&amp;meters" /><translated key="Done" value="Fussy"/>
+        <item key="ElementShowExtensionPoints" value="Toon &amp;extension points" />      <translated key="Done" value="Fussy"/>
+        <item key="ElementShowRelationshipTexts" value="Toon &amp;Relationship Tekst" />   <translated key="Done" value="Fussy"/>
+        <item key="ElementShowNullability" value="Toon &amp;nullability" />     <translated key="Done" value="Fussy"/>
+
+        <item key="ElementModifiers" value="&amp;Modifiers" />                  <translated key="Done" value="Yes"/>
+        <item key="ElementAbstractModifier" value="&amp;Abstract" />            <translated key="Done" value="Yes"/>
+        <item key="ElementPublicModifier" value="&amp;Public" />                <translated key="Done" value="Yes"/>
+        <item key="ElementPackageModifier" value="Packa&amp;ge" />              <translated key="Done" value="Yes"/>
+        <item key="ElementProtectedModifier" value="P&amp;rotected" />          <translated key="Done" value="Yes"/>
+        <item key="ElementPrivateModifier" value="Pr&amp;ivate" />              <translated key="Done" value="Yes"/>
+        <item key="ElementPresentation" value="Pr&amp;esentatie" />             <translated key="Done" value="no"/>
+        <item key="DefaultPresentation" value="Stan&amp;daart" />               <translated key="Done" value="Yes"/>
+        <item key="CustomPresentation" value="&amp;Afwijkend" />                <translated key="Done" value="Yes"/>
+        <item key="ElementStyle" value="&amp;Stijl" />                          <translated key="Done" value="Yes"/>
+        <item key="ElementProperties" value="&amp;Eigenschappen" />             <translated key="Done" value="Yes"/>
+        <item key="ElementDocumentation" value="&amp;Documentatie" />           <translated key="Done" value="Yes"/>
+        <item key="ElementTaggedValues" value="&amp;Tagged waardes" />          <translated key="Done" value="Yes"/>
+        <!-- Tools -->
+        <item key="Tools" value="&amp;Gereedschap" />                           <translated key="Done" value="Fussy"/>
+        <item key="GenerateDocumentation" value="Genereer &amp;Documentatie" /> <translated key="Done" value="Fussy"/>
+        <item key="GenerateSourceCode" value="Genereer &amp;bron code" />       <translated key="Done" value="Fussy"/>
+
+        <item key="Lists" value="&amp;Lijsten" />                               <translated key="Done" value="Fussy"/>
+        <item key="StereotypesList" value="&amp;Stereotypes" />                 <translated key="Done" value="Yes"/>
+        <item key="TypesList" value="&amp;Types" />                             <translated key="Done" value="Yes"/>
+        <item key="ElementNames" value="&amp;Element namen en ID's" />          <translated key="Done" value="Yes"/>
+        <item key="ReverseEngineering" value="&amp;Reverse Engineering" />      <translated key="Done" value="Yes"/>
+        <item key="NetReverseEngineering" value=".&amp;NET Framework" />        <translated key="Done" value="Yes"/>
+        <item key="DatabaseReverseEngineering" value="&amp;Database" />         <translated key="Done" value="Yes"/>
+        <item key="RenumberElementIDs" value="&amp;Hernummer element IDs" />    <translated key="Done" value="Fussy"/>
+        <item key="ImportDatabaseModel" value="&amp;Importeer database model" /><translated key="Done" value="Fussy"/>
+        <item key="ImportObjectModel" value="I&amp;mporteer object model" />    <translated key="Done" value="Fussy"/>
+        <item key="Languages" value="&amp;Talen" />                             <translated key="Done" value="Fussy"/>
+        <item key="Options" value="&amp;Opties" />                              <translated key="Done" value="Fussy"/>
+        <!-- Windows -->
+        <item key="Windows" value="&amp;Venster" />                             <translated key="Done" value="Fussy"/>
+        <item key="Cascade" value="&amp;Trapsgewijs" />                         <translated key="Done" value="Fussy"/>
+        <item key="TileVertical" value="&amp;Verticaal splitsen" />             <translated key="Done" value="Fussy"/>
+        <item key="TileHorizontal" value="&amp;Horizontaal splitsen" />         <translated key="Done" value="Fussy"/>
+        <item key="ArrangeIcons" value="&amp;Iconen schikken" />                <translated key="Done" value="Fussy"/>
+        <item key="CloseAll" value="&amp;Alles Sluiten" />                      <translated key="Done" value="Fussy"/>
+        <!-- Help -->
+        <item key="Help" value="&amp;Help" />                                   <translated key="Done" value="Fussy"/>
+        <item key="OnlineHelp" value="&amp;Online Help" />                      <translated key="Done" value="Fussy"/>
+        <item key="Donate" value="&amp;Doneer" />                               <translated key="Done" value="Fussy"/>
+        <item key="ActivateForCommercialUse" value="&amp;Activeren voor Commerciel gebruik" /><translated key="Done" value="Fussy"/>
+        <item key="WhatsNew" value="Wat is er &amp;nieuw" />                    <translated key="Done" value="Fussy"/>
+        <item key="CheckForUpdates" value="Controleer voor &amp;Updates" />     <translated key="Done" value="Fussy"/>
+        <item key="SendRequest" value="Verstuur aanv&amp;raag" />                    <translated key="Done" value="No"/>
+        <item key="About" value="&amp;Over Software Ideas Modeler..." />        <translated key="Done" value="Fussy"/>
+        <item key="WebSite" value="&amp;Web Site" />                            <translated key="Done" value="Yes"/>
+      </group>
+
+      <!-- Project Context Menu -->
+      <group id="ProjectCMenu">
+        <item key="AddModel" value="&amp;Model toevoegen" />                    <translated key="Done" value="Fussy"/>
+        <item key="AddDiagram" value="&amp;Diagram toevoegen" />                <translated key="Done" value="Fussy"/>
+
+        <item key="NewDiagram" value="&amp;Nieuw Diagram" />                   <translated key="Done" value="Fussy"/>
+        <item key="MoveToModel" value="V&amp;erplaats naar model" />            <translated key="Done" value="Fussy"/>
+        <item key="Rename" value="&amp;Hernoem" />                              <translated key="Done" value="Fussy"/>
+        <item key="Delete" value="&amp;Verwijder" />                            <translated key="Done" value="Fussy"/>
+        <item key="DeleteFromProject" value="Verwijder van &amp;project" />     <translated key="Done" value="Fussy"/>
+
+        <item key="UmlClassDiagram" value="&amp;Class Diagram" />               <translated key="Done" value="Yes"/>
+        <item key="UmlUseCaseDiagram" value="&amp;Use Case Diagram" />          <translated key="Done" value="Yes"/>
+        <item key="UmlSequenceDiagram" value="&amp;Sequence Diagram" />         <translated key="Done" value="Yes"/>
+        <item key="UmlActivityDiagram" value="&amp;Activity Diagram" />         <translated key="Done" value="Yes"/>
+        <item key="UmlStateMachineDiagram" value="&amp;State Machine Diagram" /><translated key="Done" value="Yes"/>
+        <item key="UmlDeploymentDiagram" value="&amp;Deployment Diagram" />     <translated key="Done" value="Yes"/>
+        <item key="UmlProfileDiagram" value="&amp;Profile Diagram" />           <translated key="Done" value="Yes"/>
+        <item key="UmlObjectDiagram" value="&amp;Object Diagram" />             <translated key="Done" value="Yes"/>
+        <item key="UmlPackageDiagram" value="Packa&amp;ge Diagram" />           <translated key="Done" value="Yes"/>
+        <item key="UmlCommunicationDiagram" value="Co&amp;mmunication Diagram" /><translated key="Done" value="Yes"/>
+        <item key="UmlCompositeStructureDiagram" value="Composite St&amp;ructure Diagram" /><translated key="Done" value="Yes"/>
+        <item key="UmlComponentDiagram" value="Compo&amp;nent Diagram" />       <translated key="Done" value="Yes"/>
+        <item key="UmlInteractionOverviewDiagram" value="&amp;Interaction Overview Diagram" /><translated key="Done" value="Yes"/>
+        <item key="UmlMixedDiagram" value="Mi&amp;xed Diagram" />               <translated key="Done" value="Yes"/>
+        <item key="DataFlowDiagram" value="Data &amp;Flow Diagram" />           <translated key="Done" value="Yes"/>
+        <item key="EntityRelationshipDiagram" value="Entity &amp;Relationship Diagram" /><translated key="Done" value="Yes"/>
+        <item key="RequirementDiagram" value="Re&amp;quirement Diagram" />      <translated key="Done" value="Yes"/>
+        <item key="UserInterface" value="&amp;User Interface" />                <translated key="Done" value="Yes"/>
+        <item key="CrcCardDiagram" value="C&amp;RC Card Diagram" />             <translated key="Done" value="Yes"/>
+        <item key="FlowchartDiagram" value="&amp;Flowchart Diagram" />          <translated key="Done" value="Yes"/>
+        <item key="RobustnessDiagram" value="&amp;Robustness Diagram" />        <translated key="Done" value="Yes"/>
+        <item key="UmlTimingDiagram" value="&amp;Timing Diagram" />             <translated key="Done" value="Yes"/>
+      </group>
+
+      <!-- Project Tree -->
+      <group id="ProjectTreeViews">
+        <item key="HierarchicalView" value="Boom weergave" />                   <translated key="Done" value="Yes"/>
+        <item key="AllEntitiesView" value="Alle Entiteiten" />                  <translated key="Done" value="Yes"/>
+        <item key="DiagramTypesView" value="Diagram soorten" />                 <translated key="Done" value="Yes"/>
+      </group>
+
+      <!-- Toolbox -->
+      <group id="Toolbox">
+        <item key="UmlClassDiagram" value="Class Diagram" />                    <translated key="Done" value="Yes"/>
+        <item key="UmlUseCaseDiagram" value="Use Case Diagram" />               <translated key="Done" value="Yes"/>
+        <item key="UmlSequenceDiagram" value="Sequence Diagram" />              <translated key="Done" value="Yes"/>
+        <item key="UmlActivityDiagram" value="Activity Diagram" />              <translated key="Done" value="Yes"/>
+        <item key="UmlStateMachineDiagram" value="State Machine Diagram" />     <translated key="Done" value="Yes"/>
+        <item key="UmlDeploymentDiagram" value="Deployment Diagram" />          <translated key="Done" value="Yes"/>
+        <item key="UmlProfileDiagram" value="Profile Diagram" />                <translated key="Done" value="Yes"/>
+        <item key="UmlObjectDiagram" value="Object Diagram" />                  <translated key="Done" value="Yes"/>
+        <item key="UmlPackageDiagram" value="Package Diagram" />                <translated key="Done" value="Yes"/>
+        <item key="UmlCommunicationDiagram" value="Communication Diagram" />    <translated key="Done" value="Yes"/>
+        <item key="UmlCompositeStructureDiagram" value="Composite Structure Diagram" /><translated key="Done" value="Yes"/>
+        <item key="UmlComponentDiagram" value="Component Diagram" />            <translated key="Done" value="Yes"/>
+        <item key="UmlInteractionOverviewDiagram" value="Interaction Overview Diagram" /><translated key="Done" value="Yes"/>
+        <item key="UmlMixedDiagram" value="Mixed Diagram" />                    <translated key="Done" value="Yes"/>
+        <item key="DataFlowDiagram" value="Data Flow Diagram" />                <translated key="Done" value="Yes"/>
+        <item key="EntityRelationshipDiagram" value="Entity Relationship Diagram" /><translated key="Done" value="Yes"/>
+        <item key="RequirementDiagram" value="Requirement Diagram" />           <translated key="Done" value="Yes"/>
+        <item key="UserInterfaceDiagram" value="User Interface" />              <translated key="Done" value="Yes"/>
+        <item key="CrcCardDiagram" value="CRC Card Diagram" />                  <translated key="Done" value="Yes"/>
+        <item key="FlowchartDiagram" value="Flowchart Diagram" />               <translated key="Done" value="Yes"/>
+        <item key="RobustnessDiagram" value="Robustness Diagram" />             <translated key="Done" value="Yes"/>
+        <item key="UmlTimingDiagram" value="Timing Diagram" />                  <translated key="Done" value="Yes"/>
+
+        <item key="Common" value="Algemeen" />                                  <translated key="Done" value="Yes"/>
+        <item key="Drawing" value="Tekenen" />                                  <translated key="Done" value="Yes"/>
+
+        <item key="Selection" value="Selectie" />                               <translated key="Done" value="Yes"/>
+        <item key="Comment" value="Commentaar" />                               <translated key="Done" value="Yes"/>
+        <item key="Comment Connector" value="Commentaar connector" />           <translated key="Done" value="Yes"/>
+        <item key="Constraint" value="Constraint" />                            <translated key="Done" value="no"/>
+        <item key="Diagram Description" value="Diagram beschrijving" />         <translated key="Done" value="Yes"/>
+        <!-- Drawing-->
+        <item key="Line" value="Lijn" />                                        <translated key="Done" value="Yes"/>
+        <item key="Rectangle" value="Rechthoek" />                              <translated key="Done" value="Yes"/>
+        <item key="Ellipse" value="Ellips" />                                   <translated key="Done" value="Yes"/>
+        <item key="Polygon" value="Polygoon" />                                 <translated key="Done" value="Yes"/>
+        <item key="Text" value="Tekst" />                                       <translated key="Done" value="Yes"/>
+        <item key="Left Arrow" value="Pijl links" />                            <translated key="Done" value="Yes"/>
+        <item key="Right Arrow" value="Pijl rechts" />                          <translated key="Done" value="Yes"/>
+        <item key="Up Arrow" value="Pijl omhoog" />                             <translated key="Done" value="Yes"/>
+        <item key="Down Arrow" value="Pijl omlaag" />                           <translated key="Done" value="Yes"/>
+        <!-- Class diagram-->
+        <item key="Package" value="Package" />                                  <translated key="Done" value="Yes"/>
+        <item key="Class" value="Class" />                                      <translated key="Done" value="Yes"/>
+        <item key="Table" value="Table" />                                      <translated key="Done" value="Yes"/>
+        <item key="Structure" value="Structure" />                              <translated key="Done" value="No"/>
+        <item key="Signal" value="Signal" />                                    <translated key="Done" value="Yes"/>
+        <item key="Enumeration" value="Enumeration" />                          <translated key="Done" value="Yes"/>
+        <item key="Interface" value="Interface" />                              <translated key="Done" value="Yes"/>
+        <item key="Realization" value="Realization" />                          <translated key="Done" value="Yes"/>
+        <item key="Association" value="Association" />                          <translated key="Done" value="Yes"/>
+        <item key="Unidir. Association" value="Unidir. Association" />          <translated key="Done" value="Yes"/>
+        <item key="Bidir. Association" value="Bidir. Association" />            <translated key="Done" value="Yes"/>
+        <item key="N-ary Association" value="N-ary Association" />              <translated key="Done" value="Yes"/>
+        <item key="Composition" value="Composition" />                          <translated key="Done" value="Yes"/>
+        <item key="Aggregation" value="Aggregation" />                          <translated key="Done" value="Yes"/>
+        <item key="Generalization" value="Generalization" />                    <translated key="Done" value="Yes"/>
+        <item key="Dependency" value="Dependency" />                            <translated key="Done" value="Yes"/>
+        <item key="Containment" value="Containment" />                          <translated key="Done" value="Yes"/>
+        <item key="Usage" value="Usage" />                                      <translated key="Done" value="Yes"/>
+        <item key="Access" value="Access" />                                    <translated key="Done" value="Yes"/>
+        <item key="Refine" value="Refine" />                                    <translated key="Done" value="Yes"/>
+        <!-- Use Case Diagram-->
+        <item key="Actor" value="Actor" />                                      <translated key="Done" value="Yes"/>
+        <item key="Use Case" value="Use Case" />                                <translated key="Done" value="Yes"/>
+        <item key="Collaboration" value="Collaboration" />                      <translated key="Done" value="Yes"/>
+        <item key="Include" value="Include" />                                  <translated key="Done" value="Yes"/>
+        <item key="Extend" value="Extend" />                                    <translated key="Done" value="Yes"/>
+        <item key="System Boundary" value="System Boundary" />                  <translated key="Done" value="Yes"/>
+        <!-- Sequence Diagram-->
+        <item key="Lifeline" value="Lifeline" />                                <translated key="Done" value="Yes"/>
+        <item key="Interaction Operand" value= "Interaction Operand" />         <translated key="Done" value="Yes"/>
+        <item key="Activation Bar" value="Activation Bar" />                    <translated key="Done" value="Yes"/>
+        <item key="Fragment" value="Fragment" />                                <translated key="Done" value="Yes"/>
+        <item key="Frame" value="Frame" />                                      <translated key="Done" value="Yes"/>
+        <item key="Interaction" value="Interaction" />                          <translated key="Done" value="Yes"/>
+        <item key="Interaction Use" value="Interaction Use" />                  <translated key="Done" value="Yes"/>
+        <item key="Call Action" value="Call Action" />                          <translated key="Done" value="Yes"/>
+        <item key="Return Action" value="Return Action" />                      <translated key="Done" value="Yes"/>
+        <item key="Create Action" value="Create Action" />
+		<item key="Send Action" value="Send Action" />                          <translated key="Done" value="Yes"/>
+        <item key="Destroy Action" value="Destroy Action" />                    <translated key="Done" value="Yes"/>
+        <item key="Opt Fragment" value="Opt Fragment" />                        <translated key="Done" value="Yes"/>
+        <item key="Alt Fragment" value="Alt Fragment" />                        <translated key="Done" value="Yes"/>
+        <item key="Loop Fragment" value="Loop Fragment" />                      <translated key="Done" value="Yes"/>
+        <item key="Ref Fragment" value="Ref Fragment" />                        <translated key="Done" value="Yes"/>
+        <item key="Sd Fragment" value="Sd Fragment" />                          <translated key="Done" value="Yes"/>
+        <item key="Par Fragment" value="Par Fragment" />                        <translated key="Done" value="Yes"/>
+        <item key="Neg Fragment" value="Neg Fragment" />                        <translated key="Done" value="Yes"/>
+        <item key="Self Message" value="Self Message" />                        <translated key="Done" value="Yes"/>
+        <item key="Recursive Message" value="Recursive Message" />              <translated key="Done" value="Yes"/>
+        <item key="Concurrent" value="Concurrent" />                            <translated key="Done" value="Yes"/>
+        <item key="Duration Message" value="Duration Message" />                <translated key="Done" value="Yes"/>
+        <item key="Lost Message" value="Lost Message" />                        <translated key="Done" value="Yes"/>
+        <item key="Found Message" value="Found Message" />                      <translated key="Done" value="Yes"/>
+        <item key="State Invariant" value="State Invariant" />                  <translated key="Done" value="Yes"/>
+        <item key="Duration Constraint" value="Duration Constraint" />          <translated key="Done" value="Yes"/>
+        <item key="Coregion" value="Coregion" />                                <translated key="Done" value="Yes"/>
+        <!-- . -->
+        <item key="Message" value="Message" />                                  <translated key="Done" value="Yes"/>
+        <!-- Activty Diagram -->
+        <item key="Swimlane" value="Swimlane" />                                <translated key="Done" value="Yes"/>
+        <item key="Activity" value="Activity" />                                <translated key="Done" value="Yes"/>
+        <item key="Object" value="Object" />                                    <translated key="Done" value="Yes"/>
+
+        <item key="Initial State" value= "Initial State" />                     <translated key="Done" value="Yes"/>
+        <item key="Final State" value="Final State" />                          <translated key="Done" value="Yes"/>
+        <item key="State" value="State" />                                      <translated key="Done" value="Yes"/>
+        <item key="Composite State" value="Composite State" />                  <translated key="Done" value="Yes"/>
+        <item key="Fork/Join" value="Fork/Join" />                              <translated key="Done" value="Yes"/>
+        <item key="Decision" value="Decision" />                                <translated key="Done" value="Yes"/>
+        <item key="Transition" value="Transition" />                            <translated key="Done" value="Yes"/>
+        <item key="Signal Receipt" value="Signal Receipt" />                    <translated key="Done" value="Yes"/>
+        <item key="Signal Send" value="Signal Send" />                          <translated key="Done" value="Yes"/>
+        <item key="Deep History" value="Deep History" />                        <translated key="Done" value="Yes"/>
+        <item key="Shallow History" value="Shallow History" />                  <translated key="Done" value="Yes"/>
+        <item key="Terminate Node" value="Terminate Node" />                    <translated key="Done" value="Yes"/>
+
+        <item key="Composite State" value="Composite State" />                  <translated key="Done" value="Yes"/>
+        <item key="Entry Point" value="Entry Point" />                          <translated key="Done" value="Yes"/>
+        <item key="Exit Point" value="Exit Point" />                            <translated key="Done" value="Yes"/>
+        <item key="Initial Node" value="Initial Node" />                        <translated key="Done" value="Yes"/>
+        <item key="Activity Final Node" value="Activity Final Node" />          <translated key="Done" value="Yes"/>
+        <item key="Flow Node" value="Flow Node" />                              <translated key="Done" value="Yes"/>
+        <item key="Activity Parameter Node" value="Activity Parameter Node" />  <translated key="Done" value="Yes"/>
+        <item key="Action" value="Action" />                                    <translated key="Done" value="Yes"/>
+        <item key="Pin" value="Pin" />                                          <translated key="Done" value="Yes"/>
+        <item key="Accept Time Event Action" value="Accept Time Event Action" /><translated key="Done" value="Yes"/>
+        <item key="Interruptible Activity Region" value="Interruptible Activity Region" /><translated key="Done" value="Yes"/>
+        <item key="Expansion Region" value="Expansion Region" />                <translated key="Done" value="Yes"/>
+        <item key="Expansion Node" value="Expansion Node" />                    <translated key="Done" value="Yes"/>
+        <item key="Exception Handler" value="Exception Handler" />              <translated key="Done" value="Yes"/>
+        <!-- Deployment Diagram -->
+        <item key="Node" value="Node" />                                        <translated key="Done" value="Yes"/>
+        <item key="Component" value="Component" />                              <translated key="Done" value="Yes"/>
+        <item key="Artifact" value="Artifact" />                                <translated key="Done" value="Yes"/>
+        <item key="Deploy" value="Deploy" />                                    <translated key="Done" value="Yes"/>
+        <item key="Manifest" value="Manifest" />                                <translated key="Done" value="Yes"/>
+        <!-- Package Diagram -->
+        <item key="Import" value="Import" />                                    <translated key="Done" value="Yes"/>
+        <item key="Merge" value="Merge" />                                      <translated key="Done" value="Yes"/>
+        <item key="Use" value="Use" />                                          <translated key="Done" value="Yes"/>
+        <!-- Profile Diagram -->
+        <item key="Profile" value="Profile" />                                  <translated key="Done" value="Yes"/>
+        <item key="Stereotype" value="Stereotype" />                            <translated key="Done" value="Yes"/>
+        <item key="Meta Class" value="Meta Class" />                            <translated key="Done" value="Yes"/>
+        <item key="Apply" value="Apply" />                                      <translated key="Done" value="Yes"/>
+        <!-- Timing Diagram -->
+        <item key="Frame" value="Frame" />                                      <translated key="Done" value="Yes"/>
+        <!-- Robustness Diagram -->
+        <item key="Boundary" value="Boundary" />                                <translated key="Done" value="Yes"/>
+        <item key="Control" value="Control" />                                  <translated key="Done" value="Yes"/>
+        <!-- Entity Relation-->
+        <item key="Entity" value="Entiteit" />                                    <translated key="Done" value="Yes"/>
+        <item key="Relation" value="Relatie" />                                <translated key="Done" value="Yes"/>
+        <item key="1 to 1" value="1 tot 1" />                                    <translated key="Done" value="Yes"/>
+        <item key="1 to 0..1" value="1 tot 0..1" />                              <translated key="Done" value="Yes"/>
+        <item key="1 to 1..n" value="1 tot 1..n" />                              <translated key="Done" value="Yes"/>
+        <item key="1 to 0..n" value="1 tot 0..n" />                              <translated key="Done" value="Yes"/>
+        <item key="0..n to 0..n" value="0..n tot 0..n" />                        <translated key="Done" value="Yes"/>
+        <item key="1..n to 1..n" value="1..n tot 1..n" />                        <translated key="Done" value="Yes"/>
+        <!-- Data Flow Diagram -->
+        <item key="Data Store" value="Data Store" />                            <translated key="Done" value="Yes"/>
+        <item key="Process" value="Process" />                                  <translated key="Done" value="Yes"/>
+        <item key="Gate" value="Gate" />                                        <translated key="Done" value="Yes"/>
+        <item key="External" value="Extern" />                                  <translated key="Done" value="Yes"/>
+        <item key="Data Flow" value="Data Stroom" />                            <translated key="Done" value="Yes"/>
+        <!-- Requirement Diagram -->
+        <item key="Requirement" value="Requirement" />                          <translated key="Done" value="Yes"/>
+        <item key="Model" value="Model" />                                      <translated key="Done" value="Yes"/>
+        <item key="Test Case" value="Test Case" />                              <translated key="Done" value="Yes"/>
+        <!-- Composite Structure Diagram -->
+        <item key="Port" value="Poort" />                                       <translated key="Done" value="Yes"/>
+        <item key="Part" value="Part" />                                        <translated key="Done" value="Yes"/>
+        <item key="Required Interface" value="Required  Interface" />           <translated key="Done" value="Yes"/>
+        <!-- User Interface -->
+        <item key="Window" value="Window" />                                    <translated key="Done" value="Yes"/>
+        <item key="Label" value="Label" />                                      <translated key="Done" value="Yes"/>
+        <item key="Button" value="Button" />                                    <translated key="Done" value="Yes"/>
+        <item key="Check Box" value="Check Box" />                              <translated key="Done" value="Yes"/>
+        <item key="Radio Button" value="Radio Button" />                        <translated key="Done" value="Yes"/>
+        <item key="Text Box" value="Text Box" />                                <translated key="Done" value="Yes"/>
+        <item key="Scrollbar" value="Scrollbar" />                              <translated key="Done" value="Yes"/>
+        <item key="List Box" value="List Box" />                                <translated key="Done" value="Yes"/>
+        <item key="Combo Box" value="Combo Box" />                              <translated key="Done" value="Yes"/>
+        <item key="Progress Bar" value="Progress Bar" />                        <translated key="Done" value="Yes"/>
+        <item key="Grid" value="Grid" />                                        <translated key="Done" value="Yes"/>
+        <!-- Flowchart Diagram -->
+        <item key="Flow" value="Flow" />                                        <translated key="Done" value="Yes"/>
+        <item key="Data" value="Data" />                                        <translated key="Done" value="Yes"/>
+        <item key="Direct Data" value="Direct Data" />                          <translated key="Done" value="Yes"/>
+        <item key="Document" value="Document" />                                <translated key="Done" value="Yes"/>
+        <item key="Internal Storage" value="Internal Storage" />                <translated key="Done" value="Yes"/>
+        <item key="Predefined Process" value="Predefined Process" />            <translated key="Done" value="Yes"/>
+        <item key="Start End Symbol" value="Start End Symbol" />                <translated key="Done" value="Yes"/>
+        <item key="Stored Data" value="Stored Data" />                          <translated key="Done" value="Yes"/>
+        <item key="User Input" value="User Input" />                            <translated key="Done" value="Yes"/>
+        <!-- CRC Diagram -->
+        <item key="CRC Card" value="CRC Card" />                                <translated key="Done" value="Yes"/>
+      </group>
+
+      <!-- Side Bars -->
+      <group id="SideBars">
+        <item key="Project" value="Project" />                                  <translated key="Done" value="Yes"/>
+        <item key="FastEditor" value="Snel editor" />                           <translated key="Done" value="Yes"/>
+        <item key="Styles" value="Stijlen" />                                   <translated key="Done" value="Yes"/>
+        <item key="ItemProperties" value="Eigenschappen" />                    <translated key="Done" value="Yes"/>
+        <item key="Generation" value="Genereer" />                              <translated key="Done" value="Yes"/>
+        <item key="Documentation" value="Documentatie" />                       <translated key="Done" value="Yes"/>
+        <item key="Layers" value="Lagen" />                                     <translated key="Done" value="Yes"/>
+        <item key="Preview" value="Voorbeeld" />                                <translated key="Done" value="Yes"/>
+        <item key="ToDo" value="Todo" />                                        <translated key="Done" value="Yes"/>
+      </group>
+      <group id="ProjectTabPanel">
+        <item key="NewModel" tooltip="Nieuw Model" />                           <translated key="Done" value="Yes"/>
+        <item key="NewDiagram" tooltip="Nieuw Diagram" />                       <translated key="Done" value="Yes"/>
+        <item key="ExpandAll" tooltip="Alles uitklappen" />                     <translated key="Done" value="Yes"/>
+        <item key="CollapseAll" tooltip="Alles inklappen" />
+		<item key="Refresh" tooltip="Vernieuwen" />                             <translated key="Done" value="Yes"/>
+        <item key="UmlClassDiagram" tooltip="Class Diagram" />                  <translated key="Done" value="Yes"/>
+        <item key="UmlUseCaseDiagram" tooltip="Use Case Diagram" />             <translated key="Done" value="Yes"/>
+        <item key="UmlSequenceDiagram" tooltip="Sequence Diagram" />            <translated key="Done" value="Yes"/>
+        <item key="UmlActivityDiagram" tooltip="Activity Diagram" />            <translated key="Done" value="Yes"/>
+        <item key="UmlStateMachineDiagram" tooltip="State Machine Diagram" />   <translated key="Done" value="Yes"/>
+        <item key="UmlDeploymentDiagram" tooltip="Deployment Diagram" />        <translated key="Done" value="Yes"/>
+        <item key="UmlCompositeStructureDiagram" tooltip="Composite Structure Diagram" /><translated key="Done" value="Yes"/>
+        <item key="UmlComponentDiagram" tooltip="Component Diagram" />          <translated key="Done" value="Yes"/>
+        <item key="UmlInteractionOverviewDiagram" tooltip="Interaction Overview Diagram" /><translated key="Done" value="Yes"/>
+        <item key="UmlTimingDiagram" tooltip="Timing Diagram" />                <translated key="Done" value="Yes"/>
+        <item key="UmlProfileDiagram" tooltip="Profile Diagram" />              <translated key="Done" value="Yes"/>
+        <item key="UmlObjectDiagram" tooltip="Object Diagram" />                <translated key="Done" value="Yes"/>
+        <item key="UmlPackageDiagram" tooltip="Package Diagram" />              <translated key="Done" value="Yes"/>
+        <item key="UmlCommunicationDiagram" tooltip="Communication Diagram" />  <translated key="Done" value="Yes"/>
+        <item key="EntityRelationshipDiagram" tooltip="Entity Relationship Diagram" /><translated key="Done" value="Yes"/>
+        <item key="RequirementDiagram" tooltip="Requirement Diagram" />         <translated key="Done" value="Yes"/>
+        <item key="UserInterface" tooltip="User Interface" />                   <translated key="Done" value="Yes"/>
+        <item key="CrcCardDiagram" tooltip="CRC Card Diagram" />                <translated key="Done" value="Yes"/>
+        <item key="FlowchartDiagram" tooltip="Flowchart Diagram" />             <translated key="Done" value="Yes"/>
+        <item key="RobustnessDiagram" tooltip="Robustness Diagram" />           <translated key="Done" value="Yes"/>
+
+        <item key="Filter" tooltip="Filter" />                                  <translated key="Done" value="Yes"/>
+        <item key="ShowEntities" value="Toon entiteiten" />                     <translated key="Done" value="Yes"/>
+        <item key="ShowRelations" value="Toon relaties" />                      <translated key="Done" value="Yes"/>
+        <item key="ShowComments" value="Toon commentaren" />                    <translated key="Done" value="Yes"/>
+        <item key="ShowGroups" value="Toon groepen" />                          <translated key="Done" value="Yes"/>
+      </group>
+      <group id="GenerationTabPanel">
+        <item key="Generate" value="&amp;Genereer" />                           <translated key="Done" value="Yes"/>
+        <item key="GenerateFrom" value="Genereerhet volgende :" />              <translated key="Done" value="Yes"/>
+        <item key="WholeDiagram" value="Hele &amp;diagram" />                   <translated key="Done" value="Yes"/>
+        <item key="SelectedElements" value="Kies de &amp;elementen" />          <translated key="Done" value="Yes"/>
+      </group>
+      <group id="ItemEditorTabPanel">
+        <item key="ItemDefinition" value="&amp;Item definitie" />               <translated key="Done" value="Yes"/>
+      </group>
+      <group id="StylesTabPanel">
+        <item key="Apply" value="&amp;Toepassen" />                             <translated key="Done" value="Yes"/>
+        <item key="NewStyleSet" tooltip="Nieuwe stijl set" />                    <translated key="Done" value="Yes"/>
+        <item key="OpenStyleSet" tooltip="Open stijl set" />                    <translated key="Done" value="Yes"/>
+        <item key="SaveStyleSet" tooltip="Stijl set opslaan" />                 <translated key="Done" value="Yes"/>
+        <item key="AddStyle" tooltip="Toevoegen stijl" />                       <translated key="Done" value="Yes"/>
+        <item key="SetStyleAsDefault" tooltip="Zet stijl als standaard" />      <translated key="Done" value="Yes"/>
+        <item key="EditStyle" tooltip="Bewerken stijl" />                       <translated key="Done" value="Yes"/>
+        <item key="DeleteStyle" tooltip="Verwijderen stijl" />                  <translated key="Done" value="Yes"/>
+      </group>
+      <group id="Properties">
+        <item key="ShowDialog" value="Show Dialog" />                           <translated key="Done" value="No"/>
+        <item key="ID" value="ID:" />                                           <translated key="Done" value="Yes"/>
+        <item key="Name" value="Naam:" />                                       <translated key="Done" value="Yes"/>
+        <item key="Visibility" value="Zichtbaarhied:" />                        <translated key="Done" value="Yes"/>
+        <item key="X" value="X:" />                                             <translated key="Done" value="Yes"/>
+        <item key="Y" value="Y:" />                                             <translated key="Done" value="Yes"/>
+        <item key="Width" value="Breedte:" />                                   <translated key="Done" value="Yes"/>
+        <item key="Height" value="Hoogte:" />                                   <translated key="Done" value="Yes"/>
+      </group>
+    </form>
+
+    <form id="EditorForm">
+      <group id="Form">
+        <item key="FilterWarning" value="Er is een filter actief, sommige elementen kunnen verborgen zijn" /><translated key="Done" value="Yes"/>
+        <item key="RemoveFilter" value="&amp;Verwijder filter" />               <translated key="Done" value="Yes"/>
+      </group>
+    </form>
+
+    <form id="Elements">
+      <group id="DiagramDescription">
+        <item key="Authors" value="Auteur(s):" />                               <translated key="Done" value="Yes"/>
+        <item key="Description" value="Beschrijving:" />                        <translated key="Done" value="Yes"/>
+        <item key="DiagramName" value="Diagram naam:" />                        <translated key="Done" value="Yes"/>
+        <item key="Version" value="Versie:" />                                  <translated key="Done" value="Yes"/>
+        <item key="LastChangeDate" value="Aanpassings datum:" />                <translated key="Done" value="Yes"/>
+        <item key="ModelName" value="Model:" />                                 <translated key="Done" value="Yes"/>
+        <item key="ProjectName" value="Project:" />                             <translated key="Done" value="Yes"/>
+      </group>
+    </form>
+
+    <form id="LayerControl">
+      <group id="Control">
+        <item key="AddLayer" tooltip="Nieuwe laag toevoegen" />                 <translated key="Done" value="Yes"/>
+        <item key="DeleteLayer" tooltip="Laag verwijderen" />                   <translated key="Done" value="Yes"/>
+        <item key="ShowHideLayer" tooltip="Toon/verberg laag" />                <translated key="Done" value="Yes"/>
+        <item key="MergeAllLayers" tooltip="Alle lagen samenvoegen" />          <translated key="Done" value="Yes"/>
+        <item key="MoveUp" tooltip="Omhoog" />                                  <translated key="Done" value="Yes"/>
+        <item key="MoveDown" tooltip="Omlaag" />                                <translated key="Done" value="Yes"/>
+		
+		<item key="ContextRename" value="&amp;Hernoemen" />
+        <item key="ContextDelete" value="&amp;Verwijderen" />
+        <item key="ContextShowHide" value="&amp;Toon / Verberg" />
+        <item key="ContextMoveUp" value="Verplaats Om&amp;hoog" />
+        <item key="ContextMoveDown" value="Verplaats Om&amp;laag" />
+      </group>
+    </form>
+
+    <!-- Context Bar -->
+    <form id="ContextBar">
+      <group id="Control">
+        <item key="AddAttribute" value="Attribuut toevoegen" />                     <translated key="Done" value="Yes"/>
+        <item key="AddOperation" value="Methode toevoegen" />                       <translated key="Done" value="Yes"/>
+        <item key="AddSubClass" value="Sub Class toevoegen" />                      <translated key="Done" value="Yes"/>
+        <item key="AddSuperClass" value="Super Class toevoegen" />                  <translated key="Done" value="Yes"/>
+        <item key="AddUseCase" value="Use Case toevoegen" />                        <translated key="Done" value="Yes"/>
+        <item key="AddSwimlane" value="Swimlane toevoegen" />                       <translated key="Done" value="Yes"/>
+        <item key="AddInterface" value="Interface toevoegen" />                     <translated key="Done" value="Yes"/>
+        <item key="AddState" value="State toevoegen" />                             <translated key="Done" value="Yes"/>
+        <item key="AddValueLifeline" value="Value Lifeline toevoegen" />            <translated key="Done" value="Yes"/>
+        <item key="AddStateLifeline" value="State Lifeline toevoegen" />            <translated key="Done" value="Yes"/>
+        <item key="ConvertToValueLifeline" value="Converteer naar Value Lifeline" /><translated key="Done" value="Yes"/>
+        <item key="ConvertToStateLifeline" value="Converteer naar State Lifeline" /><translated key="Done" value="Yes"/>
+        <item key="Extend" value="Extend" />                                        <translated key="Done" value="Yes"/>
+        <item key="Include" value="Include" />                                      <translated key="Done" value="Yes"/>
+        <item key="AddComment" value="Commentaar toevoegen" />                      <translated key="Done" value="Yes"/>
+        <item key="AddSequenceExpression" value="Sequence Expression toevoegen" />  <translated key="Done" value="Yes"/>
+        <item key="AddSequenceExpression" value="Reverse Sequence Expression toevoegen" /><translated key="Done" value="Yes"/>
+        <item key="AddCollaborator" value="Toevoegen collaborator" />               <translated key="Done" value="Yes"/>
+        <item key="AddResponsibility" value="Toevoegen verandwoordelijkheid" />     <translated key="Done" value="Yes"/>
+        <item key="AddAssociationClass" value="Toevoegen Association Class" />      <translated key="Done" value="Yes"/>
+      </group>
+    </form>
+
+    <!-- New Diagram  -->
+    <form id="NewDiagramForm">
+      <group id="Form">
+        <item key="Title" value="Nieuw Diagram" />                              <translated key="Done" value="Yes"/>
+        <item key="SelectItemLabel" value="Selecteer het type diagram dat u wilt toevoegen aan het project:" /><translated key="Done" value="Yes"/>
+        <item key="NameLabel" value="Naam:" />                                  <translated key="Done" value="Yes"/>
+
+        <item key="OK" value="&amp;OK" />                                       <translated key="Done" value="Yes"/>
+        <item key="Cancel" value="&amp;Annuleren" />                            <translated key="Done" value="Yes"/>
+      </group>
+      <group id="Diagrams">
+        <item key="UMLDiagrams" value="UML Diagrammen" />                       <translated key="Done" value="Yes"/>
+        <item key="DatabaseModeling" value="Database Modeling" />               <translated key="Done" value="Yes"/>
+        <item key="Requirements" value="Vereiste" />                            <translated key="Done" value="Yes"/>
+        <item key="Others" value="Overig" />                                    <translated key="Done" value="Yes"/>
+      </group>
+    </form>
+
+    <form id="AboutForm">
+      <group id="Form">
+        <item key="Title" value="Over Software Ideas Modeler" />                <translated key="Done" value="Yes"/>
+
+        <item key="AboutTab" value="Over" />                                    <translated key="Done" value="Yes"/>
+        <item key="WhatsNewTab" value="Wat is er nieuw" />                      <translated key="Done" value="Yes"/>
+
+        <item key="Author" value="Auteur:" />                                   <translated key="Done" value="Yes"/>
+        <item key="Version" value="Versie:" />                                  <translated key="Done" value="Yes"/>
+        <item key="Description" value="Software Ideas Modeler is een gereedschap voor het moduleren van software op basis van UML" /><translated key="Done" value="Yes"/>
+        <item key="Close" value="&amp;Sluiten" />                               <translated key="Done" value="Yes"/>
+        <item key="Donation" value="Als dit programma u bevalt kunt u ons ondersteunen door op  de &quot;donate&quot; knop te klikken, ieder bedrag is welkom." /><translated key="Done" value="Yes"/>
+      </group>
+    </form>
+
+    <form id="StartPageForm">
+      <group id="Form">
+        <item key="Title" value="Start pagina" />                               <translated key="Done" value="Yes"/>
+
+        <item key="StartWith" value="Start met..." />                           <translated key="Done" value="Yes"/>
+        <item key="RecentProjects" value="Recente projecten" />                 <translated key="Done" value="Yes"/>
+
+        <item key="OpenProject" value="Open project..." />                      <translated key="Done" value="Yes"/>
+        <item key="NewProject" value="Nieuw project..." />                      <translated key="Done" value="Yes"/>
+
+        <item key="DonateNow" value="Doneer of koop nu" />                      <translated key="Done" value="Yes"/>
+      </group>
+    </form>
+
+    <form id="ModelOverviewForm">
+      <group id="Form">
+        <item key="Title" value="Model overzicht" />                            <translated key="Done" value="Yes"/>
+      </group>
+    </form>
+
+    <form id="DiagramThumbnailsPanel">
+      <group id="Control">
+        <item key="Open" value="&amp;Open" />                                   <translated key="Done" value="Yes"/>
+        <item key="Close" value="&amp;Sluiten" />                               <translated key="Done" value="Yes"/>
+        <item key="DeleteDiagram" value="&amp;Verwijder diagram" />             <translated key="Done" value="Yes"/>
+      </group>
+    </form>
+
+    <form id="ClassifierForm">
+      <group id="Form">
+        <item key="Title" value="Classifiers" />                                <translated key="Done" value="Yes"/>
+        <item key="Classifiers" value="Classifiers:" />                         <translated key="Done" value="Yes"/>
+      </group>
+    </form>
+
+    <form id="CommunicationMessageForm">
+      <group id="Form">
+        <item key="Title" value="Bericht" />                                    <translated key="Done" value="Yes"/>
+        <item key="SequenceNumber" value="Sequence nummer:" />                  <translated key="Done" value="Yes"/>
+        <item key="Message" value="Bericht:" />                                 <translated key="Done" value="Yes"/>
+        <item key="Direction" value="Richting:" />                              <translated key="Done" value="Yes"/>
+        <item key="NormalDirection" value="Normaal" />                          <translated key="Done" value="Yes"/>
+        <item key="ReverseDirection" value="Omkeren" />                       <translated key="Done" value="Yes"/>
+      </group>
+    </form>
+
+    <form id="ItemPropertiesForm">
+      <group id="Form">
+        <item key="Title" value="Eigenschappen" />                              <translated key="Done" value="Yes"/>
+
+        <item key="General" value="Algemeen" />                                 <translated key="Done" value="Yes"/>
+        <item key="Class" value="Class" />                                      <translated key="Done" value="Yes"/>
+        <item key="Relationship" value="Relatie" />                             <translated key="Done" value="Yes"/>
+        <item key="Style" value="Stijl" />                                      <translated key="Done" value="Yes"/>
+        <item key="Documentation" value="Documentatie" />                       <translated key="Done" value="Yes"/>
+        <item key="TaggedValues" value="Tagged waarde" />                       <translated key="Done" value="Yes"/>
+        <item key="ErdEntity" value="Entiteit" />                               <translated key="Done" value="Yes"/>
+        <item key="ErdRelation" value="Relatie" />                              <translated key="Done" value="Yes"/>
+        <item key="UmlState" value="State" />                                   <translated key="Done" value="Yes"/>
+        <item key="UmlFragment" value="Fragment" />                             <translated key="Done" value="Yes"/>
+        <item key="UmlFrame" value="Frame" />
+        <item key="UmlInteraction" value="Interaction" />
+        <item key="UmlObject" value="Object" />                                 <translated key="Done" value="Yes"/>
+        <item key="UmlLifeline" value="Lifeline" />                             <translated key="Done" value="Yes"/>
+        <item key="UmlInteractionOperand" value="Interaction Operand" />        <translated key="Done" value="Yes"/>
+        <item key="UmlCommunicationLifeline" value="Lifeline" />                <translated key="Done" value="Yes"/>
+        <item key="UmlCommunicationMessage" value="Bericht" />                  <translated key="Done" value="Yes"/>
+        <item key="UmlTransition" value="Transition" />                         <translated key="Done" value="Yes"/>
+        <item key="UmlExtend" value="Extend" />                                 <translated key="Done" value="Yes"/>
+        <item key="UmlSwimlane" value="Swimlane" />                             <translated key="Done" value="Yes"/>
+        <item key="SequenceMessage" value="Bericht" />                          <translated key="Done" value="Yes"/>
+        <item key="TemplateParameters" value="Template Parameters" />           <translated key="Done" value="Yes"/>
+        <item key="TimingTickMarkValues" value="Tick Mark Values" />            <translated key="Done" value="no"/>
+        <item key="TimingStates" value="States" />                              <translated key="Done" value="no"/>
+        <item key="TimingEvents" value="Events" />                              <translated key="Done" value="no"/>
+        <item key="CrcCardHeader" value="Header" />                             <translated key="Done" value="no"/>
+        <item key="CrcCard" value="Verantwoordelijkheden" />                    <translated key="Done" value="Yes"/>
+
+        <item key="OK" value="&amp;OK" />                                       <translated key="Done" value="Yes"/>
+        <item key="Cancel" value="&amp;Annuleren" />                            <translated key="Done" value="Yes"/>
+
+        <item key="Name" value="Naam:" />                                       <translated key="Done" value="Yes"/>
+        <item key="ID" value="ID:" />                                           <translated key="Done" value="Yes"/>
+        <item key="Stereotypes" value="&amp;Stereotypes" />                     <translated key="Done" value="Yes"/>
+        <item key="AppliedStereotypes" value="Toep&amp;assen Stereotypes:" />   <translated key="Done" value="Yes"/>
+        <item key="AvailableStereotypes" value="&amp;Beschikbare Stereotypes:"/><translated key="Done" value="Yes"/>
+        <item key="Add" value="&lt;&amp;Toevoegen" />                           <translated key="Done" value="Yes"/>
+        <item key="AddCustom" value="&lt;Afwijkend" />                          <translated key="Done" value="Yes"/>
+        <item key="Remove" value="&amp;Verwijder&gt;" />                        <translated key="Done" value="Yes"/>
+        <item key="Modifiers" value="Modifiers" />                              <translated key="Done" value="Yes"/>
+        <item key="AbstractModifier" value="&amp;Abstract" />                   <translated key="Done" value="Yes"/>
+        <item key="StaticModifier" value="&amp;Static" />                       <translated key="Done" value="Yes"/>
+      </group>
+    </form>
+
+    <form id="Style">
+      <group id="Control">
+        <item key="DefaultStyle" value="Standaard stijl" />                     <translated key="Done" value="Yes"/>
+        <item key="StyleByClass" value="Stijl per class:" />                    <translated key="Done" value="Yes"/>
+        <item key="CustomStyle" value="Afwijkende stijl" />                     <translated key="Done" value="Yes"/>
+        <item key="BorderColor" value="Rand kleur:" />                        <translated key="Done" value="Yes"/>
+        <item key="BackgroundType" value="Achtergrond type:" />                 <translated key="Done" value="Yes"/>
+        <item key="BackgroundColor" value="Achtergrond kleur:" />               <translated key="Done" value="Yes"/>
+        <item key="BackgroundColor2" value="Achtergrond kleur 2:"/>             <translated key="Done" value="Yes"/>
+        <item key="TextColor" value="Tekst kleur:" />                           <translated key="Done" value="Yes"/>
+        <item key="TextFont" value="Tekst lettertype:" />                       <translated key="Done" value="Yes"/>
+        <item key="BorderWidth" value="Rand dikte:" />                        <translated key="Done" value="Yes"/>
+        <item key="Gloss" value="Glanzend" />                                   <translated key="Done" value="Yes"/>
+        <item key="Gloss3D" value="3D glanzend effect" />                       <translated key="Done" value="Yes"/>
+        <item key="Shadow" value="Schaduw:" />                                  <translated key="Done" value="Yes"/>
+        <item key="ShadowOffsetX" value="Offset X:" />                          <translated key="Done" value="Yes"/>
+        <item key="ShadowOffsetY" value="Offset Y:" />                          <translated key="Done" value="Yes"/>
+        <item key="ShadowRadius" value="Radius:" />                             <translated key="Done" value="Yes"/>
+        <item key="ShadowColor" value="Kleur:" />                               <translated key="Done" value="Yes"/>
+        <item key="NameFont" value="Naam lettertype:" />                        <translated key="Done" value="Yes"/>
+        <item key="NameColor" value="Naam kleur:" />                            <translated key="Done" value="Yes"/>
+        <item key="StereotypeColor" value="Stereotype kleur:" />                <translated key="Done" value="Yes"/>
+        <item key="StereotypeFont" value="Stereotype lettertype:" />            <translated key="Done" value="Yes"/>
+
+        <item key="Name" value="Naam" />                                        <translated key="Done" value="Yes"/>
+        <item key="Stereotype" value="Stereotype" />                            <translated key="Done" value="Yes"/>
+        <item key="Text" value="Tekst" />                                       <translated key="Done" value="Yes"/>
+        <item key="Effects" value="Effecten" />                                 <translated key="Done" value="Yes"/>
+
+        <item key="Font" value="Lettertype:" />                                 <translated key="Done" value="Yes"/>
+        <item key="Color" value="Kleur:" />                                     <translated key="Done" value="Yes"/>
+        <item key="Alignment" value="Uitlijning:" />                            <translated key="Done" value="Yes"/>
+      </group>
+    </form>
+
+    <form id="Documentation">
+      <group id="Control">
+        <item key="FontSize" value="Lettertype grootte:" />                      <translated key="Done" value="Yes"/>
+        <item key="Bold" tooltip="Vet" />                                       <translated key="Done" value="Yes"/>
+        <item key="Italic" tooltip="Cursief" />                                 <translated key="Done" value="Yes"/>
+        <item key="Underline" tooltip="Onderstreept" />                         <translated key="Done" value="Yes"/>
+        <item key="Strikethrough" tooltip="Doorstrepen" />                      <translated key="Done" value="Yes"/>
+      </group>
+    </form>
+
+    <form id="ErdRelationDefinition">
+      <group id="Control">
+        <item key="RelationType" value="Relatie type:" />                       <translated key="Done" value="Yes"/>
+        <item key="StartMultiplicity" value="Start verhouding:" />              <translated key="Done" value="Yes"/>
+        <item key="StartRole" value="Start role:" />                            <translated key="Done" value="No"/>
+        <item key="EndMultiplicity" value="End verhouding:" />                  <translated key="Done" value="Yes"/>
+        <item key="EndRole" value="End role:" />                                <translated key="Done" value="no"/>
+
+      </group>
+    </form>
+
+    <form id="ErdEntityDefinition">
+      <group id="Control">
+        <item key="Add" value="Toevoegen" />                                    <translated key="Done" value="Yes"/>
+        <item key="Edit" value="Bewerken" />                                    <translated key="Done" value="Yes"/>
+        <item key="Remove" value="Verwijderen" />                               <translated key="Done" value="Yes"/>
+        <item key="Attributes" value="Attributen" />                            <translated key="Done" value="Yes"/>
+        <item key="NameColumn" value="Naam" />                                  <translated key="Done" value="Yes"/>
+        <item key="TypeColumn" value="Type" />                                  <translated key="Done" value="Yes"/>
+        <item key="TypeSizeColumn" value="Type afmeting" />                     <translated key="Done" value="Yes"/>
+        <item key="NullableColumn" value="Nullable" />                          <translated key="Done" value="Yes"/>
+        <item key="DescriptionColumn" value="Omschrijving" />                   <translated key="Done" value="Yes"/>
+      </group>
+    </form>
+
+    <form id="MessageDefinition">
+      <group id="Control">
+        <item key="Message" value="Bericht:" />                                 <translated key="Done" value="Yes"/>
+        <item key="Type" value="Type:" />                                       <translated key="Done" value="Yes"/>
+        <item key="Asynchronous" value="Asynchroon" />                        <translated key="Done" value="Yes"/>
+
+        <item key="Call" value="Call" />                                        <translated key="Done" value="Yes"/>
+        <item key="Create" value="Create" />                                    <translated key="Done" value="Yes"/>
+        <item key="Destroy" value="Destroy" />                                  <translated key="Done" value="Yes"/>
+        <item key="Return" value="Return" />                                    <translated key="Done" value="Yes"/>
+        <item key="Send" value="Send" />                                        <translated key="Done" value="Yes"/>
+        <item key="Terminate" value="Terminate" />                              <translated key="Done" value="Yes"/>
+      </group>
+    </form>
+
+    <form id="CommentDefinition">
+      <group id="Control">
+        <item key="Comment" value="Commentaar:" />                              <translated key="Done" value="Yes"/>
+      </group>
+    </form>
+
+    <form id="LifelineDefinition">
+      <group id="Control">
+        <item key="Classifier" value="Classifier:" />                           <translated key="Done" value="no"/>
+        <item key="Active" value="Active" />                                    <translated key="Done" value="no"/>
+        <item key="MultiObject" value="Multi-object" />                         <translated key="Done" value="no"/>
+      </group>
+    </form>
+
+    <form id="CommunicationLifelineDefinition">
+      <group id="Control">
+        <item key="Classifier" value="Classifier:" />                           <translated key="Done" value="no"/>
+      </group>
+    </form>
+
+    <form id="CommunicationMessageDefinition">
+      <group id="Control">
+        <item key="Add" value="&amp;Toevoegen" />                               <translated key="Done" value="Fussy"/>
+        <item key="Edit" value="&amp;Bewerken" />                               <translated key="Done" value="Fussy"/>
+        <item key="Remove" value="&amp;Verwijderen" />                          <translated key="Done" value="Fussy"/>
+      </group>
+    </form>
+
+    <form id="FragmentDefinition">
+      <group id="Control">
+        <item key="InteractionOperator" value="Interaction Operator:" />        <translated key="Done" value="no"/>
+        <item key="Add" value="&amp;Toevoegen" />                               <translated key="Done" value="Fussy"/>
+        <item key="Edit" value="&amp;Bewerken" />                               <translated key="Done" value="Fussy"/>
+        <item key="Remove" value="&amp;Verwijderen" />                          <translated key="Done" value="Fussy"/>
+      </group>
+    </form>
+
+    <form id="FrameDefinition">
+      <group id="Control">
+        <item key="Type" value="Type:" />                                       <translated key="Done" value="Yes"/>
+      </group>
+    </form>
+
+    <form id="InteractionDefinition">
+      <group id="Control">
+        <item key="Type" value="Type:" />                                       <translated key="Done" value="Yes"/>
+      </group>
+    </form>
+
+    <form id="InteractionOperandDefinition">
+      <group id="Control">
+        <item key="GuardCondition" value="Guard Condition:" />                  <translated key="Done" value="no"/>
+      </group>
+    </form>
+
+    <form id="ObjectDefinition">
+      <group id="Control">
+        <item key="Classifier" value="Classifier:" />                           <translated key="Done" value="no"/>
+        <item key="Values" value="Waarden" />                                   <translated key="Done" value="Yes"/>
+        <item key="Value" value="Waarde" />                                     <translated key="Done" value="Yes"/>
+        <item key="Name" value="Naam" />                                        <translated key="Done" value="Yes"/>
+      </group>
+    </form>
+
+    <form id="AddObjectAttributeForm">
+      <group id="Form">
+        <item key="Title" value="Attributen toevoegen" />                       <translated key="Done" value="Yes"/>
+        <item key="Attributes" value="Attributen" />                            <translated key="Done" value="Yes"/>
+      </group>
+    </form>
+
+    <form id="CrcCardHeaderDefinition">
+      <group id="Control">
+        <item key="Description" value="Omschrijving:" />                        <translated key="Done" value="Yes"/>
+        <item key="Superclass" value="Superclass:" />                           <translated key="Done" value="Yes"/>
+        <item key="Subclasses" value="Subclasses:" />                           <translated key="Done" value="Yes"/>
+        <item key="Subclass" value="Subclass" />                                <translated key="Done" value="Yes"/>
+      </group>
+    </form>
+
+    <form id="CrcCardDefinition">
+      <group id="Control">
+        <item key="Responsibilities" value="Responsibilities" />                <translated key="Done" value="Yes"/>
+        <item key="Responsibility" value="Responsibility" />                    <translated key="Done" value="Yes"/>
+        <item key="Collaborators" value="Collaborators" />                      <translated key="Done" value="Yes"/>
+        <item key="Collaborator" value="Collaborator" />                        <translated key="Done" value="Yes"/>
+      </group>
+    </form>
+
+    <form id="StateDefinition">
+      <group id="Control">
+        <item key="StateGroup" value="State" />                                 <translated key="Done" value="no"/>
+        <item key="StateInvariant" value="State invariant:" />                  <translated key="Done" value="no"/>
+        <item key="StandardActions" value="Standaard Actions" />                <translated key="Done" value="Yes"/>
+        <item key="Entry" value="Entry:" />                                     <translated key="Done" value="no"/>
+        <item key="Do" value="Do:" />                                           <translated key="Done" value="no"/>
+        <item key="Exit" value="Exit:" />                                       <translated key="Done" value="no"/>
+        <item key="CustomActions" value="Afwijkende Acties" />                  <translated key="Done" value="Yes"/>
+        <item key="ActionName" value="Actie naam" />                            <translated key="Done" value="Yes"/>
+        <item key="Behavior" value="Gedrag" />                                  <translated key="Done" value="Yes"/>
+        <item key="Add" value="&amp;Toevoegen" />                               <translated key="Done" value="Fussy"/>
+        <item key="Remove" value="&amp;Verwijderen" />                          <translated key="Done" value="Fussy"/>
+      </group>
+    </form>
+
+    <form id="TransitionDefinition">
+      <group id="Control">
+        <item key="PreCondition" value="Pre-conditie:" />                       <translated key="Done" value="Yes"/>
+        <item key="Operation" value="Methode:" />                               <translated key="Done" value="Yes"/>
+        <item key="PostCondition" value="Post-conditie:" />                     <translated key="Done" value="Yes"/>
+      </group>
+    </form>
+
+    <form id="TemplateParamsDefinitionForm">
+      <group id="Control">
+        <item key="NameColumn" value="Naam" />                                  <translated key="Done" value="Yes"/>
+        <item key="KindColumn" value="Kind" />                                 <translated key="Done" value="Yes"/>
+        <item key="DefaultValueColumn" value="Standaard waarde" />             <translated key="Done" value="Yes"/>
+      </group>
+    </form>
+
+    <form id="ErdAttributeForm">
+      <group id="Form">
+        <item key="Title" value="Attribuut" />                                  <translated key="Done" value="Yes"/>
+
+        <item key="Name" value="Naam:" />                                       <translated key="Done" value="Yes"/>
+        <item key="Type" value="Type:" />                                       <translated key="Done" value="Yes"/>
+        <item key="TypeSize" value="Type grootte:" />                             <translated key="Done" value="Yes"/>
+
+        <item key="PrimaryKey" value="Primary key" />                           <translated key="Done" value="Yes"/>
+        <item key="ForeignKey" value="Foreign key" />                            <translated key="Done" value="Yes"/>
+        <item key="Nullable" value="Nullable" />                                <translated key="Done" value="Yes"/>
+
+        <item key="Description" value="Omschrijving:" />                        <translated key="Done" value="Yes"/>
+
+        <item key="OK" value="&amp;OK" />                                       <translated key="Done" value="Yes"/>
+        <item key="Cancel" value="&amp;Annuleren" />                            <translated key="Done" value="Yes"/>
+      </group>
+    </form>
+
+    <form id="StereotypeForm">
+      <group id="Form">
+        <item key="Title" value="Stereotype" />                                 <translated key="Done" value="Yes"/>
+
+        <item key="OK" value="&amp;OK" />                                       <translated key="Done" value="Yes"/>
+        <item key="Cancel" value="&amp;Annuleren" />                            <translated key="Done" value="Yes"/>
+
+        <item key="Name" value="Naam:" />                                       <translated key="Done" value="Yes"/>
+      </group>
+    </form>
+
+    <form id="ClassDefinitionForm">
+      <group id="Form">
+        <item key="Title" value="Class Definitie" />                            <translated key="Done" value="Yes"/>
+        <item key="Name" value="&amp;Naam:" />                                  <translated key="Done" value="Fussy"/>
+        <item key="Attributes" value="&amp;Attributen:" />                      <translated key="Done" value="Fussy"/>
+        <item key="Operations" value="&amp;Methodes:" />                        <translated key="Done" value="Fussy"/>
+        <item key="OK" value="&amp;OK" />                                       <translated key="Done" value="Fussy"/>
+        <item key="Cancel" value="&amp;Annuleren" />                            <translated key="Done" value="Fussy"/>
+
+        <item key="NameColumn" value="Naam" />                                  <translated key="Done" value="Yes"/>
+        <item key="TypeColumn" value="Type" />                                  <translated key="Done" value="Yes"/>
+        <item key="VisibilityColumn" value="Zichtbaarheid" />                   <translated key="Done" value="Yes"/>
+        <item key="DefaultValueColumn" value="Standaard waarde" />              <translated key="Done" value="Yes"/>
+        <item key="ParametersColumn" value="Parameters" />                      <translated key="Done" value="Yes"/>
+      </group>
+    </form>
+
+    <form id="RelationDefinitionControl">
+      <group id="Control">
+        <item key="RelationType" value="Relatie type:" />                       <translated key="Done" value="no"/>
+        <item key="StartMultiplicity" value="Start multipliciteit:" />            <translated key="Done" value="no"/>
+        <item key="StartRole" value="Start role:" />                            <translated key="Done" value="no"/>
+        <item key="EndMultiplicity" value="End multipliciteit:" />                <translated key="Done" value="no"/>
+        <item key="EndRole" value="End role:" />                                <translated key="Done" value="no"/>
+
+      </group>
+    </form>
+
+    <form id="ExtendDefinitionControl">
+      <group id="Control">
+        <item key="ExtensionPoint" value="Extensie punt:" />                    <translated key="Done" value="Yes"/>
+      </group>
+    </form>
+
+    <form id="SwimlaneDefinitionControl">
+      <group id="Control">
+        <item key="Orientation" value="Oriëntering" />                          <translated key="Done" value="Yes"/>
+        <item key="VerticalOrientation" value="Verticaal" />                    <translated key="Done" value="Yes"/>
+        <item key="HorizontalOrientation" value="Horizontaal" />                <translated key="Done" value="Yes"/>
+      </group>
+    </form>
+
+    <form id="DiagramControl">
+      <group id="Menu">
+        <item key="AssignNewDiagram" value="&amp;Nieuw diagram toevoegen" />    <translated key="Done" value="Fussy"/>
+        <item key="AssignExistingDiagram" value="&amp;Bestaand diagram toevoegen"/><translated key="Done" value="Fussy"/>
+
+        <item key="Documentation" value="&amp;Documentatie" />                  <translated key="Done" value="Fussy"/>
+        <item key="Properties" value="Eigenschap&amp;pen" />                    <translated key="Done" value="Yes"/>
+
+        <item key="AddPoint" value="Punt &amp;toevoegen" />                     <translated key="Done" value="Fussy"/>
+        <item key="LockStartPoint" value="Vergrendel &amp;startpunt" />         <translated key="Done" value="Fussy"/>
+        <item key="LockEndPoint" value="Vergrendel &amp;eindpunt" />            <translated key="Done" value="Fussy"/>
+        <item key="LineStyle" value="Lijn st&amp;ijl" />                        <translated key="Done" value="Fussy"/>
+        <item key="ObliqueLineStyle" value="&amp;indirect" />                   <translated key="Done" value="Fussy"/>
+        <item key="StraightLineStyle" value="&amp;Recht" />                     <translated key="Done" value="Fussy"/>
+        <item key="RectangularLineStyle" value="&amp;Hoekig" />                 <translated key="Done" value="Fussy"/>
+        <item key="CurveLineStyle" value="&amp;Gebogen" />                      <translated key="Done" value="Fussy"/>
+
+        <item key="ExportDiagram" value="Diagram e&amp;xporteren" />            <translated key="Done" value="Fussy"/>
+        <item key="ShowGrid" value="&amp;Toon grid" />                          <translated key="Done" value="Fussy"/>
+        <item key="SnapToGrid" value="Snap op &amp;grid" />                     <translated key="Done" value="Fussy"/>
+
+        <item key="DeleteFromDiagram" value="Verwijder van &amp;diagram" />     <translated key="Done" value="Fussy"/>
+        <item key="DeleteFromProject" value="Verwijder van pro&amp;ject" />     <translated key="Done" value="Fussy"/>
+        <item key="RelationDeleteFromDiagram" value="Verwijder van &amp;diagram"/><translated key="Done" value="Fussy"/>
+        <item key="RelationDeleteFromProject" value="Verwijder van pro&amp;ject"/><translated key="Done" value="Fussy"/>
+        <item key="RelationProperties" value="&amp;Eigenschappen" />            <translated key="Done" value="Fussy"/>
+        <item key="Reverse" value="&amp;Omkeren" />                           <translated key="Done" value="Fussy"/>
+
+        <item key="RemoveField" value="&amp;Verwijder '{@1}'" />                <translated key="Done" value="Fussy"/>
+        <item key="ChangeType" value="Verander &amp;type" />                    <translated key="Done" value="Fussy"/>
+        <item key="Visibility" value="&amp;Zichtbaarhied" />                    <translated key="Done" value="Fussy"/>
+        <item key="Public" value="&amp;Public" />                               <translated key="Done" value="Fussy"/>
+        <item key="Package" value="P&amp;ackage" />                             <translated key="Done" value="Fussy"/>
+        <item key="Protected" value="P&amp;rotected" />                         <translated key="Done" value="Fussy"/>
+        <item key="Private" value="Pr&amp;ivate" />                             <translated key="Done" value="Fussy"/>
+        <item key="Rename" value="Her&amp;noem" />                               <translated key="Done" value="Fussy"/>
+        <item key="MoveUp" value="Verplaats om&amp;hoog" />                              <translated key="Done" value="Fussy"/>
+        <item key="MoveDown" value="Verplaats om&amp;laag" />                          <translated key="Done" value="Fussy"/>
+        <item key="Group" value="&amp;Groepeer" />                              <translated key="Done" value="Fussy"/>
+        <item key="Ungroup" value="&amp;Degroepeer" />                          <translated key="Done" value="Fussy"/>
+      </group>
+    </form>
+
+    <form id="StyleSetEditorForm">
+      <group id="Form">
+        <item key="Title" value="Style set editor" />                           <translated key="Done" value="Yes"/>
+
+        <item key="StyleSetName" value="Style set naam:" />                     <translated key="Done" value="Yes"/>
+
+        <item key="DefaultStyle" value="Standaard stijl" />                     <translated key="Done" value="Yes"/>
+
+        <item key="New" value="Nieuw" />                                        <translated key="Done" value="Yes"/>
+        <item key="Open" value="Openen" />                                        <translated key="Done" value="Yes"/>
+        <item key="Save" value="Opslaan" />                                     <translated key="Done" value="Yes"/>
+      </group>
+    </form>
+
+    <form id="NewStyleForm">
+      <group id="Form">
+        <item key="Title" value="Nieuwe Stijl" />                               <translated key="Done" value="Yes"/>
+
+        <item key="General" value="Algemeen" />                                 <translated key="Done" value="Yes"/>
+        <item key="ForSpecificElement" value="Voor specifiek element" />       <translated key="Done" value="Yes"/>
+
+        <item key="StyleClassName" value="Sijl class naam:" />                  <translated key="Done" value="Yes"/>
+        <item key="ElementType" value="Element type:" />                        <translated key="Done" value="Yes"/>
+        <item key="Stereotype" value="Stereotype:" />                           <translated key="Done" value="Yes"/>
+      </group>
+    </form>
+
+    <form id="IDsRenumberingForm">
+      <group id="Form">
+        <item key="Title" value="ID's hernummeren" />                           <translated key="Done" value="Yes"/>
+
+        <item key="Options" value="Opties" />                                   <translated key="Done" value="Yes"/>
+        <item key="OriginalNumbering" value="Oorspronkelijke nummering" />      <translated key="Done" value="Yes"/>
+        <item key="NewNumbering" value="Nieuwe nummering" />                    <translated key="Done" value="Yes"/>
+
+        <item key="StartNumberingFrom" value="Begin nummering vanaf:" />        <translated key="Done" value="Yes"/>
+        <item key="OrderByAlphabet" value="Sorteer op alfabet" />              <translated key="Done" value="Yes"/>
+        <item key="SameWithoutGaps" value="Verwijder gaten" />                  <translated key="Done" value="Yes"/>
+        <item key="Clear" value="Leeg maken" />                                 <translated key="Done" value="Yes"/>
+      </group>
+    </form>
+
+    <form id="OptionsForm">
+      <group id="Form">
+        <item key="Title" value="Opties" />                                     <translated key="Done" value="Yes"/>
+
+        <item key="GeneralTab" value="Algemeen" />                              <translated key="Done" value="Yes"/>
+        <item key="DiagramEditorTab" value="Diagram Editor" />                  <translated key="Done" value="Yes"/>
+        <item key="Language" value="Taal" />                                    <translated key="Done" value="Yes"/>
+        <item key="ShowStartPage" value="Toon start pagina" />                  <translated key="Done" value="Yes"/>
+        <item key="RecentFiles" value="Recente projecten" />                     <translated key="Done" value="Yes"/>
+        <item key="ClearRecentProjects" value="&amp;Lijst met recente projecten leeg maken" /><translated key="Done" value="Fussy"/>
+        <item key="ItemsInMenu" value="items in menu" />                        <translated key="Done" value="Yes"/>
+        <item key="ItemsInStartPage" value="items op start pagina" />             <translated key="Done" value="Yes"/>
+        <item key="Toolbars" value="Toolbars" />                                <translated key="Done" value="Yes"/>
+        <item key="StandardBar" value="Standaard" />                             <translated key="Done" value="Yes"/>
+        <item key="SideBar" value="Zijbalk" />                             <translated key="Done" value="Yes"/>
+        <item key="LayoutBar" value="Layout" />                                 <translated key="Done" value="Yes"/>
+        <item key="StatusBar" value="Status balk" />                            <translated key="Done" value="Yes"/>
+        <item key="Toolbox" value="Toolbox" />                                  <translated key="Done" value="Yes"/>
+		<item key="ShortcutKeys" value="Sneltoetsen" />
+        <item key="DontUseCtrlAltShortcutKeys" value="Geen sneltoetsen met CTRL-ALT gebruiken" />
+
+        <item key="DiagramEditorGeneral" value="Algemeen" />                    <translated key="Done" value="Yes"/>
+        <item key="Design" value="Design" />                                    <translated key="Done" value="Yes"/>
+        <item key="DiagramEditorBackgroundColor" value="Achtergrond Kleur:" />  <translated key="Done" value="Yes"/>
+        <item key="DiagramEditorBackgroundColor2" value="Achtergrond Kleur 2:"/><translated key="Done" value="Yes"/>
+        <item key="AutoScrolling" value="Auto scrolling" />                     <translated key="Done" value="Yes"/>
+        <item key="Grid" value="Grid" />                                        <translated key="Done" value="Yes"/>
+        <item key="SnapToGrid" value="Snap op grid" />                          <translated key="Done" value="Yes"/>
+        <item key="ShowGrid" value="Toon grid" />                               <translated key="Done" value="Yes"/>
+        <item key="GridVerticalSpacing" value="Verticale ruimte:" />            <translated key="Done" value="Yes"/>
+        <item key="GridHorizontalSpacing" value="Horizontale ruimte:" />        <translated key="Done" value="Yes"/>
+        <item key="RelationsAlwaysOnTop" value="Toon relaties altijd boven op weergeven" /><translated key="Done" value="Yes"/>
+
+        <item key="ProjectTree" value="Project boom" />                         <translated key="Done" value="Yes"/>
+        <item key="ProjectTreeInitialState" value="Initiëele status" />            <translated key="Done" value="Yes"/>
+        <item key="FullyExpanded" value="Alles uitklappen" />                   <translated key="Done" value="Yes"/>
+        <item key="ExpandedProject" value="Project uitklappen" />               <translated key="Done" value="Yes"/>
+        <item key="ExpandedModels" value="Models uitklappen" />                 <translated key="Done" value="Yes"/>
+        <item key="Collapsed" value="Alles ingeklapt" />                      <translated key="Done" value="Yes"/>
+
+        <item key="DefaultSettingsForElements" value="Standaard waarde voor elementen" /><translated key="Done" value="Yes"/>
+        <item key="DefaultAttributeVisibility" value="Zichtbaarheid attributen: " />     <translated key="Done" value="Yes"/>
+        <item key="DefaultOperationVisibility" value="Zichtbaarheid methodes: " />       <translated key="Done" value="Yes"/>
+        <item key="DefaultShowNullability" value="Toon NULL waarden" />                 <translated key="Done" value="Yes"/>
+		
+		<item key="UpdateTab" value="Update" />
+        <item key="UpdateGroup" value="Update" />
+        <item key="TurnOffUpdate" value="Zet af" />
+        <item key="NotifyNewVersion" value="Nieuwe versie melden" />
+        <item key="DownloadSetup" value="Automatisch nieuwe volledige setup downloaden en installeren (Enkel Windows)" />
+        <item key="FastAutoUpdate" value="Snelle auto update - enkel aanpassingen downloaden en toepassen" />
+      </group>
+    </form>
+
+    <form id="StyleEditorForm">
+      <group id="Form">
+        <item key="Title" value="Style Editor" />                               <translated key="Done" value="Yes"/>
+        <item key="NewStyle" value="Nieuwe stijl" />                            <translated key="Done" value="Yes"/>
+
+        <item key="Name" value="Naam:" />                                       <translated key="Done" value="Yes"/>
+      </group>
+    </form>
+
+    <form id="ProjectPropertiesForm">
+      <group id="Form">
+        <item key="Title" value="Project eigenschappen" />                      <translated key="Done" value="Yes"/>
+
+        <item key="Name" value="Naam:" />                                       <translated key="Done" value="Yes"/>
+        <item key="Authors" value="Auteurs:" />                                 <translated key="Done" value="Yes"/>
+        <item key="Description" value="Omschrijving:" />                        <translated key="Done" value="Yes"/>
+
+        <item key="AddNewDiagram" value="Nieuw diagram toevoegen..." />        <translated key="Done" value="Yes"/>
+        <item key="Properties" value="Eigenschappen" />                         <translated key="Done" value="Yes"/>
+      </group>
+    </form>
+
+    <form id="DiagramPropertiesForm">
+      <group id="Form">
+        <item key="Title" value="Diagram eigenschappen" />                      <translated key="Done" value="Yes"/>
+
+        <item key="Name" value="Naam:" />                                       <translated key="Done" value="Yes"/>
+        <item key="Authors" value="Auteurs:" />                                 <translated key="Done" value="Yes"/>
+        <item key="Version" value="Versie:" />                                  <translated key="Done" value="Yes"/>
+        <item key="Created" value="Aangemaakt:" />                              <translated key="Done" value="Yes"/>
+        <item key="LastChange" value="Laatste aanpassing:" />                   <translated key="Done" value="Yes"/>
+        <item key="Description" value="Omschrijving:" />                        <translated key="Done" value="Yes"/>
+
+        <item key="CustomNamespace" value="Afwijkende namespace:" />            <translated key="Done" value="Yes"/>
+
+        <item key="General" value="Algemeen" />                                 <translated key="Done" value="Yes"/>
+        <item key="Documentation" value="Documentatie" />                       <translated key="Done" value="Yes"/>
+      </group>
+    </form>
+
+    <form id="TaggedValueEditorForm">
+      <group id="Form">
+        <item key="Title" value="Tagged Waarde" />                               <translated key="Done" value="no"/>
+
+        <item key="TagName" value="Tag naam:" />                                <translated key="Done" value="Yes"/>
+        <item key="TaggedValue" value="Waarde:" />                              <translated key="Done" value="Yes"/>
+      </group>
+    </form>
+
+    <form id="CustomMoveForm">
+      <group id="Form">
+        <item key="Title" value="Afwijkend verplaatsen" />                      <translated key="Done" value="Yes"/>
+
+        <item key="Right" value="Rechts:" />                                    <translated key="Done" value="Yes"/>
+        <item key="Down" value="Omlaag:" />                                     <translated key="Done" value="Yes"/>
+        <item key="Left" value="Links:" />                                      <translated key="Done" value="Yes"/>
+        <item key="Up" value="Omhoog:" />                                       <translated key="Done" value="Yes"/>
+      </group>
+    </form>
+
+    <form id="CustomSizeForm">
+      <group id="Form">
+        <item key="Title" value="Afwijkende afmeting" />                       <translated key="Done" value="Yes"/>
+
+        <item key="General" value="Algemeen" />                                 <translated key="Done" value="Yes"/>
+        <item key="Sides" value="Kanten" />                                     <translated key="Done" value="no"/>
+        <item key="WidthHeight" value="Breedte/hoogte" />                       <translated key="Done" value="no"/>
+
+        <item key="Inflate" value="Vergroten:" />                               <translated key="Done" value="Yes"/>
+        <item key="Deflate" value="Verkleinen:" />                              <translated key="Done" value="Yes"/>
+        <item key="Left" value="Links:" />                                      <translated key="Done" value="Yes"/>
+        <item key="Right" value="Rechts:" />                                    <translated key="Done" value="Yes"/>
+        <item key="Top" value="Boven:" />                                         <translated key="Done" value="Yes"/>
+        <item key="Bottom" value="Onder:" />                                   <translated key="Done" value="Yes"/>
+        <item key="Width" value="Breedte:" />                                   <translated key="Done" value="Yes"/>
+        <item key="Height" value="Hoogte:" />                                   <translated key="Done" value="Yes"/>
+      </group>
+    </form>
+
+    <form id="TaggedValueControl">
+      <group id="Control">
+        <item key="Name" value="Naam" />                                        <translated key="Done" value="Yes"/>
+        <item key="Value" value="Waarde" />                                     <translated key="Done" value="Yes"/>
+      </group>
+    </form>
+
+    <form id="UmlOperationEditorForm">
+      <group id="Form">
+        <item key="Title" value="Methode editor" />                           <translated key="Done" value="Yes"/>
+
+        <item key="General" value="Algemeen" />                                 <translated key="Done" value="Yes"/>
+        <item key="Parameters" value="Parameters" />                            <translated key="Done" value="Yes"/>
+
+        <item key="Name" value="Naam:" />                                       <translated key="Done" value="Yes"/>
+        <item key="Type" value="Return type:" />                                <translated key="Done" value="Yes"/>
+        <item key="Visibility" value="Zichtbaarheid:" />                        <translated key="Done" value="Yes"/>
+
+        <item key="Modifiers" value="Modifiers" />                              <translated key="Done" value="Yes"/>
+        <item key="Abstract" value="Abstract" />                                <translated key="Done" value="Yes"/>
+        <item key="Virtual" value="Virtual" />                                  <translated key="Done" value="Yes"/>
+        <item key="Static" value="Static" />                                    <translated key="Done" value="Yes"/>
+
+        <item key="NameColumn" value="Naam" />                                  <translated key="Done" value="Yes"/>
+        <item key="TypeColumn" value="Type" />                                  <translated key="Done" value="Yes"/>
+      </group>
+    </form>
+
+    <form id="UmlAttributeEditorForm">
+      <group id="Form">
+        <item key="Title" value="Attribuut editor" />                           <translated key="Done" value="Yes"/>
+
+        <item key="General" value="Algemeen" />                                 <translated key="Done" value="Yes"/>
+
+        <item key="Name" value="Naam:" />                                       <translated key="Done" value="Yes"/>
+        <item key="Type" value="Type:" />                                       <translated key="Done" value="Yes"/>
+        <item key="Visibility" value="Zichtbaarheid:" />                        <translated key="Done" value="Yes"/>
+        <item key="DefaultValue" value="Standaard waarde:" />                   <translated key="Done" value="Yes"/>
+
+        <item key="Modifiers" value="Modifiers" />                              <translated key="Done" value="Yes"/>
+        <item key="Abstract" value="Abstract" />                                <translated key="Done" value="Yes"/>
+        <item key="Virtual" value="Virtual" />                                  <translated key="Done" value="Yes"/>
+        <item key="Static" value="Static" />                                    <translated key="Done" value="Yes"/>
+      </group>
+    </form>
+
+    <form id="FindForm">
+      <group id="Form">
+        <item key="Title" value="Zoeken" />                                     <translated key="Done" value="Yes"/>
+
+        <item key="Find" value="&amp;Zoek volgende" />                          <translated key="Done" value="Fussy"/>
+        <item key="FindWhat" value="Zoeken op:" />                              <translated key="Done" value="Yes"/>
+      </group>
+    </form>
+
+    <form id="ToDoControl">
+      <group id="Control">
+        <item key="AddToDo" value="To-do toevoegen" />                          <translated key="Done" value="Yes"/>
+        <item key="EditToDo" value="To-do bewerken" />                          <translated key="Done" value="Yes"/>
+        <item key="DeleteToDo" value="To-do verwijderen" />                       <translated key="Done" value="Yes"/>
+
+        <item key="Completed" value="Compleet" />                               <translated key="Done" value="Yes"/>
+        <item key="Priority" value="Prioriteit" />                                <translated key="Done" value="Yes"/>
+        <item key="ToDoText" value="To-do" />                                   <translated key="Done" value="Yes"/>
+        <item key="EndDate" value="Eind datum" />                               <translated key="Done" value="Yes"/>
+        <item key="Created" value="Aangemaakt" />                               <translated key="Done" value="Yes"/>
+      </group>
+    </form>
+
+    <form id="ImageExportSettingForm">
+      <group id="Form">
+        <item key="Title" value="Exporteer Instellingen" />                     <translated key="Done" value="Yes"/>
+
+        <item key="ExportContent" value="Exporteer inhoud" />                  <translated key="Done" value="Yes"/>
+        <item key="Size" value="Formaat" />                                     <translated key="Done" value="Yes"/>
+        <item key="Background" value="Achtergrond" />                           <translated key="Done" value="Yes"/>
+
+        <item key="ExportOnlyActiveLayer" value="Alleen de actieve lagen exporteren" /><translated key="Done" value="Yes"/>
+        <item key="ExportHiddenLayers" value="Verborgen lagen exporteren" />    <translated key="Done" value="Yes"/>
+
+        <item key="Width" value="Breedte" />                                    <translated key="Done" value="Yes"/>
+        <item key="Height" value="Hoogte" />                                    <translated key="Done" value="Yes"/>
+
+        <item key="Transparent" value="Transparant" />                          <translated key="Done" value="Yes"/>
+        <item key="Color1" value="Kleur 1:" />                                  <translated key="Done" value="Yes"/>
+        <item key="Color2" value="Kleur 2:" />                                  <translated key="Done" value="Yes"/>
+      </group>
+    </form>
+
+    <form id="TaskEditorForm">
+      <group id="Form">
+        <item key="Title" value="Taak" />                                       <translated key="Done" value="Yes"/>
+
+        <item key="Name" value="Naam:" />                                       <translated key="Done" value="Yes"/>
+        <item key="ID" value="ID:" />                                           <translated key="Done" value="Yes"/>
+        <item key="StartDate" value="Begin datum:" />                           <translated key="Done" value="Yes"/>
+        <item key="EndDate" value="Eind datum:" />                              <translated key="Done" value="Yes"/>
+        <item key="Priority" value="Prioriteit:" />                               <translated key="Done" value="Yes"/>
+        <item key="Phase" value="Fase:" />                                      <translated key="Done" value="Yes"/>
+        <item key="Progress" value="Vooruitgang:" />                            <translated key="Done" value="Yes"/>
+        <item key="Description" value="Omschrijving:" />                        <translated key="Done" value="Yes"/>
+
+        <item key="General" value="Algemeen" />                                 <translated key="Done" value="Yes"/>
+        <item key="Persons" value="Personen" />                                 <translated key="Done" value="Yes"/>
+
+        <item key="Lowest" value="Laagste" />                                   <translated key="Done" value="Yes"/>
+        <item key="Low" value="Laag" />                                         <translated key="Done" value="Yes"/>
+        <item key="Normal" value="Normaal" />                                   <translated key="Done" value="Yes"/>
+        <item key="Hight" value="Hoog" />                                       <translated key="Done" value="Yes"/>
+        <item key="Highest" value="Hoogste" />                                  <translated key="Done" value="Yes"/>
+      </group>
+    </form>
+
+    <form id="XmiImportResultForm">
+      <group id="Form">
+        <item key="Title" value="XMI importeer resultaat" />                       <translated key="Done" value="Yes"/>
+
+        <item key="CreateDiagrams" value="Maak de Diagrammen" />                <translated key="Done" value="Yes"/>
+      </group>
+    </form>
+
+    <form id="DatabaseSelectionForm">
+      <group id="Form">
+        <item key="Title" value="Database Selectie" />                          <translated key="Done" value="Yes"/>
+
+        <item key="DataSource" value="Data bron:" />                          <translated key="Done" value="Yes"/>
+        <item key="ServerName" value="Server naam:" />                          <translated key="Done" value="Yes"/>
+
+        <item key="Authentication" value="Authenticatie" />                    <translated key="Done" value="Yes"/>
+        <item key="AuthenticationType" value="Authenticatie type:" />          <translated key="Done" value="Yes"/>
+        <item key="UserName" value="Gebruikersnaam:" />                        <translated key="Done" value="Yes"/>
+        <item key="Password" value="Wachtwoord:" />                             <translated key="Done" value="Yes"/>
+        <item key="DatabaseName" value="Database naam:" />                      <translated key="Done" value="Yes"/>
+      </group>
+    </form>
+
+    <form id="DatabaseImportForm">
+      <group id="Form">
+        <item key="Title" value="Importeer Database" />                         <translated key="Done" value="Yes"/>
+
+        <item key="ConnectionString" value="Connectie string:" />              <translated key="Done" value="Yes"/>
+        <item key="LoadTables" value="Laad tables" />                           <translated key="Done" value="Yes"/>
+
+        <item key="Tables" value="Tabelen" />                                   <translated key="Done" value="Yes"/>
+      </group>
+    </form>
+
+    <form id="ObjectModelImportForm">
+      <group id="Form">
+        <item key="Title" value="Importeer Object Model" />                     <translated key="Done" value="Yes"/>
+
+        <item key="Assemblies" value="Assemblies" />                            <translated key="Done" value="Yes"/>
+        <item key="Namespaces" value="Namespaces/Packages" />                   <translated key="Done" value="Yes"/>
+      </group>
+    </form>
+
+    <form id="DiagramElementsSelectionForm">
+      <group id="Form">
+        <item key="Title" value="Diagram Elementen" />                          <translated key="Done" value="Yes"/>
+      </group>
+    </form>
+
+    <form id="SourceCodeGenerationSettingsForm">
+      <group id="Form">
+        <item key="Title" value="Genereer bron code" />                         <translated key="Done" value="Yes"/>
+
+        <item key="General" value="Algemeen" />                                 <translated key="Done" value="Yes"/>
+        <item key="Imports" value="Importeren" />                               <translated key="Done" value="Yes"/>
+
+        <item key="Language" value="Taal:" />                                   <translated key="Done" value="Yes"/>
+        <item key="OutputDirectory" value="Opslaan in map:" />                  <translated key="Done" value="Yes"/>
+
+        <item key="Generate" value="Genereer" />                                <translated key="Done" value="Yes"/>
+      </group>
+    </form>
+
+    <form id="RelationInsertForm">
+      <group id="Form">
+        <item key="Title" value="Nieuwe relatie" />                             <translated key="Done" value="Yes"/>
+
+        <item key="FromElement" value="Van element:" />                         <translated key="Done" value="Yes"/>
+        <item key="ToElement" value="Naar element:" />                          <translated key="Done" value="Yes"/>
+      </group>
+    </form>
+
+    <form id="DefaultNamesForm">
+      <group id="Form">
+        <item key="Title" value="Standaard namen en ID's" />                    <translated key="Done" value="Yes"/>
+
+        <item key="DiagramType" value="Diagram type:" />                        <translated key="Done" value="Yes"/>
+        <item key="ElementType" value="Element type" />                         <translated key="Done" value="Yes"/>
+        <item key="DefaultName" value="Standaard naam:" />                      <translated key="Done" value="Yes"/>
+        <item key="DefaultID" value="Standaard ID:" />                          <translated key="Done" value="Yes"/>
+      </group>
+    </form>
+
+    <form id="TypesForm">
+      <group id="Form">
+        <item key="Title" value="Types" />                                      <translated key="Done" value="Yes"/>
+
+        <item key="NewTypeSet" value="&amp;Nieuwe type set" />                  <translated key="Done" value="Yes"/>
+        <item key="ImportTypeSet" value="&amp;Importeer type set" />            <translated key="Done" value="Yes"/>
+        <item key="TypeSets" value="Type Sets" />                               <translated key="Done" value="Yes"/>
+        <item key="CustomTypes" value="Afwijkende Types" />                     <translated key="Done" value="Yes"/>
+      </group>
+    </form>
+
+    <form id="TypeSetEditorControl">
+      <group id="Control">
+        <item key="TypeDefinition" value="Type definitie" />                    <translated key="Done" value="Yes"/>
+        <item key="ID" value="ID:" />                                           <translated key="Done" value="Yes"/>
+        <item key="Name" value="Naam:" />                                       <translated key="Done" value="Yes"/>
+        <item key="Description" value="Omschrijving:" />                        <translated key="Done" value="Yes"/>
+      </group>
+    </form>
+
+    <form id="TypeSetEditorForm">
+      <group id="Form">
+        <item key="Title" value="Type Set Editor" />                            <translated key="Done" value="no"/>
+      </group>
+    </form>
+
+    <form id="StereotypesForm">
+      <group id="Form">
+        <item key="Title" value="Stereotypes" />                                <translated key="Done" value="Yes"/>
+
+        <item key="ElementType" value="Element type:" />                        <translated key="Done" value="Yes"/>
+        <item key="General" value="Algemeen" />                                 <translated key="Done" value="Yes"/>
+        <item key="AppliesTo" value="Heeft betrekking op" />                             <translated key="Done" value="no"/>
+        <item key="Name" value="Naam:" />                                       <translated key="Done" value="Yes"/>
+        <item key="Description" value="Omschrijving:" />                        <translated key="Done" value="Yes"/>
+      </group>
+    </form>
+
+    <form id="NewTypeSetForm">
+      <group id="Form">
+        <item key="Title" value="Nieuw Type Set" />                               <translated key="Done" value="no"/>
+
+        <item key="Name" value="Naam:" />                                       <translated key="Done" value="Yes"/>
+      </group>
+    </form>
+
+    <form id="ToDoEditorForm">
+      <group id="Form">
+        <item key="Title" value="To do" />                                      <translated key="Done" value="Yes"/>
+
+        <item key="Lowest" value="Laagste" />                                   <translated key="Done" value="Yes"/>
+        <item key="Low" value="Laag" />                                         <translated key="Done" value="Yes"/>
+        <item key="Normal" value="Normaal" />                                   <translated key="Done" value="Yes"/>
+        <item key="Hight" value="Hoog" />                                       <translated key="Done" value="Yes"/>
+        <item key="Highest" value="Hoogste" />                                  <translated key="Done" value="Yes"/>
+
+        <item key="Text" value="Tekst:" />                                      <translated key="Done" value="Yes"/>
+        <item key="Priority" value="Prioriteit:" />                               <translated key="Done" value="Yes"/>
+        <item key="EndDate" value="Eind datum:" />                              <translated key="Done" value="Yes"/>
+        <item key="Completed" value="Compleet" />                              <translated key="Done" value="Yes"/>
+      </group>
+    </form>
+
+    <form id="TaskManagementForm">
+      <group id="Form">
+        <item key="Title" value="Taken beheer" />                               <translated key="Done" value="Yes"/>
+
+        <item key="ID" value="ID" />                                            <translated key="Done" value="Yes"/>
+        <item key="Name" value="Naam" />                                        <translated key="Done" value="Yes"/>
+        <item key="Priority" value="Prioriteit" />                                <translated key="Done" value="Yes"/>
+        <item key="Progress" value="Vooruitgang" />                             <translated key="Done" value="Yes"/>
+        <item key="StartDate" value="Begin datum" />                            <translated key="Done" value="Yes"/>
+        <item key="EndDate" value="Eind datum" />                               <translated key="Done" value="Yes"/>
+        <item key="Persons" value="Personen" />                                 <translated key="Done" value="Yes"/>
+
+        <item key="AddTask" value="Taak toevoegen" />                           <translated key="Done" value="Yes"/>
+        <item key="EditTask" value="Taak bewerken" />                           <translated key="Done" value="Yes"/>
+        <item key="DeleteTask" value="Taak verwijderen" />                      <translated key="Done" value="Yes"/>
+        <item key="AssignPerson" value="Persoon toewijzen" />                   <translated key="Done" value="Yes"/>
+      </group>
+    </form>
+
+    <form id="PersonsForm">
+      <group id="Form">
+        <item key="Title" value="Personen" />                                   <translated key="Done" value="Yes"/>
+
+        <item key="FirstName" value="Voornaam" />                               <translated key="Done" value="Yes"/>
+        <item key="LastName" value="Achternaam" />                              <translated key="Done" value="Yes"/>
+        <item key="Role" value="Rol" />                                         <translated key="Done" value="Yes"/>
+        <item key="EMail" value="E-mail" />                                     <translated key="Done" value="Yes"/>
+        <item key="PhoneNumber" value="Telefoon nummer" />                      <translated key="Done" value="Yes"/>
+
+        <item key="AddPerson" value="Persoon toevoegen" />                      <translated key="Done" value="Yes"/>
+        <item key="EditPerson" value="Persoon bewerken" />                      <translated key="Done" value="Yes"/>
+        <item key="DeletePerson" value="Persoon verwijderen" />                 <translated key="Done" value="Yes"/>
+      </group>
+    </form>
+
+    <form id="PersonEditorForm">
+      <group id="Form">
+        <item key="Title" value="Persoon" />                                    <translated key="Done" value="Yes"/>
+
+        <item key="FirstName" value="Voornaam:" />                              <translated key="Done" value="Yes"/>
+        <item key="LastName" value="Achternaam:" />                             <translated key="Done" value="Yes"/>
+        <item key="Role" value="Rol:" />                                        <translated key="Done" value="Yes"/>
+        <item key="EMail" value="E-mail:" />                                    <translated key="Done" value="Yes"/>
+        <item key="PhoneNumber" value="Telefoon nummer:" />                     <translated key="Done" value="Yes"/>
+        <item key="Description" value="Omschrijving:" />                        <translated key="Done" value="Yes"/>
+      </group>
+    </form>
+
+    <form id="ModelPropertiesForm">
+      <group id="Form">
+        <item key="Title" value="Model Eigenschappen" />                        <translated key="Done" value="Yes"/>
+
+        <item key="General" value="Algemeen" />                                 <translated key="Done" value="Yes"/>
+        <item key="Documentation" value="Documentatie" />                       <translated key="Done" value="Yes"/>
+
+        <item key="Name" value="Naam:" />                                       <translated key="Done" value="Yes"/>
+        <item key="CustomNamespace" value="Aangepaste namespace:" />            <translated key="Done" value="Yes"/>
+      </group>
+    </form>
+
+    <form id="DocumentationGenerationForm">
+      <group id="Form">
+        <item key="Title" value="Genereer documentatie" />                      <translated key="Done" value="Yes"/>
+
+        <item key="General" value="Algemeen" />                                 <translated key="Done" value="Yes"/>
+
+        <item key="Format" value="Formaat" />                                   <translated key="Done" value="Yes"/>
+        <item key="HTML" value="HTML" />                                        <translated key="Done" value="Yes"/>
+        <item key="RTF" value="RTF" />                                          <translated key="Done" value="Yes"/>
+        <item key="PDF" value="PDF" />                                          <translated key="Done" value="Yes"/>
+
+        <item key="Texts" value="Tekts" />                                      <translated key="Done" value="Yes"/>
+        <item key="DocumentTitle" value="Document titel:" />                    <translated key="Done" value="Yes"/>
+        <item key="DocumentSubtitle" value="Document subtitel:" />              <translated key="Done" value="Yes"/>
+        <item key="Company" value="Bedrijf:" />                                 <translated key="Done" value="Yes"/>
+        <item key="Authors" value="Auteur:" />                                  <translated key="Done" value="Yes"/>
+        <item key="OutputFile" value="Opslaan als:" />                          <translated key="Done" value="Yes"/>
+
+        <item key="Generate" value="Genereer" />                                <translated key="Done" value="Yes"/>
+      </group>
+    </form>
+
+    <form id="TimingEvents">
+      <group id="Control">
+        <item key="State" value="State" />                                      <translated key="Done" value="Yes"/>
+        <item key="Duration" value="Duration" />                                <translated key="Done" value="Yes"/>
+        <item key="Stimulus" value="Stimulus" />                                <translated key="Done" value="Yes"/>
+        <item key="DurationConstraint" value="Duration Constraint" />           <translated key="Done" value="Yes"/>
+      </group>
+    </form>
+
+    <form id="TimingTickMarkValues">
+      <group id="Control">
+        <item key="Position" value="Positie" />                                 <translated key="Done" value="Yes"/>
+        <item key="Label" value="Label" />                                      <translated key="Done" value="Yes"/>
+      </group>
+    </form>
+
+    <form id="TimingStatesControl">
+      <group id="Control">
+        <item key="State" value="State" />                                      <translated key="Done" value="Yes"/>
+      </group>
+    </form>
+
+    <form id="ElementBrowserForm">
+      <group id="Form">
+        <item key="Title" value="Element browser" />                            <translated key="Done" value="Yes"/>
+
+        <item key="OpenDiagram" value="Open Diagram" />                         <translated key="Done" value="Yes"/>
+        <item key="Rename" value="Hernoemen" />                                 <translated key="Done" value="Yes"/>
+        <item key="Delete" value="Verwijderen" />                               <translated key="Done" value="Yes"/>
+        <item key="Properties" value="Eigenschappen" />                         <translated key="Done" value="Yes"/>
+
+        <item key="Name" value="Naam" />                                        <translated key="Done" value="Yes"/>
+        <item key="ID" value="ID" />                                            <translated key="Done" value="Yes"/>
+        <item key="Type" value="Type" />                                        <translated key="Done" value="Yes"/>
+      </group>
+    </form>
+
+    <form id="ActivationForm">
+      <group id="Form">
+        <item key="Title" value="Activeren" />                                  <translated key="Done" value="Yes"/>
+
+        <item key="Text" value="Het gebruikt van Software Ideas Modeler voor commerciële doeleinde is toegestaan nadat u zich heeft geregistreerd en de kosten zijn betaald." /><translated key="Done" value="Yes"/>
+
+        <item key="Step1" value="Stap 1:" />                                    <translated key="Done" value="Yes"/>
+        <item key="Step2" value="Stap 2:" />                                    <translated key="Done" value="Yes"/>
+        <item key="Step3" value="Stap 3:" />                                    <translated key="Done" value="Yes"/>
+
+        <item key="Step1Text" value="Betaal de registratie kosten" />           <translated key="Done" value="Yes"/>
+        <item key="Step2Text" value="De actieveringssleutel zal u per mail worden toegestuurd." /><translated key="Done" value="Yes"/>
+        <item key="Step3Text" value="Type de actieveringssleutel in het tekstvak hieronder in, en klik vervolgens op de knop Activeer." /><translated key="Done" value="Yes"/>
+
+        <item key="ActivationKey" value="Activatie sleutel:" />                <translated key="Done" value="Yes"/>
+
+        <item key="Activate" value="Activeer" />                                <translated key="Done" value="Yes"/>
+        <item key="Close" value="Sluiten" />                                    <translated key="Done" value="Yes"/>
+
+        <item key="ActivationMessage" value="De activatie was Succesvol. Deze versie van Software Ideas Modeler kan nu commercieel worden gebruikt." /><translated key="Done" value="Yes"/>
+        <item key="WrongActivationCodeMessage" value="De activeringssleutel is niet geldig." /> <translated key="Done" value="Yes"/>
+      </group>
+    </form>
+
+    <form id="BatchExportForm">
+      <group id="Form">
+        <item key="Title" value="Exporteren" />                                 <translated key="Done" value="Yes"/>
+
+        <item key="Exporting" value="Aan het exporteren..." />                  <translated key="Done" value="Yes"/>
+
+        <item key="Format" value="Formaat" />                                   <translated key="Done" value="Yes"/>
+        <item key="ImageFormat" value="Afbeelding formaat:" />                  <translated key="Done" value="Yes"/>
+
+        <item key="Output" value="Bestanden" />                                 <translated key="Done" value="Yes"/>
+        <item key="Content" value="Inhoud" />                                   <translated key="Done" value="Yes"/>
+        <item key="Diagrams" value="Diagramen" />                               <translated key="Done" value="Yes"/>
+
+        <item key="Files" value="Bestanden" />                                  <translated key="Done" value="Yes"/>
+        <item key="FileNames" value="Naam bestanden:" />                        <translated key="Done" value="Yes"/>
+        <item key="DiagramName" value="Diagram naam:" />                        <translated key="Done" value="Yes"/>
+        <item key="Custom" value="Aangepast:" />                                <translated key="Done" value="Yes"/>
+        <item key="OutputDirectory" value="Export directory:" />                <translated key="Done" value="Yes"/>
+
+        <item key="ExportContent" value="Exporteer inhoud" />                   <translated key="Done" value="Yes"/>
+        <item key="Size" value="Formaat" />                                     <translated key="Done" value="Yes"/>
+        <item key="Background" value="Achtergrond" />                          <translated key="Done" value="Yes"/>
+
+        <item key="ExportOnlyActiveLayer" value="Alleen de actieve lagen exporteren" /><translated key="Done" value="Yes"/>
+        <item key="ExportHiddenLayers" value="Verborgen lagen exporteren" />    <translated key="Done" value="Yes"/>
+
+        <item key="Absolute" value="Absoluut" />                                <translated key="Done" value="Yes"/>
+        <item key="Relative" value="Relatief" />                                <translated key="Done" value="Yes"/>
+
+        <item key="Width" value="Breedte:" />                                   <translated key="Done" value="Yes"/>
+        <item key="Height" value="Hoogte:" />                                   <translated key="Done" value="Yes"/>
+
+        <item key="Transparent" value="Transparant" />                          <translated key="Done" value="Yes"/>
+        <item key="Color1" value="Kleur 1:" />                                  <translated key="Done" value="Yes"/>
+        <item key="Color2" value="Kleur 2:" />                                  <translated key="Done" value="Yes"/>
+      </group>
+    </form>
+
+    <form id="PrintForm">
+      <group id="Form">
+        <item key="Title" value="Print" />                                      <translated key="Done" value="Yes"/>
+
+        <item key="Print" value="Print" />                                      <translated key="Done" value="Yes"/>
+        <item key="PageSetup" value="Pagina Setup" />                           <translated key="Done" value="Yes"/>
+        <item key="Preview" value="Voorbeeld" />                                <translated key="Done" value="Yes"/>
+
+        <item key="Diagrams" value="Diagramen" />                               <translated key="Done" value="Yes"/>
+        <item key="Settings" value="Instellingen" />                            <translated key="Done" value="Yes"/>
+
+        <item key="Zoom" value="Zoom:" />                                       <translated key="Done" value="Yes"/>
+
+        <item key="PreviousPage" value="Vorige pagina" />                       <translated key="Done" value="Yes"/>
+        <item key="NextPage" value="Volgende pagina" />                         <translated key="Done" value="Yes"/>
+        <item key="RefreshPreview" value="Vernieuw voorbeeld" />                 <translated key="Done" value="Yes"/>
+
+        <item key="PagesPerDiagram" value="Paginas per diagram" />              <translated key="Done" value="Yes"/>
+        <item key="SinglePage" value="Enkele pagina" />                         <translated key="Done" value="Yes"/>
+        <item key="MultiplePages" value="Meedere paginas" />                    <translated key="Done" value="Yes"/>
+        <item key="Horizontal" value="Horizontaal:" />                          <translated key="Done" value="Yes"/>
+        <item key="Vertical" value="Verticaal:" />                              <translated key="Done" value="Yes"/>
+      </group>
+    </form>
+
+    <form id="DiagramsForm">
+      <group id="Form">
+        <item key="Title" value="Diagrammen" />                                 <translated key="Done" value="Yes"/>
+      </group>
+    </form>
+
+    <form id="DonateBuyForm">
+      <group id="Form">
+        <item key="Title" value="Software Ideas Modeler" />                    <translated key="Done" value="Yes"/>
+
+        <item key="HeadingText" value="Dank u voor het gebruiken van Software Ideas Modeler!"></item><translated key="Done" value="Yes"/>
+        <item key="MainText" value="Als het programma u bevalt en u wilt de ontwikkeling ondersteunen, heeft u de volgende opties:"></item><translated key="Done" value="Yes"/>
+
+        <item key="Buy" value="Kopen (voor commercieel gebruik)"></item>        <translated key="Done" value="Yes"/>
+        <item key="BuyText1" value="Software Ideas Modeler kan legaal gebruikt worden voor commercieel gebruik na activering. U krijgt een acteveringssleutel als u deze optie kiest."></item><translated key="Done" value="Yes"/>
+        <item key="BuyText2" value="Als u melding maakt van bugs zullen deze een hogere prioritrit hebben. Dit scherm zult u bij het afsluiten dan ook niet meer zien."></item><translated key="Done" value="Yes"/>
+
+        <item key="Donate" value="Doneer"></item>                               <translated key="Done" value="Yes"/>
+        <item key="DonateText1" value="Als u een niet-commercieel gebruiker bent kunt u dit programma gratis gebruiken. Wel heeft u de optie om te doneren aan dit project, elk geldbedrag is welkom."></item><translated key="Done" value="Yes"/>
+        <item key="DonateText2" value="Als u een donatie heeft gedaan zult u worden opgenomen in de lijst van donateurs op onse website. (Laat het even weten als u niet op de website wilt worden vermeld.)"></item><translated key="Done" value="Yes"/>
+
+        <item key="MaybeLater" value="Misschien later"></item>                  <translated key="Done" value="Yes"/>
+        <item key="MaybeLaterText" value="Als u niet in staat bent om ons financieel te ondersteunen kunt ons wel op andere manieren helpen: Word een fan van ons op Facebook, Als u een website heeft kunt u een link naar ons plaatsen, schrijf over dit programma op je blog, vertel andere over dit programma..."></item><translated key="Done" value="Yes"/>
+      </group>
+    </form>
+
+    <form id="DonationForm">
+      <group id="Form">
+        <item key="Title" value="Doneer centrum" />`                            <translated key="Done" value="Yes"/>
+
+        <item key="DonateNow" value="&amp;Doneer nu" />                         <translated key="Done" value="Yes"/>
+        <item key="ConfirmKey" value="&amp;Bevestigen sleutel" />               <translated key="Done" value="Yes"/>
+
+        <item key="WhyToDonateTitle" value="Waarom doneren?" />                 <translated key="Done" value="Yes"/>
+        <item key="WhyToDonateText1" value="Software Ideas Modeler is freeware voor niet-commerciele gebruikers (Scholen, non-profit organistaties, ...). Desondanks kan het zijn dat u dit project financieel wilt ondersteunen door een donatie.Behalve een goed gevoel word u ook een officieele supporter van dit project, tevens krijgt u de volgde voordelen :" /><translated key="Done" value="Yes"/>
+        <item key="WhyToDonateText2" value="1. Het doneer/koop venster dat u ziet bij het afsluiten zal niet meer getoond worden." /><translated key="Done" value="Yes"/>
+        <item key="WhyToDonateText3" value="2. Als u meldingen maakt van bugs zullen deze een hogere prioriteit hebben. Dit geldt ook voor ontbrekende functionele wensen/eisen." /><translated key="Done" value="Yes"/>
+
+        <item key="HowToDonateTitle" value="Hoe kan ik doneren?" />             <translated key="Done" value="Yes"/>
+        <item key="HowToDonateText" value="De doneer pagina van onze website zal getoond worden als u op de &quot;Doneer nu&quot; klikt. Elk bedrag (dus ook een paar euro/dollar) is welkom" /><translated key="Done" value="Yes"/>
+
+        <item key="IHaveDonatedTitle" value="Ik heb al gedoneerd..."/>          <translated key="Done" value="Yes"/>
+        <item key="IHaveDonatedText" value="Binnen 2 werkdagen (normaal is het sneller) ontvangt u een e-mail met de donatie sleutel" /><translated key="Done" value="Yes"/>
+
+        <item key="DonorKey" value="Doneer sleutel:" />                         <translated key="Done" value="Yes"/>
+        <item key="ConfirmInfo" value="Bevestig de donatie sleutel en krijg de voordelen van een officiële supporter van dit project." /><translated key="Done" value="Yes"/>
+
+        <item key="OfficialSupporter" value="De donatie sleutel is geldig. U bent nu een officiële supporter van dit project. Bedankt voor uw support!" /><translated key="Done" value="Yes"/>
+        <item key="WrongDonorKey" value="De donatie sleutel is niet geldig." /> <translated key="Done" value="Yes"/>
+      </group>
+    </form>
+
+    <form id="EvaluationExpiredForm">
+      <group id="Form">
+        <item key="Title" value="Evaluatie periode verlopen" />                  <translated key="Done" value="Yes"/>
+
+        <item key="MainText" value="De 10 dagen van de evaluatie periode zijn verlopen. Als u verder gebruik wilt blijven maken van deze software moet u een licentie kopen. De licentie kost slechts €69 / $89." /><translated key="Done" value="No"/>
+        <item key="Benefits" value="Na aankoop heeft u de volgende voordelen:" /><translated key="Done" value="Yes"/>
+
+        <item key="Benefit1" value="Geen nagscreen meer" />        <translated key="Done" value="No"/>
+        <item key="Benefit2" value="Auto update" />                             <translated key="Done" value="Yes"/>
+        <item key="Benefit3" value="Aanvraag formulier voor features/bug reports" />   <translated key="Done" value="Yes"/>
+        <item key="Benefit4" value="Hogere prioriteit voor jouw meldingen en aanvragen" /><translated key="Done" value="Yes"/>
+
+        <item key="ActivationKey" value="Activeringssleutel:" />                    <translated key="Done" value="Yes"/>
+        <item key="Activate" value="&amp;Activateer" />                           <translated key="Done" value="Yes"/>
+
+        <item key="Buy" value="&amp;Koop" />                                     <translated key="Done" value="Yes"/>
+        <item key="Close" value="&amp;Sluiten" />                                 <translated key="Done" value="Yes"/>
+      </group>
+    </form>
+
+    <form id="UseConfirmationForm">
+      <group id="Form">
+        <item key="Title" value="Gebruik bevestiging" />                           <translated key="Done" value="Yes"/>
+
+        <item key="MainText" value="Hoe wilt u Software Ideas Modeler gebruiken?" /><translated key="Done" value="Yes"/>
+
+        <item key="CommercialUse" value="Company - Commercieel Gebruik" />           <translated key="Done" value="Yes"/>
+        <item key="CommercialUseDescription" value="Eender welk gebruik in commerciële projecten." /><translated key="Done" value="Yes"/>
+        <item key="NonCommercialUse" value="Persoonlijk - Non-commercieel Gebruik" />   <translated key="Done" value="Yes"/>
+        <item key="NonCommercialUseDescription" value="Scholen, universiteiten, non-profit organizaties." /><translated key="Done" value="Yes"/>
+
+        <item key="ConfirmCheckBox" value="Ik verklaar hierbij dat ik op eer en geweten dit formulier ingevuld heb.*" /><translated key="Done" value="Yes"/>
+        <item key="ConfirmNote" value="* Valse informatie verschaffen wordt beschouwd als inbreuk op de licentie overeenkomst." /><translated key="Done" value="Yes"/>
+
+        <item key="Confirm" value="Bevesti&amp;gen" />                             <translated key="Done" value="Yes"/>
+        <item key="Close" value="&amp;Sluiten" />                                 <translated key="Done" value="Yes"/>
+      </group>
+    </form>
+
+    <form id="SendRequestForm">
+      <group id="Form">
+        <item key="Title" value="Aanvraag versturen" />                               <translated key="Done" value="No"/>
+
+        <item key="Send" value="&amp;Verstuur" />                                   <translated key="Done" value="No"/>
+        <item key="Close" value="&amp;Sluiten" />                                 <translated key="Done" value="No"/>
+      </group>
+    </form>
+
+  </items>
+</language>

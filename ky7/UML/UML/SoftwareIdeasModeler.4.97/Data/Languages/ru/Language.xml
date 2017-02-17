@@ -1,0 +1,1493 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<language name="Russian" localName="Русский" id="ru">
+  <meta>
+    <author>Дмитрий Анчаков</author>
+    <created>11.12.2010</created>
+    <info>Для версии 4.81 и выше</info>
+  </meta>
+  <items>
+    <!-- Global -->
+    <form id="Global">
+      <!-- Strings -->
+      <group id="Strings">
+        <item key="SimProject" value="Проект SIM"></item>
+        <item key="AllFiles" value="Все файлы"></item>
+        <item key="Version" value="Версия" />
+      </group>
+      <group id="Messages">
+        <item key="ItemCannotBeAddedToDiagram" value="Этот элемент не может быть добавлен на диаграмму." />
+        <item key="SaveBeforeExist" value="Вы хотите сохранить изменения в проекте ('&lt;filename&gt;')?" />
+        <item key="NewVersionFound" value="Новая версия ('&lt;version&gt;') Software Ideas Modeler была найдена. Вы хотите перейти на страницу загрузки новой версии?" />
+        <item key="UptodateVersion" value="Текущая версия ('&lt;version&gt;') - самая новая версия Software Ideas Modeler." />
+        <item key="ProjectFileNotFound" value="Файл проекта '&lt;?&gt;' не был найден. Возможно он был удален или перемещен." title="Файл проекта не найден." />
+        <item key="NewStyleWarning" value="Вы действительно хотите сбросить все сделанные изменения в текущем стиле?" title="Новый стиль"/>
+        <item key="StyleTypeExists" value="Тип стиля, который вы пытаетесь добавить, уже существует." title="Существующий тип стиля" />
+        <item key="RenumberingWarning" value="Некоторые элементы не были перенумерованы. Список с исходными номерами может быть пустой." title="Перенумерация" />
+        <item key="DeleteStyle" value="Вы действительно хотите удалить стиль '&lt;?&gt;'?" title="Удаление стиля"/>
+        <item key="StyleClassNameExists" value="Имя класса стиля уже использутся." title="Существующее имя класса стиля"/>
+        <item key="NotAllowedStyleClassName" value="Имя '&lt;?&gt;' не разрешено для класса стиля." title="Неправильное имя"/>
+        <item key="SavingError" value="Файл не может быть сохранен. Проверьте, не используется ли он другой программой." title="Ошибка сохранения"/>
+        <item key="DeleteTask" value="Вы действительно хотите удалить задачу '&lt;?&gt;'?" title="Удалить задачу"/>
+        <item key="DeleteToDo" value="Вы действительно хотите удалить пункт ToDo '&lt;?&gt;'?" title="Удалить ToDo"/>
+        <item key="DeletePerson" value="Вы действительно хотите удалить участника '&lt;?&gt;'?" title="Удалить участника"/>
+        <item key="DeleteStereotype" value="Вы действительно хотите удалить стереотип '&lt;?&gt;'?" title="Удалить стереотип"/>
+        <item key="NoOutputLanguageSelected" value="Генерация исходного кода не может быть выполнена. Не выбран язык." title="Генерация исходного кода" />
+        <item key="NoOutputDirectorySelected" value="Генерация исходного кода не может быть выполнена. Не указан выходной каталог." title="Генерация исходного кода" />
+        <item key="EmptyConnectionString" value="Не указана строка соединения. Определения таблиц не могут быть загружены из базы данных." title="Импорт базы данных" />
+        <item key="CannotLoadTables" value="Определения таблиц не могут быть загружены из базы данных. \n\n &lt;?&gt;" title="Импорт базы данных" />
+        <item key="RegisteredCopy" value="Эта копия Software Ideas Modeler зарегистрирована. Вы можете использовать ее в коммерческих целях. Спасибо за поддержку проекта." title="Зарегистрированная копия" />
+        <item key="NewerVersionWarning" value="Файл проекта был сохранен в более новой версии Software Ideas Modeler. Это может привести к некорректной загрузке. Вы все равно хотите загрузить этот файл?" title="Более новый файл проекта" />
+        <item key="ClearRecentProjectList" value="Вы действительно хотите очистить список Последних проектов?" title="Очистка списка Последних проектов"/>
+      </group>
+      <group id="DiagramNames">
+        <item key="UmlClassDiagram" value="Диаграмма классов" />
+        <item key="UmlUseCaseDiagram" value="Диаграмма вариантов использования" />
+        <item key="UmlSequenceDiagram" value="Диаграмма последовательности" />
+        <item key="UmlActivityDiagram" value="Диаграмма деятельности" />
+        <item key="UmlStateMachineDiagram" value="Диаграмма состояний" />
+        <item key="UmlDeploymentDiagram" value="Диаграмма развертывания" />
+        <item key="UmlProfileDiagram" value="Диаграмма профиля" />
+        <item key="UmlObjectDiagram" value="Диаграмма объектов" />
+        <item key="UmlPackageDiagram" value="Диаграмма пакетов" />
+        <item key="UmlCommunicationDiagram" value="Диаграмма коммуникаций" />
+        <item key="UmlCompositeStructureDiagram" value="Диаграмма составной структуры" />
+        <item key="UmlComponentDiagram" value="Диаграмма компонентов" />
+        <item key="UmlInteractionOverviewDiagram" value="Диаграмма обзора взаимодействий" />
+        <item key="UmlMixedDiagram" value="Смешанная диаграмма" />
+        <item key="DataFlowDiagram" value="Диаграмма потока данных" />
+        <item key="EntityRelationshipDiagram" value="Диаграмма отношений сущностей (ER)" />
+        <item key="RequirementDiagram" value="Диаграмма требований" />
+        <item key="UserInterfaceDiagram" value="Интерфейс пользователя" />
+        <item key="CrcCardDiagram" value="Диаграмма CRC-карточки" />
+        <item key="FlowchartDiagram" value="Блок-схема" />
+        <item key="RobustnessDiagram" value="Диаграмма надежности" />
+        <item key="UmlTimingDiagram" value="Временная диаграмма" />
+      </group>
+      <group id="Buttons">
+        <item key="Ok" value="&amp;OK" />
+        <item key="Cancel" value="&amp;Отмена" />
+        <item key="Yes" value="&amp;Да" />
+        <item key="No" value="&amp;Нет" />
+        <item key="Add" value="&amp;Добавить" />
+        <item key="Edit" value="&amp;Изменить" />
+        <item key="Remove" value="&amp;Удалить" />
+        <item key="SelectAll" value="&amp;Выбрать всё" />
+        <item key="SelectNone" value="&amp;Ничего" />
+        <item key="SelectInvert" value="&amp;Инвертировать" />
+        <item key="MoreColors" value="Больше цветов..." />
+        <item key="Previous" value="&lt; &amp;Назад" />
+        <item key="Next" value="&amp;Далее &gt;" />
+        <item key="Import" value="&amp;Импорт" />
+        <item key="Delete" value="&amp;Удалить" />
+        <item key="Save" value="&amp;Сохранить" />
+      </group>
+    </form>
+    <form id="MainForm">
+      <group id="General">
+        <item key="RegisteredCopy" value="Зарегистированная копия." />
+        <item key="OnlyForNonCommercialUse" value="ТОЛЬКО НЕКОММЕРЧЕСКОЕ ИСПОЛЬЗОВАНИЕ" />
+      </group>
+      <group id="StandardBar">
+        <item key="New" tooltip="Создать" />
+        <item key="Open" tooltip="Открыть" />
+        <item key="Save" tooltip="Сохранить" />
+        <item key="Undo" tooltip="Отменить" />
+        <item key="Redo" tooltip="Повторить" />
+        <item key="Cut" tooltip="Вырезать" />
+        <item key="Copy" tooltip="Копировать" />
+        <item key="Paste" tooltip="Вставить" />
+        <item key="Print" tooltip="Печать" />
+        <item key="PrintPreview" tooltip="Предварительный просмотр" />
+        <item key="ShowGrid" tooltip="Показать сетку" />
+        <item key="ShowAdvancedInfo" tooltip="Показать дополнительную информацию" />
+        <item key="Find" value="Найти:" />
+      </group>
+      <group id="LayoutBar">    
+        <item key="BackOne" tooltip="На уровень ниже" />
+        <item key="ForwardOne" tooltip="На уровень выше" />
+        <item key="SendToBack" tooltip="На задний план" />
+        <item key="BringToFront" tooltip="На передний план" />
+        <item key="AutoLayoutCascade" value="Расположить каскадом" />
+        <item key="AutoLayoutRectangle" value="Расположить прямоугольником" />
+        <item key="AutoLayoutCircle" value="Расположить по кругу" />
+        <item key="AutoLayoutRows" value="Расположить в линии" />
+        <item key="AutoLayoutSmart" value="Продуманное расположение" />
+      </group>
+      <group id="Menu">
+        <!-- File -->
+        <item key="File" value="&amp;Файл" />
+        <item key="New" value="&amp;Создать" />
+        <item key="Open" value="&amp;Открыть" />
+        <item key="Save" value="Со&amp;хранить" />
+        <item key="SaveAs" value="Сохранить &amp;как" />
+        <item key="CloseProject" value="&amp;Закрыть проект" />
+        <item key="Print" value="&amp;Печать" />
+        <item key="PrintPreview" value="Предварительный п&amp;росмотр" />
+        <item key="PrintSetup" value="Настройка пе&amp;чати" />
+        <item key="Export" value="&amp;Экспорт" />
+        <item key="ExportToImage" value="&amp;Изображение" />
+        <item key="ExportToPDF" value="&amp;PDF" />
+        <item key="ExportToXMI" value="&amp;XMI" />
+        <item key="Import" value="&amp;Импорт" />
+        <item key="ImportFromXMI" value="&amp;XMI" />
+        <item key="RecentProjects" value="Пос&amp;ледние проекты" />
+        <item key="ClearThisList" value="О&amp;чистить этот список" />
+        <item key="Exit" value="В&amp;ыход" />
+        <!-- Edit -->
+        <item key="Edit" value="&amp;Правка" />
+        <item key="Undo" value="&amp;Отменить" />
+        <item key="Redo" value="&amp;Повторить" />
+        <item key="Cut" value="В&amp;ырезать" />
+        <item key="Copy" value="&amp;Копировать" />
+        <item key="Paste" value="&amp;Вставить" />
+        <item key="Delete" value="&amp;Удалить" />
+        <item key="DeleteWithRelations" value="Удалить с О&amp;тношениями" />
+        <item key="SelectAll" value="Вы&amp;делить все" />
+        <item key="SelectAllOfSameType" value="Выделить вс&amp;е такого типа" />
+        <item key="InvertSelection" value="&amp;Инвертировать выделение" />
+        <item key="Find" value="&amp;Найти" />
+        <!-- View -->
+        <item key="View" value="&amp;Вид" />
+        <item key="StandardBar" value="&amp;Стандартная панель" />
+        <item key="StatusBar" value="С&amp;трока состояния" />
+        <item key="LayoutBar" value="Панель &amp;расположения" />
+        <item key="Toolbox" value="Панель &amp;инструментов" />
+        <item key="SideBar" value="&amp;Боковая панель" />
+        <item key="DiagramPreview" value="Предпросмотр &amp;диаграммы" />
+        <item key="StartPage" value="Стартовая Стра&amp;ница" />
+        <item key="ElementBrowser" value="&amp;Браузер элементов" />
+        <item key="ShowMultipleUsageOfElement" value="Показывать &amp;Многоразовые элементы" />
+        <item key="ShowAssignedDiagrams" value="Показывать &amp;Назначенные диаграммы" />
+        <item key="Grid" value="С&amp;етка" />
+        <item key="SnapToGrid" value="Пр&amp;ивязывать к сетке" />
+        <item key="RenderingQuality" value="&amp;Качество рендеринга" />
+        <item key="RenderingQualityDraft" value="&amp;Низкое" />
+        <item key="RenderingQualityNormal" value="&amp;Обычное" />
+        <item key="RenderingQualityBest" value="&amp;Высокое" />
+        <item key="FullScreen" value="Во весь &amp;экран" />
+        <!-- Arrange -->
+        <item key="Arrange" value="&amp;Расположение" />
+        <item key="AutoLayout" value="&amp;Автоматическое расположение" />
+        <item key="RouteRelation" value="&amp;Распределить отношения" />
+        <item key="CircleLayout" value="По &amp;кругу" />
+        <item key="RowLayout" value="В &amp;линию" />
+        <item key="SmartLayout" value="&amp;Продуманно" />
+        <item key="CascadeLayout" value="&amp;Каскадом" />
+        <item key="AutoSize" value="А&amp;втоматический размер" />
+        <item key="Alignment" value="&amp;Выравнивание" />
+        <item key="MakeSame" value="Сделать &amp;одинаковыми" />
+        <item key="Order" value="&amp;Порядок" />
+        <item key="Move" value="Пере&amp;местить" />
+        <item key="Size" value="&amp;Размер" />
+        <item key="HorizontalSpacing" value="&amp;Горизонтальный интервал" />
+        <item key="VerticalSpacing" value="&amp;Вертикальный интервал" />
+        <item key="SetLocationAndSize" value="Установить рас&amp;положение и размер" />
+        <item key="LockItems" value="За&amp;блокировать элементы" />
+        <item key="GroupItems" value="С&amp;группировать элементы" />
+        <item key="UngroupItems" value="Ра&amp;згруппировать элементы" />
+        <item key="AlignmentLeft" value="С&amp;лева" />
+        <item key="AlignmentRight" value="С&amp;права" />
+        <item key="AlignmentTop" value="С&amp;верху" />
+        <item key="AlignmentBottom" value="С&amp;низу" />
+        <item key="AlignmentCenterHorizontally" value="Центрировать по &amp;горизонтали" />
+        <item key="AlignmentCenterVertically" value="Центрировать по &amp;вертикали" />
+        <item key="AlignmentToGrid" value="По &amp;сетке" />
+        <item key="MakeSameWidth" value="&amp;Ширина" />
+        <item key="MakeSameHeight" value="&amp;Высота" />
+        <item key="MakeSameBoth" value="Ширина &amp;и высота" />
+        <item key="OrderBringToFront" value="На &amp;передний план" />
+        <item key="OrderBringToBack" value="На &amp;задний план" />
+        <item key="OrderForwardOne" value="На уровень &amp;выше" />
+        <item key="OrderBackOne" value="На уровень &amp;ниже" />
+        <item key="MoveCustom" value="&amp;Настроить" />
+        <item key="MoveLeft" value="В&amp;лево" />
+        <item key="MoveRight" value="В&amp;право" />
+        <item key="MoveUp" value="В&amp;верх" />
+        <item key="MoveDown" value="В&amp;низ" />
+        <item key="SizeCustom" value="&amp;Настроить" />
+        <item key="SizeInflate" value="У&amp;величить" />
+        <item key="SizeDeflate" value="У&amp;меншить" />
+        <item key="SizeWider" value="&amp;Шире" />
+        <item key="SizeNarrower" value="&amp;Уже" />
+        <item key="SizeHigher" value="&amp;Выше" />
+        <item key="SizeLower" value="&amp;Ниже" />
+        <!-- Project -->
+        <item key="Project" value="&amp;Проект" />
+        <item key="AddModel" value="Добавить &amp;модель" />
+        <item key="AddDiagram" value="Добавить &amp;диаграмму" />
+        <item key="AddExistingDiagram" value="Добавить &amp;существующую диаграмму" />
+        <item key="Properties" value="&amp;Свойства проекта" />
+        <item key="ModelProperties" value="С&amp;войства модели" />
+        <item key="StyleSet" value="&amp;Стиль" />
+        <item key="LoadStyleSet" value="&amp;Загрузить" />
+        <item key="SaveStyleSet" value="&amp;Сохранить" />
+        <item key="EditStyleSet" value="&amp;Изменить" />
+        <item key="RemoveAllCustomStyles" value="&amp;Удалить все пользовательские стили" />
+        <item key="Tasks" value="&amp;Задачи" />
+        <item key="Persons" value="&amp;Участники" />
+        <!-- Diagram -->
+        <item key="Diagram" value="&amp;Диаграмма" />
+        <item key="AddLayer" value="&amp;Добавить слой" />
+        <item key="Layers" value="&amp;Слои" />
+        <item key="ConvertDiagram" value="&amp;Преобразовать в" />
+        <item key="ConvertToERDDiagram" value="&amp;Диаграмму отношений сущностей (ER)" />
+        <item key="ConvertToClassDiagram" value="Диаграмму &amp;классов" />
+        <item key="DiagramProperties" value="Свойства &amp;диаграммы" />
+        <item key="PrintDiagram" value="&amp;Печать" />
+        <item key="ExportDiagram" value="&amp;Экспорт" />
+        <item key="ExportDiagramToImage" value="&amp;Изображение" />
+        <item key="ExportDiagramToPDF" value="&amp;PDF" />
+        <item key="CopyToClipboardAsImage" value="Скопировать в &amp;буфер обмена как изображение" />
+        <item key="CopyToClipboardAsMetafile" value="Скопировать в буфер как&amp; Metafile" />
+        <item key="LayersMerge" value="&amp;Объединить" />
+        <item key="LayersShowAll" value="Показать &amp;все" />
+        <item key="LayersHide" value="С&amp;крыть" />
+        <item key="LayersDelete" value="&amp;Удалить" />
+        <item key="Filter" value="&amp;Фильтр" />
+        <item key="ShowAllElements" value="Показать все &amp;элементы" />
+        <item key="HideComments" value="Скрыть &amp;комментарии" />
+        <item key="HideRelations" value="Скрыть &amp;отношения" />
+        <item key="HideCollaborations" value="Скрыть &amp;сотрудничества" />
+        <!-- Element -->
+        <item key="Element" value="&amp;Элемент" />
+        <item key="Add" value="&amp;Добавить" />
+        <item key="Stereotype" value="&amp;Стереотип" />
+        <item key="Attribute" value="&amp;Атрибут" />
+        <item key="Operation" value="&amp;Метод" />
+        <item key="TemplateParameter" value="&amp;Параметр шаблона" />
+        <item key="ElementShowID" value="Показать &amp;ID" />
+        <item key="ElementShowParentName" value="Показать имя &amp;предка" />
+        <item key="ElementShowStereotypes" value="Показать &amp;стереотипы" />
+        <item key="ElementShowAttributes" value="Показать &amp;атрибуты" />
+        <item key="ElementShowOperations" value="Показать &amp;методы" />
+        <item key="ElementShowTaggedValues" value="Показать &amp;помеченные значения" />
+        <item key="ElementShowTemplateParameters" value="Показать параметры &amp;шаблона" />
+        <item key="ElementShowOperationParameters" value="Показать параметры &amp;методов" />
+        <item key="ElementShowExtensionPoints" value="Показать &amp;точки расширения" />
+        <item key="ElementShowRelationshipTexts" value="Показать &amp;текст отношений" />
+        <item key="ElementShowNullability" value="Показать &amp;значения NULL" />
+        <item key="ElementModifiers" value="&amp;Модификаторы" />
+        <item key="ElementAbstractModifier" value="&amp;Abstract" />
+        <item key="ElementPublicModifier" value="&amp;Public" />
+        <item key="ElementPackageModifier" value="&amp;Package" />
+        <item key="ElementProtectedModifier" value="&amp;Protected" />
+        <item key="ElementPrivateModifier" value="&amp;Private" />
+        <item key="ElementPresentation" value="Представление" />
+        <item key="DefaultPresentation" value="&amp;Стандартное" />
+        <item key="CustomPresentation" value="&amp;Выбрать" />
+        <item key="ElementStyle" value="&amp;Стиль" />
+        <item key="ElementProperties" value="С&amp;войства" />
+        <item key="ElementDocumentation" value="&amp;Документация" />
+        <item key="ElementTaggedValues" value="Поме&amp;ченные значения" />
+        <!-- Tools -->
+        <item key="Tools" value="&amp;Инструменты" />
+        <item key="GenerateDocumentation" value="Сгенерировать &amp;документацию" />
+        <item key="GenerateSourceCode" value="Сгенерировать &amp;исходный код" />
+        <item key="Lists" value="&amp;Списки" />
+        <item key="StereotypesList" value="&amp;Стереотипы" />
+        <item key="TypesList" value="&amp;Типы" />
+        <item key="ElementNames" value="&amp;Имена и ID элементов" />
+        <item key="ReverseEngineering" value="&amp;Reverse Engineering" />
+        <item key="NetReverseEngineering" value=".&amp;NET Framework" />
+        <item key="DatabaseReverseEngineering" value="&amp;База данных" />
+        <item key="RenumberElementIDs" value="Пере&amp;нумеровать ID элементов" />
+        <item key="ImportDatabaseModel" value="Импорт &amp;модели базы данных" />
+        <item key="ImportObjectModel" value="Импорт модели &amp;объекта" />
+        <item key="Languages" value="&amp;Языки" />
+        <item key="Options" value="&amp;Настройки" />
+        <!-- Windows -->
+        <item key="Windows" value="&amp;Окна" />
+        <item key="Cascade" value="&amp;Каскадом" />
+        <item key="TileVertical" value="С&amp;лева направо" />
+        <item key="TileHorizontal" value="С&amp;верху вниз" />
+        <item key="ArrangeIcons" value="Упорядочить &amp;значки" />
+        <item key="CloseAll" value="&amp;Закрыть все" />
+        <!-- Help -->
+        <item key="Help" value="&amp;Справка" />
+        <item key="OnlineHelp" value="Помощь &amp;Online" />
+        <item key="Donate" value="&amp;Поддержать проект" />
+        <item key="ActivateForCommercialUse" value="&amp;Активировать для коммерческого использования" />
+        <item key="WhatsNew" value="Что &amp;нового" />
+        <item key="CheckForUpdates" value="Проверить &amp;обновления" />
+        <item key="About" value="О &amp;программе Software Ideas Modeler..." />
+        <item key="WebSite" value="&amp;Домашняя страница" />
+      </group>
+      <!-- Project Context Menu -->
+      <group id="ProjectCMenu">     
+        <item key="AddModel" value="Добавить &amp;модель" />
+        <item key="AddDiagram" value="Добавить &amp;диаграмму" />
+        <item key="NewDiagram" value="&amp;Создать диаграмму" />
+        <item key="MoveToModel" value="Пе&amp;реместить в модель" />
+        <item key="Rename" value="&amp;Переименовать" />
+        <item key="Delete" value="&amp;Удалить" />
+        <item key="DeleteFromProject" value="Удалить из &amp;проекта" />
+        <item key="UmlClassDiagram" value="&amp;Диаграмма классов" />
+        <item key="UmlUseCaseDiagram" value="&amp;Диаграмма вариантов использования" />
+        <item key="UmlSequenceDiagram" value="&amp;Диаграмма последовательности" />
+        <item key="UmlActivityDiagram" value="&amp;Диаграмма деятельности" />
+        <item key="UmlStateMachineDiagram" value="&amp;Диаграмма состояний" />
+        <item key="UmlDeploymentDiagram" value="&amp;Диаграмма развертывания" />
+        <item key="UmlProfileDiagram" value="&amp;Диаграмма профиля" />
+        <item key="UmlObjectDiagram" value="&amp;Диаграмма объектов" />
+        <item key="UmlPackageDiagram" value="Диа&amp;грамма пакетов" />
+        <item key="UmlCommunicationDiagram" value="Ди&amp;аграмма коммуникаций" />
+        <item key="UmlCompositeStructureDiagram" value="Диаграмма сос&amp;тавной структуры" />
+        <item key="UmlComponentDiagram" value="Диаграмма ком&amp;понентов" />
+        <item key="UmlInteractionOverviewDiagram" value="Диаграмма &amp;обзора взаимодействий" />
+        <item key="UmlMixedDiagram" value="Сме&amp;шанная диаграмма" />
+        <item key="DataFlowDiagram" value="Диаграмма по&amp;тока данных" />
+        <item key="EntityRelationshipDiagram" value="Диаграмма &amp;отношений сущностей (ER)" />
+        <item key="RequirementDiagram" value="Диаграмма &amp;требований" />
+        <item key="UserInterface" value="&amp;Интерфейс пользователя" />
+        <item key="CrcCardDiagram" value="Диаграмма C&amp;RC-карточки" />
+        <item key="FlowchartDiagram" value="&amp;Блок-схема" />
+        <item key="RobustnessDiagram" value="&amp;Диаграмма надежности" />
+        <item key="UmlTimingDiagram" value="&amp;Временная диаграмма" />
+      </group>
+      <!-- Project Tree -->
+      <group id="ProjectTreeViews">
+        <item key="HierarchicalView" value="Иерархический вид" />
+        <item key="AllEntitiesView" value="Все сущности" />
+        <item key="DiagramTypesView" value="Типы диаграмм" />
+      </group>
+      <!-- Toolbox -->
+      <group id="Toolbox">
+        <item key="UmlClassDiagram" value="Диаграмма классов" />
+        <item key="UmlUseCaseDiagram" value="Диаграмма вариантов использования" />
+        <item key="UmlSequenceDiagram" value="Диаграмма последовательности" />
+        <item key="UmlActivityDiagram" value="Диаграмма деятельности" />
+        <item key="UmlStateMachineDiagram" value="Диаграмма состояний" />
+        <item key="UmlDeploymentDiagram" value="Диаграмма развертывания" />
+        <item key="UmlProfileDiagram" value="Диаграмма профиля" />
+        <item key="UmlObjectDiagram" value="Диаграмма объектов" />
+        <item key="UmlPackageDiagram" value="Диаграмма пакетов" />
+        <item key="UmlCommunicationDiagram" value="Диаграмма коммуникаций" />
+        <item key="UmlCompositeStructureDiagram" value="Диаграмма составной структуры" />
+        <item key="UmlComponentDiagram" value="Диаграмма компонентов" />
+        <item key="UmlInteractionOverviewDiagram" value="Диаграмма обзора взаимодействий" />
+        <item key="UmlMixedDiagram" value="Смешанная диаграмма" />
+        <item key="DataFlowDiagram" value="Диаграмма потока данных" />
+        <item key="EntityRelationshipDiagram" value="Диаграмма отношений сущностей (ER)" />
+        <item key="RequirementDiagram" value="Диаграмма требований" />
+        <item key="UserInterfaceDiagram" value="Интерфейс пользователя" />
+        <item key="CrcCardDiagram" value="Диаграмма CRC-карточки" />
+        <item key="FlowchartDiagram" value="Блок-схема" />
+        <item key="RobustnessDiagram" value="Диаграмма надежности" />
+        <item key="UmlTimingDiagram" value="Временная диаграмма" />
+        <item key="Common" value="Общие" />
+        <item key="Drawing" value="Рисование" />
+        <item key="Selection" value="Выделение" />
+        <item key="Comment" value="Комментарий" />
+        <item key="Comment Connector" value="Соединитель комментария" />
+        <item key="Diagram Description" value="Описание диаграммы" />
+        <item key="Line" value="Линия" />
+        <item key="Rectangle" value="Прямоугольник" />
+        <item key="Ellipse" value="Эллипс" />
+        <item key="Polygon" value="Многоугольник" />
+        <item key="Text" value="Текст" />
+        <item key="Left Arrow" value="Стрелка влево" />
+        <item key="Right Arrow" value="Стрелка вправо" />
+        <item key="Up Arrow" value="Стрелка вверх" />
+        <item key="Down Arrow" value="Стрелка вниз" />
+        <item key="Package" value="Пакет" />
+        <item key="Class" value="Класс" />
+        <item key="Table" value="Таблица" />
+        <item key="Signal" value="Сигнал" />
+        <item key="Enumeration" value="Перечисление" />
+        <item key="Interface" value="Интерфейс" />
+        <item key="Realization" value="Реализация" />
+        <item key="Association" value="Ассоциация" />
+        <item key="Unidir. Association" value="Однонапр. ассоциация" />
+        <item key="Bidir. Association" value="Двунапр. ассоциация" />
+        <item key="N-ary Association" value="N-арная ассоциация" />
+        <item key="Composition" value="Композиция" />
+        <item key="Aggregation" value="Аггрегация" />
+        <item key="Generalization" value="Генералиция" />
+        <item key="Dependency" value="Зависимость" />
+        <item key="Containment" value="Вмещение" />
+        <item key="Actor" value="Актер" />
+        <item key="Use Case" value="Вариант использования" />
+        <item key="Collaboration" value="Сотрудничество" />
+        <item key="Include" value="Включение" />
+        <item key="Extend" value="Расширение" />
+        <item key="System Boundary" value="Границы системы" />
+        <item key="Lifeline" value="Линия жизни" />
+        <item key="Interaction Operand" value= "Операнд взаимодействия" />
+        <item key="Activation Bar" value="Полоса активации" />
+        <item key="Fragment" value="Фрагмент" />
+        <item key="Call Action" value="Действие вызова" />
+        <item key="Return Action" value="Действие возврата" />
+        <item key="Send Action" value="Действие пересылки" />
+        <item key="Destroy Action" value="Действие уничтожения" />
+        <item key="Opt Fragment" value="Фрагмент Opt" />
+        <item key="Alt Fragment" value="Фрагмент Alt" />
+        <item key="Loop Fragment" value="Фрагмент Loop" />
+        <item key="Ref Fragment" value="Фрагмент Ref" />
+        <item key="Sd Fragment" value="Фрагмент Sd" />
+        <item key="Par Fragment" value="Фрагмент Par" />
+        <item key="Neg Fragment" value="Фрагмент Neg" />
+        <item key="Self Message" value="Сообщение себе" />
+        <item key="Recursive Message" value="Рекурсивное сообщение" />
+        <item key="Concurrent" value="Параллельно" />
+        <item key="Message" value="Сообщение" />
+        <item key="Swimlane" value="Разделитель" />
+        <item key="Activity" value="Активность" />
+        <item key="Object" value="Объект" />
+        <item key="Initial State" value= "Начальное состояние" />
+        <item key="Final State" value="Конечное состояние" />
+        <item key="State" value="Состояние" />
+        <item key="Composite State" value="Составное состояние" />
+        <item key="Fork/Join" value="Разбиение/Объединение" />
+        <item key="Decision" value="Решение" />
+        <item key="Transition" value="Переход" />
+        <item key="Signal Receipt" value="Прием сигнала" />
+        <item key="Signal Send" value="Отправка сигнала" />
+        <item key="Composite State" value="Составное состояние" />
+        <item key="Entry Point" value="Точка входа" />
+        <item key="Exit Point" value="Точка выхода" />
+        <item key="Node" value="Узел" />
+        <item key="Component" value="Компонент" />
+        <item key="Import" value="Импорт" />
+        <item key="Merge" value="Объединение" />
+        <item key="Use" value="Использование" />
+        <item key="Profile" value="Профиль" />
+        <item key="Stereotype" value="Стереотип" />
+        <item key="Meta Class" value="Meta-класс" />
+        <item key="Apply" value="Применение" />
+        <item key="Entity" value="Сущность" />
+        <item key="Relation" value="Отношение" />
+        <item key="1 to 1" value="1 к 1" />
+        <item key="1 to 0..1" value="1 к 0..1" />
+        <item key="1 to 1..n" value="1 к 1..n" />
+        <item key="1 to 0..n" value="1 к 0..n" />
+        <item key="0..n to 0..n" value="0..n к 0..n" />
+        <item key="1..n to 1..n" value="1..n к 1..n" />
+        <item key="Data Store" value="Хранилище данных" />
+        <item key="Process" value="Процесс" />
+        <item key="Gate" value="Шлюз" />
+        <item key="External" value="Внешний узел" />
+        <item key="Data Flow" value="Поток данных" />
+        <item key="Requirement" value="Требование" />
+        <item key="Model" value="Модель" />
+        <item key="Test Case" value="Контрольный пример" />
+        <item key="Port" value="Порт" />
+        <item key="Part" value="Часть" />
+        <item key="Required Interface" value="Требуемый интерфейс" />
+        <item key="Window" value="Окно" />
+        <item key="Label" value="Метка" />
+        <item key="Button" value="Кнопка" />
+        <item key="Check Box" value="Чекбокс" />
+        <item key="Radio Button" value="Радио-кнопка" />
+        <item key="Text Box" value="Текстбокс" />
+        <item key="CRC Card" value="CRC-карточка" />    
+      </group>
+      <!-- Side Bars -->
+      <group id="SideBars">
+        <item key="Project" value="Проект" />
+        <item key="FastEditor" value="Быстрый редактор" />
+        <item key="Styles" value="Стили" />
+        <item key="ItemProperties" value="Свойства" />
+        <item key="Generation" value="Генератор" />
+        <item key="Documentation" value="Документация" />
+        <item key="Layers" value="Слои" />
+        <item key="Preview" value="Предпросмотр" />
+        <item key="ToDo" value="TO-DO" />
+      </group>
+      <group id="ProjectTabPanel">
+        <item key="NewModel" tooltip="Новая модель" />
+        <item key="NewDiagram" tooltip="Новая диаграмма" />
+        <item key="ExpandAll" tooltip="Развернуть все" />
+        <item key="Refresh" tooltip="Обновить" />
+        <item key="UmlClassDiagram" tooltip="Диаграмма классов" />
+        <item key="UmlUseCaseDiagram" tooltip="Диаграмма вариантов использования" />
+        <item key="UmlSequenceDiagram" tooltip="Диаграмма последовательности" />
+        <item key="UmlActivityDiagram" tooltip="Диаграмма деятельности" />
+        <item key="UmlStateMachineDiagram" tooltip="Диаграмма состояний" />
+        <item key="UmlDeploymentDiagram" tooltip="Диаграмма развертывания" />
+        <item key="UmlProfileDiagram" tooltip="Диаграмма профиля" />
+        <item key="UmlObjectDiagram" tooltip="Диаграмма объектов" />
+        <item key="UmlPackageDiagram" tooltip="Диаграмма пакетов" />
+        <item key="UmlCommunicationDiagram" tooltip="Диаграмма коммуникаций" />
+        <item key="EntityRelationshipDiagram" tooltip="Диаграмма отношений сущностей (ER)" />
+        <item key="RequirementDiagram" tooltip="Диаграмма требований" />
+        <item key="UserInterface" tooltip="Интерфейс пользователя" />
+        <item key="CrcCardDiagram" tooltip="Диаграмма CRC-карточки" />
+        <item key="FlowchartDiagram" tooltip="Блок-схема" />
+        <item key="RobustnessDiagram" tooltip="Диаграмма надежности" />
+        <item key="UmlTimingDiagram" tooltip="Временная диаграмма" />
+        <item key="Filter" tooltip="Фильтр" />
+        <item key="ShowEntities" value="Показать сущности" />
+        <item key="ShowRelations" value="Показать отношения" />
+        <item key="ShowComments" value="Показать комментарии" />
+        <item key="ShowGroups" value="Показать группы" />
+      </group>
+      <group id="GenerationTabPanel">
+        <item key="Generate" value="&amp;Генерировать" />
+        <item key="GenerateFrom" value="Генерировать из: " />
+        <item key="WholeDiagram" value="Вся &amp;диаграмма" />
+        <item key="SelectedElements" value="Выбранные &amp;элементы" />
+      </group>
+      <group id="ItemEditorTabPanel">
+        <item key="ItemDefinition" value="&amp;Определение элемента" />
+      </group>
+      <group id="StylesTabPanel">
+        <item key="Apply" value="&amp;Применить" />
+        <item key="NewStyleSet" tooltip="Создать стиль" />
+        <item key="OpenStyleSet" tooltip="Открыть стиль" />
+        <item key="SaveStyleSet" tooltip="Сохранить стиль" />
+        <item key="AddStyle" tooltip="Добавить стиль" />
+        <item key="SetStyleAsDefault" tooltip="Установить стиль по умолчанию" />
+        <item key="EditStyle" tooltip="Изменить стиль" />
+        <item key="DeleteStyle" tooltip="Удалить стиль" />
+      </group>
+      <group id="Properties">
+        <item key="ShowDialog" value="Показать диалог" />
+        <item key="ID" value="ID:" />
+        <item key="Name" value="Имя:" />
+        <item key="Visibility" value="Видимость:" />
+        <item key="X" value="X:" />
+        <item key="Y" value="Y:" />
+        <item key="Width" value="Ширина:" />
+        <item key="Height" value="Высота:" />
+      </group>
+    </form>
+    <form id="EditorForm">
+      <group id="Form">
+        <item key="FilterWarning" value="Фильтр активен, некоторые элементы могут быть скрыты" />
+        <item key="RemoveFilter" value="&amp;Удалить фильтр" />        
+      </group>
+    </form>
+    <form id="Elements">
+      <group id="DiagramDescription">
+        <item key="Authors" value="Автор(ы):" />
+        <item key="Description" value="Описание:" />
+        <item key="DiagramName" value="Имя диаграммы:" />
+        <item key="Version" value="Версия:" />
+        <item key="LastChangeDate" value="Изменена:" />
+        <item key="ModelName" value="Модель:" />
+        <item key="ProjectName" value="Проект:" />
+      </group>
+    </form>
+    <form id="LayerControl">
+      <group id="Control">
+        <item key="AddLayer" tooltip="Добавить новый слой" />
+        <item key="DeleteLayer" tooltip="Удалить слой" />
+        <item key="ShowHideLayer" tooltip="Показать/Скрыть слой" />
+        <item key="MergeAllLayers" tooltip="Объединить все слои" />
+      </group>
+    </form>
+    <!-- Context Bar -->
+    <form id="ContextBar">
+      <group id="Control">
+        <item key="AddAttribute" value="Добавить атрибут" />
+        <item key="AddOperation" value="Добавить метод" />
+        <item key="AddSubClass" value="Добавить потомка" />
+        <item key="AddSuperClass" value="Добавить предка" />
+        <item key="AddUseCase" value="Добавить вариант использования" />
+        <item key="AddSwimlane" value="Добавить разделитель" />
+        <item key="AddInterface" value="Добавить интерфейс" />
+        <item key="AddState" value="Добавить состояние" />
+        <item key="AddValueLifeline" value="Добавить значение Линии жизни" />
+        <item key="AddStateLifeline" value="Добавить состояние Линии жизни" />
+        <item key="ConvertToValueLifeline" value="Преобразовать в значение Линии жизни" />
+        <item key="ConvertToStateLifeline" value="Преобразовать в состояние Линии жизни" />
+        <item key="Extend" value="Расширить" />
+        <item key="Include" value="Включить" />
+        <item key="AddComment" value="Добавить комментарий" />
+        <item key="AddSequenceExpression" value="Добавить выражение последовательности" />
+        <item key="AddSequenceExpression" value="Добавить выражение обратной последовательности" />
+        <item key="AddCollaborator" value="Добавить сотрудника" />
+        <item key="AddResponsibility" value="Add Добавить ответственного" />
+        <item key="AddAssociationClass" value="Добавить ассоциацию класса" />
+      </group>
+    </form>
+    <!-- New Diagram  -->
+    <form id="NewDiagramForm">
+      <group id="Form">
+        <item key="Title" value="Новая диаграмма" />
+        <item key="SelectItemLabel" value="Выберите тип диаграммы для добавления в проект:" />
+        <item key="NameLabel" value="Имя:" />
+        <item key="OK" value="&amp;OK" />
+        <item key="Cancel" value="&amp;Отмена" />
+      </group>
+      <group id="Diagrams">
+        <item key="UMLDiagrams" value="UML-диаграммы" />
+        <item key="DatabaseModeling" value="Моделирование баз данных" />
+        <item key="Requirements" value="Требования" />
+        <item key="Others" value="Другие" />
+      </group>
+    </form>
+    <form id="AboutForm">
+      <group id="Form">
+        <item key="Title" value="О программе Software Ideas Modeler" />
+        <item key="AboutTab" value="О программе" />
+        <item key="WhatsNewTab" value="Что нового" />
+        <item key="Author" value="Автор:" />
+        <item key="Version" value="Версия:" />
+        <item key="Description" value="Software Ideas Modeler - инструмент моделирования программного обеспечения с использованием UML-диаграмм." />
+        <item key="Close" value="&amp;Закрыть" />
+        <item key="Donation" value="Если вам нравится программа, поддержите её, нажав на кнопку &quot;donate&quot; и отправте любую сумму денег." />
+      </group>
+    </form>
+    <form id="StartPageForm">
+      <group id="Form">
+        <item key="Title" value="Стартовая страница" />
+        <item key="StartWith" value="Начните с..." />
+        <item key="RecentProjects" value="Последние проекты" />
+        <item key="OpenProject" value="Открыть проект..." />
+        <item key="NewProject" value="Создать новый проект..." />
+        <item key="DonateNow" value="Поддержать" />
+      </group>
+    </form>
+    <form id="ModelOverviewForm">
+      <group id="Form">
+        <item key="Title" value="Обзор модели" />
+      </group>
+    </form>
+    <form id="DiagramThumbnailsPanel">
+      <group id="Control">
+        <item key="Open" value="&amp;Открыть" />
+        <item key="Close" value="&amp;Закрыть" />
+        <item key="DeleteDiagram" value="&amp;Удалить диаграмму" />
+      </group>
+    </form>    
+    <form id="ClassifierForm">
+      <group id="Form">
+        <item key="Title" value="Классификаторы" />
+        <item key="Classifiers" value="Классификаторы:" />
+      </group>
+    </form>
+    <form id="CommunicationMessageForm">
+      <group id="Form">
+        <item key="Title" value="Сообщение" />
+        <item key="SequenceNumber" value="Порядковый номер:" />
+        <item key="Message" value="Сообщение:" />
+        <item key="Direction" value="Направление:" />
+        <item key="NormalDirection" value="Прямое" />
+        <item key="ReverseDirection" value="Обратное" />
+      </group>
+    </form>
+    <form id="ItemPropertiesForm">
+      <group id="Form">
+        <item key="Title" value="Свойства элемента" />
+        <item key="General" value="Основные" />
+        <item key="Class" value="Класс" />
+        <item key="Relationship" value="Отношения" />
+        <item key="Style" value="Стиль" />
+        <item key="Documentation" value="Документация" />
+        <item key="TaggedValues" value="Помеченные значения" />
+        <item key="ErdEntity" value="Сущность" />
+        <item key="ErdRelation" value="Отношение" />
+        <item key="UmlState" value="Состояние" />
+        <item key="UmlFragment" value="Фрагмент" />
+        <item key="UmlObject" value="Объект" />
+        <item key="UmlLifeline" value="Линия жизни" />
+        <item key="UmlInteractionOperand" value="Опреанд взаимодействия" />
+        <item key="UmlCommunicationLifeline" value="Линия жизни" />
+        <item key="UmlCommunicationMessage" value="Сообщение" />
+        <item key="UmlTransition" value="Переход" />
+        <item key="UmlExtend" value="Расширение" />
+        <item key="UmlSwimlane" value="Разделитель" />
+        <item key="SequenceMessage" value="Сообщение" />
+        <item key="TemplateParameters" value="Параметры шаблона" />
+        <item key="TimingTickMarkValues" value="Значения разделителей" />
+        <item key="TimingStates" value="Состояния" />
+        <item key="TimingEvents" value="События" />
+        <item key="CrcCardHeader" value="Заголовок" />
+        <item key="CrcCard" value="Обязанности" />
+        <item key="OK" value="&amp;OK" />
+        <item key="Cancel" value="&amp;Отмена" />
+        <item key="Name" value="Имя:" />
+        <item key="ID" value="ID:" />
+        <item key="Stereotypes" value="&amp;Стереотипы" />
+        <item key="AppliedStereotypes" value="&amp;Примененные стереотипы:" />
+        <item key="AvailableStereotypes" value="До&amp;ступные стереотипы:" />
+        <item key="Add" value="&lt;&amp;Добавить" />
+        <item key="AddCustom" value="&lt;Созд&amp;ать" />
+        <item key="Remove" value="&amp;Удалить&gt;" />
+        <item key="Modifiers" value="Модификаторы" />
+        <item key="AbstractModifier" value="&amp;Abstract" />
+        <item key="StaticModifier" value="&amp;Static" />
+      </group>
+    </form>
+    <form id="Style">
+      <group id="Control">
+        <item key="DefaultStyle" value="Стандартный стиль" />
+        <item key="StyleByClass" value="Стиль по классу:" />
+        <item key="CustomStyle" value="Настроить стиль" />
+        <item key="BorderColor" value="Цвет границы:" />
+        <item key="BackgroundType" value="Тип фона:" />
+        <item key="BackgroundColor" value="Цвет фона:" />
+        <item key="BackgroundColor2" value="Цвет фона 2:" />
+        <item key="TextColor" value="Цвет текста:" />
+        <item key="TextFont" value="Шрифт текста:" />
+        <item key="BorderWidth" value="Ширина границы:" />
+        <item key="Gloss" value="Глянец" />
+        <item key="Gloss3D" value="Эффект 3D-глянца" />
+        <item key="Shadow" value="Тень:" />
+        <item key="ShadowOffsetX" value="Смещение по X:" />
+        <item key="ShadowOffsetY" value="Смещение по Y:" />
+        <item key="ShadowRadius" value="Радиус:" />
+        <item key="ShadowColor" value="Цвет:" />
+        <item key="NameFont" value="Шрифт имени:" />
+        <item key="NameColor" value="Цвет имени:" />
+        <item key="StereotypeColor" value="Цвет стереотипа:" />
+        <item key="StereotypeFont" value="Шрифт стереотипа:" />
+        <item key="Name" value="Имя" />
+        <item key="Stereotype" value="Стереотип" />
+        <item key="Text" value="Текст" />
+        <item key="Effects" value="Эффекты" />
+        <item key="Font" value="Шрифт:" />
+        <item key="Color" value="Цвет:" />
+        <item key="Alignment" value="Выравнивание:" />
+      </group>
+    </form>
+    <form id="Documentation">
+      <group id="Control">
+        <item key="FontSize" value="Размер шрифта:" />
+        <item key="Bold" tooltip="Полужирный" />
+        <item key="Italic" tooltip="Курсив" />
+        <item key="Underline" tooltip="Подчеркнутый" />
+        <item key="Strikethrough" tooltip="Зачеркнутый" />
+      </group>
+    </form>
+    <form id="ErdRelationDefinition">
+      <group id="Control">
+        <item key="RelationType" value="Тип отношения:" />
+        <item key="StartMultiplicity" value="Кратность начала:" />
+        <item key="StartRole" value="Роль начала:" />
+        <item key="EndMultiplicity" value="Кратность конца:" />
+        <item key="EndRole" value="Роль конца:" />
+      </group>
+    </form>
+    <form id="ErdEntityDefinition">
+      <group id="Control">
+        <item key="Add" value="Добавить" />
+        <item key="Edit" value="Изменить" />
+        <item key="Remove" value="Удалить" />
+        <item key="Attributes" value="Атрибуты" />
+        <item key="NameColumn" value="Имя" />
+        <item key="TypeColumn" value="Тип" />
+        <item key="TypeSizeColumn" value="Размер типа" />
+        <item key="NullableColumn" value="Пустой" />
+        <item key="DescriptionColumn" value="Описание" />
+      </group>
+    </form>
+    <form id="MessageDefinition">
+      <group id="Control">
+        <item key="Message" value="Сообщение:" />
+        <item key="Type" value="Тип:" />
+        <item key="Asynchronous" value="Асинхронно" />
+        <item key="Call" value="Вызов" />
+        <item key="Create" value="Создать" />
+        <item key="Destroy" value="Разрушить" />
+        <item key="Return" value="Вернуть" />
+        <item key="Send" value="Отправить" />
+        <item key="Terminate" value="Завершить" />
+      </group>
+    </form>
+    <form id="CommentDefinition">
+      <group id="Control">
+        <item key="Comment" value="Комментарий:" />
+      </group>
+    </form>
+    <form id="LifelineDefinition">
+      <group id="Control">
+        <item key="Classifier" value="Классификатор:" />
+        <item key="Active" value="Активность" />
+        <item key="MultiObject" value="Multi-объект" />
+      </group>
+    </form>
+    <form id="CommunicationLifelineDefinition">
+      <group id="Control">
+        <item key="Classifier" value="Классификатор:" />
+      </group>
+    </form>
+    <form id="CommunicationMessageDefinition">
+      <group id="Control">
+        <item key="Add" value="&amp;Добавить" />
+        <item key="Edit" value="&amp;Изменить" />
+        <item key="Remove" value="&amp;Удалить" />
+      </group>
+    </form>
+    <form id="FragmentDefinition">
+      <group id="Control">
+        <item key="InteractionOperator" value="Оператор взаимодействия:" />
+        <item key="Add" value="&amp;Добавить" />
+        <item key="Edit" value="&amp;Изменить" />
+        <item key="Remove" value="&amp;Удалить" />
+      </group>
+    </form>
+    <form id="InteractionOperandDefinition">
+      <group id="Control">
+        <item key="GuardCondition" value="Состояние защиты:" />
+      </group>
+    </form>
+    <form id="ObjectDefinition">
+      <group id="Control">
+        <item key="Classifier" value="Классификатор:" />
+        <item key="Values" value="Значения" />
+        <item key="Value" value="Значение" />
+        <item key="Name" value="Имя" />
+      </group>
+    </form>
+    <form id="AddObjectAttributeForm">
+      <group id="Form">
+        <item key="Title" value="Добавить атрибуты" />
+        <item key="Attributes" value="Атрибуты" />
+      </group>
+    </form>
+    <form id="CrcCardHeaderDefinition">
+      <group id="Control">
+        <item key="Description" value="Описание:" />
+        <item key="Superclass" value="Родитель:" />
+        <item key="Subclasses" value="Потомки:" />
+        <item key="Subclass" value="Потомок" />
+      </group>
+    </form>
+    <form id="CrcCardDefinition">
+      <group id="Control">
+        <item key="Responsibilities" value="Обязанности" />
+        <item key="Responsibility" value="Обязанность" />
+        <item key="Collaborators" value="Соавторы" />
+        <item key="Collaborator" value="Соавтор" />
+      </group>
+    </form>
+    <form id="StateDefinition">
+      <group id="Control">
+        <item key="StateGroup" value="Состояние" />
+        <item key="StateInvariant" value="Неизменное:" />
+        <item key="StandardActions" value="Стандартные действия" />
+        <item key="Entry" value="Вход:" />
+        <item key="Do" value="Выполнить:" />
+        <item key="Exit" value="Выход:" />
+        <item key="CustomActions" value="Настроить действия" />
+        <item key="ActionName" value="Имя действия" />
+        <item key="Behavior" value="Поведение" />
+        <item key="Add" value="&amp;Добавить" />
+        <item key="Remove" value="&amp;Удалить" />
+      </group>
+    </form>
+    <form id="TransitionDefinition">
+      <group id="Control">
+        <item key="PreCondition" value="Пред-условие:" />
+        <item key="Operation" value="Операция:" />
+        <item key="PostCondition" value="Пост-условие:" />
+      </group>
+    </form>
+    <form id="TemplateParamsDefinitionForm">
+      <group id="Control">
+        <item key="NameColumn" value="Имя" />
+        <item key="KindColumn" value="Тип" />
+        <item key="DefaultValueColumn" value="По умолчанию" />
+      </group>
+    </form>
+    <form id="ErdAttributeForm">
+      <group id="Form">
+        <item key="Title" value="Атрибут" />
+        <item key="Name" value="Имя:" />
+        <item key="Type" value="Тип:" />
+        <item key="TypeSize" value="Размер типа:" />
+        <item key="PrimaryKey" value="Первичный ключ" />
+        <item key="ForeignKey" value="Внешний ключ" />
+        <item key="Nullable" value="Пустой" />
+        <item key="Description" value="Описание:" />
+        <item key="OK" value="&amp;OK" />
+        <item key="Cancel" value="&amp;Отмена" />
+      </group>
+    </form>
+    <form id="StereotypeForm">
+      <group id="Form">
+        <item key="Title" value="Стереотип" />
+        <item key="OK" value="&amp;OK" />
+        <item key="Cancel" value="&amp;Отмена" />
+        <item key="Name" value="Имя:" />
+      </group>
+    </form>
+    <form id="ClassDefinitionForm">
+      <group id="Form">
+        <item key="Title" value="Определение класса" />
+        <item key="Name" value="&amp;Имя:" />
+        <item key="Attributes" value="&amp;Атрибуты:" />
+        <item key="Operations" value="&amp;Методы:" />
+        <item key="OK" value="&amp;OK" />
+        <item key="Cancel" value="&amp;Отмена" />
+        <item key="NameColumn" value="Имя" />        
+        <item key="TypeColumn" value="Тип" />        
+        <item key="VisibilityColumn" value="Видимость" />
+        <item key="DefaultValueColumn" value="По умолчанию" />
+        <item key="ParametersColumn" value="Параметры" />  
+      </group>
+    </form>
+    <form id="RelationDefinitionControl">
+      <group id="Control">
+        <item key="RelationType" value="Тип отношения:" />
+        <item key="StartMultiplicity" value="Кратность начала:" />
+        <item key="StartRole" value="Роль начала:" />
+        <item key="EndMultiplicity" value="Кратность конца:" />
+        <item key="EndRole" value="Роль конца:" />
+      </group>
+    </form>
+    <form id="ExtendDefinitionControl">
+      <group id="Control">
+        <item key="ExtensionPoint" value="Точка расширения:" />
+      </group>
+    </form>
+    <form id="SwimlaneDefinitionControl">
+      <group id="Control">
+        <item key="Orientation" value="Ориентация" />
+        <item key="VerticalOrientation" value="Вертикально" />
+        <item key="HorizontalOrientation" value="Горизонтально" />
+      </group>
+    </form>
+    <form id="DiagramControl">
+      <group id="Menu">
+        <item key="AssignNewDiagram" value="Добавить &amp;новую диаграмму" />
+        <item key="AssignExistingDiagram" value="Добавить &amp;существующую диаграмму" />
+        <item key="Documentation" value="Документация" />
+        <item key="Properties" value="Свойства" />
+        <item key="AddPoint" value="&amp;Добавить точку" />
+        <item key="LockStartPoint" value="Заблокировать начальную точку" />
+        <item key="LockEndPoint" value="Заблокировать конечную точку" />
+        <item key="LineStyle" value="Стиль линии" />
+        <item key="StraightLineStyle" value="Прямая" />
+        <item key="PerpendicularLineStyle" value="Ломаная" />
+        <item key="CurveLineStyle" value="Кривая" />
+        <item key="ExportDiagram" value="Экспорт диаграммы" />
+        <item key="ShowGrid" value="Показать сетку" />
+        <item key="SnapToGrid" value="Привязать к сетке" />
+        <item key="DeleteFromDiagram" value="Удалить из диаграммы" />
+        <item key="DeleteFromProject" value="Удалить из проекта" />
+        <item key="RelationDeleteFromDiagram" value="Удалить из диаграммы" />
+        <item key="RelationDeleteFromProject" value="Удалить из проекта" />
+        <item key="RelationProperties" value="Свойства" />
+        <item key="Reverse" value="&amp;Обратить" />
+        <item key="RemoveField" value="&amp;Удалить '{@1}'" />
+        <item key="ChangeType" value="Изменить &amp;тип" />
+        <item key="Visibility" value="&amp;Видимость" />
+        <item key="Public" value="&amp;Public" />
+        <item key="Package" value="&amp;Пакет" />
+        <item key="Protected" value="P&amp;rotected" />
+        <item key="Private" value="Pr&amp;ivate" />
+        <item key="Rename" value="Пере&amp;именовать" />
+        <item key="MoveUp" value="Переместить &amp;вверх" />
+        <item key="MoveDown" value="Переместить в&amp;низ" />
+        <item key="Group" value="&amp;Сгруппировать" />
+        <item key="Ungroup" value="&amp;Разгруппировать" />
+      </group>
+    </form>
+    <form id="StyleSetEditorForm">
+      <group id="Form">
+        <item key="Title" value="Редактор стиля" />
+        <item key="StyleSetName" value="Имя стиля:" />
+        <item key="DefaultStyle" value="Стиль по умолчанию" />
+        <item key="New" value="Создать" />
+        <item key="Open" value="Открыть" />
+        <item key="Save" value="Сохранить" />
+      </group>
+    </form>
+    <form id="NewStyleForm">
+      <group id="Form">
+        <item key="Title" value="Новый стиль" />
+        <item key="General" value="Основные" />
+        <item key="ForSpecificElement" value="Для конкретного элемента" />
+        <item key="StyleClassName" value="Имя класса стиля:" />
+        <item key="ElementType" value="Тип элемента:" />
+        <item key="Stereotype" value="Стереотип:" />
+      </group>
+    </form>
+    <form id="IDsRenumberingForm">
+      <group id="Form">
+        <item key="Title" value="Перенумерование ID" />
+        <item key="Options" value="Опции" />
+        <item key="OriginalNumbering" value="Исходная нумерация" />
+        <item key="NewNumbering" value="Новая нумерация" />
+        <item key="StartNumberingFrom" value="Начать нумерацию с:" />
+        <item key="OrderByAlphabet" value="По алфавиту" />
+        <item key="SameWithoutGaps" value="Удалить пробелы" />
+        <item key="Clear" value="Очистить" />
+      </group>
+    </form>
+    <form id="OptionsForm">
+      <group id="Form">
+        <item key="Title" value="Настройки" />
+        <item key="GeneralTab" value="Основные" />
+        <item key="DiagramEditorTab" value="Редактор диаграмм" />
+        <item key="Language" value="Язык" />
+        <item key="ShowStartPage" value="Показать Стартовую страницу" />
+        <item key="RecentFiles" value="Последние файлы" />
+        <item key="ClearRecentProjects" value="&amp;Очистить список Последних проектов" />        
+        <item key="ItemsInMenu" value="пунктов в меню" />
+        <item key="ItemsInStartPage" value="пунктов на Стартовой странице" />
+        <item key="Toolbars" value="Панели инструментов" />
+        <item key="StandardBar" value="Стандартная" />
+        <item key="SideBar" value="Боковая панель" />
+        <item key="LayoutBar" value="Расположение" />
+        <item key="StatusBar" value="Строка состояния" />
+        <item key="Toolbox" value="Панель инструментов" />
+        <item key="DiagramEditorGeneral" value="Основные" />
+        <item key="DiagramEditorBackgroundColor" value="Цвет фона:" />
+        <item key="DiagramEditorBackgroundColor2" value="Цвет фона 2:" />
+        <item key="AutoScrolling" value="Автопрокрутка" />
+        <item key="Grid" value="Сетка" />
+        <item key="SnapToGrid" value="Привязать к сетке" />
+        <item key="ShowGrid" value="Показать сетку" />
+        <item key="GridVerticalSpacing" value="По вертикали:" />
+        <item key="GridHorizontalSpacing" value="По горизонтали:" />
+        <item key="RelationsAlwaysOnTop" value="Показывать отношения всегда поверх всего" />
+      </group>
+    </form>
+    <form id="StyleEditorForm">
+      <group id="Form">
+        <item key="Title" value="Редактор стиля" />
+        <item key="NewStyle" value="Новый стиль" />
+        <item key="Name" value="Имя:" />
+      </group>
+    </form>
+    <form id="ProjectPropertiesForm">
+      <group id="Form">
+        <item key="Title" value="Свойства проекта" />
+        <item key="Name" value="Имя:" />
+        <item key="Authors" value="Авторы:" />
+        <item key="Description" value="Описание:" />
+        <item key="AddNewDiagram" value="Добавить новую диаграмму..." />
+        <item key="Properties" value="Свойства" />
+      </group>
+    </form>
+    <form id="DiagramPropertiesForm">
+      <group id="Form">
+        <item key="Title" value="Свойства диаграммы" />
+        <item key="Name" value="Имя:" />
+        <item key="Authors" value="Авторы:" />
+        <item key="Version" value="Версия:" />
+        <item key="Created" value="Создана:" />
+        <item key="LastChange" value="Изменена:" />
+        <item key="Description" value="Описание:" />
+        <item key="CustomNamespace" value="Пространство имен:" />
+        <item key="General" value="Основные" />
+        <item key="Documentation" value="Документация" />
+      </group>
+    </form>    
+    <form id="TaggedValueEditorForm">
+      <group id="Form">
+        <item key="Title" value="Помеченные значения" />
+        <item key="TagName" value="Имя метки:" />
+        <item key="TaggedValue" value="Значение:" />
+      </group>
+    </form>
+    <form id="CustomMoveForm">
+      <group id="Form">
+        <item key="Title" value="Настройка перемещения" />
+        <item key="Right" value="Вправо:" />
+        <item key="Down" value="Вниз:" />
+        <item key="Left" value="Влево:" />
+        <item key="Up" value="Вверх:" />
+      </group>
+    </form>
+    <form id="CustomSizeForm">
+      <group id="Form">
+        <item key="Title" value="Настройка размера" />
+        <item key="General" value="Основные" />
+        <item key="Sides" value="Стороны" />
+        <item key="WidthHeight" value="Ширина/Высота" />
+        <item key="Inflate" value="Увеличить:" />
+        <item key="Deflate" value="Уменьшить:" />
+        <item key="Left" value="Левая:" />
+        <item key="Right" value="Правая:" />
+        <item key="Top" value="Верх:" />
+        <item key="Bottom" value="Низ:" />
+        <item key="Width" value="Ширина:" />
+        <item key="Height" value="Высота:" />
+      </group>
+    </form>
+    <form id="TaggedValueControl">
+      <group id="Control">
+        <item key="Name" value="Имя" />
+        <item key="Value" value="Значение" />
+      </group>
+    </form>
+    <form id="UmlOperationEditorForm">
+      <group id="Form">
+        <item key="Title" value="Редактор методов" />
+        <item key="General" value="Основные" />
+        <item key="Parameters" value="Параметры" />
+        <item key="Name" value="Имя:" />
+        <item key="Type" value="Тип значения:" />
+        <item key="Visibility" value="Видимость:" />
+        <item key="Modifiers" value="Модификаторы" />
+        <item key="Abstract" value="Abstract" />
+        <item key="Virtual" value="Virtual" />
+        <item key="Static" value="Static" />
+        <item key="NameColumn" value="Имя" />
+        <item key="TypeColumn" value="Тип" />
+      </group>
+    </form>
+    <form id="UmlAttributeEditorForm">
+      <group id="Form">
+        <item key="Title" value="Редактор атрибутов" />
+        <item key="General" value="Основные" />
+        <item key="Name" value="Имя:" />
+        <item key="Type" value="Тип:" />
+        <item key="Visibility" value="Видимость:" />
+        <item key="DefaultValue" value="Значение:" />
+        <item key="Modifiers" value="Модификаторы" />
+        <item key="Abstract" value="Abstract" />
+        <item key="Virtual" value="Virtual" />
+        <item key="Static" value="Static" />
+      </group>
+    </form>
+    <form id="FindForm">
+      <group id="Form">
+        <item key="Title" value="Найти" />
+        <item key="Find" value="&amp;Найти далее" />
+        <item key="FindWhat" value="Что найти:" />   
+      </group>
+    </form>
+    <form id="ToDoControl">
+      <group id="Control">
+        <item key="AddToDo" value="Добавить TO-DO" />
+        <item key="EditToDo" value="Изменить TO-DO" />
+        <item key="DeleteToDo" value="Удалить TO-DO" />
+        <item key="Completed" value="Выполнено" />
+        <item key="Priority" value="Приоритет" />
+        <item key="ToDoText" value="TO-DO" />
+        <item key="EndDate" value="Дата окончания" />
+        <item key="Created" value="Создано" />
+      </group>
+    </form>
+    <form id="ImageExportSettingForm">
+      <group id="Form">
+        <item key="Title" value="Настройки экспорта" />
+        <item key="ExportContent" value="Содержимое экспорта" />
+        <item key="Size" value="Размер" />
+        <item key="Background" value="Фон" />
+        <item key="ExportOnlyActiveLayer" value="Экспортировать только активный слой" />
+        <item key="ExportHiddenLayers" value="Экспортировать скрытые слои" />
+        <item key="Width" value="Ширина" />
+        <item key="Height" value="Высота" />
+        <item key="Transparent" value="Прозрачный" />
+        <item key="Color1" value="Цвет 1:" />
+        <item key="Color2" value="Цвет 2:" />
+      </group>
+    </form>
+    <form id="TaskEditorForm">
+      <group id="Form">
+        <item key="Title" value="Задача" />
+        <item key="Name" value="Имя:" />
+        <item key="ID" value="ID:" />
+        <item key="StartDate" value="Начало:" />
+        <item key="EndDate" value="Окончание:" />
+        <item key="Priority" value="Приоритет:" />
+        <item key="Phase" value="Фаза:" />
+        <item key="Progress" value="Прогресс:" />
+        <item key="Description" value="Описание:" />
+        <item key="General" value="Основные" />
+        <item key="Persons" value="Участники" />
+        <item key="Lowest" value="Самый низкий" />
+        <item key="Low" value="Низкий" />
+        <item key="Normal" value="Нормальный" />
+        <item key="Hight" value="Высокий" />
+        <item key="Highest" value="Самый высокий" />
+      </group>
+    </form>
+    <form id="XmiImportResultForm">
+      <group id="Form">
+        <item key="Title" value="Результат импорта из XMI" />
+        <item key="CreateDiagrams" value="Создать диаграммы" />
+      </group>
+    </form>
+    <form id="DatabaseSelectionForm">
+      <group id="Form">
+        <item key="Title" value="Выбор базы данных" />
+        <item key="DataSource" value="Источник данных:" />
+        <item key="ServerName" value="Сервер:" />
+        <item key="Authentication" value="Аутентификация" />
+        <item key="AuthenticationType" value="Тип:" />
+        <item key="UserName" value="Пользователь:" />
+        <item key="Password" value="Пароль:" />
+        <item key="DatabaseName" value="Имя базы данных:" />
+      </group>
+    </form>
+    <form id="DatabaseImportForm">
+      <group id="Form">
+        <item key="Title" value="Импорт базы данных" />
+        <item key="ConnectionString" value="Строка соединения:" />
+        <item key="LoadTables" value="Загрузить таблицы" />
+        <item key="Tables" value="Таблицы" />
+      </group>
+    </form>
+    <form id="ObjectModelImportForm">
+      <group id="Form">
+        <item key="Title" value="Импорт объектной модели" />
+        <item key="Assemblies" value="Сборки" />
+        <item key="Namespaces" value="Пространства/Пакеты" />
+      </group>
+    </form>
+    <form id="DiagramElementsSelectionForm">
+      <group id="Form">
+        <item key="Title" value="Элементы диаграммы" />
+      </group>
+    </form>
+    <form id="SourceCodeGenerationSettingsForm">
+      <group id="Form">
+        <item key="Title" value="Генерация исходного кода" />
+        <item key="General" value="Основные" />
+        <item key="Imports" value="Импорты" />
+        <item key="Language" value="Язык:" />
+        <item key="OutputDirectory" value="Папка вывода:" />
+        <item key="Generate" value="Выполнить" />
+      </group>
+    </form>
+    <form id="RelationInsertForm">
+      <group id="Form">
+        <item key="Title" value="Новое отношение" />
+        <item key="FromElement" value="От элемента:" />
+        <item key="ToElement" value="К элементу:" />
+      </group>
+    </form>
+    <form id="DefaultNamesForm">
+      <group id="Form">
+        <item key="Title" value="Имена и ID по умолчанию" />
+        <item key="DiagramType" value="Тип диаграммы:" />
+        <item key="ElementType" value="Тип элемента" />
+        <item key="DefaultName" value="Имя:" />
+        <item key="DefaultID" value="ID:" />
+      </group>
+    </form>
+    <form id="TypesForm">
+      <group id="Form">
+        <item key="Title" value="Типы" />
+        <item key="NewTypeSet" value="&amp;Новый набор типов" />
+        <item key="ImportTypeSet" value="&amp;Импорт набора типов" />
+        <item key="TypeSets" value="Наборы типов" />
+        <item key="CustomTypes" value="Свои типы" />
+      </group>
+    </form>
+    <form id="TypeSetEditorControl">
+      <group id="Control">
+        <item key="TypeDefinition" value="Определение типа" />
+        <item key="ID" value="ID:" />
+        <item key="Name" value="Имя:" />
+        <item key="Description" value="Описание:" />
+      </group>
+    </form>
+    <form id="TypeSetEditorForm">
+      <group id="Form">
+        <item key="Title" value="Редактор набора типов" />
+      </group>
+    </form>
+    <form id="StereotypesForm">
+      <group id="Form">
+        <item key="Title" value="Стереотипы" />
+        <item key="ElementType" value="Тип элемента:" />
+        <item key="General" value="Основные" />
+        <item key="AppliesTo" value="Назначение" />
+        <item key="Name" value="Имя:" />
+        <item key="Description" value="Описание:" />
+      </group>
+    </form>
+    <form id="NewTypeSetForm">
+      <group id="Form">
+        <item key="Title" value="Новый набор типов" />
+        <item key="Name" value="Имя:" />
+      </group>
+    </form>
+    <form id="ToDoEditorForm">
+      <group id="Form">
+        <item key="Title" value="To Do" />
+        <item key="Lowest" value="Самый низкий" />
+        <item key="Low" value="Низкий" />
+        <item key="Normal" value="Нормальный" />
+        <item key="Hight" value="Высокий" />
+        <item key="Highest" value="Самый высокий" />
+        <item key="Text" value="Текст:" />
+        <item key="Priority" value="Приоритет:" />
+        <item key="EndDate" value="Окончить:" />
+        <item key="Completed" value="Завершено" />
+      </group>
+    </form>
+    <form id="TaskManagementForm">
+      <group id="Form">
+        <item key="Title" value="Управление задачами" />
+        <item key="ID" value="ID" />
+        <item key="Name" value="Название" />
+        <item key="Priority" value="Приоритет" />
+        <item key="Progress" value="Прогресс" />
+        <item key="StartDate" value="Начато" />
+        <item key="EndDate" value="Закончить" />
+        <item key="Persons" value="Участники" />
+        <item key="AddTask" value="Добавить задачу" />
+        <item key="EditTask" value="Изменить задачу" />
+        <item key="DeleteTask" value="Удалить задачу" />
+        <item key="AssignPerson" value="Назначить участника" />
+      </group>
+    </form>
+    <form id="PersonsForm">
+      <group id="Form">
+        <item key="Title" value="Участники" />
+        <item key="FirstName" value="Имя" />
+        <item key="LastName" value="Фамилия" />
+        <item key="Role" value="Роль" />
+        <item key="EMail" value="E-mail" />
+        <item key="PhoneNumber" value="Телефон" />
+        <item key="AddPerson" value="Добавить участника" />
+        <item key="EditPerson" value="Изменить участника" />
+        <item key="DeletePerson" value="Удалить участника" />
+      </group>
+    </form>
+    <form id="PersonEditorForm">
+      <group id="Form">
+        <item key="Title" value="Участник" />
+        <item key="FirstName" value="Имя:" />
+        <item key="LastName" value="Фамилия:" />
+        <item key="Role" value="Роль:" />
+        <item key="EMail" value="E-mail:" />
+        <item key="PhoneNumber" value="Телефон:" />
+        <item key="Description" value="Описание:" />
+      </group>
+    </form>
+    <form id="ModelPropertiesForm">
+      <group id="Form">
+        <item key="Title" value="Свойства модели" />
+        <item key="General" value="Основные" />
+        <item key="Documentation" value="Документация" />
+        <item key="Name" value="Имя:" />
+        <item key="CustomNamespace" value="Пространство имен:" />
+      </group>
+    </form>
+    <form id="DocumentationGenerationForm">
+      <group id="Form">
+        <item key="Title" value="Сгенерировать документацию" />
+        <item key="General" value="Основные" />
+        <item key="Format" value="Формат" />
+        <item key="HTML" value="HTML" />
+        <item key="RTF" value="RTF" />
+        <item key="PDF" value="PDF" />
+        <item key="Texts" value="Тексты" />
+        <item key="DocumentTitle" value="Заголовок:" />
+        <item key="DocumentSubtitle" value="Подзаголовок:" />
+        <item key="Company" value="Компания:" />
+        <item key="Authors" value="Авторы:" />
+        <item key="OutputFile" value="Выходной файл:" />
+        <item key="Generate" value="Выполнить" />
+      </group>
+    </form>
+    <form id="TimingEvents">
+      <group id="Control">
+        <item key="State" value="Состояние" />
+        <item key="Duration" value="Длительность" />
+        <item key="Stimulus" value="Влияние" />
+        <item key="DurationConstraint" value="Ограничение длительности" />
+      </group>
+    </form>
+    <form id="TimingTickMarkValues">
+      <group id="Control">
+        <item key="Position" value="Позиция" />
+        <item key="Label" value="Метка" />        
+      </group>
+    </form>
+    <form id="TimingStatesControl">
+      <group id="Control">
+        <item key="State" value="Состояние" />
+      </group>
+    </form>
+    <form id="ElementBrowserForm">
+      <group id="Form">
+        <item key="Title" value="Браузер элементов" />
+        
+        <item key="OpenDiagram" value="Открыть диаграмму" />
+        <item key="Rename" value="Переименовать" />
+        <item key="Delete" value="Удалить" />
+        <item key="Properties" value="Свойства" />
+        <item key="Name" value="Имя" />
+        <item key="ID" value="ID" />
+        <item key="Type" value="Тип" />
+      </group>
+    </form>
+    <form id="ActivationForm">
+      <group id="Form">
+        <item key="Title" value="Активация" />
+        <item key="Text" value="Если вы хотите использовать Software Ideas Modeler в коммерческих целях, вы должны зарегистрироваться и оплатить регистрационный взнос." />
+        <item key="Step1" value="Шаг 1:" />
+        <item key="Step2" value="Шаг 2:" />
+        <item key="Step3" value="Шаг 3:" />
+        <item key="Step1Text" value="Оплатите взнос" />
+        <item key="Step2Text" value="Дождитесь получения ключа активации (будет отправлен вам по e-mail)." />
+        <item key="Step3Text" value="Введите ключ в поле ниже и подтвердите, нажав кнопку Активировать." />
+        <item key="ActivationKey" value="Ключ активации:" />
+        
+        <item key="Activate" value="Активировать" />
+        <item key="Close" value="Закрыть" />
+        <item key="ActivationMessage" value="Активация выполнена успешно. Эта копия Software Ideas Modeler может использоваться в коммерческих целях." />
+        <item key="WrongActivationCodeMessage" value="Код активации неверный." />
+      </group>
+    </form>
+    <form id="BatchExportForm">
+      <group id="Form">
+        <item key="Title" value="Пакетный экспорт" />
+        <item key="Exporting" value="Экспортирование..." />
+        <item key="Format" value="Формат" />
+        <item key="ImageFormat" value="Формат изображения:" />
+        <item key="Output" value="Вывод" />
+        <item key="Content" value="Содержимое" />
+        <item key="Diagrams" value="Диаграммы" />
+        <item key="Files" value="Файлы" />
+        <item key="FileNames" value="Имена файлов:" />
+        <item key="DiagramName" value="Имя диаграммы:" />
+        <item key="Custom" value="Задать:" />
+        <item key="OutputDirectory" value="Каталог вывода:" />
+        <item key="ExportContent" value="Содержимое экспорта" />
+        <item key="Size" value="Размер" />
+        <item key="Background" value="Фон" />
+        <item key="ExportOnlyActiveLayer" value="Экспортировать только активный слой" />
+        <item key="ExportHiddenLayers" value="Экспортировать скрытые слои" />
+        <item key="Absolute" value="Абсолютный" />
+        <item key="Relative" value="Относительный" />
+        <item key="Width" value="Ширина:" />
+        <item key="Height" value="Высота:" />
+        <item key="Transparent" value="Прозрачный" />
+        <item key="Color1" value="Цвет 1:" />
+        <item key="Color2" value="Цвет 2:" />
+      </group>
+    </form>
+    <form id="PrintForm">
+      <group id="Form">
+        <item key="Title" value="Печать" />
+        <item key="Print" value="Печать" />
+        <item key="PageSetup" value="Свойства страницы" />
+        <item key="Preview" value="Предпросмотр" />
+        <item key="Diagrams" value="Диаграммы" />
+        <item key="Settings" value="Настройки" />
+        <item key="Zoom" value="Масштаб:" />
+        <item key="PreviousPage" value="Назад" />
+        <item key="NextPage" value="Вперед" />
+        <item key="RefreshPreview" value="Обновить предпросмотр" />
+        <item key="PagesPerDiagram" value="Страниц на диаграмму" />
+        <item key="SinglePage" value="1 страница" />
+        <item key="MultiplePages" value="Несколько страниц" />
+        <item key="Horizontal" value="По гориз.:" />
+        <item key="Vertical" value="По верт.:" />
+      </group>
+    </form>
+    <form id="DiagramsForm">
+      <group id="Form">
+        <item key="Title" value="Диаграммы" />
+      </group>
+    </form>
+    <form id="DonateBuyForm">
+      <group id="Form">
+        <item key="Title" value="Software Ideas Modeler" />
+        <item key="HeadingText" value="Спасибо за использование Software Ideas Modeler!"></item>
+        <item key="MainText" value="Если вам нравится эта программа и вы хотите поддержать ее разработку, вы можете:"></item>
+        <item key="Buy" value="Купить (для коммерческого использования)"></item>
+        <item key="BuyText1" value="Эта копия Software Ideas Modeler может быть легально использованя для коммерческих проектов только после активации. Вы можете получить ключ активации выбрав эту опцию."></item>
+        <item key="BuyText2" value="После покупки, ваши отчеты об ошибках и пожелания будут иметь наивысший приоритет. Этот диалог не будет показываться при выходе."></item>
+        <item key="Donate" value="Поддержать"></item>
+        <item key="DonateText1" value="Если вы некоммерческий пользователь, вы можете свободно использовать эту программу. По желанию, вы можете поддержать проект, перечислив любую сумму."></item>
+        <item key="DonateText2" value="После поддержки, вы будете занесены в список дарителей на сайте. (Если вы не хотите быть в этом списке, сообщите мне об этом.)"></item>
+        <item key="MaybeLater" value="Может позже"></item>
+        <item key="MaybeLaterText" value="Если у вас нет лишних денег для поддержки проекта, вы можете поддержать другим путем: стать поклонником на Facebook, добавить ссылку на проект на вашем сайте, написать о программе в своем блоге, рассказать о программе другим..."></item>
+      </group>
+    </form>
+  </items>
+</language>

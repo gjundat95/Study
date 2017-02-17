@@ -1,0 +1,30 @@
+<sim-template version="1.0">
+  <meta>
+    <name>PHP</name>
+    <description></description>
+    <type>SourceCode</type>
+  </meta>
+  <files>
+    <file name="Class.php" outputName="{Element.Name}.php" type="AbstractElement">
+      <settings>
+        <setting name="DefaultType" value="object"></setting>
+        <setting name="NameAdjustment" value="CamelCase"></setting>
+      </settings>
+      <stereotypes>        
+        <stereotype name="enum" condition="without" />
+        <stereotype name="enumeration" condition="without" />
+        <stereotype name="*" />
+      </stereotypes>
+    </file>
+    <file name="Enum.php" outputName="{Element.Name}.php" type="AbstractElement">
+      <settings>
+        <setting name="DefaultType" value="object"></setting>
+        <setting name="NameAdjustment" value="CamelCase"></setting>
+      </settings>
+      <stereotypes>
+        <stereotype name="enum" />
+        <stereotype name="enumeration" />
+      </stereotypes>
+    </file>    
+  </files>
+</sim-template>

@@ -1,0 +1,12 @@
+E:\Google Drive\KIEN TRUC PHAN MEM\KTPM_Phuong\Demo\SumGUI\SumGUI\bin\Debug\SumGUI.exe.config
+E:\Google Drive\KIEN TRUC PHAN MEM\KTPM_Phuong\Demo\SumGUI\SumGUI\bin\Debug\SumGUI.exe
+E:\Google Drive\KIEN TRUC PHAN MEM\KTPM_Phuong\Demo\SumGUI\SumGUI\bin\Debug\SumGUI.pdb
+E:\Google Drive\KIEN TRUC PHAN MEM\KTPM_Phuong\Demo\SumGUI\SumGUI\bin\Debug\SumCom.dll
+E:\Google Drive\KIEN TRUC PHAN MEM\KTPM_Phuong\Demo\SumGUI\SumGUI\bin\Debug\SumCom.pdb
+E:\Google Drive\KIEN TRUC PHAN MEM\KTPM_Phuong\Demo\SumGUI\SumGUI\bin\Debug\SumCom.xml
+E:\Google Drive\KIEN TRUC PHAN MEM\KTPM_Phuong\Demo\SumGUI\SumGUI\obj\Debug\SumGUI.csprojResolveAssemblyReference.cache
+E:\Google Drive\KIEN TRUC PHAN MEM\KTPM_Phuong\Demo\SumGUI\SumGUI\obj\Debug\SumGUI.Form1.resources
+E:\Google Drive\KIEN TRUC PHAN MEM\KTPM_Phuong\Demo\SumGUI\SumGUI\obj\Debug\SumGUI.Properties.Resources.resources
+E:\Google Drive\KIEN TRUC PHAN MEM\KTPM_Phuong\Demo\SumGUI\SumGUI\obj\Debug\SumGUI.csproj.GenerateResource.Cache
+E:\Google Drive\KIEN TRUC PHAN MEM\KTPM_Phuong\Demo\SumGUI\SumGUI\obj\Debug\SumGUI.exe
+E:\Google Drive\KIEN TRUC PHAN MEM\KTPM_Phuong\Demo\SumGUI\SumGUI\obj\Debug\SumGUI.pdb

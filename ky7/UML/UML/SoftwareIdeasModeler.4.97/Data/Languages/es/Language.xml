@@ -1,0 +1,1811 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<language name="Spanish" localName="Español" id="es">
+  <meta>
+    <author>Delbert F.</author>
+    <created></created>
+    <info></info>
+  </meta>
+  <items>
+    <!-- Global -->
+    <form id="Global">
+      <!-- Strings -->
+      <group id="Strings">
+        <item key="SimProject" value="Proyecto SIM"></item>
+        <item key="AllFiles" value="Todos los archivos"></item>
+
+        <item key="Version" value="Versión" />
+      </group>
+
+      <group id="Messages">
+        <item key="ItemCannotBeAddedToDiagram" value="Elemento no puede ser agregado al diagrama." />
+        <item key="SaveBeforeExist" value="Desea guardar los cambios en el proyecto ('&lt;fileNombre&gt;')?" />
+        <item key="NewVersionFound" value="Nueva versión ('&lt;version&gt;') del programa disponible. Desea descargar la nueva versión?" />
+        <item key="UptodateVersion" value="La versión ('&lt;version&gt;') se encuentra actualizada." />
+        <item key="ProjectFileNotFound" value="No se encontró el archivo del proyecto '&lt;?&gt;'. Probablemente fue eliminado o movido." title="Archivo del proyecto no encontrado" />
+        <item key="NewStyleWarning" value="¿Está seguro que quiere descartar todos los cambios en el estilo actual?" title="Nuevo estilo"/>
+        <item key="StyleTypeExists" value="El estilo que desea agregar ya existe." title="Estilo ya existe"/>
+        <item key="RenumberingWarning" value="Algunos elementos no fueron numerados. La lista con la numeración original probablemente está vacía." title="Nueva numeración" />
+        <item key="DeleteStyle" value="Realmente desea eliminar el estilo '&lt;?&gt;'?" title="Eliminar Estilo"/>
+        <item key="StyleClassNameExists" value="El nombre de la clase de estilo ya está en uso." title="Nombre de Clase de Estilo existente"/>
+        <item key="NotAllowedStyleClassName" value="El nombre '&lt;?&gt;' no es válido." title="Nombre no válido"/>
+        <item key="SavingError" value="Archivo no puede ser guardado. Compruebe si está abierta en otra aplicación." title="Error al guardar"/>
+        <item key="DeleteTask" value="Desea eliminar la tarea '&lt;?&gt;'?" title="Eliminar Tarea"/>
+        <item key="DeleteToDo" value="Desea eliminar el elemento '&lt;?&gt;' de la lista de pendientes?" title="Eliminar Pendiente"/>
+        <item key="DeletePerson" value="Desea eliminar la persona '&lt;?&gt;'?" title="Eliminar Persona"/>
+        <item key="DeleteStereotype" value="Desea eliminar el estereotipo '&lt;?&gt;'?" title="Eliminar Estereotipo"/>
+        <item key="NoOutputLanguageSelected" value="No se puede generar el código fuente. Debe elegir un lenguage de salida." title="Generación de Código Fuente" />
+        <item key="NoOutputDirectorySelected" value="No se puede generar el código fuente. Debe elegir un directorio de salida." title="Generación de Código Fuente" />
+        <item key="EmptyConnectionString" value="Cadena de conexión no establecida. No se puede cargar la base de datos." title="Importación de Base de Datos" />
+        <item key="CannotLoadTables" value="Las tablas de la base de datos no se puede cargar. \n\n &lt;?&gt;" title="Importación de Base de Datos" />
+        <item key="RegisteredCopy" value="Ésta copia de Software Ideas Modeler está registrada. Se puede usar comercialmente. Muchas gracias por el apoyo al proyecto." title="Copia Registrada" />
+        <item key="NewerVersionWarning" value="El archivo del proyecto se guardó en una versión más reciente. Esto puede crear inconvenientes. Desea cargarlo de todos modos?" title="Conflicto en la versión del archivo de proyecto" />
+        <item key="ClearRecentProjectList" value="Desea vaciar la lista de proyectos recientes?" title="Vaciar lista de proyectos."/>
+        <item key="InflateContainer" value="Desea aumentar el contenedor para cubrir todos los elementos?" title="Inflar contenedor"/>
+        <item key="WrongOutputDirectory" value="Directorio de salida '&lt;?&gt;' no existe o no permite escribir." title="Error al escribir"/>
+      </group>
+
+      <group id="DiagramNames">
+        <item key="UmlClassDiagram" value="Diagrama de Clases" />
+        <item key="UmlUseCaseDiagram" value="Diagrama de Casos de Uso" />
+        <item key="UmlSequenceDiagram" value="Diagrama de Secuencia" />
+        <item key="UmlActivityDiagram" value="Diagrama de Actividades" />
+        <item key="UmlStateMachineDiagram" value="Diagrama de Estados" />
+        <item key="UmlDeploymentDiagram" value="Diagrama de Despliegue" />
+        <item key="UmlProfileDiagram" value="Diagrama de Perfil" />
+        <item key="UmlObjectDiagram" value="Diagrama de Objetos" />
+        <item key="UmlPackageDiagram" value="Diagrama de Paquetes" />
+        <item key="UmlCommunicationDiagram" value="Diagrama de Comunicación" />
+        <item key="UmlCompositeStructureDiagram" value="Diagrama de Composición" />
+        <item key="UmlComponentDiagram" value="Diagrama de Componentes" />
+        <item key="UmlInteractionOverviewDiagram" value="Diagrama de Interacciones" />
+        <item key="UmlTimingDiagram" value="Diagrama de Tiempo" />
+        <item key="UmlMixedDiagram" value="Diagrama Mixto" />
+        <item key="DataFlowDiagram" value="Diagrama Flujo de Datos" />
+        <item key="EntityRelationshipDiagram" value="Diagrama de Entidad - Relación" />
+        <item key="RequirementDiagram" value="Diagrama de Requerimientos" />
+        <item key="UserInterfaceDiagram" value="Diagrama de Interfaz de Usuario" />
+        <item key="CrcCardDiagram" value="Diagrama - CRC" />
+        <item key="FlowchartDiagram" value="Diagrama de Flujo" />
+        <item key="RobustnessDiagram" value="Diagrama de Robustez" />        
+      </group>
+
+      <group id="Buttons">
+        <item key="Ok" value="&amp;Aceptar" />
+        <item key="Cancel" value="&amp;Cancelar" />
+        <item key="Yes" value="&amp;Sí" />
+        <item key="No" value="&amp;No" />
+        <item key="Add" value="&amp;Agregar" />
+        <item key="Edit" value="&amp;Editar" />
+        <item key="Remove" value="&amp;Remover" />
+        <item key="SelectAll" value="&amp;Seleccionar todo" />
+        <item key="SelectNone" value="&amp;Seleccionar ninguno" />
+        <item key="SelectInvert" value="&amp;Invertir" />
+        <item key="MoreColors" value="Más colores..." />
+        <item key="Previous" value="&lt; &amp;Anterior" />
+        <item key="Next" value="&amp;Siguiente &gt;" />
+        <item key="Import" value="&amp;Importar" />
+        <item key="Delete" value="&amp;Eliminar" />
+        <item key="Save" value="&amp;Guardar" />
+      </group>
+      
+    </form>
+
+    <form id="MainForm">
+      <group id="General">
+        <item key="RegisteredCopy" value="Copia registrada." />
+        <item key="OnlyForNonCommercialUse" value="SOLO PARA USO NO COMERCIAL" />
+      </group>
+      
+      <group id="StandardBar">
+        <item key="New" tooltip="Nuevo" />
+        <item key="Open" tooltip="Abrir" />
+        <item key="Save" tooltip="Guardar" />
+        <item key="Undo" tooltip="Deshacer" />
+        <item key="Redo" tooltip="Rehacer" />
+        <item key="Cut" tooltip="Cortar" />
+        <item key="Copy" tooltip="Copiar" />
+        <item key="Paste" tooltip="Pegar" />
+        <item key="Print" tooltip="Imprimir" />
+        <item key="PrintPreview" tooltip="Vista Previa" />
+        <item key="ShowGrid" tooltip="Mostrar Cuadrícula" />
+        <item key="ShowAdvancedInfo" tooltip="Mostrar información avanzada" />
+        <item key="Find" value="Encontrar:" />
+      </group>
+      <group id="LayoutBar">
+        <item key="BackOne" tooltip="Enviar atrás" />
+        <item key="ForwardOne" tooltip="Traer adelante" />
+        <item key="SendToBack" tooltip="Enviar al fondo" />
+        <item key="BringToFront" tooltip="Traer al frente" />
+
+        <item key="AutoLayoutCascade" value="Diseño Cascada" />
+        <item key="AutoLayoutRectangle" value="Diseño Rectangulo" />
+        <item key="AutoLayoutCircle" value="Diseño Circular" />
+        <item key="AutoLayoutRows" value="Diseño por Fila" />
+        <item key="AutoLayoutSmart" value="Diseño Inteligente" />
+      </group>
+      <group id="Menu">
+        <!-- File -->
+        <item key="File" value="&amp;Archivo" />
+        <item key="New" value="&amp;Nuevo" />
+        <item key="Open" value="&amp;Abrir" />
+        <item key="Save" value="&amp;Guardar" />
+        <item key="SaveAs" value="Guardar &amp;como" />
+        <item key="CloseProject" value="&amp;Cerrar Proyecto" />
+        <item key="Print" value="&amp;Imprimir" />
+        <item key="PrintPreview" value="Vista &amp;Previa" />
+        <item key="PrintSetup" value="Impresión" />
+        <item key="Export" value="&amp;Exportar" />
+        <item key="ExportToImage" value="&amp;Imagen" />
+        <item key="ExportToPDF" value="&amp;PDF" />
+        <item key="ExportToXMI" value="&amp;XMI" />
+        <item key="Import" value="&amp;Importar" />
+        <item key="ImportFromXMI" value="&amp;XMI" />
+        <item key="RecentProjects" value="Proyectos recientes" />
+        <item key="ClearThisList" value="&amp;Vaciar la lista" />
+        <item key="Exit" value="Salir" />
+        <!-- Edit -->
+        <item key="Edit" value="&amp;Editar" />
+        <item key="Undo" value="&amp;Deshacer" />
+        <item key="Redo" value="&amp;Rehacer" />
+        <item key="Cut" value="&amp;Cortar" />
+        <item key="Copy" value="&amp;Copiar" />
+        <item key="Paste" value="&amp;Pegar" />
+        <item key="Delete" value="&amp;Eliminar" />
+        <item key="DeleteWithRelations" value="Eliminar con relaciones" />
+        <item key="SelectAll" value="&amp;Seleccionar todo" />
+        <item key="SelectAllOfSameType" value="Seleccionar todo del mismo tipo" />
+        <item key="InvertSelection" value="&amp;Invertir selección" />
+        <item key="Find" value="&amp;Encontrar" />
+        <!-- View -->
+        <item key="View" value="&amp;Ver" />
+        <item key="StandardBar" value="&amp;Barra estandar" />
+        <item key="StatusBar" value="Barra de estado" />
+        <item key="LayoutBar" value="&amp;Barra de diseño" />
+        <item key="Toolbox" value="&amp;Caja de herramientas" />
+        <item key="SideBar" value="Barra lateral" />
+        <item key="DiagramPreview" value="&amp;Vista previa del diagrama" />
+        <item key="StartPage" value="Página &amp;inicio" />
+        <item key="ElementBrowser" value="&amp;Navegador de elementos" />
+        <item key="ShowMultipleUsageOfElement" value="Mostrar uso múltiple de elementos" />
+        <item key="ShowAssignedDiagrams" value="Mostrar diagramas asignados" />
+        <item key="Grid" value="&amp;Cuadrícula" />
+        <item key="SnapToGrid" value="Alinear a la cuadrícula" />
+        <item key="RenderingQuality" value="&amp;Calidad de visualización" />
+        <item key="RenderingQualityDraft" value="&amp;Borrador" />
+        <item key="RenderingQualityNormal" value="&amp;Normal" />
+        <item key="RenderingQualityBest" value="&amp;Mejor" />
+        <item key="FullScreen" value="&amp;Pantalla completa" />
+        <!-- Arrange -->
+        <item key="Arrange" value="&amp;Organizar" />
+        <item key="AutoLayout" value="&amp;Diseño automático" />
+        <item key="RouteRelation" value="&amp;Ruta de relaciones" />
+        <item key="CircleLayout" value="&amp;Diseño circular" />
+        <item key="RowLayout" value="&amp;Diseño en fila" />
+        <item key="SmartLayout" value="&amp;Diseño inteligente" />
+        <item key="CascadeLayout" value="Diseño en cascada" />
+        <item key="AutoSize" value="Tamaño automático" />
+        <item key="Alignment" value="&amp;Alineación" />
+        <item key="MakeSame" value="&amp;Hacer igual" />
+        <item key="Order" value="&amp;Ordenar" />
+        <item key="Move" value="&amp;Mover" />
+        <item key="Size" value="&amp;Tamaño" />
+        <item key="HorizontalSpacing" value="&amp;Espacio horizontal" />
+        <item key="VerticalSpacing" value="&amp;Espacio vertical" />
+        <item key="SetLocationAndSize" value="Definir ubicación y tamaño" />
+        <item key="LockItems" value="Bloquear ítems" />
+        <item key="GroupItems" value="&amp;Agrupar ítems" />
+        <item key="UngroupItems" value="&amp;Desagrupar ítems" />
+        <item key="AlignmentLeft" value="&amp;Izquierda" />
+        <item key="AlignmentRight" value="&amp;Derecha" />
+        <item key="AlignmentTop" value="&amp;Arriba" />
+        <item key="AlignmentBottom" value="&amp;Abajo" />
+        <item key="AlignmentCenterHorizontally" value="Centrar horizontalmente" />
+        <item key="AlignmentCenterVertically" value="Centrar verticalmente" />
+        <item key="AlignmentToGrid" value="A cuadrícula" />
+        <item key="MakeSameWidth" value="&amp;Ancho" />
+        <item key="MakeSameHeight" value="&amp;Alto" />
+        <item key="MakeSameBoth" value="&amp;Ambos" />
+        <item key="OrderBringToFront" value="Traer al frente" />
+        <item key="OrderBringToBack" value="Enviar al fondo" />
+        <item key="OrderForwardOne" value="Traer adelante" />
+        <item key="OrderBackOne" value="Enviar atrás" />
+        <item key="MoveCustom" value="&amp;Personalizado" />
+        <item key="MoveLeft" value="&amp;Izquierda" />
+        <item key="MoveRight" value="&amp;Derecha" />
+        <item key="MoveUp" value="&amp;Arriba" />
+        <item key="MoveDown" value="&amp;Abajo" />
+        <item key="SizeCustom" value="&amp;Personalizado" />
+        <item key="SizeInflate" value="&amp;Inflar" />
+        <item key="SizeDeflate" value="&amp;Desinflar" />
+        <item key="SizeWider" value="&amp;Más amplio" />
+        <item key="SizeNarrower" value="&amp;Más estrecho" />
+        <item key="SizeHigher" value="&amp;Más alto" />
+        <item key="SizeLower" value="&amp;Más bajo" />
+        <!-- Project -->
+        <item key="Project" value="&amp;Proyecto" />
+        <item key="AddModel" value="Agregar &amp;Modelo" />
+        <item key="AddDiagram" value="Agregar &amp;Diagrama" />
+        <item key="AddExistingDiagram" value="Agregar diagrama existente" />
+        <item key="Properties" value="Propiedades del proyecto" />
+        <item key="ModelProperties" value="&amp;Propiedades del modelo" />
+        <item key="StyleSet" value="Definir estilo" />
+        <item key="LoadStyleSet" value="&amp;Cargar" />
+        <item key="SaveStyleSet" value="&amp;Guardar" />
+        <item key="EditStyleSet" value="&amp;Editar" />
+        <item key="RemoveAllCustomStyles" value="&amp;Remover estilos personalizados" />
+        <item key="Tasks" value="&amp;Tareas" />
+        <item key="Persons" value="&amp;Personas" />
+
+        <!-- Diagram -->
+        <item key="Diagram" value="&amp;Diagrama" />
+        <item key="AddLayer" value="&amp;Agregar capa" />
+        <item key="Layers" value="&amp;Capas" />
+        <item key="ConvertDiagram" value="&amp;Convertir a" />
+        <item key="ConvertToERDDiagram" value="&amp;Diagrama entidad - relación" />
+        <item key="ConvertToClassDiagram" value="&amp;Diagrama de clases" />
+        <item key="DiagramProperties" value="&amp;Propiedades del diagrama" />
+        <item key="PrintDiagram" value="&amp;Imprimir" />
+        <item key="ExportDiagram" value="Exportar" />
+        <item key="ExportDiagramToImage" value="&amp;Imagen" />
+        <item key="ExportDiagramToPDF" value="&amp;PDF" />
+        <item key="CopyToClipboardAsImage" value="Copiar como imagen" />
+        <item key="CopyToClipboardAsMetafile" value="Copiar como archivo fuente" />
+        <item key="LayersMerge" value="&amp;Unir" />
+        <item key="LayersShowAll" value="Mostrar todos" />
+        <item key="LayersHide" value="&amp;Ocultar" />
+        <item key="LayersDelete" value="&amp;Eliminar" />
+        <item key="Filter" value="&amp;Filtrar" />
+        <item key="ShowAllElements" value="Mostrar todos los elementos" />
+        <item key="HideComments" value="Ocultar comentarios" />
+        <item key="HideRelations" value="Ocultar relaciones" />
+        <item key="HideCollaborations" value="Ocultar colaboraciones" />
+
+        <!-- Element -->
+        <item key="Element" value="&amp;Elementos" />
+
+        <item key="Add" value="&amp;Agregar" />
+        <item key="Stereotype" value="&amp;Estereotipo" />
+        <item key="Attribute" value="&amp;Atributos" />
+        <item key="Operation" value="&amp;Operación" />
+        <item key="TemplateParameter" value="&amp;Parámetros de plantilla" />
+
+        <item key="ElementShowID" value="Mostrar &amp;ID" />
+        <item key="ElementShowParentName" value="Mostrar nombre padre" />
+        <item key="ElementShowStereotypes" value="Mostrar estereotipo" />
+        <item key="ElementShowAttributes" value="Mostrar atributos" />
+        <item key="ElementShowOperations" value="Mostrar operaciones" />
+        <item key="ElementShowTaggedValues" value="Mostrar etiquetas" />
+        <item key="ElementShowTemplateParameters" value="Mostrar parámetros de plantilla" />
+        <item key="ElementShowOperationParameters" value="Mostrar parámetros de operación" />
+        <item key="ElementShowExtensionPoints" value="Mostrar puntos de extensión" />
+        <item key="ElementShowRelationshipTexts" value="Mostrar texto de relación" />
+        <item key="ElementShowNullability" value="Mostrar valor NULL" />
+
+        <item key="ElementModifiers" value="&amp;Modificador" />
+        <item key="ElementAbstractModifier" value="&amp;Abstracto" />
+        <item key="ElementPublicModifier" value="&amp;Publico" />
+        <item key="ElementPackageModifier" value="Paquete" />
+        <item key="ElementProtectedModifier" value="Protegido" />
+        <item key="ElementPrivateModifier" value="Privado" />
+        <item key="ElementPresentation" value="Presentación" />
+        <item key="DefaultPresentation" value="&amp;Default" />
+        <item key="CustomPresentation" value="&amp;Personalizado" />
+        <item key="ElementStyle" value="&amp;Estilo" />
+        <item key="ElementProperties" value="Propiedades" />
+        <item key="ElementDocumentation" value="&amp;Documentación" />
+        <item key="ElementTaggedValues" value="&amp;Etiquetas" />
+        <!-- Tools -->
+        <item key="Tools" value="&amp;Herramientas" />
+        <item key="GenerateDocumentation" value="Generar documentación" />
+        <item key="GenerateSourceCode" value="Generar código fuente" />
+
+        <item key="Lists" value="&amp;Listas" />
+        <item key="StereotypesList" value="&amp;Estereotipos" />
+        <item key="TypesList" value="&amp;Tipos" />
+        <item key="ElementNames" value="&amp;Nombres de elementos" />
+        <item key="ReverseEngineering" value="&amp;Ingenería inversa" />
+        <item key="NetReverseEngineering" value=".&amp;NET Framework" />
+        <item key="DatabaseReverseEngineering" value="&amp;Base de datos" />
+        <item key="RenumberElementIDs" value="&amp;Renumerar códigos de elementos" />
+        <item key="ImportDatabaseModel" value="&amp;Importar modelo de base de datos" />
+        <item key="ImportObjectModel" value="Importar modelo de objetos" />
+        <item key="Languages" value="&amp;Lenguajes" />
+        <item key="Options" value="&amp;Opciones" />
+        <!-- Windows -->
+        <item key="Windows" value="&amp;Ventanas" />
+        <item key="Cascade" value="&amp;Cascada" />
+        <item key="TileVertical" value="Ordenar verticalmente" />
+        <item key="TileHorizontal" value="Ordenar horizontalmente" />
+        <item key="ArrangeIcons" value="Orden iconos" />
+        <item key="CloseAll" value="&amp;Cerrar todos" />
+        <!-- Help -->
+        <item key="Help" value="&amp;Ayuda" />
+        <item key="OnlineHelp" value="&amp;Ayuda online" />
+        <item key="Donate" value="&amp;Donar" />
+        <item key="ActivateForCommercialUse" value="&amp;Activar para uso comercial" />
+        <item key="WhatsNew" value="Lo nuevo" />
+        <item key="CheckForUpdates" value="Buscar actualizaciones" />
+        <item key="About" value="&amp;Acerca de Software Ideas Modeler..." />
+        <item key="WebSite" value="&amp;Sitio Web" />
+      </group>
+
+      <!-- Project Context Menu -->
+      <group id="ProjectCMenu">
+        <item key="AddModel" value="Agregar &amp;Modelo" />
+        <item key="AddDiagram" value="Agregar &amp;Diagrama" />
+
+        <item key="NewDiagram" value="&amp;Nuevo diagrama" />
+        <item key="MoveToModel" value="Mover a modelo" />
+        <item key="Rename" value="&amp;Renombrar" />
+        <item key="Delete" value="&amp;Eliminar" />
+        <item key="DeleteFromProject" value="Eliminar del proyecto" />
+
+        <item key="UmlClassDiagram" value="&amp;Diagrama de Clases" />
+        <item key="UmlUseCaseDiagram" value="&amp;Diagrama Casos de Uso" />
+        <item key="UmlSequenceDiagram" value="&amp;Diagrama de Secuencia" />
+        <item key="UmlActivityDiagram" value="&amp;Diagrama de Actividades" />
+        <item key="UmlStateMachineDiagram" value="&amp;Diagrama de Estados" />
+        <item key="UmlDeploymentDiagram" value="&amp;Diagrama de Despliegue" />
+        <item key="UmlProfileDiagram" value="&amp;Diagrama de Perfiles" />
+        <item key="UmlObjectDiagram" value="&amp;Diagrama de Objetos" />
+        <item key="UmlPackageDiagram" value="Diagrama de Paquetes" />
+        <item key="UmlCommunicationDiagram" value="Diagrama de Comunicación" />
+        <item key="UmlCompositeStructureDiagram" value="Diagrama de Estructura Compuesta" />
+        <item key="UmlComponentDiagram" value="Diagrama de Componentes" />
+        <item key="UmlInteractionOverviewDiagram" value="&amp;Diagrama de Interacciones" />
+        <item key="UmlMixedDiagram" value="Diagrama Mixto" />
+        <item key="DataFlowDiagram" value="Diagrama de Flujo de Datos" />
+        <item key="EntityRelationshipDiagram" value="Diagrama de Entidad-Relación" />
+        <item key="RequirementDiagram" value="Diagrama de Requerimientos" />
+        <item key="UserInterface" value="&amp;Diagrama de Interfaz de Usuario" />
+        <item key="CrcCardDiagram" value="Diagrama de CRC" />
+        <item key="FlowchartDiagram" value="&amp;Diagrama de Flujos" />
+        <item key="RobustnessDiagram" value="&amp;Diagrama de Robustez" />
+        <item key="UmlTimingDiagram" value="&amp;Diagrama de Tiempos" />
+      </group>
+
+      <!-- Project Tree -->
+      <group id="ProjectTreeViews">
+        <item key="HierarchicalView" value="Vista Jerárquica" />
+        <item key="AllEntitiesView" value="Todas las Entidades" />
+        <item key="DiagramTypesView" value="Tipos de Diagramas" />
+      </group>
+
+      <!-- Toolbox -->
+      <group id="Toolbox">
+        <item key="UmlClassDiagram" value="Diagrama de Clases" />
+        <item key="UmlUseCaseDiagram" value="Diagrama de Casos de Uso" />
+        <item key="UmlSequenceDiagram" value="Diagrama de Secuencia" />
+        <item key="UmlActivityDiagram" value="Diagrama de Actividades" />
+        <item key="UmlStateMachineDiagram" value="Diagrama de Estados" />
+        <item key="UmlDeploymentDiagram" value="Diagrama de Despliegue" />
+        <item key="UmlProfileDiagram" value="Diagrama de Perfil" />
+        <item key="UmlObjectDiagram" value="Diagrama de Objetos" />
+        <item key="UmlPackageDiagram" value="Diagrama de Paquetes" />
+        <item key="UmlCommunicationDiagram" value="Diagrama de Comunicación" />
+        <item key="UmlCompositeStructureDiagram" value="Diagrama de Composición" />
+        <item key="UmlComponentDiagram" value="Diagrama de Componentes" />
+        <item key="UmlInteractionOverviewDiagram" value="&amp;Diagrama de Interacciones" />
+        <item key="UmlMixedDiagram" value="Diagrama Mixto" />
+        <item key="DataFlowDiagram" value="Diagrama Flujo de Datos" />
+        <item key="EntityRelationshipDiagram" value="Diagrama de Entidad - Relación" />
+        <item key="RequirementDiagram" value="Diagrama de Requerimientos" />
+        <item key="UserInterfaceDiagram" value="Diagrama de Interfaz de Usuario" />
+        <item key="CrcCardDiagram" value="Diagrama - CRC" />
+        <item key="FlowchartDiagram" value="Diagrama de Flujo" />
+        <item key="RobustnessDiagram" value="Diagrama de Robustez" />
+        <item key="UmlTimingDiagram" value="Diagrama de Tiempo" />
+
+        <item key="Common" value="Común" />
+        <item key="Drawing" value="Diseño" />
+
+        <item key="Selection" value="Selección" />
+        <item key="Comment" value="Comentario" />
+        <item key="Comment Connector" value="Conector de comentario" />
+        <item key="Constraint" value="Restricción" />
+        <item key="Diagram Description" value="Descripción del diagrama" />
+
+        <item key="Line" value="Línea" />
+        <item key="Rectangle" value="Rectángulo" />
+        <item key="Ellipse" value="Eclipse" />
+        <item key="Polygon" value="Polígono" />
+        <item key="Text" value="Texto" />
+        <item key="Left Arrow" value="Flecha izquierda" />
+        <item key="Right Arrow" value="Flecha derecha" />
+        <item key="Up Arrow" value="Flecha arriba" />
+        <item key="Down Arrow" value="Flecha abajo" />
+
+        <item key="Package" value="Paquete" />
+        <item key="Class" value="Clase" />
+        <item key="Table" value="Tabla" />
+        <item key="Signal" value="Señal" />
+        <item key="Enumeration" value="Numeración" />
+        <item key="Interface" value="Interfaz" />
+        <item key="Realization" value="Realización" />
+        <item key="Association" value="Asociación" />
+        <item key="Unidir. Association" value="Asociación Unidir." />
+        <item key="Bidir. Association" value="Asociación Bidir." />
+        <item key="N-ary Association" value="Asociación N-arry" />
+        <item key="Composition" value="Composición" />
+        <item key="Aggregation" value="Agregación" />
+        <item key="Generalization" value="Generalización" />
+        <item key="Dependency" value="Dependencia" />
+        <item key="Containment" value="De contención" />
+        <item key="Usage" value="Uso" />
+        <item key="Access" value="Acceso" />
+        <item key="Refine" value="Afinar" />
+
+        <item key="Actor" value="Actor" />
+        <item key="Use Case" value="Caso de Uso" />
+        <item key="Collaboration" value="Colaboración" />
+        <item key="Include" value="Include" />
+        <item key="Extend" value="Extend" />
+        <item key="System Boundary" value="Límite del Sistema" />
+
+        <item key="Lifeline" value="Línea de Vida" />
+        <item key="Interaction Operand" value= "Interacción operando" />
+        <item key="Activation Bar" value="Barra de activación" />
+        <item key="Fragment" value="Fragmento" />
+        <item key="Call Action" value="Acción llamada" />
+        <item key="Return Action" value="Acción regreso" />
+        <item key="Send Action" value="Acción envío" />
+        <item key="Destroy Action" value="Acción destrucción" />
+        <item key="Opt Fragment" value="Opt Fragmento" />
+        <item key="Alt Fragment" value="Alt Fragmento" />
+        <item key="Loop Fragment" value="Loop Fragmento" />
+        <item key="Ref Fragment" value="Ref Fragmento" />
+        <item key="Sd Fragment" value="Sd Fragmento" />
+        <item key="Par Fragment" value="Par Fragmento" />
+        <item key="Neg Fragment" value="Neg Fragmento" />
+        <item key="Self Message" value="Auto mensaje" />
+        <item key="Recursive Message" value="Mensaje recursivo" />
+        <item key="Concurrent" value="Concurrente" />
+        <item key="Duration Message" value="Mensaje duración" />
+        <item key="Lost Message" value="Mensaje perdido" />
+        <item key="Found Message" value="Mensaje encontrado" />
+        <item key="State Invariant" value="Estado Fijo" />
+        <item key="Duration Constraint" value="Restricción de duración" />
+        <item key="Coregion" value="Coregion" />
+
+        <item key="Message" value="Mensaje" />
+
+        <item key="Swimlane" value="Carril" />
+        <item key="Activity" value="Actividad" />
+        <item key="Object" value="Objeto" />
+
+        <item key="Initial State" value= "Estado inicial" />
+        <item key="Final State" value="Estado final" />
+        <item key="State" value="Estado" />
+        <item key="Composite State" value="Estado compuesto" />
+        <item key="Fork/Join" value="División/Unión" />
+        <item key="Decision" value="Desición" />
+        <item key="Transition" value="Transición" />
+        <item key="Signal Receipt" value="Señal recepción" />
+        <item key="Signal Send" value="Señal envío" />
+        <item key="Deep History" value="Historial profundo" />
+        <item key="Shallow History" value="Historial superficial" />
+        <item key="Terminate Node" value="Nodo terminación" />
+
+        <item key="Composite State" value="Estado compuesto" />
+        <item key="Entry Point" value="Punto de entrada" />
+        <item key="Exit Point" value="Punto de salida" />
+        <item key="Initial Node" value="Nodo inicial" />
+        <item key="Activity Final Node" value="Nodo de actividad final" />
+        <item key="Flow Node" value="Flujo de Nodo" />
+        <item key="Activity Parameter Node" value="Nodo de parámetro de actividad" />
+        <item key="Action" value="Acción" />
+        <item key="Pin" value="Pin" />
+        <item key="Accept Time Event Action" value="Tiempo de evento aceptado" />
+        <item key="Interruptible Activity Region" value="Región de actividad interrumpible" />
+        <item key="Expansion Region" value="Región de expansión" />
+        <item key="Expansion Node" value="Nodo de expansión" />
+        <item key="Exception Handler" value="Manejador de excepciones" />
+
+        <item key="Node" value="Nodo" />
+        <item key="Component" value="Componente" />
+        <item key="Artifact" value="Artefacto" />
+        <item key="Deploy" value="Despliegue" />
+        <item key="Manifest" value="Manifesto" />
+
+        <item key="Import" value="Importar" />
+        <item key="Merge" value="Unir" />
+        <item key="Use" value="Uso" />
+
+        <item key="Profile" value="Profil" />
+        <item key="Stereotype" value="Estereotipo" />
+        <item key="Meta Class" value="Clase Meta" />
+        <item key="Apply" value="Aplicar" />
+
+        <item key="Frame" value="Marco" />
+
+        <item key="Boundary" value="Límite" />
+        <item key="Control" value="Control" />
+
+        <item key="Entity" value="Entidad" />
+        <item key="Relation" value="Relación" />
+        <item key="1 to 1" value="1 a 1" />
+        <item key="1 to 0..1" value="1 a 0..1" />
+        <item key="1 to 1..n" value="1 a 1..n" />
+        <item key="1 to 0..n" value="1 a 0..n" />
+        <item key="0..n to 0..n" value="0..n a 0..n" />
+        <item key="1..n to 1..n" value="1..n a 1..n" />
+
+        <item key="Data Store" value="Almacén de Datos" />
+        <item key="Process" value="Proceso" />
+        <item key="Gate" value="Puerta" />
+        <item key="External" value="Externo" />
+        <item key="Data Flow" value="Flujo datos" />
+
+        <item key="Requirement" value="Requerimiento" />
+        <item key="Model" value="Modelo" />
+        <item key="Test Case" value="Caso de Prueba" />
+
+        <item key="Port" value="Puerto" />
+        <item key="Part" value="Parte" />
+        <item key="Required Interface" value="Interfaz requerida" />
+
+        <item key="Window" value="Ventana" />
+        <item key="Label" value="Etiqueta" />
+        <item key="Button" value="Botón" />
+        <item key="Check Box" value="Botón de verificación" />
+        <item key="Radio Button" value="Botón de opción" />
+        <item key="Text Box" value="Caja de texto" />
+        <item key="Scrollbar" value="Scrollbar" />
+        <item key="List Box" value="Caja de lista" />
+        <item key="Combo Box" value="Combo Box" />
+        <item key="Progress Bar" value="Barra de progreso" />
+        <item key="Grid" value="Cuadrícula" />
+
+        <item key="Flow" value="Flujo" />
+        <item key="Data" value="Datos" />
+        <item key="Direct Data" value="Dato directo" />
+        <item key="Document" value="Documento" />
+        <item key="Internal Storage" value="Almacenamiento interno" />
+        <item key="Predefined Process" value="Proceso predefinido" />
+        <item key="Start End Symbol" value="Símbolo inicio final" />
+        <item key="Stored Data" value="Datos almacenados" />
+        <item key="User Input" value="Ingreso por usuario" />
+
+        <item key="CRC Card" value="Tarjeta CRC" />
+      </group>
+
+      <!-- Side Bars -->
+      <group id="SideBars">
+        <item key="Project" value="Proyecto" />
+        <item key="FastEditor" value="Editar rápido" />
+        <item key="Styles" value="Estilos" />
+        <item key="ItemProperties" value="Propiedades" />
+        <item key="Generation" value="Generar" />
+        <item key="Documentation" value="Documentación" />
+        <item key="Layers" value="Capas" />
+        <item key="Preview" value="Vista previa" />
+        <item key="ToDo" value="Pendientes" />
+      </group>
+      <group id="ProjectTabPanel">
+        <item key="NewModel" tooltip="Nuevo modelo" />
+        <item key="NewDiagram" tooltip="Nuevo diagrama" />
+        <item key="ExpandAll" tooltip="Expandir todo" />
+        <item key="Refresh" tooltip="Refrescar" />
+        <item key="UmlClassDiagram" tooltip="Diagrama de Clases" />
+        <item key="UmlUseCaseDiagram" tooltip="Diagrama de Casos de Uso" />
+        <item key="UmlSequenceDiagram" tooltip="Diagrama de Secuencias" />
+        <item key="UmlActivityDiagram" tooltip="Diagrama de Actividades" />
+        <item key="UmlStateMachineDiagram" tooltip="Diagrama de Estados" />
+        <item key="UmlDeploymentDiagram" tooltip="Diagrama de Despliegue" />
+        <item key="UmlCompositeStructureDiagram" tooltip="Diagrama de Estructura Compuesta" />
+        <item key="UmlComponentDiagram" tooltip="Diagrama de Componentes" />
+        <item key="UmlInteractionOverviewDiagram" tooltip="Diagrama de Interacciones" />
+        <item key="UmlTimingDiagram" tooltip="Diagrama de Tiempo" />
+        <item key="UmlProfileDiagram" tooltip="Diagrama de Perfiles" />
+        <item key="UmlObjectDiagram" tooltip="Diagrama de Objetos" />
+        <item key="UmlPackageDiagram" tooltip="Diagrama de Paquetes" />
+        <item key="UmlCommunicationDiagram" tooltip="Diagrama de Comunicación" />
+        <item key="EntityRelationshipDiagram" tooltip="Diagrama de Entidad-Relación" />
+        <item key="RequirementDiagram" tooltip="Diagrama de Requerimientos" />
+        <item key="UserInterface" tooltip="Interfaz de Usuario" />
+        <item key="CrcCardDiagram" tooltip="Diagrama Tarjetas CRC" />
+        <item key="FlowchartDiagram" tooltip="Diagrama de Flujo" />
+        <item key="RobustnessDiagram" tooltip="Diagrama de Robustez" />
+        <item key="UmlTimingDiagram" tooltip="Diagrama de Tiempo" />
+
+        <item key="Filter" tooltip="Filter" />
+        <item key="ShowEntities" value="Mostrar entidades" />
+        <item key="ShowRelations" value="Mostrar relaciones" />
+        <item key="ShowComments" value="Mostrar comentarios" />
+        <item key="ShowGroups" value="Mostrar grupos" />
+      </group>
+      <group id="GenerationTabPanel">
+        <item key="Generate" value="&amp;Generar" />
+        <item key="GenerateFrom" value="Generar desde" />
+        <item key="WholeDiagram" value="Diagrama completo" />
+        <item key="SelectedElements" value="Elementos seleccionados" />
+      </group>
+      <group id="ItemEditorTabPanel">
+        <item key="ItemDefinition" value="&amp;Definición de ítems" />
+      </group>
+      <group id="StylesTabPanel">
+        <item key="Apply" value="&amp;Aplicar" />
+        <item key="NewStyleSet" tooltip="Nuevo estilo" />
+        <item key="OpenStyleSet" tooltip="Abrir estilo" />
+        <item key="SaveStyleSet" tooltip="Guardar estilo" />
+        <item key="AddStyle" tooltip="Agregar estilo" />
+        <item key="SetStyleAsDefault" tooltip="Estilo como predefinido" />
+        <item key="EditStyle" tooltip="Editar estilo" />
+        <item key="DeleteStyle" tooltip="Eliminar estilo" />
+      </group>
+      <group id="Properties">
+        <item key="ShowDialog" value="Mostrar diálogo" />
+        <item key="ID" value="ID:" />
+        <item key="Name" value="Nombre:" />
+        <item key="Visibility" value="Visibilidad:" />
+        <item key="X" value="X:" />
+        <item key="Y" value="Y:" />
+        <item key="Width" value="Ancho:" />
+        <item key="Height" value="Alto:" />
+      </group>
+    </form>
+
+    <form id="EditorForm">
+      <group id="Form">
+        <item key="FilterWarning" value="Filtro activo, algunos elementos pueden estar ocultos" />
+        <item key="RemoveFilter" value="&amp;Remover filtro" />        
+      </group>
+    </form>
+
+    <form id="Elements">
+      <group id="DiagramDescription">
+        <item key="Authors" value="Autor(es):" />
+        <item key="Description" value="Descripción:" />
+        <item key="DiagramName" value="Nombre diagrama:" />
+        <item key="Version" value="Versión:" />
+        <item key="LastChangeDate" value="Fecha modificación:" />
+        <item key="ModelName" value="Modelo:" />
+        <item key="ProjectName" value="Proyecto:" />
+      </group>
+    </form>
+    
+    <form id="LayerControl">
+      <group id="Control">
+        <item key="AddLayer" tooltip="Agregar nueva capa" />
+        <item key="DeleteLayer" tooltip="Eliminar capa" />
+        <item key="ShowHideLayer" tooltip="Mostrar/Ocultar Capa" />
+        <item key="MergeAllLayers" tooltip="Unir todas las capas" />
+      </group>
+    </form>
+
+    <!-- Context Bar -->
+    <form id="ContextBar">
+      <group id="Control">
+        <item key="AddAttribute" value="Agregar atributo" />
+        <item key="AddOperation" value="Agregar operación" />
+        <item key="AddSubClass" value="Agregar sub clase" />
+        <item key="AddSuperClass" value="Agregar super clase" />
+        <item key="AddUseCase" value="Agregar caso de uso" />
+        <item key="AddSwimlane" value="Agregar carril" />
+        <item key="AddInterface" value="Agregar interfaz" />
+        <item key="AddState" value="Agregar estado" />
+        <item key="AddValueLifeline" value="Agregar valor línea de vida" />
+        <item key="AddStateLifeline" value="Agregar estado línea de vida" />
+        <item key="ConvertToValueLifeline" value="Convertir a valor línea de vida" />
+        <item key="ConvertToStateLifeline" value="Convertir a estado línea de vida" />
+        <item key="Extend" value="Extendido" />
+        <item key="Include" value="Incluido" />
+        <item key="AddComment" value="Agregar comentario" />
+        <item key="AddSequenceExpression" value="Agregar expresión secuencial" />
+        <item key="AddSequenceExpression" value="Agregar expresión secuencial reversa" />
+        <item key="AddCollaborator" value="Agregar colaborador" />
+        <item key="AddResponsibility" value="Agregar responsabilidad" />
+        <item key="AddAssociationClass" value="Agregar clase asosiación" />
+      </group>
+    </form>
+
+    <!-- New Diagram  -->
+    <form id="NewDiagramForm">
+      <group id="Form">
+        <item key="Title" value="Nuevo diagrama" />
+        <item key="SelectItemLabel" value="Seleccione el tipo de diagrama que desea agregar al proyecto:" />
+        <item key="NameLabel" value="Nombre:" />
+
+        <item key="Ok" value="&amp;Aceptar" />
+        <item key="Cancel" value="&amp;Cancelar" />
+      </group>
+      <group id="Diagrams">
+        <item key="UMLDiagrams" value="Diagramas UML" />
+        <item key="DatabaseModeling" value="Modelar Base de datos" />
+        <item key="Requirements" value="Requerimientos" />
+        <item key="Others" value="Otros" />
+      </group>
+    </form>
+
+    <form id="AboutForm">
+      <group id="Form">
+        <item key="Title" value="Acerca de Software Ideas Modeler" />
+
+        <item key="AboutTab" value="Acerca" />
+        <item key="WhatsNewTab" value="Lo nuevo" />
+
+        <item key="Author" value="Autor:" />
+        <item key="Version" value="Versión:" />
+        <item key="Description" value="Software Ideas Modeler es una herramienta para modelar software usando diagramas UML." />
+        <item key="Close" value="&amp;Cerrar" />
+        <item key="Donation" value="Si le gusta la aplicación, puede dar su apoyo haciendo clic en el siguiente botón &quot;donación&quot; y enviar cualquier monto de dinero." />
+      </group>
+    </form>
+
+    <form id="StartPageForm">
+      <group id="Form">
+        <item key="Title" value="Página Inicio" />
+
+        <item key="StartWith" value="Iniciar con..." />
+        <item key="RecentProjects" value="Proyectos recientes" />
+
+        <item key="OpenProject" value="Abrir proyecto..." />
+        <item key="NewProject" value="Crear nuevo proyecto..." />
+
+        <item key="DonateNow" value="Donar / Comprar ahora" />
+      </group>
+    </form>
+
+    <form id="ModelOverviewForm">
+      <group id="Form">
+        <item key="Title" value="Resumen Modelo" />
+      </group>
+    </form>
+
+    <form id="DiagramThumbnailsPanel">
+      <group id="Control">
+        <item key="Open" value="&amp;Abrir" />
+        <item key="Close" value="&amp;Cerrar" />
+        <item key="DeleteDiagram" value="&amp;Eliminar diagrama" />
+      </group>
+    </form>    
+
+    <form id="ClassifierForm">
+      <group id="Form">
+        <item key="Title" value="Clasificador" />
+        <item key="Classifiers" value="Clasificadores:" />
+      </group>
+    </form>
+
+    <form id="CommunicationMessageForm">
+      <group id="Form">
+        <item key="Title" value="Mensaje" />
+        <item key="SequenceNumber" value="Número secuencial:" />
+        <item key="Message" value="Mensaje:" />
+        <item key="Direction" value="Dirección:" />
+        <item key="NormalDirection" value="Normal" />
+        <item key="ReverseDirection" value="Inversa" />
+      </group>
+    </form>
+
+    <form id="ItemPropertiesForm">
+      <group id="Form">
+        <item key="Title" value="Propiedades" />
+
+        <item key="General" value="General" />
+        <item key="Class" value="Clase" />
+        <item key="Relationship" value="Relación" />
+        <item key="Style" value="Estilo" />
+        <item key="Documentation" value="Documentación" />
+        <item key="TaggedValues" value="Etiquetas" />
+        <item key="ErdEntity" value="Entidad" />
+        <item key="ErdRelation" value="Relación" />
+        <item key="UmlState" value="Estado" />
+        <item key="UmlFragment" value="Fragmento" />
+        <item key="UmlObject" value="Objeto" />
+        <item key="UmlLifeline" value="Línea de vida" />
+        <item key="UmlInteractionOperand" value="Operando de interacción" />
+        <item key="UmlCommunicationLifeline" value="Línea de vida" />
+        <item key="UmlCommunicationMessage" value="Mensaje" />
+        <item key="UmlTransition" value="Transición" />
+        <item key="UmlExtend" value="Extendido" />
+        <item key="UmlSwimlane" value="Carril" />
+        <item key="SequenceMessage" value="Mensaje" />
+        <item key="TemplateParameters" value="Parámetro de plantilla" />
+        <item key="TimingTickMarkValues" value="Marcas de Tiempo" />
+        <item key="TimingStates" value="Estados" />
+        <item key="TimingEvents" value="Eventos" />
+        <item key="CrcCardHeader" value="Cabecera" />
+        <item key="CrcCard" value="Responsabilidades" />
+
+        <item key="Ok" value="&amp;Aceptar" />
+        <item key="Cancel" value="&amp;Cancelar" />
+
+        <item key="Name" value="Nombre:" />
+        <item key="ID" value="ID:" />
+        <item key="Stereotypes" value="&amp;Estereotipos" />
+        <item key="AppliedStereotypes" value="&amp;Estereotipos aplicados:" />
+        <item key="AvailableStereotypes" value="A&amp;Estereotipos disponibles:" />
+        <item key="Add" value="&lt;&amp;Agregar" />
+        <item key="AddCustom" value="&lt;Agregar &amp;personalizado" />
+        <item key="Remove" value="&amp;Remover&gt;" />
+        <item key="Modifiers" value="Modificadores" />
+        <item key="AbstractModifier" value="&amp;Abstracto" />
+        <item key="StaticModifier" value="&amp;Estático" />
+      </group>
+    </form>
+
+    <form id="Style">
+      <group id="Control">
+        <item key="DefaultStyle" value="Estilo predefinido" />
+        <item key="StyleByClass" value="Estilo por clase:" />
+        <item key="CustomStyle" value="Estilo personalizado" />
+        <item key="BorderColor" value="Color del borde:" />
+        <item key="BackgroundType" value="Tipo de fondo:" />
+        <item key="BackgroundColor" value="Color de fondo:" />
+        <item key="BackgroundColor2" value="Color de fondo 2:" />
+        <item key="TextColor" value="Color de texto:" />
+        <item key="TextFont" value="Fuente de texto:" />
+        <item key="BorderWidth" value="Ancho del borde:" />
+        <item key="Gloss" value="Brillo" />
+        <item key="Gloss3D" value="Efecto 3D" />
+        <item key="Shadow" value="Sombra:" />
+        <item key="ShadowOffsetX" value="Desplazamiento X:" />
+        <item key="ShadowOffsetY" value="Desplazamiento Y:" />
+        <item key="ShadowRadius" value="Radio:" />
+        <item key="ShadowColor" value="Color:" />
+        <item key="NameFont" value="Nombre de fuente:" />
+        <item key="NameColor" value="Nombre del color:" />
+        <item key="StereotypeColor" value="Estilo color:" />
+        <item key="StereotypeFont" value="Estereotipo fuente:" />
+
+        <item key="Name" value="Nombre" />
+        <item key="Stereotype" value="Estereotipo" />
+        <item key="Text" value="Texto" />
+        <item key="Effects" value="Efecto" />
+
+        <item key="Font" value="Fuente:" />
+        <item key="Color" value="Color:" />
+        <item key="Alignment" value="Alineación:" />
+      </group>
+    </form>
+
+    <form id="Documentation">
+      <group id="Control">
+        <item key="FontSize" value="Tamaño fuente:" />
+        <item key="Bold" tooltip="Negrita" />
+        <item key="Italic" tooltip="Cursiva" />
+        <item key="Underline" tooltip="Subrayada" />
+        <item key="Strikethrough" tooltip="Tachada" />
+      </group>
+    </form>
+
+    <form id="ErdRelationDefinition">
+      <group id="Control">
+        <item key="RelationType" value="Tipo relación:" />
+        <item key="StartMultiplicity" value="Multiplicidad inicial:" />
+        <item key="StartRole" value="Rol inicial:" />
+        <item key="EndMultiplicity" value="Multiplicidad final:" />
+        <item key="EndRole" value="Rol final:" />
+
+      </group>
+    </form>
+
+    <form id="ErdEntityDefinition">
+      <group id="Control">
+        <item key="Add" value="Agregar" />
+        <item key="Edit" value="Editar" />
+        <item key="Remove" value="Remover" />
+        <item key="Attributes" value="Atributos" />
+        <item key="NameColumn" value="Nombre" />
+        <item key="TypeColumn" value="Tipo" />
+        <item key="TypeSizeColumn" value="Tamaño tipo" />
+        <item key="NullableColumn" value="Nulo" />
+        <item key="DescriptionColumn" value="Descripción" />
+      </group>
+    </form>
+
+    <form id="MessageDefinition">
+      <group id="Control">
+        <item key="Message" value="Mensaje:" />
+        <item key="Type" value="Tipo:" />
+        <item key="Asynchronous" value="Asincrónico" />
+
+        <item key="Call" value="Llamada" />
+        <item key="Create" value="Crear" />
+        <item key="Destroy" value="Destruir" />
+        <item key="Return" value="Retornar" />
+        <item key="Send" value="Enviar" />
+        <item key="Terminate" value="Terminar" />
+      </group>
+    </form>
+
+    <form id="CommentDefinition">
+      <group id="Control">
+        <item key="Comment" value="Comentario:" />
+      </group>
+    </form>
+
+    <form id="LifelineDefinition">
+      <group id="Control">
+        <item key="Classifier" value="Clasificador:" />
+        <item key="Active" value="Activo" />
+        <item key="MultiObject" value="Multi-objeto" />
+      </group>
+    </form>
+
+    <form id="CommunicationLifelineDefinition">
+      <group id="Control">
+        <item key="Classifier" value="Clasificador:" />
+      </group>
+    </form>
+
+    <form id="CommunicationMessageDefinition">
+      <group id="Control">
+        <item key="Add" value="&amp;Agregar" />
+        <item key="Edit" value="&amp;Editar" />
+        <item key="Remove" value="&amp;Remover" />
+      </group>
+    </form>
+
+    <form id="FragmentDefinition">
+      <group id="Control">
+        <item key="InteractionOperator" value="Operador de interacción:" />
+        <item key="Add" value="&amp;Agregar" />
+        <item key="Edit" value="&amp;Editar" />
+        <item key="Remove" value="&amp;Remover" />
+      </group>
+    </form>
+
+    <form id="InteractionOperandDefinition">
+      <group id="Control">
+        <item key="GuardCondition" value="Proteger condición:" />
+      </group>
+    </form>
+
+    <form id="ObjectDefinition">
+      <group id="Control">
+        <item key="Classifier" value="Clasificador:" />
+        <item key="Values" value="Valores" />
+        <item key="Value" value="Valor" />
+        <item key="Name" value="Nombre" />
+      </group>
+    </form>
+
+    <form id="AddObjectAttributeForm">
+      <group id="Form">
+        <item key="Title" value="Agregar atributo" />
+        <item key="Attributes" value="Atributos" />
+      </group>
+    </form>
+
+    <form id="CrcCardHeaderDefinition">
+      <group id="Control">
+        <item key="Description" value="Descripción:" />
+        <item key="Superclass" value="Superclase:" />
+        <item key="Subclasses" value="Subclases:" />
+        <item key="Subclass" value="Subclase" />
+      </group>
+    </form>
+
+    <form id="CrcCardDefinition">
+      <group id="Control">
+        <item key="Responsibilities" value="Responsabilidades" />
+        <item key="Responsibility" value="Responsabilidad" />
+        <item key="Collaborators" value="Colaboradores" />
+        <item key="Collaborator" value="Colaborador" />
+      </group>
+    </form>
+
+    <form id="StateDefinition">
+      <group id="Control">
+        <item key="StateGroup" value="Estado" />
+        <item key="StateInvariant" value="Estado invariable:" />
+        <item key="StandardActions" value="Acciones estándar" />
+        <item key="Entry" value="Entrada:" />
+        <item key="Do" value="Hacer:" />
+        <item key="Exit" value="Salir:" />
+        <item key="CustomActions" value="Acciones personalizadas" />
+        <item key="ActionName" value="Nombre de acción" />
+        <item key="Behavior" value="Comportamiento" />
+        <item key="Add" value="&amp;Agregar" />
+        <item key="Remove" value="&amp;Remover" />
+      </group>
+    </form>
+
+    <form id="TransitionDefinition">
+      <group id="Control">
+        <item key="PreCondition" value="Pre-condición:" />
+        <item key="Operation" value="Operación:" />
+        <item key="PostCondition" value="Post-condición:" />
+      </group>
+    </form>
+
+    <form id="TemplateParamsDefinitionForm">
+      <group id="Control">
+        <item key="NameColumn" value="Nombre" />
+        <item key="KindColumn" value="Tipo" />
+        <item key="DefaultValueColumn" value="Valor predefinido" />
+      </group>
+    </form>
+
+    <form id="ErdAttributeForm">
+      <group id="Form">
+        <item key="Title" value="Atributo" />
+
+        <item key="Name" value="Nombre:" />
+        <item key="Type" value="Tipo:" />
+        <item key="TypeSize" value="Tamaño tipo:" />
+
+        <item key="PrimaryKey" value="Clave primaria" />
+        <item key="ForeignKey" value="Clave foránea" />
+        <item key="Nullable" value="Null" />
+
+        <item key="Description" value="Descripción:" />
+
+        <item key="Ok" value="&amp;Aceptar" />
+        <item key="Cancel" value="&amp;Cancelar" />
+      </group>
+    </form>
+
+    <form id="StereotypeForm">
+      <group id="Form">
+        <item key="Title" value="Estereotipo" />
+
+        <item key="Ok" value="&amp;Aceptar" />
+        <item key="Cancel" value="&amp;Cancelar" />
+
+        <item key="Name" value="Nombre:" />
+      </group>
+    </form>
+
+    <form id="ClassDefinitionForm">
+      <group id="Form">
+        <item key="Title" value="Definición de Clase" />
+        <item key="Name" value="&amp;Nombre:" />
+        <item key="Attributes" value="&amp;Atributos:" />
+        <item key="Operations" value="&amp;Operaciones:" />
+        <item key="Ok" value="&amp;Aceptar" />
+        <item key="Cancel" value="&amp;Cancelar" />
+
+        <item key="NameColumn" value="Nombre" />
+        <item key="TypeColumn" value="Tipo" />
+        <item key="VisibilityColumn" value="Visibilidad" />
+        <item key="DefaultValueColumn" value="Valor predefinido" />
+        <item key="ParametersColumn" value="Parámetros" />
+      </group>
+    </form>
+
+    <form id="RelationDefinitionControl">
+      <group id="Control">
+        <item key="RelationType" value="Tipo relación:" />
+        <item key="StartMultiplicity" value="Multiplicidad inicial:" />
+        <item key="StartRole" value="Rol inicial:" />
+        <item key="EndMultiplicity" value="Multiplicidad final:" />
+        <item key="EndRole" value="Rol final:" />
+
+      </group>
+    </form>
+
+    <form id="ExtendDefinitionControl">
+      <group id="Control">
+        <item key="ExtensionPoint" value="Punto de extensión:" />
+      </group>
+    </form>
+
+    <form id="SwimlaneDefinitionControl">
+      <group id="Control">
+        <item key="Orientation" value="Orientación" />
+        <item key="VerticalOrientation" value="Vertical" />
+        <item key="HorizontalOrientation" value="Horizontal" />
+      </group>
+    </form>
+
+    <form id="DiagramControl">
+      <group id="Menu">
+        <item key="AssignNewDiagram" value="Agregar nuevo diagrama" />
+        <item key="AssignExistingDiagram" value="Agregar diagrama existente" />
+
+        <item key="Documentation" value="&amp;Documentación" />
+        <item key="Properties" value="&amp;Propiedades" />
+
+        <item key="AddPoint" value="&amp;Agregar punto" />
+        <item key="LockStartPoint" value="Bloquear punto inicial" />
+        <item key="LockEndPoint" value="Bloquear punto final" />
+        <item key="LineStyle" value="Estilo de línea" />
+        <item key="ObliqueLineStyle" value="&amp;Oblicuo" />
+        <item key="StraightLineStyle" value="&amp;Recta" />
+        <item key="RectangularLineStyle" value="&amp;Rectangular" />        
+        <item key="CurveLineStyle" value="&amp;Curva" />
+
+        <item key="ExportDiagram" value="Exportar diagrama" />
+        <item key="ShowGrid" value="Ver cuadrícula" />
+        <item key="SnapToGrid" value="Alinear a cuadrícula" />
+
+        <item key="DeleteFromDiagram" value="Eliminar del diagrama" />
+        <item key="DeleteFromProject" value="Eliminar del proyecto" />
+        <item key="RelationDeleteFromDiagram" value="Eliminar del diagrama" />
+        <item key="RelationDeleteFromProject" value="Eliminar del proyecto" />
+        <item key="RelationProperties" value="&amp;Propiedades" />
+        <item key="Reverse" value="&amp;Inversa" />
+
+        <item key="RemoveField" value="&amp;Remover '{@1}'" />
+        <item key="ChangeType" value="Cambiar &amp;Tipo" />
+        <item key="Visibility" value="&amp;Visibilidad" />
+        <item key="Public" value="&amp;Público" />
+        <item key="Package" value="Paquete" />
+        <item key="Protected" value="Protegido" />
+        <item key="Private" value="Privado" />
+        <item key="Rename" value="Renombrar" />
+        <item key="MoveUp" value="Mover arriba" />
+        <item key="MoveDown" value="Mover abajo" />
+        <item key="Group" value="&amp;Agrupar" />
+        <item key="Ungroup" value="&amp;Desagrupar" />
+      </group>
+    </form>
+
+    <form id="StyleSetEditorForm">
+      <group id="Form">
+        <item key="Title" value="Editor de estilo" />
+
+        <item key="StyleSetName" value="Nombre de estilo:" />
+
+        <item key="DefaultStyle" value="Estilo predefinido" />
+
+        <item key="New" value="Nuevo" />
+        <item key="Open" value="Abrir" />
+        <item key="Save" value="Guardar" />
+      </group>
+    </form>
+
+    <form id="NewStyleForm">
+      <group id="Form">
+        <item key="Title" value="Estilo nuevo" />
+
+        <item key="General" value="General" />
+        <item key="ForSpecificElement" value="Para elemento específico" />
+
+        <item key="StyleClassName" value="Nombre de estilo de clase:" />
+        <item key="ElementType" value="Tipo de elemento:" />
+        <item key="Stereotype" value="Estereotipo" />
+      </group>
+    </form>
+
+    <form id="IDsRenumberingForm">
+      <group id="Form">
+        <item key="Title" value="Renumeración de IDs" />
+
+        <item key="Options" value="Opciones" />
+        <item key="OriginalNumbering" value="Numeración original" />
+        <item key="NewNumbering" value="Numeración nueva" />
+
+        <item key="StartNumberingFrom" value="Iniciar numeración desde:" />
+        <item key="OrderByAlphabet" value="Orden alfabético" />
+        <item key="SameWithoutGaps" value="Remover lagunas" />
+        <item key="Clear" value="Limpiar" />
+      </group>
+    </form>
+
+    <form id="OptionsForm">
+      <group id="Form">
+        <item key="Title" value="Opciones" />
+
+        <item key="GeneralTab" value="General" />
+        <item key="DiagramEditorTab" value="Editor de diagrama" />
+        <item key="Language" value="Lenguaje" />
+        <item key="ShowStartPage" value="Mostrar página inicio" />
+        <item key="RecentFiles" value="Proyectos recientes" />
+        <item key="ClearRecentProjects" value="&amp;Limpiar lista de proyectos recientes" />        
+        <item key="ItemsInMenu" value="Ítems del menú" />
+        <item key="ItemsInStartPage" value="Ítems de la página de inicio" />
+        <item key="Toolbars" value="Barra de herramientas" />
+        <item key="StandardBar" value="Estándar" />
+        <item key="SideBar" value="Barra lateral" />
+        <item key="LayoutBar" value="Diseño" />
+        <item key="StatusBar" value="Barra de estado" />
+        <item key="Toolbox" value="Caja Herramientas" />
+
+        <item key="DiagramEditorGeneral" value="General" />
+        <item key="Design" value="Diseño" />
+        <item key="DiagramEditorBackgroundColor" value="Color de fondo:" />
+        <item key="DiagramEditorBackgroundColor2" value="Color de fondo 2:" />
+        <item key="AutoScrolling" value="Auto scrolling" />
+        <item key="Grid" value="Cuadrícula" />
+        <item key="SnapToGrid" value="Alinear a cuadrícula" />
+        <item key="ShowGrid" value="Mostrar cuadrícula" />
+        <item key="GridVerticalSpacing" value="Espaciado vertical:" />
+        <item key="GridHorizontalSpacing" value="Espaciado horizontal:" />
+        <item key="RelationsAlwaysOnTop" value="Mostrar relaciones siempre encima" />
+      </group>
+    </form>
+
+    <form id="StyleEditorForm">
+      <group id="Form">
+        <item key="Title" value="Editor Estilo" />
+        <item key="NewStyle" value="Nuevo estilo" />
+
+        <item key="Name" value="Nombre:" />
+      </group>
+    </form>
+
+    <form id="ProjectPropertiesForm">
+      <group id="Form">
+        <item key="Title" value="Propiedades del proyecto" />
+
+        <item key="Name" value="Nombre:" />
+        <item key="Authors" value="Autores:" />
+        <item key="Description" value="Descripción:" />
+
+        <item key="AddNewDiagram" value="Agregar nuevo diagrama..." />
+        <item key="Properties" value="Propiedades" />
+      </group>
+    </form>
+
+    <form id="DiagramPropertiesForm">
+      <group id="Form">
+        <item key="Title" value="Propiedades del diagrama" />
+
+        <item key="Name" value="Nombre:" />
+        <item key="Authors" value="Autores:" />
+        <item key="Version" value="Versión:" />
+        <item key="Created" value="Creado:" />
+        <item key="LastChange" value="Último cambio:" />
+        <item key="Description" value="Descripción:" />
+
+        <item key="CustomNamespace" value="Espacio de nombres:" />
+
+        <item key="General" value="General" />
+        <item key="Documentation" value="Documentación" />
+      </group>
+    </form>    
+
+    <form id="TaggedValueEditorForm">
+      <group id="Form">
+        <item key="Title" value="Etiqueta" />
+
+        <item key="TagName" value="Nombre:" />
+        <item key="TaggedValue" value="Valor:" />
+      </group>
+    </form>
+
+    <form id="CustomMoveForm">
+      <group id="Form">
+        <item key="Title" value="Movida personalizada" />
+
+        <item key="Right" value="Derecha:" />
+        <item key="Down" value="Abajo:" />
+        <item key="Left" value="Izquierda:" />
+        <item key="Up" value="Arriba:" />
+      </group>
+    </form>
+
+    <form id="CustomSizeForm">
+      <group id="Form">
+        <item key="Title" value="Tamaño personalizado" />
+
+        <item key="General" value="General" />
+        <item key="Sides" value="Lados" />
+        <item key="WidthHeight" value="Ancho/Alto" />
+
+        <item key="Inflate" value="Inflar:" />
+        <item key="Deflate" value="Desinflar:" />
+        <item key="Left" value="Izquierda:" />
+        <item key="Right" value="Derecha:" />
+        <item key="Top" value="Desde arriba:" />
+        <item key="Bottom" value="Desde abajo:" />
+        <item key="Width" value="Ancho:" />
+        <item key="Height" value="Alto:" />
+      </group>
+    </form>
+
+    <form id="TaggedValueControl">
+      <group id="Control">
+        <item key="Name" value="Nombre" />
+        <item key="Value" value="Valor" />
+      </group>
+    </form>
+
+    <form id="UmlOperationEditorForm">
+      <group id="Form">
+        <item key="Title" value="Editor de Operación" />
+
+        <item key="General" value="General" />
+        <item key="Parameters" value="Parámetros" />
+
+        <item key="Name" value="Nombre:" />
+        <item key="Type" value="Tipo retorno:" />
+        <item key="Visibility" value="Visibilidad:" />
+
+        <item key="Modifiers" value="Modificador" />
+        <item key="Abstract" value="Abstracto" />
+        <item key="Virtual" value="Virtual" />
+        <item key="Static" value="Estático" />
+
+        <item key="NameColumn" value="Nombre" />
+        <item key="TypeColumn" value="Tipo" />
+      </group>
+    </form>
+
+    <form id="UmlAttributeEditorForm">
+      <group id="Form">
+        <item key="Title" value="Editor de Atributo" />
+
+        <item key="General" value="General" />
+
+        <item key="Name" value="Nombre:" />
+        <item key="Type" value="Tipo:" />
+        <item key="Visibility" value="Visibilidad:" />
+        <item key="DefaultValue" value="Valor predefinido:" />
+
+        <item key="Modifiers" value="Modificador" />
+        <item key="Abstract" value="Abstracto" />
+        <item key="Virtual" value="Virtual" />
+        <item key="Static" value="Estático" />
+      </group>
+    </form>
+
+    <form id="FindForm">
+      <group id="Form">
+        <item key="Title" value="Encontrar" />
+
+        <item key="Find" value="&amp;Encontrar siguiente" />
+        <item key="FindWhat" value="Encontrarlo:" />
+      </group>
+    </form>
+
+    <form id="ToDoControl">
+      <group id="Control">
+        <item key="AddToDo" value="Agregar pendiente" />
+        <item key="EditToDo" value="Editar pendiente" />
+        <item key="DeleteToDo" value="Eliminar pendiente" />
+
+        <item key="Completed" value="Completado" />
+        <item key="Priority" value="Prioridad" />
+        <item key="ToDoText" value="Pendiente" />
+        <item key="EndDate" value="Fecha final" />
+        <item key="Created" value="Creado" />
+      </group>
+    </form>
+
+    <form id="ImageExportSettingForm">
+      <group id="Form">
+        <item key="Title" value="Configuración de Exportación" />
+
+        <item key="ExportContent" value="Exportar contenido" />
+        <item key="Size" value="Tamaño" />
+        <item key="Background" value="Fondo" />
+
+        <item key="ExportOnlyActiveLayer" value="Exportar solo capas activas" />
+        <item key="ExportHiddenLayers" value="Exportar capas ocultas" />
+
+        <item key="Width" value="Ancho" />
+        <item key="Height" value="Alto" />
+
+        <item key="Transparent" value="Transparente" />
+        <item key="Color1" value="Color 1:" />
+        <item key="Color2" value="Color 2:" />
+      </group>
+    </form>
+
+    <form id="TaskEditorForm">
+      <group id="Form">
+        <item key="Title" value="Tarea" />
+
+        <item key="Name" value="Nombre:" />
+        <item key="ID" value="ID:" />
+        <item key="StartDate" value="Fecha inicio:" />
+        <item key="EndDate" value="Fecha final:" />
+        <item key="Priority" value="Prioridad:" />
+        <item key="Phase" value="Fase:" />
+        <item key="Progress" value="Progreso:" />
+        <item key="Description" value="Descripción:" />
+
+        <item key="General" value="General" />
+        <item key="Persons" value="Personas" />
+
+        <item key="Lowest" value="Más bajo" />
+        <item key="Low" value="Bajo" />
+        <item key="Normal" value="Normal" />
+        <item key="Hight" value="Alto" />
+        <item key="Highest" value="Más alto" />
+      </group>
+    </form>
+
+    <form id="XmiImportResultForm">
+      <group id="Form">
+        <item key="Title" value="Resultado de importación XMI" />
+
+        <item key="CreateDiagrams" value="Crear diagramas" />
+      </group>
+    </form>
+
+    <form id="DatabaseSelectionForm">
+      <group id="Form">
+        <item key="Title" value="Selección Base de datos" />
+
+        <item key="DataSource" value="Fuente de datos:" />
+        <item key="ServerName" value="Nombre servidor:" />
+
+        <item key="Authentication" value="Autenticación" />
+        <item key="AuthenticationType" value="Tipo de Autenticación:" />
+        <item key="UserName" value="Nombre usuario:" />
+        <item key="Password" value="Contraseña:" />
+        <item key="DatabaseName" value="Nombre base de datos:" />
+      </group>
+    </form>
+
+    <form id="DatabaseImportForm">
+      <group id="Form">
+        <item key="Title" value="Importar base de datos" />
+
+        <item key="ConnectionString" value="Línea de conexión:" />
+        <item key="LoadTables" value="Cargar tablas" />
+
+        <item key="Tables" value="Tablas" />
+      </group>
+    </form>
+
+    <form id="ObjectModelImportForm">
+      <group id="Form">
+        <item key="Title" value="Importar modelo de objetos" />
+
+        <item key="Assemblies" value="Asambleas" />
+        <item key="Namespaces" value="Espacio de nombres/Paquetes" />
+      </group>
+    </form>
+
+    <form id="DiagramElementsSelectionForm">
+      <group id="Form">
+        <item key="Title" value="Elementos del diagrama" />
+      </group>
+    </form>
+
+    <form id="SourceCodeGenerationSettingsForm">
+      <group id="Form">
+        <item key="Title" value="Generación de código fuente" />
+
+        <item key="General" value="General" />
+        <item key="Imports" value="Importaciones" />
+
+        <item key="Language" value="Lenguaje:" />
+        <item key="OutputDirectory" value="Directorio de salida:" />
+
+        <item key="Generate" value="Generar" />
+      </group>
+    </form>
+
+    <form id="RelationInsertForm">
+      <group id="Form">
+        <item key="Title" value="Nueva relación" />
+
+        <item key="FromElement" value="Desde elemento:" />
+        <item key="ToElement" value="A elemento:" />
+      </group>
+    </form>
+
+    <form id="DefaultNamesForm">
+      <group id="Form">
+        <item key="Title" value="Nombres e IDs predefinidos" />
+
+        <item key="DiagramType" value="Tipo diagrama:" />
+        <item key="ElementType" value="Tipo elemento" />
+        <item key="DefaultName" value="Nombre predefinido:" />
+        <item key="DefaultID" value="ID predefinido:" />
+      </group>
+    </form>
+
+    <form id="TypesForm">
+      <group id="Form">
+        <item key="Title" value="Tipos" />
+
+        <item key="NewTypeSet" value="&amp;Nuevo Tipo" />
+        <item key="ImportTypeSet" value="&amp;Importar tipos" />
+        <item key="TypeSets" value="Tipos" />
+        <item key="CustomTypes" value="Tipos personalizados" />
+      </group>
+    </form>
+
+    <form id="TypeSetEditorControl">
+      <group id="Control">
+        <item key="TypeDefinition" value="Definición de tipos" />
+        <item key="ID" value="ID:" />
+        <item key="Name" value="Nombre:" />
+        <item key="Description" value="Descripción:" />
+      </group>
+    </form>
+
+    <form id="TypeSetEditorForm">
+      <group id="Form">
+        <item key="Title" value="Editor de tipo" />
+      </group>
+    </form>
+
+    <form id="StereotypesForm">
+      <group id="Form">
+        <item key="Title" value="Estereotipos" />
+
+        <item key="ElementType" value="Tipo elemento:" />
+        <item key="General" value="General" />
+        <item key="AppliesTo" value="Aplicar a" />
+        <item key="Name" value="Nombre:" />
+        <item key="Description" value="Descripción:" />
+      </group>
+    </form>
+
+    <form id="NewTypeSetForm">
+      <group id="Form">
+        <item key="Title" value="Nuevo tipo" />
+
+        <item key="Name" value="Nombre:" />
+      </group>
+    </form>
+
+    <form id="ToDoEditorForm">
+      <group id="Form">
+        <item key="Title" value="Pendientes" />
+
+        <item key="Lowest" value="Más bajo" />
+        <item key="Low" value="Bajo" />
+        <item key="Normal" value="Normal" />
+        <item key="Hight" value="Alto" />
+        <item key="Highest" value="Más alto" />
+
+        <item key="Text" value="Texto:" />
+        <item key="Priority" value="Prioridad:" />
+        <item key="EndDate" value="Fecha fin:" />
+        <item key="Completed" value="Completado" />
+      </group>
+    </form>
+
+    <form id="TaskManagementForm">
+      <group id="Form">
+        <item key="Title" value="Manejo de tareas" />
+
+        <item key="ID" value="ID" />
+        <item key="Name" value="Nombre" />
+        <item key="Priority" value="Prioridad" />
+        <item key="Progress" value="Progreso" />
+        <item key="StartDate" value="Fecha inicial" />
+        <item key="EndDate" value="Fecha final" />
+        <item key="Persons" value="Personas" />
+
+        <item key="AddTask" value="Agregar tarea" />
+        <item key="EditTask" value="Editar tarea" />
+        <item key="DeleteTask" value="Eliminar tarea" />
+        <item key="AssignPerson" value="Asignar persona" />
+      </group>
+    </form>
+
+    <form id="PersonsForm">
+      <group id="Form">
+        <item key="Title" value="Personas" />
+
+        <item key="FirstName" value="Primer nombre" />
+        <item key="LastName" value="Apellido" />
+        <item key="Role" value="Rol" />
+        <item key="EMail" value="Correo electrónico" />
+        <item key="PhoneNumber" value="Teléfono" />
+
+        <item key="AddPerson" value="Agregar persona" />
+        <item key="EditPerson" value="Editar persona" />
+        <item key="DeletePerson" value="Eliminar persona" />
+      </group>
+    </form>
+
+    <form id="PersonEditorForm">
+      <group id="Form">
+        <item key="Title" value="Persona" />
+
+        <item key="FirstName" value="Primer nombre:" />
+        <item key="LastName" value="Apellido:" />
+        <item key="Role" value="Rol:" />
+        <item key="EMail" value="Correo electrónico:" />
+        <item key="PhoneNumber" value="Teléfono:" />
+        <item key="Description" value="Descripción" />
+      </group>
+    </form>
+
+    <form id="ModelPropertiesForm">
+      <group id="Form">
+        <item key="Title" value="Propiedades del modelo" />
+
+        <item key="General" value="General" />
+        <item key="Documentation" value="Documentación" />
+
+        <item key="Name" value="Nombre:" />
+        <item key="CustomNamespace" value="Espacio de nombres personalizado:" />
+      </group>
+    </form>
+
+    <form id="DocumentationGenerationForm">
+      <group id="Form">
+        <item key="Title" value="Generar documentación" />
+
+        <item key="General" value="General" />
+
+        <item key="Format" value="Formato" />
+        <item key="HTML" value="HTML" />
+        <item key="RTF" value="RTF" />
+        <item key="PDF" value="PDF" />
+
+        <item key="Texts" value="Textos" />
+        <item key="DocumentTitle" value="Título documento:" />
+        <item key="DocumentSubtitle" value="Subtitulo documento:" />
+        <item key="Company" value="Empresa:" />
+        <item key="Authors" value="Autores:" />
+        <item key="OutputFile" value="Archivo destino:" />
+
+        <item key="Generate" value="Generar" />
+      </group>
+    </form>
+
+    <form id="TimingEvents">
+      <group id="Control">
+        <item key="State" value="Estado" />
+        <item key="Duration" value="Duración" />
+        <item key="Stimulus" value="Estímulo" />
+        <item key="DurationConstraint" value="Restricción de duración" />
+      </group>
+    </form>
+
+    <form id="TimingTickMarkValues">
+      <group id="Control">
+        <item key="Position" value="Posición" />
+        <item key="Label" value="Etiqueta" />        
+      </group>
+    </form>
+
+    <form id="TimingStatesControl">
+      <group id="Control">
+        <item key="State" value="Estado" />
+      </group>
+    </form>
+
+    <form id="ElementBrowserForm">
+      <group id="Form">
+        <item key="Title" value="Navegador de elementos" />
+        
+        <item key="OpenDiagram" value="Abrir diagrama" />
+        <item key="Rename" value="Renombrar" />
+        <item key="Delete" value="Eliminar" />
+        <item key="Properties" value="Propiedades" />
+
+        <item key="Name" value="Nombre" />
+        <item key="ID" value="ID" />
+        <item key="Type" value="Tipo" />
+      </group>
+    </form>
+
+    <form id="ActivationForm">
+      <group id="Form">
+        <item key="Title" value="Activación" />
+
+        <item key="Text" value="Si quiere usar Software Ideas Modeler para uso comercial, tiene que comprar la licencia." />
+
+        <item key="Step1" value="Paso 1:" />
+        <item key="Step2" value="Paso 2:" />
+        <item key="Step3" value="Paso 3:" />
+
+        <item key="Step1Text" value="Pague la registración." />
+        <item key="Step2Text" value="Espere a la clave de activación, la cual es enviada a su e-mail." />
+        <item key="Step3Text" value="Ingrese la clave de activación en el siguiente campo y confirme con el botón de activación." />
+
+        <item key="ActivationKey" value="Clave activación:" />
+        
+        <item key="Activate" value="Activar" />
+        <item key="Close" value="Cerrar" />
+
+        <item key="ActivationMessage" value="Activación exitosa. La copia de Software Ideas Modeler puede ser usada con fines comerciales." />
+        <item key="WrongActivationCodeMessage" value="Código de activación incorrecto." />
+      </group>
+    </form>
+
+    <form id="BatchExportForm">
+      <group id="Form">
+        <item key="Title" value="Exportar en batch" />
+
+        <item key="Exporting" value="Exportando..." />
+
+        <item key="Format" value="Formato" />
+        <item key="ImageFormat" value="Formato de imágen:" />
+
+        <item key="Output" value="Salida" />
+        <item key="Content" value="Contenido" />
+        <item key="Diagrams" value="Diagramas" />
+
+        <item key="Files" value="Archivos" />
+        <item key="FileNames" value="Nombres de archivos:" />
+        <item key="DiagramName" value="Nombre diagrama:" />
+        <item key="Custom" value="Personalizado:" />
+        <item key="OutputDirectory" value="Directorio de salida:" />
+
+        <item key="ExportContent" value="Exportar contenido" />
+        <item key="Size" value="Tamaño" />
+        <item key="Background" value="Fondo" />
+
+        <item key="ExportOnlyActiveLayer" value="Exportar sólo capas activas" />
+        <item key="ExportHiddenLayers" value="Exportar capas ocultas" />
+
+        <item key="Absolute" value="Absoluto" />
+        <item key="Relative" value="Relativo" />
+
+        <item key="Width" value="Ancho:" />
+        <item key="Height" value="Alto:" />
+
+        <item key="Transparent" value="Transparente" />
+        <item key="Color1" value="Color 1:" />
+        <item key="Color2" value="Color 2:" />
+      </group>
+    </form>
+
+    <form id="PrintForm">
+      <group id="Form">
+        <item key="Title" value="Imprimir" />
+
+        <item key="Print" value="Imprimir" />
+        <item key="PageSetup" value="Propiedades de Página" />
+        <item key="Preview" value="Vista previa" />
+
+        <item key="Diagrams" value="Diagramas" />
+        <item key="Settings" value="Configuraciones" />
+
+        <item key="Zoom" value="Zoom:" />
+
+        <item key="PreviousPage" value="Página anterior" />
+        <item key="NextPage" value="Página siguiente" />
+        <item key="RefreshPreview" value="Actualizar vista previa" />
+
+        <item key="PagesPerDiagram" value="Páginas por diagrama" />
+        <item key="SinglePage" value="Página única" />
+        <item key="MultiplePages" value="Páginas múltiples" />
+        <item key="Horizontal" value="Horizontal:" />
+        <item key="Vertical" value="Vertical:" />
+      </group>
+    </form>
+
+    <form id="DiagramsForm">
+      <group id="Form">
+        <item key="Title" value="Diagramas" />
+      </group>
+    </form>
+
+    <form id="DonateBuyForm">
+      <group id="Form">
+        <item key="Title" value="Software Ideas Modeler" />
+
+        <item key="HeadingText" value="Gracias por usar Software Ideas Modeler!"></item>
+        <item key="MainText" value="Si te gusta la aplicación y quieres dar tu apoyo para su desarrollo, tienes estas dos opciones:"></item>
+
+        <item key="Buy" value="Comprar (para el uso comercial)"></item>
+        <item key="BuyText1" value="Ésta copia de Software Ideas Modeler puede ser usada para fines comerciales solamente después de la activación. Puede conseguir la clave de activación elegiendo ésta opción."></item>
+        <item key="BuyText2" value="Después de comprar, tus reportes de errores y necesidades van a tener una mayor prioridad. Éste diálogo no aparecerá más una vez activada la aplicación."></item>
+        
+        <item key="Donate" value="Donar"></item>
+        <item key="DonateText1" value="Si es un usuario no-comercial, usted puede utilizar esta aplicación de forma gratuita. Si lo desea, puede donar a este proyecto y enviar cualquier cantidad de dinero."></item>
+        <item key="DonateText2" value="Después de donar aparecerá en la lista de los donantes en el sitio web. (Si no quiere que se publicará en esta lista, por favor, hágamelo saber en el mensaje.)"></item>
+        
+        <item key="MaybeLater" value="Tal vez más tarde"></item>
+        <item key="MaybeLaterText" value="Si no tiene dinero para apoyar económicamente este proyecto se puede apoyar de otras maneras: convertirse en un fanático en Facebook, agregar un enlace desde su sitio web para este proyecto, escribir acerca de este software en su blog, contar a los demás respecto al software..."></item>
+      </group>
+    </form>
+
+    <form id="DonationForm">
+      <group id="Form">
+        <item key="Title" value="Centro de Donación" />
+        
+        <item key="DonateNow" value="&amp;Donar ahora" />
+        <item key="ConfirmKey" value="&amp;Confirmar clave" />
+
+        <item key="WhyToDonateTitle" value="¿Porqué donar?" />
+        <item key="WhyToDonateText1" value="Software Modeler Ideas es un programa gratuito para los usuarios no comerciales (escuelas, organizaciones sin fines de lucro). Sin embargo, es posible que desee apoyar este proyecto económicamente y donar. Salvo una buena sensación, que se convertirá en un patrocinador oficial de este proyecto y obtener las ventajas sobre otros usuarios:" />
+        <item key="WhyToDonateText2" value="1. Ventana con un llamamiento a donar o compra no se muestra después de cerrar la aplicación." />
+        <item key="WhyToDonateText3" value="2. Sus informes de errores y los requisitos tienen una prioridad mayor que los de otros usuarios." />
+
+        <item key="HowToDonateTitle" value="¿Cómo donar?" />
+        <item key="HowToDonateText" value="La página de donaciones se mostrará después de hacer clic en el botón de Donaciones. Cualquier donación (sólo unos pocos dólares / euros) es bienvenida." />
+        
+        <item key="IHaveDonatedTitle" value="He donado..." />
+        <item key="IHaveDonatedText" value="Dentro de dos días de trabajo (generalmente más pronto) recibirá el e-mail con la clave." />
+
+        <item key="DonorKey" value="Clave donación:" />
+        <item key="ConfirmInfo" value="Confirme la clave para los donantes y consigue ventajas como patrocinador oficial de este proyecto." />
+
+        <item key="OfficialSupporter" value="Clave para los donantes es válida. Se está convirtiendo en patrocinador oficial de este proyecto. Gracias por su apoyo!" />
+        <item key="WrongDonorKey" value="Clave para los donantes no válida." />
+      </group>
+    </form>
+    
+    
+  </items>
+</language>
+

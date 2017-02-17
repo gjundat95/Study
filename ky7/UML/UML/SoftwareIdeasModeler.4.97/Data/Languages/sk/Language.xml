@@ -1,0 +1,1911 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<language name="Slovak" localName="Slovenský" id="sk">
+  <meta>
+    <author>Dušan Rodina</author>
+    <created></created>
+    <info></info>
+  </meta>
+  <items>
+    <!-- Global -->
+    <form id="Global">
+      <!-- Strings -->
+      <group id="Strings">
+        <item key="SimProject" value="SIM projekt"></item>
+        <item key="AllFiles" value="Všetky súbory"></item>
+
+        <item key="Version" value="Verzia" />
+        <item key="ReadOnly" value="Iba na čítanie" />
+      </group>
+
+      <group id="Messages">
+        <item key="ItemCannotBeAddedToDiagram" value="Prvok nie je možné pridať do diagramu." />
+        <item key="SaveBeforeExist" value="Chcete uložiť zmeny v projekte '&lt;filename&gt;'?" />
+        <item key="NewVersionFound" value="V sieti sa našla novšia verzia ('&lt;version&gt;') aplikácie Software Ideas Modeler. Chcete prejsť na stránku s novou verziou?" />
+        <item key="UptodateVersion" value="Súčasná verzia ('&lt;version&gt;') aplikácie Software Ideas Modeler je aktuálna." />
+        <item key="ProjectFileNotFound" value="Súbor projektu '&lt;?&gt;' sa nenašiel. Pravdepodobne bol zmazaný alebo presunutý do iného adresára." title="Chýbajúci súbor" />
+        <item key="NewStyleWarning" value="Naozaj chcete zahodiť aktuálnu množinu štýlov a vytvoriť novú?" title="Nová množina štýlov" />
+        <item key="StyleTypeExists" value="Typ štýlu, ktorý sa pokúšate pridať, už existuje." title="Existujúci typ štýlu"/>
+        <item key="RenumberingWarning" value="Niektoré prvky nie sú ešte prečíslované. Zoznam s pôvodným číslovaním musí byť prázdny." title="Prečíslovanie" />
+        <item key="DeleteStyle" value="Naozaj chcete zmazať štýl '&lt;?&gt;'?" title="Zmazať štýl"/>
+        <item key="StyleClassNameExists" value="Názov triedy štýlu sa už používa." title="Existujúci názov triedy štýlu"/>
+        <item key="NotAllowedStyleClassName" value="Názov '&lt;?&gt;' nie je povolený pre triedu štýlu." title="Nepovolený názov"/>
+        <item key="SavingError" value="Súbor nie je možné uložiť. Skontrolujte, či nie je otvorený v inej aplikácii." title="Chyba pri ukladaní"/>
+        <item key="DeleteTask" value="Naozaj chcete zmazať úlohu'&lt;?&gt;'?" title="Zmazať úlohu"/>
+        <item key="DeleteToDo" value="Naozaj chcete zmazať rýchlu úlohu '&lt;?&gt;'?" title="Zmazať rýchlu úlohu"/>
+        <item key="DeletePerson" value="Naozaj chcete zmazať osobu '&lt;?&gt;'?" title="Zmazať osobu"/>
+        <item key="DeleteStereotype" value="Do you really want to delete the stereotype '&lt;?&gt;'?" title="Zmazať stereotyp"/>
+        <item key="NoOutputLanguageSelected" value="Generovanie zdrojového kódu nemôže pokračovať. Žiadny jazyk nie je vybraný." title="Generovanie zdrojového kódu" />
+        <item key="NoOutputDirectorySelected" value="Generovanie zdrojového kódu nemôže pokračovať. Výstupný adresár nie je zadaný." title="Generovanie zdrojového kódu" />
+        <item key="EmptyConnectionString" value="Nie je nastavený connection string. Definície tabuliek nemôžu byť načítané." title="Import databázy"/>
+        <item key="CannotLoadTables" value="Nepodarilo sa načítať definície tabuliek z databázy. \n\n &lt;?&gt;" title="Import databázy"/>
+        <item key="RegisteredCopy" value="Táto kópia programu Software Ideas Modeler je odteraz registrovaná a môžete ju používať komerčne. Ďakujem za podporenie vývoja tohto projektu." title="Registrovaná kópia" />
+        <item key="NewerVersionWarning" value="Otváraný súbor projektu bol uložený novšou verziou programu Software Ideas Modeler a nemusí byť načítaný správne. Chcete sa napriek tomu pokúsiť načítať ho?" title="Novšia verzia projektu" />
+        <item key="InflateContainer" value="Chcete zväčšiť kontajner, aby pokrýval všetky vkladané elementy?" title="Zväčšiť kontajner"/>
+        <item key="WrongOutputDirectory" value="Zvolený výstupný adresár '&lt;?&gt;' neexistiuje alebo nie je povolené do neho zapisovať." title="Nesprávny výstupný adresár"/>
+        <item key="InstallUpdate" value="Chcete nainštalovať aktualizáciu? Bude to trvať iba pár sekúnd." title="Inštalácia aktualizácie"/>
+        <item key="FileOpenAsReadOnly" value="Projekt je už otvorený inde, preto bude otvorený iba na čítanie." title="Načítavanie projektu"/>
+        <item key="UnauthorizedWriteAccess" value="Zápis do súboru nie je povolený." title="Nepovolený zápis"/>
+      </group>
+
+      <group id="DiagramNames">
+        <item key="UmlClassDiagram" value="Diagram tried" />
+        <item key="UmlUseCaseDiagram" value="Diagram prípadov použitia" />
+        <item key="UmlSequenceDiagram" value="Sekvenčný diagram" />
+        <item key="UmlActivityDiagram" value="Diagram aktivít" />
+        <item key="UmlStateMachineDiagram" value="Stavový diagram" />
+        <item key="UmlDeploymentDiagram" value="Diagram nasadenia" />
+        <item key="UmlProfileDiagram" value="Diagram profilov" />
+        <item key="UmlObjectDiagram" value="Diagram objektov" />
+        <item key="UmlPackageDiagram" value="Diagram balíčkov" />
+        <item key="UmlCommunicationDiagram" value="Komunikačný diagram" />
+        <item key="UmlCompositeStructureDiagram" value="Diagram zloženej štruktúry" />
+        <item key="UmlComponentDiagram" value="Diagram komponentov" />
+        <item key="UmlInteractionOverviewDiagram" value="Diagram prehľadu interakcií" />
+        <item key="UmlMixedDiagram" value="Zmiešaný diagram" />
+        <item key="DataFlowDiagram" value="Diagram tokov údajov" />
+        <item key="EntityRelationshipDiagram" value="Entitno-relačný diagram" />
+        <item key="RequirementDiagram" value="Diagram požiadaviek" />
+        <item key="UserInterfaceDiagram" value="Používateľské rozhranie" />
+        <item key="CrcCardDiagram" value="Diagram CRC kariet" />
+        <item key="FlowchartDiagram" value="Vývojový diagram" />
+        <item key="RobustnessDiagram" value="Diagram robustnosti" />
+        <item key="UmlTimingDiagram" value="Diagram časovania" />
+      </group>
+
+      <group id="Buttons">
+        <item key="Ok" value="&amp;OK" />
+        <item key="Cancel" value="&amp;Zrušiť" />
+        <item key="Yes" value="Án&amp;o" />
+        <item key="No" value="&amp;Nie" />
+        <item key="Add" value="&amp;Pridať" />
+        <item key="Edit" value="&amp;Upraviť" />
+        <item key="Remove" value="&amp;Odobrať" />
+        <item key="SelectAll" value="&amp;Všetko" />
+        <item key="SelectNone" value="&amp;Nič" />
+        <item key="SelectInvert" value="&amp;Invertovať" />
+        <item key="MoreColors" value="Viac farieb..." />
+        <item key="Previous" value="&lt; &amp;Späť" />
+        <item key="Next" value="Ď&amp;alej &gt;" />
+        <item key="Import" value="&amp;Importovať" />
+        <item key="Delete" value="&amp;Zmazať" />
+        <item key="Save" value="&amp;Uložiť" />
+      </group>
+    </form>
+
+    <form id="MainForm">
+      <group id="General">
+        <item key="RegisteredCopy" value="Registrovaná kópia." />
+        <item key="OnlyForNonCommercialUse" value="IBA PRE NEKOMERČNÉ POUŽITIE" />
+      </group>
+      <group id="StandardBar">
+        <item key="New" tooltip="Nový" />
+        <item key="Open" tooltip="Otvoriť" />
+        <item key="Save" tooltip="Uložiť" />
+        <item key="Undo" tooltip="Späť" />
+        <item key="Redo" tooltip="Opakovať" />
+        <item key="Cut" tooltip="Vystrihnúť" />
+        <item key="Copy" tooltip="Kopírovať" />
+        <item key="Paste" tooltip="Prilepiť" />
+        <item key="Print" tooltip="Tlač" />
+        <item key="PrintPreview" tooltip="Náhľad tlače" />
+        <item key="ShowGrid" tooltip="Zobraziť mriežku" />
+        <item key="ShowAdvancedInfo" tooltip="Zobraziť pokročilé informácie" />
+        <item key="Find" value="Hľadať:" />
+      </group>
+      <group id="LayoutBar">
+        <item key="BringToFront" value="Celkom dopredu" />
+        <item key="SendToBack" value="Celkom dozadu" />
+        <item key="ForwardOne" value="Dopredu o jedno" />
+        <item key="BackOne" value="Dozadu o jedno" />
+
+        <item key="AutoLayoutCascade" value="Kaskáda" />
+        <item key="AutoLayoutRectangle" value="Do obdĺžnika" />
+        <item key="AutoLayoutCircle" value="Do kruhu" />
+        <item key="AutoLayoutRows" value="Riadkové rozloženie" />
+        <item key="AutoLayoutSmart" value="Inteligentné rozloženie" />
+      </group>
+      <group id="Menu">
+        <!-- File -->
+        <item key="File" value="&amp;Súbor" />
+        <item key="New" value="&amp;Nový" tooltip="Vytvorí nový projekt." />
+        <item key="Open" value="&amp;Otvoriť" tooltip="Otvorí existujúci projekt." />
+        <item key="Save" value="&amp;Uložiť" tooltip="Uloží otvorený projekt." />
+        <item key="SaveAs" value="Uložiť &amp;ako" />
+        <item key="CloseProject" value="&amp;Zavrieť projekt" />
+        <item key="Print" value="&amp;Tlačiť" />
+        <item key="PrintPreview" value="Náhľad &amp;tlače" />
+        <item key="PrintSetup" value="Nasta&amp;venie tlače" />
+        <item key="Export" value="&amp;Exportovať" />
+        <item key="ExportToImage" value="&amp;Obrázok" />
+        <item key="ExportToPDF" value="&amp;PDF" />
+        <item key="ExportToXMI" value="&amp;XMI" />
+        <item key="Import" value="&amp;Importovať" />
+        <item key="ImportFromXMI" value="&amp;XMI" />
+        <item key="RecentProjects" value="Naposle&amp;dy použité" />
+        <item key="Exit" value="S&amp;končiť" />
+        <!-- Edit -->
+        <item key="Edit" value="Úpr&amp;avy" />
+        <item key="Undo" value="&amp;Späť" />
+        <item key="Redo" value="&amp;Opakovať" />
+        <item key="Cut" value="&amp;Vystrihnúť" />
+        <item key="Copy" value="&amp;Kopírovať" />
+        <item key="Paste" value="&amp;Prilepiť" />
+        <item key="Delete" value="&amp;Zmazať" />
+        <item key="DeleteWithRelations" value="Zmazať s &amp;reláciami" />
+        <item key="SelectAll" value="O&amp;značiť všetko" />
+        <item key="SelectAllOfSameType" value="Označiť všetko &amp;daného typu" />
+        <item key="InvertSelection" value="&amp;Invertovať označenie" />
+        <item key="Find" value="&amp;Hľadať" />
+        <!-- View -->
+        <item key="View" value="&amp;Zobraziť" />
+        <item key="StandardBar" value="Š&amp;tandardný panel" />
+        <item key="StatusBar" value="&amp;Stavový riadok" />
+        <item key="LayoutBar" value="Panel &amp;usporiadania" />
+        <item key="Toolbox" value="Panel &amp;nástrojov" />
+        <item key="SideBar" value="&amp;Bočný panel" />
+        <item key="DiagramPreview" value="&amp;Náhľad diagramu" />
+        <item key="StartPage" value="&amp;Uvítacia stránka" />
+        <item key="ElementBrowser" value="&amp;Prehliadač prvkov" />
+        <item key="ShowMultipleUsageOfElement" value="&amp;Zobraziť viacnásobné použitie prvkov" />
+        <item key="ShowAssignedDiagrams" value="Zobraziť priradené &amp;diagramy" />
+        <item key="Grid" value="&amp;Mriežka" />
+        <item key="SnapToGrid" value="&amp;Prichytiť do mriežky" />
+        <item key="RenderingQuality" value="&amp;Kvalita vykresľovania" />
+        <item key="RenderingQualityDraft" value="&amp;Náčrt" />
+        <item key="RenderingQualityNormal" value="&amp;Normálna" />
+        <item key="RenderingQualityBest" value="&amp;Najlepšia" />
+        <item key="FullScreen" value="&amp;Celá obrazovka" />
+        <!-- Arrange -->
+        <item key="Arrange" value="&amp;Usporiadanie" />
+        <item key="AutoLayout" value="&amp;Automatické rozloženie" />
+        <item key="RouteRelation" value="Smerovať &amp;reláciu" />
+        <item key="CircleLayout" value="&amp;Do kruhu" />
+        <item key="RowLayout" value="&amp;Riadkové rozloženie" />
+        <item key="SmartLayout" value="&amp;Inteligentné rozloženie" />
+        <item key="CascadeLayout" value="&amp;Kaskáda" />
+        <item key="AutoSize" value="Automatická &amp;veľkosť" />
+        <item key="Alignment" value="&amp;Zarovnanie" />
+        <item key="MakeSame" value="&amp;Nastaviť rovnako" />
+        <item key="Order" value="&amp;Usporiadanie" />
+        <item key="Move" value="&amp;Posun" />
+        <item key="Size" value="&amp;Veľkosť" />
+        <item key="HorizontalSpacing" value="&amp;Horizontálne medzery" />
+        <item key="VerticalSpacing" value="&amp;Vertikálne medzery" />
+        <item key="SetLocationAndSize" value="Nastaviť u&amp;miestnenie a veľkosť" />
+        <item key="LockItems" value="Zam&amp;knúť položky" />
+        <item key="GroupItems" value="Zo&amp;skupiť položky" />
+        <item key="UngroupItems" value="Zr&amp;ušiť skupinu" />
+        <item key="AlignmentLeft" value="Vľ&amp;avo" />
+        <item key="AlignmentRight" value="V&amp;pravo" />
+        <item key="AlignmentTop" value="Na&amp;hor" />
+        <item key="AlignmentBottom" value="Na&amp;dol" />
+        <item key="AlignmentCenterHorizontally" value="Na stred &amp;horizontálne" />
+        <item key="AlignmentCenterVertically" value="Na stred &amp;vertikálne" />
+        <item key="AlignmentToGrid" value="Do &amp;mriežky" />
+        <item key="MakeSameWidth" value="Ší&amp;rku" />
+        <item key="MakeSameHeight" value="&amp;Výšku" />
+        <item key="MakeSameBoth" value="Šírku &amp;aj výšku" />
+        <item key="OrderBringToFront" value="Celkom &amp;dopredu" />
+        <item key="OrderBringToBack" value="Celkom do&amp;zadu" />
+        <item key="OrderForwardOne" value="Dopredu o &amp;jedno" />
+        <item key="OrderBackOne" value="Dozadu &amp;o jedno" />
+        <item key="MoveCustom" value="&amp;Vlastný" />
+        <item key="MoveLeft" value="&amp;Vľavo" />
+        <item key="MoveRight" value="&amp;Vpravo" />
+        <item key="MoveUp" value="&amp;Nahor" />
+        <item key="MoveDown" value="&amp;Nadol" />
+        <item key="SizeCustom" value="&amp;Vlastná" />
+        <item key="SizeInflate" value="&amp;Zväčšiť" />
+        <item key="SizeDeflate" value="&amp;Zmenšiť" />
+        <item key="SizeWider" value="&amp;Širšia" />
+        <item key="SizeNarrower" value="&amp;Užšia" />
+        <item key="SizeHigher" value="&amp;Vyššia" />
+        <item key="SizeLower" value="&amp;Nižšia" />
+
+        <!-- Project -->
+        <item key="Project" value="&amp;Projekt" />
+        <item key="AddModel" value="Pridať &amp;model" />
+        <item key="AddDiagram" value="Pridať &amp;diagram" />
+        <item key="AddExistingDiagram" value="Pridať &amp;existúci diagram" />
+        <item key="Properties" value="&amp;Vlastnosti projektu" />
+        <item key="ModelProperties" value="Vlastnosti mode&amp;lu" />
+        <item key="StyleSet" value="&amp;Množina štýlov" />
+        <item key="LoadStyleSet" value="&amp;Otvoriť" />
+        <item key="SaveStyleSet" value="&amp;Uložiť" />
+        <item key="EditStyleSet" value="U&amp;praviť" />
+        <item key="RemoveAllCustomStyles" value="&amp;Odstrániť všetky vlastné štýly" />
+        <item key="Tasks" value="&amp;Úlohy" />
+        <item key="Persons" value="&amp;Osoby" />
+
+        <!-- Diagram -->
+        <item key="Diagram" value="&amp;Diagram" />
+        <item key="AddLayer" value="Pridať &amp;vrstvu" />
+        <item key="Layers" value="&amp;Vrstvy" />
+        <item key="ConvertDiagram" value="&amp;Konvertovať na" />
+        <item key="ConvertToERDDiagram" value="&amp;Entitno-relačný diagram" />
+        <item key="ConvertToClassDiagram" value="Diagram &amp;tried" />
+        <item key="DiagramProperties" value="V&amp;lastnosti diagramu" />
+        <item key="PrintDiagram" value="&amp;Tlačiť" />
+        <item key="ExportDiagram" value="E&amp;xportovať" />
+        <item key="ExportDiagramToImage" value="&amp;Obrázok" />
+        <item key="ExportDiagramToPDF" value="&amp;PDF" />
+        <item key="CopyToClipboardAsImage" value="Kopírovať ako &amp;bitmapový obrázok" />
+        <item key="CopyToClipboardAsMetafile" value="Kopírovať ako &amp;vektorový obrázok" />
+        <item key="LayersMerge" value="&amp;Zlúčiť" />
+        <item key="LayersShowAll" value="Zobraziť &amp;všetky" />
+        <item key="LayersHide" value="&amp;Skryť" />
+        <item key="LayersDelete" value="Z&amp;mazať" />
+        <item key="Filter" value="&amp;Filter" />
+        <item key="ShowAllElements" value="Zobraziť &amp;všetky prvky" />
+        <item key="HideComments" value="Skryť &amp;poznámky" />
+        <item key="HideRelations" value="Skryť &amp;relácie" />
+        <item key="HideCollaborations" value="Skryť &amp;kolaborácie" />
+
+        <!-- Element -->
+        <item key="Element" value="P&amp;rvok" />
+
+        <item key="Add" value="&amp;Pridať" />
+        <item key="Stereotype" value="&amp;Stereotyp" />
+        <item key="Attribute" value="&amp;Atribút" />
+        <item key="Operation" value="&amp;Operácia" />
+        <item key="TemplateParameter" value="Parame&amp;ter šablóny" />
+
+        <item key="ElementShowID" value="Zobraziť &amp;ID" />
+        <item key="ElementShowParentName" value="Zobraziť &amp;meno rodiča" />
+        <item key="ElementShowStereotypes" value="Zobraziť &amp;stereotypy" />
+        <item key="ElementShowAttributes" value="Zobraziť &amp;atribúty" />
+        <item key="ElementShowOperations" value="Zobraziť &amp;operácie" />
+        <item key="ElementShowTaggedValues" value="Zobraziť o&amp;značené hodnoty" />        
+        <item key="ElementShowTemplateParameters" value="Zobraziť parame&amp;tre šablóny" />
+        <item key="ElementShowOperationParameters" value="Zobraziť &amp;parametre operácií" />
+        <item key="ElementShowExtensionPoints" value="Zobraziť &amp;body rozšírenia" />
+        <item key="ElementShowRelationshipTexts" value="Zobraziť &amp;texty relácií" />
+        <item key="ElementShowNullability" value="Zobraziť &amp;NULL/NOT NULL" />
+        <item key="ElementShowVisibility" value="Zobraziť &amp;viditeľnosť" />
+
+        <item key="ElementModifiers" value="&amp;Modifikátory" />
+        <item key="ElementAbstractModifier" value="&amp;Abstraktný" />
+        <item key="ElementPublicModifier" value="&amp;Verejný (public)" />
+        <item key="ElementPackageModifier" value="&amp;Súkromný pre balíček (package)" />
+        <item key="ElementProtectedModifier" value="&amp;Chránený (protected)" />
+        <item key="ElementPrivateModifier" value="&amp;Súkromný (private)" />
+        <item key="ElementPresentation" value="Pr&amp;ezentácia" />
+        <item key="DefaultPresentation" value="&amp;Predvolená" />
+        <item key="CustomPresentation" value="&amp;Vlastná" />
+        <item key="ElementStyle" value="&amp;Štýl" />
+        <item key="ElementProperties" value="V&amp;lastnosti" />
+        <item key="ElementDocumentation" value="&amp;Dokumentácia" />
+        <item key="ElementTaggedValues" value="&amp;Označené hodnoty" />
+
+        <!-- Tools -->
+        <item key="Tools" value="&amp;Nástroje" />
+        <item key="GenerateDocumentation" value="Generovať &amp;dokumentáciu" />
+        <item key="GenerateSourceCode" value="Generovať &amp;zdrojový kód" />
+        <item key="Lists" value="&amp;Zoznamy" />
+        <item key="StereotypesList" value="&amp;Stereotypy" />
+        <item key="TypesList" value="&amp;Typy" />
+        <item key="ElementNames" value="&amp;Názvy elementov a ID" />
+        <item key="ReverseEngineering" value="&amp;Reverzné inžinierstvo" />
+        <item key="NetReverseEngineering" value=".&amp;NET Framework" />
+        <item key="DatabaseReverseEngineering" value="&amp;Databáza" />
+        <item key="RenumberElementIDs" value="&amp;Prečíslovať IDčka prvkov" />
+        <item key="ImportDatabaseModel" value="&amp;Importovať databázový model" />
+        <item key="ImportObjectModel" value="I&amp;mportovať objektový model" />
+        <item key="Languages" value="&amp;Jazyky" />
+        <item key="Options" value="&amp;Možnosti" />
+        <!-- Windows -->
+        <item key="Windows" value="&amp;Okná" />
+        <item key="Cascade" value="Do &amp;kaskády" />
+        <item key="TileVertical" value="&amp;Vedľa seba" />
+        <item key="TileHorizontal" value="&amp;Pod sebou" />
+        <item key="ArrangeIcons" value="&amp;Usporiadať ikony" />
+        <item key="CloseAll" value="&amp;Zavrieť všetko" />
+        <!-- Help -->
+        <item key="Help" value="Pomo&amp;cník" />
+        <item key="OnlineHelp" value="&amp;Online pomoc" />
+        <item key="Donate" value="&amp;Podporiť" />
+        <item key="ActivateForCommercialUse" value="&amp;Aktivovať pre komerčné použitie" />
+        <item key="WhatsNew" value="&amp;Novinky v tejto verzii" />
+        <item key="CheckForUpdates" value="Zistiť aktualizáci&amp;u" />
+        <item key="SendRequest" value="Poslať &amp;požiadavku" />
+        <item key="About" value="&amp;O aplikácii Software Ideas Modeler" />
+        <item key="WebSite" value="&amp;Webová stránka" />
+      </group>
+      <!-- Project Context Menu -->
+      <group id="ProjectCMenu">
+        <item key="AddModel" value="Pridať &amp;model" />
+        <item key="AddDiagram" value="Pridať &amp;diagram" />
+
+        <item key="NewDiagram" value="&amp;Nový diagram" />
+        <item key="MoveToModel" value="Presu&amp;núť do modelu" />
+        <item key="Rename" value="&amp;Premenovať" />
+        <item key="Delete" value="&amp;Zmazať" />
+        <item key="DeleteFromProject" value="Zmazať z p&amp;rojektu" />
+
+        <item key="UmlClassDiagram" value="Diagram &amp;tried" />
+        <item key="UmlUseCaseDiagram" value="Diagram &amp;prípadov použitia" />
+        <item key="UmlSequenceDiagram" value="&amp;Sekvenčný diagram" />
+        <item key="UmlActivityDiagram" value="Diagram &amp;aktivít" />
+        <item key="UmlStateMachineDiagram" value="&amp;Stavový diagram" />
+        <item key="UmlDeploymentDiagram" value="Diagram &amp;nasadenia" />
+        <item key="UmlObjectDiagram" value="Diagram &amp;objektov" />
+        <item key="UmlPackageDiagram" value="Diagram &amp;balíčkov" />
+        <item key="UmlCommunicationDiagram" value="&amp;Komunikačný diagram" />
+        <item key="UmlProfileDiagram" value="Diagram pro&amp;filov" />
+        <item key="UmlCompositeStructureDiagram" value="Diagram zloženej štruktúry" />
+        <item key="UmlComponentDiagram" value="Diagram &amp;komponentov" />
+        <item key="UmlInteractionOverviewDiagram" value="Diagram prehľadu &amp;interakcií" />
+        <item key="UmlMixedDiagram" value="Z&amp;miešaný diagram" />
+        <item key="DataFlowDiagram" value="&amp;Diagram tokov údajov" />
+        <item key="EntityRelationshipDiagram" value="&amp;Entitno-relačný diagram" />
+        <item key="RequirementDiagram" value="Diagram požia&amp;daviek" />
+        <item key="UserInterface" value="Používateľské &amp;rozhranie" />
+        <item key="CrcCardDiagram" value="Diagram &amp;CRC kariet" />
+        <item key="FlowchartDiagram" value="&amp;Vývojový diagram" />
+        <item key="RobustnessDiagram" value="Diagram &amp;robustnosti" />
+        <item key="UmlTimingDiagram" value="Diagram časo&amp;vania" />
+      </group>
+
+      <!-- Project Tree -->
+      <group id="ProjectTreeViews">
+        <item key="HierarchicalView" value="Hierarchické zobrazenie" />
+        <item key="AllEntitiesView" value="Všetky entity" />
+        <item key="DiagramTypesView" value="Typy diagramov" />
+      </group>
+
+
+      <!-- Toolbox -->
+      <group id="Toolbox">
+        <item key="UmlClassDiagram" value="Diagram tried" />
+        <item key="UmlUseCaseDiagram" value="Diagram prípadov použitia" />
+        <item key="UmlSequenceDiagram" value="Sekvenčný diagram" />
+        <item key="UmlActivityDiagram" value="Diagram aktivít" />
+        <item key="UmlStateMachineDiagram" value="Stavový diagram" />
+        <item key="UmlDeploymentDiagram" value="Diagram nasadenia" />
+        <item key="UmlProfileDiagram" value="Diagram profilov" />
+        <item key="UmlObjectDiagram" value="Diagram objektov" />
+        <item key="UmlPackageDiagram" value="Diagram balíčkov" />
+        <item key="UmlCommunicationDiagram" value="Komunikačný diagram" />
+        <item key="UmlCompositeStructureDiagram" value="Diagram zloženej štruktúry" />
+        <item key="UmlComponentDiagram" value="Diagram komponentov" />
+        <item key="UmlInteractionOverviewDiagram" value="Diagram prehľadu interakcií" />
+        <item key="UmlMixedDiagram" value="Zmiešaný diagram" />
+        <item key="UmlTimingDiagram" value="Diagram časovania" />
+        <item key="FlowchartDiagram" value="Vývojový diagram" />
+        <item key="RobustnessDiagram" value="Diagram robustnosti" />
+
+        <item key="DataFlowDiagram" value="Diagram tokov údajov" />
+        <item key="CrcCardDiagram" value="Diagram CRC kariet" />
+
+        <item key="EntityRelationshipDiagram" value="Entitno-relačný diagram" />
+        <item key="RequirementDiagram" value="Diagram požiadaviek" />
+        <item key="UserInterfaceDiagram" value="Používateľské rozhranie" />
+
+        <item key="Common" value="Spoločné" />
+        <item key="Drawing" value="Kreslenie" />
+
+        <item key="Selection" value="Označenie" />
+        <item key="Comment" value="Poznámka" />
+        <item key="Comment Connector" value="Spojnica poznámky" />
+        <item key="Diagram Description" value="Popis diagramu" />
+
+        <item key="Line" value="Čiara" />
+        <item key="Rectangle" value="Obdĺžnik" />
+        <item key="Ellipse" value="Elipsa" />
+        <item key="Polygon" value="Polygón" />
+        <item key="Text" value="Text" />
+        <item key="Left Arrow" value="Šípka vľavo" />
+        <item key="Right Arrow" value="Šípka vpravo" />
+        <item key="Up Arrow" value="Šípka nahor" />
+        <item key="Down Arrow" value="Šípka nadol" />
+
+        <item key="Package" value="Balíček" />
+        <item key="Class" value="Trieda" />
+        <item key="Table" value="Tabuľka" />
+        <item key="Structure" value="Štruktúra" />
+        <item key="Signal" value="Signál" />
+        <item key="Enumeration" value="Enumerácia" />
+        <item key="Interface" value="Rozhranie" />
+        <item key="Realization" value="Realizácia" />
+        <item key="Association" value="Asociácia" />
+        <item key="Unidir. Association" value="Jednosmerná asociácia" />
+        <item key="Bidir. Association" value="Obojsmerná asociácia" />
+        <item key="N-ary Association" value="N-árna asociácia" />
+        <item key="Composition" value="Kompozícia" />
+        <item key="Aggregation" value="Agregácia" />
+        <item key="Generalization" value="Generalizácia" />
+        <item key="Dependency" value="Závislosť" />
+        <item key="Containment" value="Obsiahnutie" />
+        <item key="Usage" value="Použitie" />
+        <item key="Access" value="Prístup" />
+        <item key="Refine" value="Zjemnenie" />
+
+        <item key="Actor" value="Hráč" />
+        <item key="Use Case" value="Prípad použitia" />
+        <item key="Collaboration" value="Kolaborácia" />
+        <item key="Include" value="Zahrnutie" />
+        <item key="Extend" value="Rozšírenie" />
+        <item key="System Boundary" value="Ohraničenie systému" />
+
+        <item key="Lifeline" value="Lifeline" />
+        <item key="Interaction Operand" value= "Operand interakcie" />
+        <item key="Activation Bar" value="Úsek aktivácie" />
+        <item key="Fragment" value="Fragment" />
+        <item key="Frame" value="Rámec" />
+        <item key="Interaction" value="Interakcia" />
+        <item key="Interaction Use" value="Použitie interakcie" />
+        <item key="Call Action" value="Volanie" />
+        <item key="Return Action" value="Návrat" />
+        <item key="Create Action" value="Vytvorenie" />
+        <item key="Send Action" value="Zaslanie" />
+        <item key="Destroy Action" value="Deštrukcia" />
+        <item key="Opt Fragment" value="Opt Fragment" />
+        <item key="Alt Fragment" value="Alt Fragment" />
+        <item key="Loop Fragment" value="Loop Fragment" />
+        <item key="Ref Fragment" value="Ref Fragment" />
+        <item key="Sd Fragment" value="Sd Fragment" />
+        <item key="Par Fragment" value="Par Fragment" />
+        <item key="Neg Fragment" value="Neg Fragment" />
+        <item key="Self Message" value="Vlastná správa" />
+        <item key="Recursive Message" value="Rekurzívna správa" />
+        <item key="Concurrent" value="Konkurencia" />
+        <item key="Duration Message" value="Správa s trvaním" />
+        <item key="Lost Message" value="Stratená správa" />
+        <item key="Found Message" value="Nájdená správa" />
+        <item key="State Invariant" value="Invariant stavu" />
+        <item key="Duration Constraint" value="Obmedzenie trvania" />
+        <item key="Coregion" value="Koregión" />
+
+        <item key="Message" value="Správa" />
+
+        <item key="Swimlane" value="Pruh" />
+        <item key="Activity" value="Aktivita" />
+        <item key="Object" value="Objekt" />
+
+        <item key="Initial State" value= "Začiatočný stav" />
+        <item key="Final State" value="Koncový stav" />
+        <item key="State" value="Stav" />
+        <item key="Composite State" value="Kompozitný stav" />
+        <item key="Fork/Join" value="Rozvetvenie/Spojenie" />
+        <item key="Decision" value="Rozhodnutie" />
+        <item key="Transition" value="Prechod" />
+        <item key="Signal Receipt" value="Prijatie signálu" />
+        <item key="Signal Send" value="Zaslanie signálu" />
+        <item key="Deep History" value="Hlboká história" />
+        <item key="Shallow History" value="Plytká história" />
+        <item key="Terminate Node" value="Uzol ukončenia" />
+
+        <item key="Composite State" value="Zložený stav" />
+        <item key="Entry Point" value="Vstupný bod" />
+        <item key="Exit Point" value="Výstupný bod" />
+        <item key="Initial Node" value="Začiatočný uzol" />
+        <item key="Activity Final Node" value="Koncový uzol aktivity" />
+        <item key="Flow Node" value="Uzol toku" />
+        <item key="Activity Parameter Node" value="Uzol parametrov aktivity" />
+        <item key="Action" value="Akcia" />
+        <item key="Pin" value="Sponka" />
+        <item key="Accept Time Event Action" value="Akcia akceptovaného času udalosti" />
+        <item key="Interruptible Activity Region" value="Prerušiteľný región aktivity" />
+        <item key="Expansion Region" value="Región rozšírenia" />
+        <item key="Expansion Node" value="Uzol rozšírenia" />
+        <item key="Exception Handler" value="Spracovač výnimiek" />
+
+        <item key="Node" value="Uzol" />
+        <item key="Component" value="Komponent" />
+        <item key="Artifact" value="Artefakt" />
+        <item key="Deploy" value="Nasadenie" />
+        <item key="Manifest" value="Manifest" />
+
+        <item key="Import" value="Import" />
+        <item key="Merge" value="Zlúčenie" />
+        <item key="Use" value="Použitie" />
+
+        <item key="Frame" value="Rámec" />
+
+        <item key="Boundary" value="Medza" />
+        <item key="Control" value="Riadenie" />
+
+        <item key="Profile" value="Profil" />
+        <item key="Stereotype" value="Stereotyp" />
+        <item key="Meta Class" value="Meta trieda" />
+        <item key="Apply" value="Aplikovanie" />
+
+        <item key="Entity" value="Entita" />
+        <item key="Relation" value="Relácia" />
+        <item key="1 to 1" value="1 do 1" />
+        <item key="1 to 0..1" value="1 do 0..1" />
+        <item key="1 to 1..n" value="1 do 1..n" />
+        <item key="1 to 0..n" value="1 do 0..n" />
+        <item key="0..n to 0..n" value="0..n do 0..n" />
+        <item key="1..n to 1..n" value="1..n do 1..n" />
+
+        <item key="Data Store" value="Pamäť" />
+        <item key="Process" value="Proces" />
+        <item key="Gate" value="Brána" />
+        <item key="External" value="Terminátor" />
+        <item key="Data Flow" value="Tok" />
+
+        <item key="Requirement" value="Požiadavka" />
+        <item key="Model" value="Model" />
+        <item key="Test Case" value="Testovací prípad" />
+
+        <item key="Port" value="Port" />
+        <item key="Part" value="Časť" />
+        <item key="Required Interface" value="Vyžadované rozhranie" />
+
+        <item key="Window" value="Okno" />
+        <item key="Label" value="Popis" />
+        <item key="Button" value="Tlačidlo" />
+        <item key="Check Box" value="Zaškrtávacie pole" />
+        <item key="Radio Button" value="Tlačidlo voľby" />
+        <item key="Text Box" value="Textové pole" />
+        <item key="Scrollbar" value="Posuvník" />
+        <item key="List Box" value="Zoznam" />
+        <item key="Combo Box" value="Kombo políčko" />
+        <item key="Progress Bar" value="Ukazovateľ načítavania" />
+        <item key="Grid" value="Mriežka" />
+
+        <item key="Flow" value="Tok" />
+        <item key="Data" value="Dáta" />
+        <item key="Direct Data" value="Priame dáta" />
+        <item key="Document" value="Dokument" />
+        <item key="Internal Storage" value="Interné úložisko" />
+        <item key="Predefined Process" value="Predefinovaný proces" />
+        <item key="Start End Symbol" value="Začiatočný/koncový symbol" />
+        <item key="Stored Data" value="Uložené dáta" />
+        <item key="User Input" value="Používateľský vstup" />
+
+        <item key="CRC Card" value="CRC karta" />
+      </group>
+
+      <!-- Side Panels -->
+      <group id="SideBars">
+        <item key="Project" value="Projekt" />
+        <item key="FastEditor" value="Rýchly editor" />
+        <item key="Generation" value="Generovanie" />
+        <item key="Documentation" value="Dokumentácia" />
+        <item key="ItemProperties" value="Vlastnosti" />
+        <item key="Styles" value="Štýly" />
+        <item key="Layers" value="Vrstvy" />
+        <item key="Preview" value="Náhľad" />
+        <item key="ToDo" value="Rýchle úlohy" />
+      </group>
+      <group id="ProjectTabPanel">
+        <item key="NewModel" tooltip="Nový model" />
+        <item key="NewDiagram" tooltip="Nový diagram" />
+        <item key="Refresh" tooltip="Obnoviť" />
+        <item key="ExpandAll" tooltip="Rozbaliť všetko" />
+        <item key="CollapseAll" tooltip="Zbaliť všetko" />
+        <item key="UmlClassDiagram" tooltip="Diagram tried" />
+        <item key="UmlUseCaseDiagram" tooltip="Diagram prípadov použitia" />
+        <item key="UmlSequenceDiagram" tooltip="Sekvenčný diagram" />
+        <item key="UmlActivityDiagram" tooltip="Diagram aktivít" />
+        <item key="UmlStateMachineDiagram" tooltip="Stavový diagram" />
+        <item key="UmlDeploymentDiagram" tooltip="Diagram nasadenia" />               
+        <item key="UmlCompositeStructureDiagram" tooltip="Diagram zloženej štruktúry" />
+        <item key="UmlComponentDiagram" tooltip="Diagram komponentov" />
+        <item key="UmlInteractionOverviewDiagram" tooltip="Diagram prehľadu interakcií" />        
+        <item key="UmlTimingDiagram" tooltip="Diagram časovania" />                
+        <item key="UmlProfileDiagram" tooltip="Diagram profilov" />
+        <item key="UmlObjectDiagram" tooltip="Diagram objektov" />
+        <item key="UmlPackageDiagram" tooltip="Diagram balíčkov" />
+        <item key="UmlCommunicationDiagram" tooltip="Komunikačný diagram" />
+        <item key="EntityRelationshipDiagram" tooltip="Entitno-relačný diagram" />
+        <item key="RequirementDiagram" tooltip="Diagram požiadaviek" />
+        <item key="UserInterface" tooltip="Používateľské rozhranie" />
+        <item key="CrcCardDiagram" tooltip="Diagram CRC kariet" />
+        <item key="FlowchartDiagram" tooltip="Vývojový diagram" />
+        <item key="RobustnessDiagram" tooltip="Diagram robustnosti" />
+
+        <item key="Filter" tooltip="Filter" />
+        <item key="ShowEntities" value="Zobrazovať entity" />
+        <item key="ShowRelations" value="Zobrazovať relácie" />
+        <item key="ShowComments" value="Zobrazovať poznámky" />
+        <item key="ShowGroups" value="Zobrazovať skupiny" />        
+      </group>
+      <group id="GenerationTabPanel">
+        <item key="Generate" value="&amp;Generovať" />
+        <item key="GenerateFrom" value="Generovať z" />
+        <item key="WholeDiagram" value="celého &amp;diagramu" />
+        <item key="SelectedElements" value="označ&amp;ených prvkov" />
+      </group>
+      <group id="ItemEditorTabPanel">
+        <item key="ItemDefinition" value="&amp;Definícia prvku:" />
+      </group>
+      <group id="StylesTabPanel">
+        <item key="Apply" value="&amp;Aplikovať" />
+        <item key="NewStyleSet" tooltip="Nová množina štýlov" />
+        <item key="OpenStyleSet" tooltip="Otvoriť množinu štýlov" />
+        <item key="SaveStyleSet" tooltip="Uložiť množinu štýlov" />
+        <item key="AddStyle" tooltip="Pridať štýl" />
+        <item key="SetStyleAsDefault" tooltip="Nastaviť ako predvolený" />
+        <item key="EditStyle" tooltip="Upraviť štýl" />
+        <item key="DeleteStyle" tooltip="Zmazať štýl" />
+      </group>
+      <group id="Properties">
+        <item key="ShowDialog" value="Zobraziť dialóg" />
+        <item key="ID" value="ID:" />
+        <item key="Name" value="Názov:" />
+        <item key="Visibility" value="Viditeľnosť:" />
+        <item key="X" value="X:" />
+        <item key="Y" value="Y:" />
+        <item key="Width" value="Šírka:" />
+        <item key="Height" value="Výška:" />
+      </group>
+    </form>
+
+    <form id="EditorForm">
+      <group id="Form">
+        <item key="FilterWarning" value="Je aktívny filter - niektoré prvky môžu byť skryté" />
+        <item key="RemoveFilter" value="Odst&amp;rániť filter" />
+      </group>
+    </form>
+
+    <form id="Elements">
+      <group id="DiagramDescription">
+        <item key="Authors" value="Autor(i):" />
+        <item key="Description" value="Popis:" />
+        <item key="DiagramName" value="Názov diagramu:" />
+        <item key="Version" value="Vezia:" />
+        <item key="LastChangeDate" value="Dátum zmeny:" />
+        <item key="ModelName" value="Model:" />
+        <item key="ProjectName" value="Projekt:" />
+      </group>
+    </form>
+    
+    <form id="LayerControl">
+      <group id="Control">
+        <item key="AddLayer" tooltip="Pridať novú vrstvu" />
+        <item key="DeleteLayer" tooltip="Zmazať vrstvu" />
+        <item key="ShowHideLayer" tooltip="Zobraziť/skryť vrstvu" />
+        <item key="MergeAllLayers" tooltip="Zlúčiť všetky vrstvy" />
+        <item key="MoveUp" tooltip="Presunúť nahor" />
+        <item key="MoveDown" tooltip="Presunúť nadol" />
+
+        <item key="ContextRename" value="P&amp;remenovať" />
+        <item key="ContextDelete" value="&amp;Zmazať" />
+        <item key="ContextShowHide" value="Zobraziť / &amp;skryť" />
+        <item key="ContextMoveUp" value="Pres&amp;unúť nahor" />
+        <item key="ContextMoveDown" value="Presunúť na&amp;dol" />
+      </group>
+    </form>
+
+    <!-- Context Bar -->
+    <form id="ContextBar">
+      <group id="Control">
+        <item key="AddAttribute" value="Pridať atribút" />
+        <item key="AddOperation" value="Pridať operáciu" />
+        <item key="AddSubClass" value="Pridať podtriedu" />
+        <item key="AddSuperClass" value="Pridať nadtriedu" />
+        <item key="AddUseCase" value="Pridať prípad použitia" />
+        <item key="AddSwimlane" value="Pridať pruh" />
+        <item key="AddState" value="Pridať stav" />
+        <item key="AddValueLifeline" value="Pridať hodnotovú čiaru života" />
+        <item key="AddStateLifeline" value="Pridať stavovú čiaru života" />
+        <item key="ConvertToValueLifeline" value="Konvertovať na hodnotovú čiaru života" />
+        <item key="ConvertToStateLifeline" value="Konvertovať na stavovú čiaru života" />
+        <item key="Extend" value="Rozšíriť" />
+        <item key="Include" value="Zahrnúť" />
+        <item key="AddComment" value="Pridať poznámku" />
+        <item key="AddSequenceExpression" value="Pridať sekvenčný výraz" />
+        <item key="AddSequenceExpression" value="Pridať opačný sekvenčný výraz" />
+        <item key="AddCollaborator" value="Pridať spolupracovníka" />
+        <item key="AddResponsibility" value="Pridať zodpovednosť" />
+        <item key="AddAssociationClass" value="Pridať asociačnú triedu" />
+      </group>
+    </form>
+
+    <!-- New Diagram  -->
+    <form id="NewDiagramForm">
+      <group id="Form">
+        <item key="Title" value="Nový diagram" />
+        <item key="SelectItemLabel" value="Vyberte typ diagramu, ktorý chcete vložiť do projektu:" />
+        <item key="NameLabel" value="Názov:" />
+
+        <item key="OK" value="&amp;OK" />
+        <item key="Cancel" value="&amp;Zrušiť" />
+      </group>
+      <group id="Diagrams">
+        <item key="UMLDiagrams" value="UML diagramy" />
+        <item key="DatabaseModeling" value="Databázové modelovanie" />
+        <item key="Requirements" value="Požiadavky" />
+        <item key="Others" value="Ostatné" />
+      </group>
+    </form>
+
+    <form id="AboutForm">
+      <group id="Form">
+        <item key="Title" value="O aplikácii Software Ideas Modeler" />
+
+        <item key="AboutTab" value="O aplikácii" />
+        <item key="WhatsNewTab" value="Novinky" />
+
+        <item key="Author" value="Autor:" />
+        <item key="Version" value="Verzia:" />
+        <item key="Description" value="Software Ideas Modeler je nástroj na modelovanie softvéru pomocou UML diagramov." />
+        <item key="Close" value="&amp;Zavrieť" />
+        <item key="Donation" value="Ak sa vám páči tento program, podporte ho kliknutím na tlačidlo &quot;donate&quot; a pošlite ľubovoľnú peňažnú čiastku." />
+      </group>
+    </form>
+
+    <form id="ClassifierForm">
+      <group id="Form">
+        <item key="Title" value="Klasifikátory" />
+        <item key="Classifiers" value="Klasifikátory:" />
+      </group>
+    </form>
+
+    <form id="CommunicationMessageForm">
+      <group id="Form">
+        <item key="Title" value="Správa" />
+        <item key="SequenceNumber" value="Poradové číslo:" />
+        <item key="Message" value="Správa:" />
+        <item key="Direction" value="Orientácia:" />
+        <item key="NormalDirection" value="Normálna" />
+        <item key="ReverseDirection" value="Opačná" />
+      </group>
+    </form>
+
+
+    <form id="ItemPropertiesForm">
+      <group id="Form">
+        <item key="Title" value="Vlastnosti prvku" />
+
+        <item key="General" value="Všeobecné" />
+        <item key="Class" value="Trieda" />
+        <item key="Relationship" value="Relácia" />
+        <item key="Style" value="Štýl" />
+        <item key="Documentation" value="Dokumentácia" />
+        <item key="TaggedValues" value="Označené hodnoty" />
+        <item key="ErdEntity" value="Entita" />
+        <item key="ErdRelation" value="Relácia" />
+        <item key="UmlState" value="Stav" />
+        <item key="UmlFragment" value="Fragment" />
+        <item key="UmlFrame" value="Rámec" />
+        <item key="UmlInteraction" value="Interakcia" />
+        <item key="UmlObject" value="Objekt" />
+        <item key="UmlLifeline" value="Čiara života" />
+        <item key="UmlInteractionOperand" value="Operand interakcie" />
+        <item key="UmlCommunicationLifeline" value="Čiara života" />
+        <item key="UmlCommunicationMessage" value="Správa" />
+        <item key="UmlTransition" value="Prechod" />
+        <item key="UmlExtend" value="Rozšírenie" />
+        <item key="UmlSwimlane" value="Pruh" />
+        <item key="SequenceMessage" value="Správa" />
+        <item key="TemplateParameters" value="Parametre šablóny" />
+        <item key="TimingTickMarkValues" value="Odrážky časovania" />
+        <item key="TimingStates" value="Stavy" />
+        <item key="TimingEvents" value="Udalosti" />
+        <item key="CrcCardHeader" value="Hlavička" />
+        <item key="CrcCard" value="Zodpovednosti" />
+
+        <item key="OK" value="&amp;OK" />
+        <item key="Cancel" value="&amp;Zrušiť" />
+
+        <item key="ID" value="ID:" />
+        <item key="Name" value="Názov:" />
+        <item key="Stereotypes" value="&amp;Stereotypy" />
+        <item key="AppliedStereotypes" value="&amp;Použité stereotypy:" />
+        <item key="AvailableStereotypes" value="&amp;Dostupné stereotypy:" />
+        <item key="Add" value="&lt;&amp;Pridať" />
+        <item key="AddCustom" value="&lt;Pridať &amp;vlastný" />
+        <item key="Remove" value="&amp;Odobrať&gt;" />
+        <item key="Modifiers" value="Modifikátory" />
+        <item key="AbstractModifier" value="&amp;Abstraktný" />
+        <item key="StaticModifier" value="&amp;Statický" />
+      </group>
+    </form>
+
+    <form id="StartPageForm">
+      <group id="Form">
+        <item key="Title" value="Uvítacia stránka" />
+
+        <item key="StartWith" value="Začať s..." />
+        <item key="RecentProjects" value="Posledné projekty" />
+
+        <item key="OpenProject" value="Otvoriť projekt..." />
+        <item key="NewProject" value="Vytvoriť nový projekt..." />
+
+        <item key="DonateNow" value="Dobrovoľne prispieť / Kúpiť" />
+      </group>
+    </form>
+
+    <form id="ModelOverviewForm">
+      <group id="Form">
+        <item key="Title" value="Prehľad modelu" />
+      </group>
+    </form>
+
+    <form id="DiagramThumbnailsPanel">
+      <group id="Control">
+        <item key="Open" value="&amp;Otvoriť" />
+        <item key="Close" value="&amp;Zatvoriť" />
+        <item key="DeleteDiagram" value="Zmazať &amp;diagram" />
+      </group>
+    </form>    
+
+    <form id="Style">
+      <group id="Control">
+        <item key="DefaultStyle" value="Predvolený štýl" />
+        <item key="StyleByClass" value="Štýl podľa triedy:" />
+        <item key="CustomStyle" value="Vlastný štýl" />
+        <item key="BorderColor" value="Farba okraja:" />
+        <item key="BackgroundType" value="Typ pozadia:" />
+        <item key="BackgroundColor" value="Farba pozadia:" />
+        <item key="BackgroundColor2" value="Farba pozadia 2:" />
+        <item key="TextColor" value="Farba textu:" />
+        <item key="TextFont" value="Písmo textu:" />
+        <item key="BorderWidth" value="Hrúbka okraja:" />
+        <item key="Gloss" value="Lesk" />
+        <item key="Gloss3D" value="3D lesk" />
+        <item key="Shadow" value="Tieň:" />
+        <item key="ShadowOffsetX" value="Odsadenie X:" />
+        <item key="ShadowOffsetY" value="Odsadenie Y:" />
+        <item key="ShadowRadius" value="Polomer:" />
+        <item key="ShadowColor" value="Farba:" />
+        <item key="NameFont" value="Písmo názvu:" />
+        <item key="NameColor" value="Farba názvu:" />
+        <item key="StereotypeColor" value="Farba stereotypu:" />
+        <item key="StereotypeFont" value="Písmo stereotypu:" />
+
+        <item key="Name" value="Názov" />
+        <item key="Stereotype" value="Stereotyp" />
+        <item key="Text" value="Text" />
+        <item key="Effects" value="Efekty" />
+
+        <item key="Font" value="Písmo:" />
+        <item key="Color" value="Farba:" />
+        <item key="Alignment" value="Zarovnanie:" />
+      </group>
+    </form>
+
+    <form id="Documentation">
+      <group id="Control">
+        <item key="FontSize" value="Veľkosť písma:" />
+        <item key="Bold" tooltip="Tučné" />
+        <item key="Italic" tooltip="Šikmé" />
+        <item key="Underline" tooltip="Podčiaknuté" />
+        <item key="Strikethrough" tooltip="Preškrtnuté" />
+      </group>
+    </form>
+
+    <form id="ErdRelationDefinition">
+      <group id="Control">
+        <item key="RelationType" value="Typ relácie:" />
+        <item key="StartMultiplicity" value="Začiatočná násobnosť:" />
+        <item key="StartRole" value="Začiatočná rola:" />
+        <item key="EndMultiplicity" value="Koncová násobnosť:" />
+        <item key="EndRole" value="Koncová rola:" />
+
+      </group>
+    </form>
+
+    <form id="ErdEntityDefinition">
+      <group id="Control">
+        <item key="Add" value="&amp;Pridať" />
+        <item key="Edit" value="&amp;Upraviť" />
+        <item key="Remove" value="&amp;Odstrániť" />
+        <item key="Attributes" value="Atribúty:" />
+        <item key="NameColumn" value="Názov" />
+        <item key="TypeColumn" value="Typ" />
+        <item key="TypeSizeColumn" value="Veľkosť typu" />
+        <item key="NullableColumn" value="NULL" />
+        <item key="DescriptionColumn" value="Popis" />
+
+      </group>
+    </form>
+
+    <form id="MessageDefinition">
+      <group id="Control">
+        <item key="Message" value="Správa:" />
+        <item key="Type" value="Typ:" />
+        <item key="Asynchronous" value="Asynchrónna" />
+        
+        <item key="Call" value="Volať" />
+        <item key="Create" value="Vytvoriť" />
+        <item key="Destroy" value="Zničiť" />
+        <item key="Return" value="Vrátiť" />
+        <item key="Send" value="Poslať" />
+        <item key="Terminate" value="Ukončiť" />
+      </group>
+    </form>
+
+    <form id="CommentDefinition">
+      <group id="Control">
+        <item key="Comment" value="Poznámka:" />
+      </group>
+    </form>
+
+    <form id="LifelineDefinition">
+      <group id="Control">
+        <item key="Classifier" value="Klasifikátor:" />
+        <item key="Active" value="Aktívna" />
+        <item key="MultiObject" value="Multi-objekt" />
+      </group>
+    </form>
+
+    <form id="CommunicationLifelineDefinition">
+      <group id="Control">
+        <item key="Classifier" value="Klasifikátor:" />
+      </group>
+    </form>
+
+    <form id="CommunicationMessageDefinition">
+      <group id="Control">
+        <item key="Add" value="&amp;Pridať" />
+        <item key="Edit" value="&amp;Upraviť" />
+        <item key="Remove" value="&amp;Odstrániť" />
+      </group>
+    </form>
+
+    <form id="FragmentDefinition">
+      <group id="Control">
+        <item key="InteractionOperator" value="Operátor interakcie:" />
+        <item key="Add" value="&amp;Pridať" />
+        <item key="Edit" value="&amp;Upraviť" />
+        <item key="Remove" value="&amp;Odobrať" />
+      </group>
+    </form>
+
+    <form id="FrameDefinition">
+      <group id="Control">
+        <item key="Type" value="Typ:" />
+      </group>
+    </form>
+
+    <form id="InteractionDefinition">
+      <group id="Control">
+        <item key="Type" value="Typ:" />
+      </group>
+    </form>
+
+    <form id="InteractionOperandDefinition">
+      <group id="Control">
+        <item key="GuardCondition" value="Strážená podmienka:" />
+      </group>
+    </form>
+
+    <form id="ObjectDefinition">
+      <group id="Control">
+        <item key="Classifier" value="Klasifikátor:" />
+        <item key="Values" value="Hodnoty" />
+        <item key="Value" value="Hodnota" />
+        <item key="Name" value="Názov" />
+      </group>
+    </form>
+
+    <form id="AddObjectAttributeForm">
+      <group id="Form">
+        <item key="Title" value="Pridať atribúty" />
+        <item key="Attributes" value="Atribúty" />
+      </group>
+    </form>
+
+    <form id="CrcCardHeaderDefinition">
+      <group id="Control">
+        <item key="Description" value="Popis:" />
+        <item key="Superclass" value="Nadtrieda:" />
+        <item key="Subclasses" value="Podtriedy:" />
+        <item key="Subclass" value="Nadtrieda" />
+      </group>
+    </form>
+
+    <form id="CrcCardDefinition">
+      <group id="Control">
+        <item key="Responsibilities" value="Zodpovednosti" />
+        <item key="Responsibility" value="Zodpovednosť" />
+        <item key="Collaborators" value="Spolupracovníci" />
+        <item key="Collaborator" value="Spolupracovník" />
+      </group>
+    </form>
+
+    <form id="StateDefinition">
+      <group id="Control">
+        <item key="StateGroup" value="Stav" />
+        <item key="StateInvariant" value="Invariant stavu:" />
+        <item key="StandardActions" value="Štandardné akcie" />
+        <item key="Entry" value="Vstup:" />
+        <item key="Do" value="Činnosť:" />
+        <item key="Exit" value="Výstup:" />
+        <item key="CustomActions" value="Vlastné akcie" />
+        <item key="ActionName" value="Názov akcie" />
+        <item key="Behavior" value="Správanie" />
+        <item key="Add" value="&amp;Pridať" />
+        <item key="Remove" value="&amp;Odstrániť" />
+      </group>
+    </form>
+
+    <form id="TransitionDefinition">
+      <group id="Control">
+        <item key="PreCondition" value="Predpoklad:" />
+        <item key="Operation" value="Operácia:" />
+        <item key="PostCondition" value="Následná podmienka:" />
+      </group>
+    </form>
+
+    <form id="TemplateParamsDefinitionForm">
+      <group id="Control">
+        <item key="NameColumn" value="Názov" />
+        <item key="KindColumn" value="Druh" />
+        <item key="DefaultValueColumn" value="Predvolená hodnota" />
+      </group>
+    </form>
+
+    <form id="ErdAttributeForm">
+      <group id="Form">
+        <item key="Title" value="Atribút" />
+
+        <item key="Name" value="Názov:" />
+        <item key="Type" value="Typ:" />
+        <item key="TypeSize" value="Veľkosť typu:" />
+
+        <item key="PrimaryKey" value="Primárny kľúč" />
+        <item key="ForeignKey" value="Cudzí kľúč" />
+        <item key="Nullable" value="Povolené hodnoty NULL" />
+
+        <item key="Description" value="Popis:" />
+
+        <item key="OK" value="&amp;OK" />
+        <item key="Cancel" value="&amp;Zrušiť" />
+      </group>
+    </form>
+
+    <form id="StereotypeForm">
+      <group id="Form">
+        <item key="Title" value="Stereotyp" />
+
+        <item key="OK" value="&amp;OK" />
+        <item key="Cancel" value="&amp;Zrušiť" />
+
+        <item key="Name" value="Názov:" />
+      </group>
+    </form>
+
+    <form id="ClassDefinitionForm">
+      <group id="Form">
+        <item key="Title" value="Definícia triedy" />
+        <item key="Name" value="&amp;Názov:" />
+        <item key="Attributes" value="&amp;Atribúty:" />
+        <item key="Operations" value="&amp;Operácie:" />
+        <item key="OK" value="&amp;OK" />
+        <item key="Cancel" value="&amp;Zrušiť" />
+
+        <item key="NameColumn" value="Názov" />
+        <item key="TypeColumn" value="Typ" />
+        <item key="VisibilityColumn" value="Viditeľnosť" />
+        <item key="DefaultValueColumn" value="Predvolená hodnota" />
+        <item key="ParametersColumn" value="Parametre" />
+      </group>
+    </form>
+
+    <form id="RelationDefinitionControl">
+      <group id="Control">
+        <item key="RelationType" value="Typ relácie:" />
+        <item key="StartMultiplicity" value="Začiatočná násobnosť:" />
+        <item key="StartRole" value="Začiatočná rola:" />
+        <item key="EndMultiplicity" value="Koncová násobnosť:" />
+        <item key="EndRole" value="Koncová rola:" />
+
+      </group>
+    </form>
+
+    <form id="ExtendDefinitionControl">
+      <group id="Control">
+        <item key="ExtensionPoint" value="Bod rozšírenia:" />
+      </group>
+    </form>
+
+    <form id="SwimlaneDefinitionControl">
+      <group id="Control">
+        <item key="Orientation" value="Orientácia" />
+        <item key="VerticalOrientation" value="Vertikálna" />
+        <item key="HorizontalOrientation" value="Horizontálna" />
+      </group>
+    </form>
+
+    <form id="DiagramControl">
+      <group id="Menu">
+        <item key="AssignNewDiagram" value="Priradiť &amp;nový diagram" />
+        <item key="AssignExistingDiagram" value="Priradiť e&amp;xistujúci diagram" />
+
+        <item key="Documentation" value="Dokumentácia" />
+        <item key="Properties" value="Vlastnosti" />
+
+        <item key="AddPoint" value="Prid&amp;ať bod" />
+        <item key="LockStartPoint" value="Zamknúť &amp;začiatočný bod" />
+        <item key="LockEndPoint" value="Zamknúť &amp;koncový bod" />
+        <item key="LineStyle" value="Š&amp;týl čiary" />
+        <item key="ObliqueLineStyle" value="Š&amp;ikmá" />
+        <item key="StraightLineStyle" value="&amp;Priama" />
+        <item key="RectangularLineStyle" value="P&amp;ravouhlá" />
+        <item key="CurveLineStyle" value="&amp;Krivka" />
+
+        <item key="ExportDiagram" value="E&amp;xportovať diagram" />
+        <item key="ShowGrid" value="Zobraziť &amp;mriežku" />
+        <item key="SnapToGrid" value="&amp;Prichytiť do mriežky" />
+
+        <item key="DeleteFromDiagram" value="Odstrániť z &amp;diagramu" />
+        <item key="DeleteFromProject" value="Odstrániť z &amp;projektu" />
+        <item key="RelationDeleteFromDiagram" value="Odstrániť z &amp;diagramu" />
+        <item key="RelationDeleteFromProject" value="Odstrániť z &amp;projektu" />
+        <item key="RelationProperties" value="&amp;Vlastnosti" />
+        <item key="Reverse" value="Prev&amp;rátiť" />
+
+        <item key="RemoveField" value="&amp;Odstrániť '{@1}'" />
+        <item key="Rename" value="Preme&amp;novať" />
+        <item key="ChangeType" value="Zmeniť &amp;typ" />
+        <item key="Visibility" value="&amp;Viditeľnosť" />
+        <item key="Public" value="Verejný (&amp;public)" />
+        <item key="Package" value="Súkromný pre balíček (p&amp;ackage)" />
+        <item key="Protected" value="Chránený (p&amp;rotected)" />
+        <item key="Private" value="Súkromný (pr&amp;ivate)" />
+        
+        <item key="MoveUp" value="Pres&amp;unút nahor" />
+        <item key="MoveDown" value="Presunúť na&amp;dol" />
+        <item key="Group" value="&amp;Zoskupiť" />
+        <item key="Ungroup" value="Zr&amp;ušiť skupinu" />        
+      </group>
+    </form>
+
+    <form id="StyleSetEditorForm">
+      <group id="Form">
+        <item key="Title" value="Editor množiny štýlov" />
+
+        <item key="StyleSetName" value="Názov množiny štýlov:" />
+
+        <item key="DefaultStyle" value="Štandardný štýl" />
+
+        <item key="New" value="Nový" />
+        <item key="Open" value="Otvoriť" />
+        <item key="Save" value="Uložiť" />
+      </group>
+    </form>
+
+    <form id="NewStyleForm">
+      <group id="Form">
+        <item key="Title" value="Nový štýl" />
+
+        <item key="General" value="Všeobecný" />
+        <item key="ForSpecificElement" value="Pre špecifický prvok" />
+
+        <item key="StyleClassName" value="Názov triedy štýlu:" />
+        <item key="ElementType" value="Typ prvku:" />
+        <item key="Stereotype" value="Stereotyp:" />
+      </group>
+    </form>
+
+    <form id="IDsRenumberingForm">
+      <group id="Form">
+        <item key="Title" value="Prečíslovanie IDčiek" />
+
+        <item key="Options" value="Možnosti" />
+        <item key="OriginalNumbering" value="Pôvodné číslovanie" />
+        <item key="NewNumbering" value="Nové číslovanie" />
+
+        <item key="StartNumberingFrom" value="Začať od:" />
+        <item key="OrderByAlphabet" value="Zoradiť podľa abecedy" />
+        <item key="SameWithoutGaps" value="Odstrániť medzery" />
+        <item key="Clear" value="Vymazať zoznam" />
+      </group>
+    </form>
+
+    <form id="OptionsForm">
+      <group id="Form">
+        <item key="Title" value="Možnosti" />
+
+        <item key="GeneralTab" value="Všeobecné" />
+        <item key="DiagramEditorTab" value="Editor diagramu" />
+        <item key="Language" value="Jazyk" />
+        <item key="ShowStartPage" value="Zobrazovať uvítaciu stránku" />
+        <item key="RecentFiles" value="Naposledy použité" />
+        <item key="ItemsInMenu" value="položiek v menu" />
+        <item key="ItemsInStartPage" value="položiek na uvítacej stránke" />
+        <item key="Toolbars" value="Panely" />
+        <item key="StandardBar" value="Śtandardný" />
+        <item key="SideBar" value="Bočný" />
+        <item key="LayoutBar" value="Usporiadanie" />
+        <item key="StatusBar" value="Stavový riadok" />
+        <item key="Toolbox" value="Nástroje" />
+        <item key="ShortcutKeys" value="Klávesové skratky" />
+        <item key="DontUseCtrlAltShortcutKeys" value="Nepoužívať klávesové skratky s kombináciou CTRL+ALT" />
+
+        <item key="DiagramEditorGeneral" value="Všeobecné" />
+        <item key="Design" value="Dizajn" />
+        <item key="DiagramEditorBackgroundColor" value="Farba pozadia:" />
+        <item key="DiagramEditorBackgroundColor2" value="Farba pozadia 2:" />
+        <item key="AutoScrolling" value="Automatické posúvanie" />
+        <item key="Grid" value="Mriežka" />
+        <item key="SnapToGrid" value="Prichytiť k mriežke" />
+        <item key="ShowGrid" value="Zobraziť mriežku" />
+        <item key="GridVerticalSpacing" value="Vertikálne:" />
+        <item key="GridHorizontalSpacing" value="Horizontálne:" />
+        <item key="RelationsAlwaysOnTop" value="Relácie zobrazovať vždy na vrchu" />
+
+        <item key="ProjectTree" value="Strom projektu" />
+        <item key="ProjectTreeInitialState" value="Začiatočný stav" />
+        <item key="FullyExpanded" value="Úplne rozbalený" />
+        <item key="ExpandedProject" value="Rozbalený projekt" />
+        <item key="ExpandedModels" value="Rozbalené modely" />
+        <item key="Collapsed" value="Zbalený" />
+
+        <item key="DefaultSettingsForElements" value="Predvolené nastavenia pre prvky" />
+        <item key="DefaultAttributeVisibility" value="Viditeľnosť atribútov:" />
+        <item key="DefaultOperationVisibility" value="Viditeľnosť operácií:" />
+        <item key="DefaultShowNullability" value="Zobrazenie NULL/NOT NULL" />
+
+        <item key="UpdateTab" value="Aktualizácia" />
+        <item key="UpdateGroup" value="Aktualizácia" />
+        <item key="TurnOffUpdate" value="Vypnúť" />
+        <item key="NotifyNewVersion" value="Upozorniť na novú verziu" />
+        <item key="DownloadSetup" value="Automaticky stiahnuť a nainštalovať pomocou inštalátora (iba Windows)" />
+        <item key="FastAutoUpdate" value="Rýchla aktualizácia - stiahne a aplikuje iba zmeny" />
+      </group>
+    </form>
+
+    <form id="StyleEditorForm">
+      <group id="Form">
+        <item key="Title" value="Editor štýlu" />
+        <item key="NewStyle" value="Nový štýl" />
+
+        <item key="Name" value="Názov:" />
+      </group>
+    </form>
+
+    <form id="ProjectPropertiesForm">
+      <group id="Form">
+        <item key="Title" value="Vlastnosti projektu" />
+
+        <item key="Name" value="Názov:" />
+        <item key="Authors" value="Autori:" />
+        <item key="Description" value="Popis:" />
+
+        <item key="AddNewDiagram" value="Pridať nový diagram..." />
+        <item key="Properties" value="Vlastnosti" />
+      </group>
+    </form>
+
+    <form id="DiagramPropertiesForm">
+      <group id="Form">
+        <item key="Title" value="Vlastnosti diagramu" />
+
+        <item key="Name" value="Názov:" />
+        <item key="Authors" value="Autori:" />
+        <item key="Version" value="Verzia:" />
+        <item key="Created" value="Vytvorené:" />
+        <item key="LastChange" value="Posledná zmena:" />
+        <item key="Description" value="Popis:" />
+
+        <item key="CustomNamespace" value="Vlastný menný priestor:" />
+
+        <item key="General" value="Všeobecné" />
+        <item key="Documentation" value="Dokumentácia" />
+      </group>
+    </form>    
+
+    <form id="TaggedValueEditorForm">
+      <group id="Form">
+        <item key="Title" value="Označená hodnota" />
+
+        <item key="TagName" value="Názov značky:" />
+        <item key="TaggedValue" value="Hodnota:" />
+      </group>
+    </form>
+
+    <form id="CustomMoveForm">
+      <group id="Form">
+        <item key="Title" value="Vlastný posun" />
+
+        <item key="Right" value="Vpravo:" />
+        <item key="Down" value="Dole:" />
+        <item key="Left" value="Vľavo:" />
+        <item key="Up" value="Hore:" />
+      </group>
+    </form>
+
+    <form id="CustomSizeForm">
+      <group id="Form">
+        <item key="Title" value="Vlastná úprava veľkosti" />
+
+        <item key="General" value="Všeobecná" />
+        <item key="Sides" value="Strany" />
+        <item key="WidthHeight" value="Šírka/výška" />
+
+        <item key="Inflate" value="Zväčšiť:" />
+        <item key="Deflate" value="Zmenšiť:" />
+        <item key="Left" value="Vľavo:" />
+        <item key="Right" value="Vpravo:" />
+        <item key="Top" value="Hore:" />
+        <item key="Bottom" value="Dole:" />
+        <item key="Width" value="Šírka:" />
+        <item key="Height" value="Výška:" />
+      </group>
+    </form>
+
+    <form id="TaggedValueControl">
+      <group id="Control">
+        <item key="Name" value="Názov" />
+        <item key="Value" value="Hodnota" />
+      </group>
+    </form>
+
+    <form id="UmlOperationEditorForm">
+      <group id="Form">
+        <item key="Title" value="Editor operácie" />
+
+        <item key="General" value="Všeobecné" />
+        <item key="Parameters" value="Parametre" />
+
+        <item key="Name" value="Názov:" />
+        <item key="Type" value="Návratový typ:" />
+        <item key="Visibility" value="Viditeľnosť:" />
+
+        <item key="Modifiers" value="Modifikátori" />
+        <item key="Abstract" value="Abstraktný" />
+        <item key="Virtual" value="Virtuálny" />
+        <item key="Static" value="Statický" />
+
+        <item key="NameColumn" value="Názov" />
+        <item key="TypeColumn" value="Typ" />
+      </group>
+    </form>
+
+    <form id="UmlAttributeEditorForm">
+      <group id="Form">
+        <item key="Title" value="Editor atribútu" />
+
+        <item key="General" value="Všeobecné" />
+
+        <item key="Name" value="Názov:" />
+        <item key="Type" value="Typ:" />
+        <item key="Visibility" value="Viditeľnosť:" />
+        <item key="DefaultValue" value="Predvolená hodnota:" />
+
+        <item key="Modifiers" value="Modifikátori" />
+        <item key="Abstract" value="Abstraktný" />
+        <item key="Virtual" value="Virtuálny" />
+        <item key="Static" value="Statický" />
+      </group>
+    </form>
+
+    <form id="FindForm">
+      <group id="Form">
+        <item key="Title" value="Hľadať" />
+
+        <item key="Find" value="&amp;Hľadať ďaľší" />
+        <item key="FindWhat" value="Hľadať:" />
+      </group>
+    </form>
+
+    <form id="ToDoControl">
+      <group id="Control">
+        <item key="AddToDo" value="Pridať úlohu" />
+        <item key="EditToDo" value="Upraviť úlohu" />
+        <item key="DeleteToDo" value="Zmazať úlohu" />
+
+        <item key="Completed" value="Dokončené" />
+        <item key="Priority" value="Priorita" />
+        <item key="ToDoText" value="Úloha" />
+        <item key="EndDate" value="Dokončiť do" />
+        <item key="Created" value="Dátum vytvorenia" />
+      </group>
+    </form>
+
+    <form id="ImageExportSettingForm">
+      <group id="Form">
+        <item key="Title" value="Nastavenie exportu" />
+
+        <item key="ExportContent" value="Obsah" />
+        <item key="Size" value="Veľkosť" />
+        <item key="Background" value="Pozadie" />
+
+        <item key="ExportOnlyActiveLayer" value="Exportovať iba aktívnu vrstvu" />
+        <item key="ExportHiddenLayers" value="Exportovať skryté vrstvy" />
+
+        <item key="Width" value="Šírka" />
+        <item key="Height" value="Výška" />
+
+        <item key="Transparent" value="Priehľadné" />
+        <item key="Color1" value="Farba 1:" />
+        <item key="Color2" value="Farba 2:" />
+      </group>
+    </form>
+
+    <form id="TaskEditorForm">
+      <group id="Form">
+        <item key="Title" value="Úloha" />
+
+        <item key="Name" value="Názov:" />
+        <item key="ID" value="ID:" />
+        <item key="StartDate" value="Začiatočný dátum:" />
+        <item key="EndDate" value="Konečný dátum:" />
+        <item key="Priority" value="Priorita:" />
+        <item key="Phase" value="Fáza:" />
+        <item key="Progress" value="Pokrok:" />
+        <item key="Description" value="Popis:" />
+
+        <item key="General" value="Všeobecné" />
+        <item key="Persons" value="Osoby" />
+
+        <item key="Lowest" value="Najnižšia" />
+        <item key="Low" value="Nízka" />
+        <item key="Normal" value="Normálna" />
+        <item key="Hight" value="Vysoká" />
+        <item key="Highest" value="Najvyššia" />
+      </group>
+    </form>
+
+    <form id="XmiImportResultForm">
+      <group id="Form">
+        <item key="Title" value="Výsledky XMI importu" />
+
+        <item key="CreateDiagrams" value="Vytvoriť diagramy" />
+      </group>
+    </form>
+
+    <form id="DatabaseSelectionForm">
+      <group id="Form">
+        <item key="Title" value="Výber databázy" />
+
+        <item key="DataSource" value="Zdroj dát:" />
+        <item key="ServerName" value="Názov serveru:" />
+
+        <item key="Authentication" value="Autentifikácia" />
+        <item key="AuthenticationType" value="Typ autentifikácie:" />
+        <item key="UserName" value="Používateľ:" />
+        <item key="Password" value="Heslo:" />
+        <item key="DatabaseName" value="Názov databázy:" />
+      </group>
+    </form>
+
+    <form id="DatabaseImportForm">
+      <group id="Form">
+        <item key="Title" value="Import databázy" />
+
+        <item key="ConnectionString" value="Connection string:" />
+        <item key="LoadTables" value="Načítať tabuľky" />
+
+        <item key="Tables" value="Tabuľky" />
+      </group>
+    </form>
+
+    <form id="ObjectModelImportForm">
+      <group id="Form">
+        <item key="Title" value="Import objektového modelu" />
+
+        <item key="Assemblies" value="Zostavenia (Assemblies)" />
+        <item key="Namespaces" value="Balíčky:" />
+      </group>
+    </form>
+
+    <form id="DiagramElementsSelectionForm">
+      <group id="Form">
+        <item key="Title" value="Elementy diagramu" />
+      </group>
+    </form>
+
+    <form id="SourceCodeGenerationSettingsForm">
+      <group id="Form">
+        <item key="Title" value="Generovanie zdrojového kódu" />
+
+        <item key="General" value="Všeobecné" />
+        <item key="Imports" value="Importy" />
+
+        <item key="Language" value="Jazyk:" />
+        <item key="OutputDirectory" value="Výstupný adresár:" />
+
+        <item key="Generate" value="Generovať" />
+      </group>
+    </form>
+
+    <form id="RelationInsertForm">
+      <group id="Form">
+        <item key="Title" value="Nová relácia" />
+
+        <item key="FromElement" value="Z prvku:" />
+        <item key="ToElement" value="Do prvku:" />
+      </group>
+    </form>
+
+    <form id="DefaultNamesForm">
+      <group id="Form">
+        <item key="Title" value="Predvolené názvy a ID" />
+
+        <item key="DiagramType" value="Typ diagramu:" />
+        <item key="ElementType" value="Typ elementu" />
+        <item key="DefaultName" value="Predvolený názov:" />
+        <item key="DefaultID" value="Predvolené ID:" />
+      </group>
+    </form>
+
+    <form id="TypesForm">
+      <group id="Form">
+        <item key="Title" value="Typy" />
+
+        <item key="NewTypeSet" value="&amp;Nová množina typov" />
+        <item key="ImportTypeSet" value="&amp;Importovať množinu typov" />
+        <item key="TypeSets" value="Množiny typov" />
+        <item key="CustomTypes" value="Vlastné typy" />
+      </group>
+    </form>
+
+    <form id="TypeSetEditorControl">
+      <group id="Control">
+        <item key="TypeDefinition" value="Definícia typu" />
+        <item key="ID" value="ID:" />
+        <item key="Name" value="Názov:" />
+        <item key="Description" value="Popis:" />
+      </group>
+    </form>
+
+    <form id="TypeSetEditorForm">
+      <group id="Form">
+        <item key="Title" value="Editor množiny typov" />
+      </group>
+    </form>
+
+    <form id="StereotypesForm">
+      <group id="Form">
+        <item key="Title" value="Stereotypy" />
+
+        <item key="ElementType" value="Typ prvku:" />
+        <item key="General" value="Všeobecné" />
+        <item key="AppliesTo" value="Aplikovať na" />
+        <item key="Name" value="Názov:" />
+        <item key="Description" value="Popis:" />
+      </group>
+    </form>
+
+    <form id="NewTypeSetForm">
+      <group id="Form">
+        <item key="Title" value="Nová mnoźina typov" />
+
+        <item key="Name" value="Názov:" />
+      </group>
+    </form>
+
+    <form id="ToDoEditorForm">
+      <group id="Form">
+        <item key="Title" value="Rýchla úloha" />
+
+        <item key="Lowest" value="Najnižšia" />
+        <item key="Low" value="Nízka" />
+        <item key="Normal" value="Normálna" />
+        <item key="Hight" value="Vysoká" />
+        <item key="Highest" value="Najvyššia" />
+
+        <item key="Text" value="Text:" />
+        <item key="Priority" value="Priorita:" />
+        <item key="EndDate" value="Konečný dátum:" />
+        <item key="Completed" value="Dokončené" />
+      </group>
+    </form>
+
+    <form id="TaskManagementForm">
+      <group id="Form">
+        <item key="Title" value="Manažment úloh" />
+
+        <item key="ID" value="ID" />
+        <item key="Name" value="Názov" />
+        <item key="Priority" value="Priorita" />
+        <item key="Progress" value="Pokrok" />
+        <item key="StartDate" value="Začiatočný dátum" />
+        <item key="EndDate" value="Konečný dátum" />
+        <item key="Persons" value="Osoby" />
+
+        <item key="AddTask" value="Pridať úlohu" />
+        <item key="EditTask" value="Upraviť úlohu" />
+        <item key="DeleteTask" value="Zmazať úlohu" />
+        <item key="AssignPerson" value="Priradiť osobu" />
+      </group>
+    </form>
+
+    <form id="PersonsForm">
+      <group id="Form">
+        <item key="Title" value="Osoby" />
+
+        <item key="FirstName" value="Meno" />
+        <item key="LastName" value="Priezvisko" />
+        <item key="Role" value="Rola" />
+        <item key="EMail" value="E-mail" />
+        <item key="PhoneNumber" value="Telefónne číslo" />
+
+        <item key="AddPerson" value="Pridať osobu" />
+        <item key="EditPerson" value="Upraviť osobu" />
+        <item key="DeletePerson" value="Zmazať osobu" />
+      </group>
+    </form>
+
+    <form id="PersonEditorForm">
+      <group id="Form">
+        <item key="Title" value="Osoba" />
+
+        <item key="FirstName" value="Meno:" />
+        <item key="LastName" value="Priezvisko:" />
+        <item key="Role" value="Rola:" />
+        <item key="EMail" value="E-mail:" />
+        <item key="PhoneNumber" value="Telefónne číslo:" />
+        <item key="Description" value="Popis:" />
+      </group>
+    </form>
+
+    <form id="ModelPropertiesForm">
+      <group id="Form">
+        <item key="Title" value="Vlastnosti modelu" />
+
+        <item key="General" value="Všeobecné" />
+        <item key="Documentation" value="Dokumentácia" />
+
+        <item key="Name" value="Názov:" />
+        <item key="CustomNamespace" value="Vlastný menný priestor:" />
+      </group>
+    </form>
+
+    <form id="DocumentationGenerationForm">
+      <group id="Form">
+        <item key="Title" value="Generovanie dokumentácie" />
+
+        <item key="General" value="Všeobecné" />
+
+        <item key="Format" value="Formát" />
+        <item key="HTML" value="HTML" />
+        <item key="RTF" value="RTF" />
+        <item key="PDF" value="PDF" />
+
+        <item key="Texts" value="Texty" />
+        <item key="DocumentTitle" value="Nadpis dokumentu:" />
+        <item key="DocumentSubtitle" value="Podnadpis dokumentu:" />
+        <item key="Company" value="Spoločnosť:" />
+        <item key="Authors" value="Autor:" />
+        <item key="OutputFile" value="Výstupný súbor:" />
+
+        <item key="Generate" value="Generovať" />
+      </group>
+    </form>
+
+    <form id="TimingEvents">
+      <group id="Control">
+        <item key="State" value="Stav" />
+        <item key="Duration" value="Trvanie" />
+        <item key="Stimulus" value="Stimul" />
+        <item key="DurationConstraint" value="Obmedzenie trvania" />
+      </group>
+    </form>
+
+    <form id="TimingTickMarkValues">
+      <group id="Control">
+        <item key="Position" value="Pozícia" />
+        <item key="Label" value="Popis" />
+      </group>
+    </form>
+
+    <form id="TimingStatesControl">
+      <group id="Control">
+        <item key="State" value="Stav" />
+      </group>
+    </form>
+
+    <form id="ElementBrowserForm">
+      <group id="Form">
+        <item key="Title" value="Prehliadač prvkov" />
+        
+        <item key="OpenDiagram" value="Otvoriť diagram" />
+        <item key="Rename" value="Premenovať" />
+        <item key="Delete" value="Zmazať" />
+        <item key="Properties" value="Vlastnosti" />
+
+        <item key="Name" value="Názov" />
+        <item key="ID" value="ID" />
+        <item key="Type" value="Typ" />
+      </group>
+    </form>
+
+    <form id="ActivationForm">
+      <group id="Form">
+        <item key="Title" value="Aktivácia" />
+
+        <item key="Text" value="Ak chcete používať Software Ideas Modeler na komerčné účely, je nutné, aby ste zaplatili registračný poplatok." />
+
+        <item key="Step1" value="Krok 1:" />
+        <item key="Step2" value="Krok 2:" />
+        <item key="Step3" value="Krok 3:" />
+
+        <item key="Step1Text" value="Zaplatiť registračný poplatok" />
+        <item key="Step2Text" value="Počkajte na aktivačný kľúč, ktorý Vám bude zaslaný na Váš e-mail." />
+        <item key="Step3Text" value="Zadajte aktivačný kľúč do spodného textového poľa a potvrďte ho kliknutím na tlačidlo Aktivovať." />
+
+        <item key="ActivationKey" value="Aktivačný kľúč:" />
+
+        <item key="Activate" value="Aktivovať" />
+        <item key="Close" value="Zatvoriť" />
+
+        <item key="ActivationMessage" value="Aktivácia prebehla úspešne. Táto kópia aplikácie Software Ideas Modeler môže byť používaná komerčne." />
+        <item key="WrongActivationCodeMessage" value="Aktivačný kód je nesprávny." />
+      </group>
+    </form>
+
+    <form id="BatchExportForm">
+      <group id="Form">
+        <item key="Title" value="Dávkový export" />
+        
+        <item key="Exporting" value="Prebieha export..." />
+
+        <item key="Format" value="Formát" />
+        <item key="ImageFormat" value="Formát obrázku:" />
+        
+        <item key="Output" value="Výstup" />
+        <item key="Content" value="Obsah" />
+        <item key="Diagrams" value="Diagramy" />
+
+        <item key="Files" value="Súbory" />
+        <item key="FileNames" value="Názvy súborov:" />
+        <item key="DiagramName" value="Názov diagramu:" />
+        <item key="Custom" value="Vlastný:" />
+        <item key="OutputDirectory" value="Adresár výstupu:" />        
+        
+        <item key="ExportContent" value="Obsah" />
+        <item key="Size" value="Veľkosť" />
+        <item key="Background" value="Pozadie" />
+
+        <item key="ExportOnlyActiveLayer" value="Exportovať iba aktívnu vrstvu" />
+        <item key="ExportHiddenLayers" value="Exportovať skryté vrstvy" />
+        
+        <item key="Absolute" value="Absolútna" />
+        <item key="Relative" value="Relatívna" />
+
+        <item key="Width" value="Šírka:" />
+        <item key="Height" value="Výška:" />
+
+        <item key="Transparent" value="Priehľadné" />
+        <item key="Color1" value="Farba 1:" />
+        <item key="Color2" value="Farba 2:" />
+      </group>
+    </form>
+
+    <form id="PrintForm">
+      <group id="Form">
+        <item key="Title" value="Tlač" />        
+
+        <item key="Print" value="Tlačiť" />
+        <item key="PageSetup" value="Nastavenia stránky" />
+        <item key="Preview" value="Náhľad" />
+
+        <item key="Diagrams" value="Diagramy" />
+        <item key="Settings" value="Nastavenia" />
+
+        <item key="Zoom" value="Lupa:" />
+
+        <item key="PreviousPage" value="Predchádzajúca strana" />
+        <item key="NextPage" value="Nasledujúca strana" />
+        <item key="RefreshPreview" value="Obnoviť náhľad" />
+
+        <item key="PagesPerDiagram" value="Stránky na diagram" />
+        <item key="SinglePage" value="Jedna" />
+        <item key="MultiplePages" value="Viac" />
+        <item key="Horizontal" value="Horizontálne:" />
+        <item key="Vertical" value="Vertikálne:" />
+      </group>
+    </form>
+
+    <form id="DiagramsForm">
+      <group id="Form">
+        <item key="Title" value="Diagramy" />
+      </group>
+    </form>
+
+    <form id="DonateBuyForm">
+      <group id="Form">
+        <item key="Title" value="Software Ideas Modeler" />
+
+        <item key="HeadingText" value="Ďakujem Vám za používanie Software Ideas Modeleru!"></item>
+        <item key="MainText" value="Ak máte radi tento softvér a chcete podporiť jeho ďalší vývoj, môžete využiť jednu s nasledujúcich možností:"></item>
+
+        <item key="Buy" value="Kúpiť (na komerčné účely)"></item>
+        <item key="BuyText1" value="Táto kópia aplikácie Software Ideas Modeler sa môže legálne využívať v komerčnom prostredí iba po aktivácií. Aktivačný kľúč môžete získať výberom tejto možnosti."></item>
+        <item key="BuyText2" value="Po zakúpení aplikácie budú mať vaše hlásenia chýb a požiadavky vyššiu prioritu. Toto okno sa vám nebude viac zobrazovať pri ukončení aplikácie."></item>
+
+        <item key="Donate" value="Dobrovoľne prispieť"></item>
+        <item key="DonateText1" value="Ak ste nekomerčný používateľ, môžete túto aplikáciu využívať zdarma. Dobrovoľne môžete prispieť na tento projekt ľubovoľnou čiastkou."></item>
+        <item key="DonateText2" value="Po zaslaní finančného príspevku budete zapísaný do zoznamu darcov na webovej stránke tohto projektu. (Ak nechcete, aby bolo vaše meno zverejnené, dajte mi, prosím, vedieť v správe.)"></item>
+
+        <item key="MaybeLater" value="Možno neskôr"></item>
+        <item key="MaybeLaterText" value="Ak momentálne nemáte peniaze na finančné podporenie tohto projektu, môžete ho podporiť aj inými spôsobmi: stať sa fanúšikom na Facebooku, pridať na vašu stránku odkaz na stránku tohto programu, napísať o tomto softvéri na vašom blogu, povedať o ňom ďalším ľuďom..."></item>
+      </group>
+    </form>
+
+    <form id="DonationForm">
+      <group id="Form">
+        <item key="Title" value="Centrum darcov" />
+
+        <item key="DonateNow" value="&amp;Prispieť teraz" />
+        <item key="ConfirmKey" value="Potvrdiť &amp;kľúč" />
+
+        <item key="WhyToDonateTitle" value="Prečo prispieť?" />
+        <item key="WhyToDonateText1" value="Software Ideas Modeler je zadarmo pre nekomerčnú sféru (školy, neziskové organizácie).  Napriek tomu môžete chcieť podporiť tento projekt finančne a darovať ľubovoľnú čiastku. Okrem dobrého pocitu získate na oplátku štatút oficiálneho podporovateľa tohto projektu a s tým aj niekoľko výhod oproti ostatným používateľom:" />
+        <item key="WhyToDonateText2" value="1. Okno s prosbou o príspevok/platbu sa nebude zobrazovať pri zatvorení okna." />
+        <item key="WhyToDonateText3" value="2. Vaše hlásenia chýb a požiadavky budú mať vyššiu prioritu než tie od ostatných používateľov." />
+
+        <item key="HowToDonateTitle" value="Ako prispieť?" />
+        <item key="HowToDonateText" value="Stránka, prostredníctvom ktorej môžete prispieť, zobrazíte kliknutím na tlačidlo Prispieť teraz. Akýkoľvek príspevok (stačí pár eur/dolárov) je vítaný." />
+
+        <item key="IHaveDonatedTitle" value="Už som prispel..." />
+        <item key="IHaveDonatedText" value="Do dvoch pracovných dní (väčšinou skôr) obdržíte e-mail s kľúčom darcu." />
+
+        <item key="DonorKey" value="Kľúč darcu:" />
+        <item key="ConfirmInfo" value="Potvrdením kľúča darcu získate výhody oficiálneho podporovateľa tohto projektu." />
+
+        <item key="OfficialSupporter" value="Kľúč darcu je platný. Stávate sa oficiálnym podporovateľom tohto projektu. Ďakujem za vašu podporu!" />
+        <item key="WrongDonorKey" value="Kľúč darcu je neplatný." />
+      </group>
+    </form>
+
+
+    <form id="EvaluationExpiredForm">
+      <group id="Form">
+        <item key="Title" value="Skušobná doba uplynula" />
+
+        <item key="MainText" value="10-dňová skušobná doba uplynula. Ak chcete pokračovať v používaním softvéru, musíte si zakúpiť aktivačný kľúč. Cena za jeden aktivačný kľúč je €69 / $89." />
+        <item key="Benefits" value="Po zakúpení získate tieto výhody:" />
+
+        <item key="Benefit1" value="Odstránené okno so žiadosťou o kúpu" />
+        <item key="Benefit2" value="Automatická aktualizácia" />
+        <item key="Benefit3" value="Okno na zadávanie požiadaviek / hlásenie chýb" />
+        <item key="Benefit4" value="Vyššia priorita pre vaše hlásenia a požiadavky" />
+
+        <item key="ActivationKey" value="Aktivačný kľúč:" />
+        <item key="Activate" value="&amp;Aktivovať" />
+
+        <item key="Buy" value="&amp;Kúpiť" />
+        <item key="Close" value="&amp;Zavrieť" />
+      </group>
+    </form>
+
+    <form id="UseConfirmationForm">
+      <group id="Form">
+        <item key="Title" value="Potvrdenie použitia" />
+
+        <item key="MainText" value="Ako chcete používať Software Ideas Modeler?" />
+
+        <item key="CommercialUse" value="Vo firme - komerčné použitie" />
+        <item key="CommercialUseDescription" value="Akékoľvek použitie v komerčných projektoch." />
+        <item key="NonCommercialUse" value="Osobné - nekomerčné použitie" />
+        <item key="NonCommercialUseDescription" value="Školy, univerzity, neziskové organizácie." />
+
+        <item key="ConfirmCheckBox" value="Týmto potvrdzujem, že som tento formulár vyplnil pravdivo *" />
+        <item key="ConfirmNote" value="* Nepravdivé doplnenie sa bude považovať za porušenie licenčnej zmluvy." />
+
+        <item key="Confirm" value="&amp;Potvrdiť" />
+        <item key="Close" value="&amp;Zavrieť" />
+      </group>
+    </form>
+
+    <form id="SendRequestForm">
+      <group id="Form">
+        <item key="Title" value="Zaslanie požiadavky" />
+
+        <item key="Send" value="&amp;Poslať" />
+        <item key="Close" value="&amp;Zavrieť" />
+      </group>
+    </form>
+    
+  </items>
+</language>

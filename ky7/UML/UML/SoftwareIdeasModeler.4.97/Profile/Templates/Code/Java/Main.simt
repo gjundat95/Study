@@ -1,0 +1,15 @@
+<sim-template version="1.0">
+  <meta>
+    <name>Java</name>
+    <description></description>
+    <type>SourceCode</type>
+  </meta>
+  <files>
+    <file name="Class.java" outputName="{Element.Name}.java" type="AbstractElement">
+        <settings>
+          <setting name="DefaultType" value="object"></setting>
+          <setting name="NameAdjustment" value="CamelCase"></setting>
+        </settings>
+    </file>
+  </files>
+</sim-template>

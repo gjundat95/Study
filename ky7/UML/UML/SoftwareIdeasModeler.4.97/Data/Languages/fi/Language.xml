@@ -1,0 +1,1421 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<language name="Finnish" localName="Suomi" id="fi">
+  <meta>
+    <author>Arsi Virta</author>
+    <created>November 7th 2010</created>
+    <info></info>
+  </meta>
+  <items>
+    <!-- Global -->
+    <form id="Global">
+      <!-- Strings -->
+      <group id="Strings">
+        <item key="SimProject" value="SIM Projekti"></item>
+        <item key="AllFiles" value="Kaikki tiedostot"></item>
+        <item key="Version" value="Versio" />
+      </group>
+      <group id="Messages">
+        <item key="ItemCannotBeAddedToDiagram" value="Kohdetta ei voi lisätä tähän kaavioon." />
+        <item key="SaveBeforeExist" value="Haluatko tallentaa muutokset projektiin ('&lt;filename&gt;')?" />
+        <item key="NewVersionFound" value="Löytyi uusi versio ('&lt;version&gt;') sovelluksesta Software Ideas Modeler. Haluatko siirtyä lataussivulle?" />
+        <item key="UptodateVersion" value="Nykyinen versio ('&lt;version&gt;') sovelluksesta Software Ideas Modeler on ajan tasalla." />
+        <item key="ProjectFileNotFound" value="Projektitiedostoa '&lt;?&gt;' ei löydy. Se on luultavasti poistettu tai siirretty." title="Projektitiedostoa ei löydy" />
+        <item key="NewStyleWarning" value="Haluatko varmasti discard all changes made in the current style set?" title="Uusi tyylistö" />
+        <item key="StyleTypeExists" value="Tyylistö on jo olemassa." title="Olemassaoleva tyylistö" />
+        <item key="RenumberingWarning" value="Joitain elementtejä ei numeroitu uudelleen. Alkuperäisen numeroinnin sisältävän listan tulee olla tyhjä." title="Uudelleennumerointi" />
+        <item key="DeleteStyle" value="Haluatko varmasti poistaa tyylin '&lt;?&gt;'?" title="Tyylin poistaminen" />
+        <item key="StyleClassNameExists" value="Tyyliluokan nimi on jo käytössä." title="Olemassaoleva tyyliluokan nimi" />
+        <item key="NotAllowedStyleClassName" value="Nimeä '&lt;?&gt;' ei sallita tyyliluokalle." title="Nimeämisvirhe" />
+        <item key="SavingError" value="Tiedostoa ei voi tallentaa. Tarkista, onko se auki jossain toisessa sovelluksessa." title="Tallennusvirhe" />
+        <item key="DeleteTask" value="Haluatko varmasti poistaa tehtävän '&lt;?&gt;'?" title="Poista tehtävä" />
+        <item key="DeleteToDo" value="Haluatko varmasti poistaa tehtävälistakohteen '&lt;?&gt;'?" title="Tehtävälistakohteen poisto" />
+        <item key="DeletePerson" value="Haluatko varmasti poistaa henkilön '&lt;?&gt;'?" title="Henkilön poisto" />
+        <item key="DeleteStereotype" value="Haluatko varmasti delete the stereotype '&lt;?&gt;'?" title="Stereotyypin poisto" />
+        <item key="NoOutputLanguageSelected" value="Lähdekoodin luominen ei voi jatkua. Valitse käytettävä kieli." title="Lähdekoodin luominen" />
+        <item key="NoOutputDirectorySelected" value="Lähdekoodin luominen ei voi jatkua. Aseta tallennuskansio." title="Lähdekoodin luominen" />
+        <item key="EmptyConnectionString" value="Tietokannan yhteysasetus puuttuu. Taulujen määrityksiä ei voi ladata." title="Tuo tietokanta" />
+        <item key="CannotLoadTables" value="Taulujen määrityksiä ei voi ladata. \n\n &lt;?&gt;" title="Tuo tietokanta" />
+      </group>
+      <group id="DiagramNames">
+        <item key="UmlClassDiagram" value="Luokkakaavio" />
+        <item key="UmlUseCaseDiagram" value="Käyttötapauskaavio" />
+        <item key="UmlSequenceDiagram" value="Viestiyhteyskaavio" />
+        <item key="UmlActivityDiagram" value="Toimintokaavio" />
+        <item key="UmlStateMachineDiagram" value="Tilakonekaavio" />
+        <item key="UmlDeploymentDiagram" value="Toteutuskaavio" />
+        <item key="UmlProfileDiagram" value="Profiilikaavio" />
+        <item key="UmlObjectDiagram" value="Oliokaavio" />
+        <item key="UmlPackageDiagram" value="Pakettikaavio" />
+        <item key="UmlCommunicationDiagram" value="Viestintäkaavio" />
+        <item key="UmlCompositeStructureDiagram" value="Koostekaavio"></item>
+        <item key="UmlComponentDiagram" value="Komponenttikaavio" />
+        <item key="UmlInteractionOverviewDiagram" value="Vuorovaikutuksen yleisnäkymä-kaavio" />
+        <item key="UmlMixedDiagram" value="Yhdistetty kaavio" />
+        <item key="DataFlowDiagram" value="Tietovuokaavio" />
+        <item key="EntityRelationshipDiagram" value="ER-kaavio" />
+        <item key="RequirementDiagram" value="Vaatimuskaavio" />
+        <item key="UserInterfaceDiagram" value="Käyttöliittymä" />
+        <item key="CrcCardDiagram" value="CRC-korttikaavio" />
+        <item key="FlowchartDiagram" value="Vuokaavio" />
+        <item key="RobustnessDiagram" value="Toipumiskaavio?" />
+        <item key="UmlTimingDiagram" value="Ajoituskaavio" />
+      </group>
+      <group id="Buttons">
+        <item key="Ok" value="&amp;OK" />
+        <item key="Cancel" value="&amp;Peruuta" />
+        <item key="Yes" value="&amp;Kyllä" />
+        <item key="No" value="&amp;Ei" />
+        <item key="Add" value="&amp;Add" />
+        <item key="Edit" value="&amp;Edit" />
+        <item key="Remove" value="&amp;Remove" />
+        <item key="SelectAll" value="&amp;Select All" />
+        <item key="SelectNone" value="&amp;Ei mitään" />
+        <item key="SelectInvert" value="&amp;Valitse käänteinen" />
+        <item key="MoreColors" value="Lisää värejä..." />
+        <item key="Previous" value="&lt; &amp;Edellinen" />
+        <item key="Next" value="&amp;Seuraava &gt;" />
+        <item key="Import" value="&amp;Tuo" />
+        <item key="Delete" value="&amp;Poista" />
+        <item key="Save" value="&amp;Tallenna" />
+      </group>
+    </form>
+    <form id="MainForm">
+      <group id="General">
+        <item key="RegisteredCopy" value="Rekisteröity kopio." />
+        <item key="OnlyForNonCommercialUse" value="VAIN EI-KAUPALLISEEN KÄYTTÖÖN" />
+      </group>
+      <group id="StandardBar">
+        <item key="New" tooltip="Uusi" />
+        <item key="Open" tooltip="Avaa" />
+        <item key="Save" tooltip="Talleta" />
+        <item key="Undo" tooltip="Peru" />
+        <item key="Redo" tooltip="Tee uudelleen" />
+        <item key="Cut" tooltip="Leikkaa" />
+        <item key="Copy" tooltip="Kopioi" />
+        <item key="Paste" tooltip="Liitä" />
+        <item key="Print" tooltip="Tulosta" />
+        <item key="PrintPreview" tooltip="Tulosta esikatselu" />
+        <item key="ShowGrid" tooltip="Näytä ruudukko" />
+        <item key="ShowAdvancedInfo" tooltip="Näytä lisätietoja" />
+        <item key="Find" value="Etsi:" />
+      </group>
+      <group id="LayoutBar">
+        <item key="BackOne" tooltip="Yksi takaisin" />
+        <item key="ForwardOne" tooltip="Yksi eteenpäin" />
+        <item key="SendToBack" tooltip="Lähetä taakse" />
+        <item key="BringToFront" tooltip="Tuo eteen" />
+        <item key="AutoLayoutCascade" value="Sarjaan sijoittelu" />
+        <item key="AutoLayoutRectangle" value="Neliömäinen sijoittelu" />
+        <item key="AutoLayoutCircle" value="Ympyrämäinen sijoittelu" />
+        <item key="AutoLayoutRows" value="Rivitetty sijoittelu" />
+        <item key="AutoLayoutSmart" value="Älykäs sijoittelu" />
+      </group>
+      <group id="Menu">
+        <!-- File -->
+        <item key="File" value="&amp;Tiedosto" />
+        <item key="New" value="&amp;Uusi" />
+        <item key="Open" value="&amp;Open" />
+        <item key="Save" value="&amp;Tallenna" />
+        <item key="SaveAs" value="Tallenna &amp;nimellä" />
+        <item key="CloseProject" value="&amp;Sulje projekti" />
+        <item key="Print" value="Tu&amp;losta" />
+        <item key="PrintPreview" value="Tulosta esi&amp;katselu" />
+        <item key="PrintSetup" value="Tulosta asetukset" />
+        <item key="Export" value="Vie" />
+        <item key="ExportToImage" value="Kuva" />
+        <item key="ExportToPDF" value="&amp;PDF" />
+        <item key="ExportToXMI" value="&amp;XMI" />
+        <item key="Import" value="Tuo" />
+        <item key="ImportFromXMI" value="&amp;XMI" />
+        <item key="RecentProjects" value="Viimeisimmät projektit" />
+        <item key="Exit" value="Poistu" />
+        <!-- Edit -->
+        <item key="Edit" value="&amp;Muokkaa" />
+        <item key="Undo" value="Kumoa" />
+        <item key="Redo" value="Toista" />
+        <item key="Cut" value="Leikkaa" />
+        <item key="Copy" value="Kopioi" />
+        <item key="Paste" value="Liitä" />
+        <item key="Delete" value="Poista" />
+        <item key="DeleteWithRelations" value="Poista suhteineen" />
+        <item key="SelectAll" value="Valitse kaikki" />
+        <item key="SelectAllOfSameType" value="Valitse kaikki samaa tyyppiä" />
+        <item key="InvertSelection" value="Käänteinen valinta" />
+        <item key="Find" value="Etsi" />
+        <!-- View -->
+        <item key="View" value="&amp;Näytä" />
+        <item key="StandardBar" value="Yleiset työkalut -nauha" />
+        <item key="StatusBar" value="Tila-nauha" />
+        <item key="LayoutBar" value="Ulkoasu-nauha" />
+        <item key="Toolbox" value="Työkalulaatikko" />
+        <item key="SideBar" value="Sivunauha" />
+        <item key="DiagramPreview" value="Kaavion esikatselu" />
+        <item key="StartPage" value="Aloitussivu" />
+        <item key="ElementBrowser" value="Jäsenten selaus" />
+        <item key="ShowMultipleUsageOfElement" value="Näytä jäsenen käyttö" />
+        <item key="ShowAssignedDiagrams" value="Show &amp;Assigned Diagrams" />
+        <item key="Grid" value="Ruudukko" />
+        <item key="SnapToGrid" value="Kiinnitä ruudukkoon" />
+        <item key="RenderingQuality" value="Esityslaatu" />
+        <item key="RenderingQualityDraft" value="&amp;Luonnos" />
+        <item key="RenderingQualityNormal" value="&amp;Eirmaali" />
+        <item key="RenderingQualityBest" value="&amp;Paras" />
+        <item key="FullScreen" value="&amp;Koko näyttö" />
+        <!-- Arrange -->
+        <item key="Arrange" value="&amp;Järjestä" />
+        <item key="AutoLayout" value="&amp;Automaattinen järjestys" />
+        <item key="CircleLayout" value="&amp;Ympyrämäinen järjestys" />
+        <item key="RowLayout" value="&amp;Rivitetty järjestys" />
+        <item key="SmartLayout" value="&amp;Älykäs järjestys" />
+        <item key="CascadeLayout" value="Vierekkäinen järjestys" />
+        <item key="AutoSize" value="Automaattinen koko" />
+        <item key="Alignment" value="Kohdistus" />
+        <item key="MakeSame" value="Tasaa koot" />
+        <item key="Order" value="Järjestä" />
+        <item key="Move" value="Siirrä" />
+        <item key="Size" value="Koko" />
+        <item key="HorizontalSpacing" value="Vaakavälitys" />
+        <item key="VerticalSpacing" value="Pystyvälistys" />
+        <item key="SetLocationAndSize" value="Koko ja sijainti" />
+        <item key="LockItems" value="Lukitse jäsenet" />
+        <item key="GroupItems" value="Ryhmitä jäsenet" />
+        <item key="UngroupItems" value="Pura jäsenten ryhmitys" />
+        <item key="AlignmentLeft" value="Vasen" />
+        <item key="AlignmentRight" value="Oikea" />
+        <item key="AlignmentTop" value="Ylös" />
+        <item key="AlignmentBottom" value="Alas" />
+        <item key="AlignmentCenterHorizontally" value="Keskitä vaakasuunnassa" />
+        <item key="AlignmentCenterVertically" value="Keskitä pystysuunnassa" />
+        <item key="AlignmentToGrid" value="Kohdista euudukkoon" />
+        <item key="MakeSameWidth" value="Sama leveys" />
+        <item key="MakeSameHeight" value="Sama korkeus" />
+        <item key="MakeSameBoth" value="Sama leveys ja korkeus" />
+        <item key="OrderBringToFront" value="Tuo eteen" />
+        <item key="OrderBringToBack" value="Vie taakse" />
+        <item key="OrderForwardOne" value="Yksi eteenpäin" />
+        <item key="OrderBackOne" value="Back O&amp;ne" />
+        <item key="MoveCustom" value="&amp;Määrittele liikutus" />
+        <item key="MoveLeft" value="&amp;Vasemmalle" />
+        <item key="MoveRight" value="&amp;Oikealle" />
+        <item key="MoveUp" value="&amp;Ylös" />
+        <item key="MoveDown" value="&amp;Alas" />
+        <item key="SizeCustom" value="&amp;Määrittele koko" />
+        <item key="SizeInflate" value="&amp;Kasvata kokoa" />
+        <item key="SizeDeflate" value="&amp;Pienennä kokoa" />
+        <item key="SizeWider" value="&amp;Levennä" />
+        <item key="SizeNarrower" value="&amp;Kavenna" />
+        <item key="SizeHigher" value="&amp;Korkeampi" />
+        <item key="SizeLower" value="&amp;Matalampi" />
+        <!-- Project -->
+        <item key="Project" value="&amp;Projekti" />
+        <item key="AddModel" value="Lisää malli" />
+        <item key="AddDiagram" value="Lisää kaavio" />
+        <item key="AddExistingDiagram" value="Lisää olemassaoleva kaavio" />
+        <item key="Properties" value="Projektin ominaisuudet" />
+        <item key="ModelProperties" value="Mallin ominaisuudet" />
+        <item key="StyleSet" value="Tyylistö" />
+        <item key="LoadStyleSet" value="Lataa" />
+        <item key="SaveStyleSet" value="Tallenna" />
+        <item key="EditStyleSet" value="Muokkaa" />
+        <item key="RemoveAllCustomStyles" value="Poista kaikki erikoistyylit" />
+        <item key="Tasks" value="Tehtävät" />
+        <item key="Persons" value="Henkilöt" />
+        <!-- Diagram -->
+        <item key="Diagram" value="&amp;Kaavio" />
+        <item key="AddLayer" value="Lisää taso" />
+        <item key="Layers" value="Tasot" />
+        <item key="ConvertDiagram" value="Konvertoi" />
+        <item key="ConvertToERDDiagram" value="ER-kaavio" />
+        <item key="ConvertToClassDiagram" value="Luokkakaavio" />
+        <item key="DiagramProperties" value="Kaavion ominaisuudet" />
+        <item key="PrintDiagram" value="Tulosta" />
+        <item key="ExportDiagram" value="Vie kaavio" />
+        <item key="ExportDiagramToImage" value="Tee kaaviosta kuva" />
+        <item key="ExportDiagramToPDF" value="Tee kaaviosta PDF" />
+        <item key="CopyToClipboardAsImage" value="Kopioi leikepöydälle kuvaksi" />
+        <item key="CopyToClipboardAsMetafile" value="Kopio leikepöydälle metatiedostoksi" />
+        <item key="LayersMerge" value="Yhdistä" />
+        <item key="LayersShowAll" value="Näytä kaikki" />
+        <item key="LayersHide" value="Piilota" />
+        <item key="LayersDelete" value="Poista" />
+        <item key="Filter" value="Suodata" />
+        <item key="ShowAllElements" value="Näytä kaikki" />
+        <item key="HideComments" value="Piilota kommentit" />
+        <item key="HideRelations" value="Piilota suhteet" />
+        <item key="HideCollaborations" value="Hide &amp;Collaborations" />
+        <!-- Element -->
+        <item key="Element" value="&amp;Elementti" />
+        <item key="Add" value="&amp;Lisää" />
+        <item key="Stereotype" value="&amp;Stereotyyppi" />
+        <item key="Attribute" value="&amp;Atribuutti" />
+        <item key="Operation" value="&amp;Operaatio" />
+        <item key="TemplateParameter" value="Mallin parametri" />
+        <item key="ElementShowID" value="Näytä &amp;ID" />
+        <item key="ElementShowParentName" value="Näytä &amp;vanhemman nimi" />
+        <item key="ElementShowStereotypes" value="Näytä &amp;stereotyypit" />
+        <item key="ElementShowAttributes" value="Näytä &amp;atribuutit" />
+        <item key="ElementShowOperations" value="Näytä &amp;operaatiot" />
+        <item key="ElementShowTaggedValues" value="Näytä &amp;tägitetyt arvot" />
+        <item key="ElementShowTemplateParameters" value="Näytä mallin parametrit" />
+        <item key="ElementShowOperationParameters" value="Näytä operaation parametrit" />
+        <item key="ElementShowExtensionPoints" value="Näytä laaj&amp;ennuspisteet" />
+        <item key="ElementShowRelationshipTexts" value="Näytä &amp;suhteiden tekstit" />
+        <item key="ElementShowNullability" value="Näytä &amp;nollautuvuus" />
+        <item key="ElementModifiers" value="&amp;määreet" />
+        <item key="ElementAbstractModifier" value="&amp;abstrakti" />
+        <item key="ElementPublicModifier" value="&amp;Julkinen" />
+        <item key="ElementPackageModifier" value="Pakkaus" />
+        <item key="ElementProtectedModifier" value="Suojattu" />
+        <item key="ElementPrivateModifier" value="Yksityinen" />
+        <item key="ElementPresentation" value="Esitys" />
+        <item key="DefaultPresentation" value="Oletus" />
+        <item key="CustomPresentation" value="Määritelty" />
+        <item key="ElementStyle" value="Tyyli" />
+        <item key="ElementProperties" value="Ominaisuudet" />
+        <item key="ElementDocumentation" value="Dokumentaatio" />
+        <item key="ElementTaggedValues" value="Tägitetyt arvot" />
+        <!-- Tools -->
+        <item key="Tools" value="&amp;Työkalut" />
+        <item key="GenerateDocumentation" value="Luo &amp;dokumentaatio" />
+        <item key="GenerateSourceCode" value="Luo &amp;lähdekoodi" />
+        <item key="Lists" value="Listat" />
+        <item key="StereotypesList" value="Stereotyypit" />
+        <item key="TypesList" value="Tyypit" />
+        <item key="ElementNames" value="Elementtien nimet ja tunnisteet" />
+        <item key="ReverseEngineering" value="&amp;Takaisinmallinnus" />
+        <item key="NetReverseEngineering" value=".&amp;NET Framework" />
+        <item key="DatabaseReverseEngineering" value="Tietokanta" />
+        <item key="RenumberElementIDs" value="&amp;Elementtien tunnisteiden uudelleennumerointi" />
+        <item key="ImportDatabaseModel" value="&amp;Tuo tietokantamalli" />
+        <item key="ImportObjectModel" value="Tuo oliomalli" />
+        <item key="Languages" value="&amp;Kielet" />
+        <item key="Options" value="&amp;Asetukset" />
+        <!-- Windows -->
+        <item key="Windows" value="&amp;Ikkunat" />
+        <item key="Cascade" value="&amp;Järjestä" />
+        <item key="TileVertical" value="Laatoita &amp;pystysuuntaan" />
+        <item key="TileHorizontal" value="Laatoita vaakasuuntaan" />
+        <item key="ArrangeIcons" value="Järjestä ikonit" />
+        <item key="CloseAll" value="&amp;Sulje kaikki" />
+        <!-- Help -->
+        <item key="Help" value="&amp;Apua" />
+        <item key="OnlineHelp" value="&amp;Online ohjeet" />
+        <item key="Donate" value="&amp;Lahjoita" />
+        <item key="ActivateForCommercialUse" value="&amp;Aktivoi kaupalliseen käyttöön" />
+        <item key="WhatsNew" value="Mitä uutta" />
+        <item key="CheckForUpdates" value="Tarkista päivitykset" />
+        <item key="About" value="&amp;Tietoja ohjelmasta Software Ideas Modeler..." />
+        <item key="WebSite" value="&amp;Websivusto" />
+      </group>
+      <!-- Project Context Menu -->
+      <group id="ProjectCMenu">
+        <item key="AddModel" value="Lisää malli" />
+        <item key="AddDiagram" value="Lisää kaavio" />
+        <item key="NewDiagram" value="Uusi kaavio" />
+        <item key="MoveToModel" value="Siirrä malliin" />
+        <item key="Rename" value="Nimeä uudelleen" />
+        <item key="Delete" value="Poista" />
+        <item key="DeleteFromProject" value="Poista projektista" />
+        <item key="UmlClassDiagram" value="Luokkakaavio" />
+        <item key="UmlUseCaseDiagram" value="Käyttötapauskaavio" />
+        <item key="UmlSequenceDiagram" value="Viestiyhteyskaavio" />
+        <item key="UmlActivityDiagram" value="Toimintokaavio" />
+        <item key="UmlStateMachineDiagram" value="Tilakonekaavio" />
+        <item key="UmlDeploymentDiagram" value="Toteutuskaavio" />
+        <item key="UmlProfileDiagram" value="Profiilikaavio" />
+        <item key="UmlObjectDiagram" value="Oliokaavio" />
+        <item key="UmlPackageDiagram" value="Pakettikaavio" />
+        <item key="UmlCommunicationDiagram" value="Viestintäkaavio" />
+        <item key="UmlCompositeStructureDiagram" value="Koostekaavio" />
+        <item key="UmlComponentDiagram" value="Komponenttikaavio" />
+        <item key="UmlInteractionOverviewDiagram" value="Vuorovaikutuksen yleisnäkymä-kaavio" />
+        <item key="UmlMixedDiagram" value="Yhdistetty kaavio" />
+        <item key="DataFlowDiagram" value="Tietovuokaavio" />
+        <item key="EntityRelationshipDiagram" value="ER-kaavio" />
+        <item key="RequirementDiagram" value="Vaatimuskaavio" />
+        <item key="UserInterface" value="Käyttöliittymäkaavio" />
+        <item key="CrcCardDiagram" value="CRC-korttikaavio" />
+        <item key="FlowchartDiagram" value="Vuokaavio" />
+        <item key="RobustnessDiagram" value="Toipumiskaavio" />
+        <item key="UmlTimingDiagram" value="Ajoituskaavio" />
+      </group>
+      <!-- Project Tree -->
+      <group id="ProjectTreeViews">
+        <item key="HierarchicalView" value="Hierarkinen näkymä" />
+        <item key="AllEntitiesView" value="Kaikki entiteetit" />
+        <item key="DiagramTypesView" value="Kaaviotyypit" />
+      </group>
+      <!-- Toolbox -->
+      <group id="Toolbox">
+        <item key="UmlClassDiagram" value="Luokkakaavio" />
+        <item key="UmlUseCaseDiagram" value="Käyttötapauskaavio" />
+        <item key="UmlSequenceDiagram" value="Viestiyhteyskaavio" />
+        <item key="UmlActivityDiagram" value="Toimintokaavio" />
+        <item key="UmlStateMachineDiagram" value="Tilakonekaavio" />
+        <item key="UmlDeploymentDiagram" value="Toteutuskaavio" />
+        <item key="UmlProfileDiagram" value="Profiilikaavio" />
+        <item key="UmlObjectDiagram" value="Oliokaavio" />
+        <item key="UmlPackageDiagram" value="Pakettikaavio" />
+        <item key="UmlCommunicationDiagram" value="Viestintäkaavio" />
+        <item key="UmlCompositeStructureDiagram" value="Koostekaavio" />
+        <item key="UmlComponentDiagram" value="Komponenttikaavio" />
+        <item key="UmlInteractionOverviewDiagram" value="Vuorovaikutuksen yleisnäkymä-kaavio" />
+        <item key="UmlMixedDiagram" value="Yhdistetty kaavio" />
+        <item key="DataFlowDiagram" value="Tietovuokaavio" />
+        <item key="EntityRelationshipDiagram" value="ER-kaavio" />
+        <item key="RequirementDiagram" value="Vaatimuskaavio" />
+        <item key="UserInterfaceDiagram" value="Käyttöliittymäkaavio" />
+        <item key="CrcCardDiagram" value="CRC-korttikaavio" />
+        <item key="FlowchartDiagram" value="Vuokaavio" />
+        <item key="RobustnessDiagram" value="Toipumiskaavio" />
+        <item key="UmlTimingDiagram" value="Ajoituskaavio" />
+        <item key="Common" value="Yleistä" />
+        <item key="Drawing" value="Piirtotyökalut" />
+        <item key="Selection" value="Valinta" />
+        <item key="Comment" value="Kommentti" />
+        <item key="Comment Connector" value="Kommenttien liittäminen" />
+        <item key="Diagram Description" value="Kaavion kuvaus" />
+        <item key="Line" value="Viiva" />
+        <item key="Rectangle" value="Nelikulmio" />
+        <item key="Ellipse" value="Ellipsi" />
+        <item key="Polygon" value="Monikulmio" />
+        <item key="Text" value="Teksti" />
+        <item key="Left Arrow" value="Nuoli vasemmalle" />
+        <item key="Right Arrow" value="Nuoli oikealle" />
+        <item key="Up Arrow" value="Nuoli ylös" />
+        <item key="Down Arrow" value="Nuoli alas" />
+        <item key="Package" value="Pakkaus" />
+        <item key="Class" value="Luokka" />
+        <item key="Table" value="Taulukko" />
+        <item key="Signal" value="Signaali" />
+        <item key="Enumeration" value="Enumeraatio" />
+        <item key="Interface" value="Rajapinta" />
+        <item key="Realization" value="Realisointi" />
+        <item key="Association" value="Assosiaatio" />
+        <item key="Unidir. Association" value="Yksisuuntainen assosisaatio" />
+        <item key="Bidir. Association" value="Kaksisuuntainen assosisaatio" />
+        <item key="N-ary Association" value="Monisuuntainen assosiaatio" />
+        <item key="Composition" value="Vahva kooste" />
+        <item key="Aggregation" value="Kooste" />
+        <item key="Generalization" value="Yleistys" />
+        <item key="Dependency" value="Riippuvuus" />
+        <item key="Containment" value="Sisällytys" />
+        <item key="Actor" value="Toimija" />
+        <item key="Use Case" value="Käyttötapaus" />
+        <item key="Collaboration" value="Yhteistyö" />
+        <item key="Include" value="Sisällytä" />
+        <item key="Extend" value="Laajenna" />
+        <item key="System Boundary" value="Järjestelmäraja" />
+        <item key="Lifeline" value="Elinkaari" />
+        <item key="Interaction Operand" value="Vuorovaikutusoperandi" />
+        <item key="Activation Bar" value="Aktivointinauha" />
+        <item key="Fragment" value="Fragmentti" />
+        <item key="Call Action" value=" Kutsutoimenpide" />
+        <item key="Return Action" value="Paluuarvo toimenpide" />
+        <item key="Send Action" value="Lähetystoimenpide" />
+        <item key="Destroy Action" value="Tuhotoimenpide" />
+        <item key="Opt Fragment" value="Opt fragmentti" />
+        <item key="Alt Fragment" value="Alt fragmentti" />
+        <item key="Loop Fragment" value="Loop fragmentti" />
+        <item key="Ref Fragment" value="Ref fragmentti" />
+        <item key="Sd Fragment" value="Sd fragmentti" />
+        <item key="Par Fragment" value="Par fragmentti" />
+        <item key="Neg Fragment" value="Neg fragmentti" />
+        <item key="Message" value="Viesti" />
+        <item key="Swimlane" value="Uimarata" />
+        <item key="Activity" value="Aktiviteetti" />
+        <item key="Object" value="Olio" />
+        <item key="Initial State" value="Alkutila" />
+        <item key="Final State" value="Lopputila" />
+        <item key="State" value="Tila" />
+        <item key="Composite State" value="Koosteinen tila" />
+        <item key="Fork/Join" value="Haaraudu/Yhdisty" />
+        <item key="Decision" value="Päätös" />
+        <item key="Transition" value="Siirtymä" />
+        <item key="Signal Receipt" value="Signaalin vastaanotto" />
+        <item key="Signal Send" value="Signalin lähetys" />
+        <item key="Composite State" value="Koosteinen tila" />
+        <item key="Entry Point" value="Sisääntulopiste" />
+        <item key="Exit Point" value="Poistumispiste" />
+        <item key="Node" value="Solmukohta" />
+        <item key="Component" value="Komponentti" />
+        <item key="Import" value="Tuo" />
+        <item key="Merge" value="Yhdistä" />
+        <item key="Use" value="Käytä" />
+        <item key="Profile" value="Profiili" />
+        <item key="Stereotype" value="Stereotyyppi" />
+        <item key="Meta Class" value="Metaluokka" />
+        <item key="Apply" value="Aseta" />
+        <item key="Entity" value="Entiteetti" />
+        <item key="Relation" value="Suhde" />
+        <item key="1 to 1" value="1:1" />
+        <item key="1 to 0..1" value="1:0..1" />
+        <item key="1 to 1..n" value="1:1..n" />
+        <item key="1 to 0..n" value="1:0..n" />
+        <item key="0..n to 0..n" value="0..n:0..n" />
+        <item key="1..n to 1..n" value="1..n:1..n" />
+        <item key="Data Store" value="Tietosäilö" />
+        <item key="Process" value="Prosessi" />
+        <item key="Gate" value="Portti" />
+        <item key="External" value="Ulkoinen" />
+        <item key="Data Flow" value="Tiedonkulku" />
+        <item key="Requirement" value="Vaatimus" />
+        <item key="Model" value="Malli" />
+        <item key="Test Case" value="Testitapaus" />
+        <item key="Port" value="Portti" />
+        <item key="Part" value="Osa" />
+        <item key="Required Interface" value="Vaadittu rajapinta" />
+        <item key="Window" value="Ikkuna" />
+        <item key="Label" value="Otsikko" />
+        <item key="Button" value="Painike" />
+        <item key="Check Box" value="Valintaruutu" />
+        <item key="Radio Button" value="Valintanappi" />
+        <item key="Text Box" value="Tekstinsyöttöruutu" />
+        <item key="CRC Card" value="CRC-kortti" />
+      </group>
+      <!-- Side Bars -->
+      <group id="SideBars">
+        <item key="Project" value="Projekti" />
+        <item key="FastEditor" value="Pikaeditori" />
+        <item key="Styles" value="Tyylit" />
+        <item key="ItemProperties" value="Ominaisuudet" />
+        <item key="Generation" value="Lähdekoodi" />
+        <item key="Documentation" value="Dokumentaatio" />
+        <item key="Layers" value="Tasot" />
+        <item key="Preview" value="Esikatselu" />
+        <item key="ToDo" value="Tehtävää" />
+      </group>
+      <group id="ProjectTabPanel">
+        <item key="NewModel" tooltip="Uusi malli" />
+        <item key="NewDiagram" tooltip="Uusi kaavio" />
+        <item key="ExpandAll" tooltip="Laajenna kaikki" />
+        <item key="Refresh" tooltip="Päivitä" />
+        <item key="UmlClassDiagram" tooltip="Luokkakaavio" />
+        <item key="UmlUseCaseDiagram" tooltip="Use Case Diagram" />
+        <item key="UmlSequenceDiagram" tooltip="Sequence Diagram" />
+        <item key="UmlActivityDiagram" tooltip="Activity Diagram" />
+        <item key="UmlStateMachineDiagram" tooltip="State Machine Diagram" />
+        <item key="UmlDeploymentDiagram" tooltip="Deployment Diagram" />
+        <item key="UmlProfileDiagram" tooltip="Profile Diagram" />
+        <item key="UmlObjectDiagram" tooltip="Object Diagram" />
+        <item key="UmlPackageDiagram" tooltip="Package Diagram" />
+        <item key="UmlCommunicationDiagram" tooltip="Communication Diagram" />
+        <item key="EntityRelationshipDiagram" tooltip="ER-kaavio" />
+        <item key="RequirementDiagram" tooltip="Requirement Diagram" />
+        <item key="UserInterface" tooltip="User Interface" />
+        <item key="CrcCardDiagram" tooltip="CRC Card Diagram" />
+        <item key="FlowchartDiagram" tooltip="Flowchart Diagram" />
+        <item key="RobustnessDiagram" tooltip="Robustness Diagram" />
+        <item key="UmlTimingDiagram" tooltip="Ajoituskaavio" />
+        <item key="Filter" tooltip="Suodata" />
+        <item key="ShowEntities" value="Näytä entiteetit" />
+        <item key="ShowRelations" value="Näytä suhteet" />
+        <item key="ShowComments" value="Näytä kommentit" />
+        <item key="ShowGroups" value="Näytä ryhmät" />
+      </group>
+      <group id="GenerationTabPanel">
+        <item key="Generate" value="Luo" />
+        <item key="GenerateFrom" value="Luo kohteesta" />
+        <item key="WholeDiagram" value="Koko kaa&amp;vio" />
+        <item key="SelectedElements" value="Valitut &amp;elementit" />
+      </group>
+      <group id="ItemEditorTabPanel">
+        <item key="ItemDefinition" value="&amp;Kohteen määrittely" />
+      </group>
+      <group id="StylesTabPanel">
+        <item key="Apply" value="&amp;Aseta" />
+        <item key="NewStyleSet" tooltip="Uusi tyylistö" />
+        <item key="OpenStyleSet" tooltip="Avaa tyylistö" />
+        <item key="SaveStyleSet" tooltip="Tallenna tyylistö" />
+        <item key="AddStyle" tooltip="Lisää tyyli" />
+        <item key="SetStyleAsDefault" tooltip="Aseta tyyli oletukseksi" />
+        <item key="EditStyle" tooltip="Muokkaa tyyliä" />
+        <item key="DeleteStyle" tooltip="Poista tyyli" />
+      </group>
+    </form>
+    <form id="LayerControl">
+      <group id="Control">
+        <item key="AddLayer" tooltip="Lisää uusi taso" />
+        <item key="DeleteLayer" tooltip="Poista taso" />
+        <item key="ShowHideLayer" tooltip="Näytä/piilota taso" />
+        <item key="MergeAllLayers" tooltip="Yhdistä kaikki tasot" />
+      </group>
+    </form>
+    <!-- Context Bar -->
+    <form id="ContextBar">
+      <group id="Control">
+        <item key="AddAttribute" value="Lisää atribuutti" />
+        <item key="AddOperation" value="Lisää operaatio" />
+        <item key="AddSubClass" value="Lisää aliluokka" />
+        <item key="AddSuperClass" value="Lisää yliluokka" />
+        <item key="AddUseCase" value="Lisää käyttötapaus" />
+        <item key="AddSwimlane" value="Lisää uimarata" />
+        <item key="AddInterface" value="Lisää rajapinta" />
+        <item key="AddState" value="Lisää tila" />
+        <item key="AddValueLifeline" value="Lisää arvon elinkaari" />
+        <item key="AddStateLifeline" value="Lisää tilan elinkaari" />
+        <item key="ConvertToValueLifeline" value="Muunna arvon elinkaareksi" />
+        <item key="ConvertToStateLifeline" value="Muunna tilan elinkaareksi" />
+        <item key="Extend" value="Laajenna" />
+        <item key="Include" value="Sisällytä" />
+        <item key="AddComment" value="Lisää kommentti" />
+        <item key="AddSequenceExpression" value="Lisää viestiyhteyslauseke?" />
+        <item key="AddSequenceExpression" value="Lisää käänteinen viestiyhteyslauseke?" />
+        <item key="AddCollaborator" value="Lisää toimija" />
+        <item key="AddResponsibility" value="Lisää vastuu" />
+        <item key="AddAssociationClass" value="Lisää assosisaatioluokka" />
+      </group>
+    </form>
+    <!-- New Diagram  -->
+    <form id="NewDiagramForm">
+      <group id="Form">
+        <item key="Title" value="Uusi kaavio" />
+        <item key="SelectItemLabel" value="Valitse minkä kaaviotyypin haluat lisätä projektiin:" />
+        <item key="NameLabel" value="Nimi:" />
+        <item key="OK" value="&amp;OK" />
+        <item key="Cancel" value="&amp;Peruuta" />
+      </group>
+      <group id="Diagrams">
+        <item key="UMLDiagrams" value="UML Diagrams" />
+        <item key="DatabaseModeling" value="Database Modeling" />
+        <item key="Requirements" value="Requirements" />
+        <item key="Others" value="Others" />
+      </group>
+    </form>
+    <form id="AboutForm">
+      <group id="Form">
+        <item key="Title" value="Tietoja tuottesta Software Ideas Modeler" />
+        <item key="AboutTab" value="Tietoja" />
+        <item key="WhatsNewTab" value="Mitä uutta" />
+        <item key="Author" value="Tekijä:" />
+        <item key="Version" value="Versio:" />
+        <item key="Description" value="Software Ideas Modeler on työkalu ohjelmistojen mallintamiseen UML-kaavioita käyttäen." />
+        <item key="Close" value="&amp;Sulje" />
+        <item key="Donation" value="Jos pidät tästä ohjelmasta, voit tukea kehitystyötä vapaasti valitsemallasi summalla klikaamalla &quot;Lahjoita&quot;-painiketta." />
+      </group>
+    </form>
+    <form id="StartPageForm">
+      <group id="Form">
+        <item key="Title" value="Aloitussivu" />
+        <item key="StartWith" value="Aloita näistä:" />
+        <item key="RecentProjects" value="Viimeisimmät projektit" />
+        <item key="OpenProject" value="Avaa projekti..." />
+        <item key="NewProject" value="Luo uusi projekti..." />
+        <item key="DonateNow" value="Lahjoita" />
+      </group>
+    </form>
+    <form id="ModelOverviewForm">
+      <group id="Form">
+        <item key="Title" value="Mallin yleiskuva" />
+      </group>
+    </form>
+    <form id="DiagramThumbnailsPanel">
+      <group id="Control">
+        <item key="Open" value="Avaa" />
+        <item key="Close" value="Sulje" />
+        <item key="DeleteDiagram" value="Poista kaavio" />
+      </group>
+    </form>
+    <form id="ClassifierForm">
+      <group id="Form">
+        <item key="Title" value="Luokittelijat" />
+        <item key="Classifiers" value="Luokittelijat:" />
+      </group>
+    </form>
+    <form id="CommunicationMessageForm">
+      <group id="Form">
+        <item key="Title" value="Viesti" />
+        <item key="SequenceNumber" value="Järjestysnumero:" />
+        <item key="Message" value="Viesti:" />
+        <item key="Direction" value="Suunta:" />
+        <item key="NormalDirection" value="Normaali" />
+        <item key="ReverseDirection" value="Käänteinen" />
+      </group>
+    </form>
+    <form id="ItemPropertiesForm">
+      <group id="Form">
+        <item key="Title" value="Ominaisuudet" />
+        <item key="General" value="Yleistä" />
+        <item key="Class" value="Luokka" />
+        <item key="Relationship" value="Suhde" />
+        <item key="Style" value="Tyyli" />
+        <item key="Documentation" value="Dokumentaatio" />
+        <item key="TaggedValues" value="Tägitetyt arvot" />
+        <item key="ErdEntity" value="Entiteetti" />
+        <item key="ErdRelation" value="Suhde" />
+        <item key="UmlState" value="Tila" />
+        <item key="UmlFragment" value="Fragmentti" />
+        <item key="UmlObject" value="Olio" />
+        <item key="UmlInteractionOperand" value="Vuorovaikutusoperandi" />
+        <item key="UmlCommunicationLifeline" value="Elinkaari" />
+        <item key="UmlCommunicationMessage" value="Viesti" />
+        <item key="UmlTransition" value="Siirtymä" />
+        <item key="UmlExtend" value="Laajennos" />
+        <item key="UmlSwimlane" value="Uimarata" />
+        <item key="TimingTickMarkValues" value="Tick Mark Values" />
+        <item key="TimingStates" value="Tilat" />
+        <item key="TimingEvents" value="Tapahtumat" />
+        <item key="CrcCardHeader" value="Ylätunniste" />
+        <item key="CrcCard" value="Vastuut" />
+        <item key="OK" value="&amp;OK" />
+        <item key="Cancel" value="Peru" />
+        <item key="Name" value="Nimi:" />
+        <item key="ID" value="ID:" />
+        <item key="Stereotypes" value="&amp;Stereotypes" />
+        <item key="AppliedStereotypes" value="Käytetyt stereotyypit:" />
+        <item key="AvailableStereotypes" value="Käytettävissä olevat stereotyypit:" />
+        <item key="Add" value="&lt;&amp;Lisää" />
+        <item key="AddCustom" value="&lt;Add &amp;custom" />
+        <item key="Remove" value="&amp;Remove&gt;" />
+        <item key="Modifiers" value="Määreet" />
+        <item key="AbstractModifier" value="&amp;Abstrakti määre" />
+        <item key="StaticModifier" value="&amp;Staattinen määre" />
+      </group>
+    </form>
+    <form id="Style">
+      <group id="Control">
+        <item key="DefaultStyle" value="Oletustyyli" />
+        <item key="StyleByClass" value="Luokkaan perustuva tyyli:" />
+        <item key="CustomStyle" value="Custom style" />
+        <item key="BorderColor" value="Reunaväri:" />
+        <item key="BackgroundType" value="Taustan tyyppi:" />
+        <item key="BackgroundColor" value="Background color:" />
+        <item key="BackgroundColor2" value="Background color 2:" />
+        <item key="TextColor" value="Text color:" />
+        <item key="TextFont" value="Text font:" />
+        <item key="BorderWidth" value="Border width:" />
+        <item key="Gloss" value="Gloss" />
+        <item key="Gloss3D" value="3D gloss effect" />
+        <item key="Shadow" value="Shadow:" />
+        <item key="ShadowOffsetX" value="Offset X:" />
+        <item key="ShadowOffsetY" value="Offset Y:" />
+        <item key="ShadowRadius" value="Radius:" />
+        <item key="NameFont" value="Name font:" />
+        <item key="NameColor" value="Name color:" />
+        <item key="StereotypeColor" value="Stereotype color:" />
+        <item key="StereotypeFont" value="Stereotype font:" />
+        <item key="Name" value="Name" />
+        <item key="Stereotype" value="Stereotype" />
+        <item key="Text" value="Text" />
+        <item key="Effects" value="Effects" />
+        <item key="Font" value="Font:" />
+        <item key="Color" value="Color:" />
+        <item key="Alignment" value="Alignment:" />
+      </group>
+    </form>
+    <form id="Documentation">
+      <group id="Control">
+        <item key="FontSize" value="Kirjasimen koko:" />
+        <item key="Bold" tooltip="Lihavoitu" />
+        <item key="Italic" tooltip="Kursivoitu" />
+        <item key="Underline" tooltip="Alleviivattu" />
+        <item key="Strikethrough" tooltip="Yliviivattu" />
+      </group>
+    </form>
+    <form id="ErdRelationDefinition">
+      <group id="Control">
+        <item key="RelationType" value="Suhdetyyppi:" />
+        <item key="StartMultiplicity" value="Alkupään kerrannaisuus:" />
+        <item key="StartRole" value="Alkupään rooli:" />
+        <item key="EndMultiplicity" value="Loppupään kerrannaisuus:" />
+        <item key="EndRole" value="Loppupään rooli:" />
+      </group>
+    </form>
+    <form id="ErdEntityDefinition">
+      <group id="Control">
+        <item key="Add" value="Lisää" />
+        <item key="Edit" value="Muokkaa" />
+        <item key="Remove" value="Poista" />
+        <item key="Attributes" value="Attribuutit" />
+        <item key="NameColumn" value="Name" />
+        <item key="TypeColumn" value="Type" />
+        <item key="TypeSizeColumn" value="Type size" />
+        <item key="NullableColumn" value="Nullable" />
+        <item key="DescriptionColumn" value="Description" />
+      </group>
+    </form>
+    <form id="ActionDefinition">
+      <group id="Control">
+        <item key="Message" value="Message:" />
+      </group>
+    </form>
+    <form id="CommentDefinition">
+      <group id="Control">
+        <item key="Comment" value="Kommentti:" />
+      </group>
+    </form>
+    <form id="CommunicationLifelineDefinition">
+      <group id="Control">
+        <item key="Classifier" value="Luokittelija:" />
+      </group>
+    </form>
+    <form id="CommunicationMessageDefinition">
+      <group id="Control">
+        <item key="Add" value="&amp;Add" />
+        <item key="Edit" value="&amp;Edit" />
+        <item key="Remove" value="&amp;Remove" />
+      </group>
+    </form>
+    <form id="FragmentDefinition">
+      <group id="Control">
+        <item key="InteractionOperator" value="Interaction Operator:" />
+        <item key="Add" value="&amp;Add" />
+        <item key="Edit" value="&amp;Edit" />
+        <item key="Remove" value="&amp;Remove" />
+      </group>
+    </form>
+    <form id="InteractionOperandDefinition">
+      <group id="Control">
+        <item key="GuardCondition" value="Vartijaehto:" />
+      </group>
+    </form>
+    <form id="ObjectDefinition">
+      <group id="Control">
+        <item key="Classifier" value="Classifier:" />
+        <item key="Values" value="Values" />
+        <item key="Value" value="Value" />
+        <item key="Name" value="Name" />
+      </group>
+    </form>
+    <form id="AddObjectAttributeForm">
+      <group id="Form">
+        <item key="Title" value="Lisää atribuutteja" />
+        <item key="Attributes" value="Atribuutit" />
+      </group>
+    </form>
+    <form id="CrcCardHeaderDefinition">
+      <group id="Control">
+        <item key="Description" value="Kuvaus:" />
+        <item key="Superclass" value="Yliluokka:" />
+        <item key="Subclasses" value="Aliluokat:" />
+        <item key="Subclass" value="Aliluokka" />
+      </group>
+    </form>
+    <form id="CrcCardDefinition">
+      <group id="Control">
+        <item key="Responsibilities" value="Vastuut" />
+        <item key="Responsibility" value="Vastuu" />
+        <item key="Collaborators" value="Toimijat" />
+        <item key="Collaborator" value="Toimija" />
+      </group>
+    </form>
+    <form id="StateDefinition">
+      <group id="Control">
+        <item key="StateGroup" value="Tila" />
+        <item key="StateInvariant" value="State invariant:" />
+        <item key="StandardActions" value="Standard Actions" />
+        <item key="Entry" value="Entry:" />
+        <item key="Do" value="Do:" />
+        <item key="Exit" value="Exit:" />
+        <item key="CustomActions" value="Custom Actions" />
+        <item key="ActionName" value="Action Name" />
+        <item key="Behavior" value="Käytös" />
+        <item key="Add" value="&amp;Add" />
+        <item key="Remove" value="&amp;Remove" />
+      </group>
+    </form>
+    <form id="TransitionDefinition">
+      <group id="Control">
+        <item key="PreCondition" value="Esiehto:" />
+        <item key="Operation" value="Operation:" />
+        <item key="PostCondition" value="Jälkiehto:" />
+      </group>
+    </form>
+    <form id="ErdAttributeForm">
+      <group id="Form">
+        <item key="Title" value="Attribute" />
+        <item key="Name" value="Name:" />
+        <item key="Type" value="Type:" />
+        <item key="TypeSize" value="Type size:" />
+        <item key="PrimaryKey" value="Primary key" />
+        <item key="ForeignKey" value="ForeignKey" />
+        <item key="Nullable" value="Nullable" />
+        <item key="Description" value="Description:" />
+        <item key="OK" value="&amp;OK" />
+        <item key="Cancel" value="&amp;Peruuta" />
+      </group>
+    </form>
+    <form id="StereotypeForm">
+      <group id="Form">
+        <item key="Title" value="Stereotype" />
+        <item key="OK" value="&amp;OK" />
+        <item key="Cancel" value="&amp;Peruuta" />
+        <item key="Name" value="Name:" />
+      </group>
+    </form>
+    <form id="ClassDefinitionForm">
+      <group id="Form">
+        <item key="Title" value="Luokan määritelmä" />
+        <item key="Name" value="&amp;Name:" />
+        <item key="Attributes" value="&amp;Attributes:" />
+        <item key="Operations" value="&amp;Operations:" />
+        <item key="OK" value="&amp;OK" />
+        <item key="Cancel" value="&amp;Peruuta" />
+        <item key="NameColumn" value="Name" />
+        <item key="TypeColumn" value="Type" />
+        <item key="VisibilityColumn" value="Visibility" />
+        <item key="DefaultValueColumn" value="Default Value" />
+        <item key="ParametersColumn" value="Parameters" />
+      </group>
+    </form>
+    <form id="RelationDefinitionControl">
+      <group id="Control">
+        <item key="RelationType" value="Suhteen tyyppi:" />
+        <item key="StartMultiplicity" value="Start multiplicity:" />
+        <item key="StartRole" value="Start role:" />
+        <item key="EndMultiplicity" value="End multiplicity:" />
+        <item key="EndRole" value="End role:" />
+      </group>
+    </form>
+    <form id="ExtendDefinitionControl">
+      <group id="Control">
+        <item key="ExtensionPoint" value="Extension point:" />
+      </group>
+    </form>
+    <form id="SwimlaneDefinitionControl">
+      <group id="Control">
+        <item key="Orientation" value="Orientation" />
+        <item key="VerticalOrientation" value="Vertical" />
+        <item key="HorizontalOrientation" value="Horizontal" />
+      </group>
+    </form>
+    <form id="DiagramControl">
+      <group id="Menu">
+        <item key="AssignNewDiagram" value="Add &amp;New Diagram" />
+        <item key="AssignExistingDiagram" value="Add E&amp;xisting Diagram" />
+        <item key="Documentation" value="&amp;Documentation" />
+        <item key="Properties" value="&amp;Properties" />
+        <item key="AddPoint" value="&amp;Add Point" />
+        <item key="LockStartPoint" value="Lock &amp;Start Point" />
+        <item key="LockEndPoint" value="Lukitse loppupiste" />
+        <item key="LineStyle" value="Line St&amp;yle" />
+        <item key="ObliqueLineStyle" value="&amp;Oblique" />
+        <item key="StraightLineStyle" value="&amp;Straight" />
+        <item key="RectangularLineStyle" value="&amp;Perpendicular" />
+        <item key="CurveLineStyle" value="&amp;Curve" />
+        <item key="ExportDiagram" value="Vie kaavio" />
+        <item key="ShowGrid" value="Sho&amp;w Grid" />
+        <item key="SnapToGrid" value="Snap To &amp;Grid" />
+        <item key="DeleteFromDiagram" value="Delete from &amp;Diagram" />
+        <item key="DeleteFromProject" value="Delete from Pro&amp;ject" />
+        <item key="RelationDeleteFromDiagram" value="Delete from &amp;Diagram" />
+        <item key="RelationDeleteFromProject" value="Delete from Pro&amp;ject" />
+        <item key="RelationProperties" value="&amp;Properties" />
+        <item key="Reverse" value="&amp;Käänteinen" />
+        <item key="RemoveField" value="&amp;Poista '{@1}'" />
+        <item key="ChangeType" value="Change &amp;Type" />
+        <item key="Visibility" value="&amp;Visibility" />
+        <item key="Public" value="&amp;Public" />
+        <item key="Package" value="P&amp;ackage" />
+        <item key="Protected" value="P&amp;rotected" />
+        <item key="Private" value="Pr&amp;ivate" />
+        <item key="Rename" value="Re&amp;name" />
+        <item key="MoveUp" value="Move &amp;up" />
+        <item key="MoveDown" value="Move &amp;down" />
+        <item key="Group" value="&amp;Group" />
+        <item key="Ungroup" value="&amp;Ungroup" />
+      </group>
+    </form>
+    <form id="StyleSetEditorForm">
+      <group id="Form">
+        <item key="Title" value="Style Set Editor" />
+        <item key="StyleSetName" value="Style Set Name:" />
+        <item key="DefaultStyle" value="Default Style" />
+        <item key="New" value="New" />
+        <item key="Open" value="Open" />
+        <item key="Save" value="Save" />
+      </group>
+    </form>
+    <form id="NewStyleForm">
+      <group id="Form">
+        <item key="Title" value="New Style" />
+        <item key="General" value="General" />
+        <item key="ForSpecificElement" value="For specific element" />
+        <item key="StyleClassName" value="Style class name:" />
+        <item key="ElementType" value="Element type:" />
+        <item key="Stereotype" value="Stereotype:" />
+      </group>
+    </form>
+    <form id="IDsRenumberingForm">
+      <group id="Form">
+        <item key="Title" value="IDs Renumbering" />
+        <item key="Options" value="Options" />
+        <item key="OriginalNumbering" value="Original Numbering" />
+        <item key="NewNumbering" value="New Numbering" />
+        <item key="StartNumberingFrom" value="Start numbering from:" />
+        <item key="OrderByAlphabet" value="Order By Alphabet" />
+        <item key="SameWithoutGaps" value="Remove Gaps" />
+        <item key="Clear" value="Clear" />
+      </group>
+    </form>
+    <form id="OptionsForm">
+      <group id="Form">
+        <item key="Title" value="Options" />
+        <item key="GeneralTab" value="General" />
+        <item key="DiagramEditorTab" value="Diagram Editor" />
+        <item key="Language" value="Language" />
+        <item key="ShowStartPage" value="Show Start Page" />
+        <item key="RecentFiles" value="Recent Files" />
+        <item key="ItemsInMenu" value="items in menu" />
+        <item key="ItemsInStartPage" value="items on start page" />
+        <item key="Toolbars" value="Toolbars" />
+        <item key="StandardBar" value="Standard" />
+        <item key="SideBar" value="Side bar" />
+        <item key="LayoutBar" value="Layout" />
+        <item key="StatusBar" value="Status bar" />
+        <item key="Toolbox" value="Toolbox" />
+        <item key="DiagramEditorGeneral" value="General" />
+        <item key="DiagramEditorBackgroundColor" value="Background color:" />
+        <item key="DiagramEditorBackgroundColor2" value="Background color 2:" />
+        <item key="AutoScrolling" value="Auto scrolling" />
+        <item key="Grid" value="Grid" />
+        <item key="SnapToGrid" value="Snap to grid" />
+        <item key="ShowGrid" value="Show grid" />
+        <item key="GridVerticalSpacing" value="Vertical spacing:" />
+        <item key="GridHorizontalSpacing" value="Horizontal spacing:" />
+        <item key="RelationsAlwaysOnTop" value="Display relations always on top" />
+      </group>
+    </form>
+    <form id="StyleEditorForm">
+      <group id="Form">
+        <item key="Title" value="Style Editor" />
+        <item key="NewStyle" value="New Style" />
+        <item key="Name" value="Name:" />
+      </group>
+    </form>
+    <form id="ProjectPropertiesForm">
+      <group id="Form">
+        <item key="Title" value="Project Properties" />
+        <item key="Name" value="Name:" />
+        <item key="Authors" value="Authors:" />
+        <item key="Description" value="Description:" />
+        <item key="AddNewDiagram" value="Add New Diagram..." />
+        <item key="Properties" value="Properties" />
+      </group>
+    </form>
+    <form id="DiagramPropertiesForm">
+      <group id="Form">
+        <item key="Title" value="Diagram Properties" />
+        <item key="Name" value="Name:" />
+        <item key="Authors" value="Authors:" />
+        <item key="Version" value="Version:" />
+        <item key="Created" value="Created:" />
+        <item key="LastChange" value="Last change:" />
+        <item key="Description" value="Description:" />
+        <item key="CustomNamespace" value="Custom Namespace:" />
+        <item key="General" value="General" />
+        <item key="Documentation" value="Documentation" />
+      </group>
+    </form>
+    <form id="DonationForm">
+      <group id="Form">
+        <item key="Title" value="" />
+        <item key="Information" value="The future of this project depends on you. If you like Software Ideas Modeler you can make a donation and support a further development of this application." />
+        <item key="Donate" value="I want to make a donation" />
+        <item key="RemindMeLater" value="Remind me later" />
+        <item key="NoDonation" value="I've already made a donation" />
+        <item key="AlreadyDonate" value="This application is worthless, I will not make any donation" />
+        <item key="Confirm" value="Confirm" />
+      </group>
+    </form>
+    <form id="TaggedValueEditorForm">
+      <group id="Form">
+        <item key="Title" value="Tagged Value" />
+        <item key="TagName" value="Tag name:" />
+        <item key="TaggedValue" value="Value:" />
+      </group>
+    </form>
+    <form id="CustomMoveForm">
+      <group id="Form">
+        <item key="Title" value="Custom Move" />
+        <item key="Right" value="Right:" />
+        <item key="Down" value="Down:" />
+        <item key="Left" value="Left:" />
+        <item key="Up" value="Up:" />
+      </group>
+    </form>
+    <form id="CustomSizeForm">
+      <group id="Form">
+        <item key="Title" value="Custom Size" />
+        <item key="General" value="General" />
+        <item key="Sides" value="Sides" />
+        <item key="WidthHeight" value="Width/height" />
+        <item key="Inflate" value="Inflate:" />
+        <item key="Deflate" value="Deflate:" />
+        <item key="Left" value="Left:" />
+        <item key="Right" value="Right:" />
+        <item key="Top" value="Top:" />
+        <item key="Bottom" value="Bottom:" />
+        <item key="Width" value="Width:" />
+        <item key="Height" value="Height:" />
+      </group>
+    </form>
+    <form id="TaggedValueControl">
+      <group id="Control">
+        <item key="Name" value="Name" />
+        <item key="Value" value="Value" />
+      </group>
+    </form>
+    <form id="UmlOperationEditorForm">
+      <group id="Form">
+        <item key="Title" value="Operation Editor" />
+        <item key="General" value="General" />
+        <item key="Parameters" value="Parameters" />
+        <item key="Name" value="Name:" />
+        <item key="Type" value="Return type:" />
+        <item key="Visibility" value="Visibility:" />
+        <item key="Modifiers" value="Modifiers" />
+        <item key="Abstract" value="Abstract" />
+        <item key="Virtual" value="Virtual" />
+        <item key="Static" value="Static" />
+        <item key="NameColumn" value="Name" />
+        <item key="TypeColumn" value="Type" />
+      </group>
+    </form>
+    <form id="UmlAttributeEditorForm">
+      <group id="Form">
+        <item key="Title" value="Attribute Editor" />
+        <item key="General" value="General" />
+        <item key="Name" value="Name:" />
+        <item key="Type" value="Type:" />
+        <item key="Visibility" value="Visibility:" />
+        <item key="DefaultValue" value="DefaultValue:" />
+        <item key="Modifiers" value="Modifiers" />
+        <item key="Abstract" value="Abstract" />
+        <item key="Virtual" value="Virtual" />
+        <item key="Static" value="Static" />
+      </group>
+    </form>
+    <form id="FindForm">
+      <group id="Form">
+        <item key="Title" value="Find" />
+        <item key="Find" value="&amp;Find Next" />
+        <item key="FindWhat" value="Find what:" />
+      </group>
+    </form>
+    <form id="ToDoControl">
+      <group id="Control">
+        <item key="AddToDo" value="Add TO-DO" />
+        <item key="EditToDo" value="Edit TO-DO" />
+        <item key="DeleteToDo" value="Delete TO-DO" />
+        <item key="Completed" value="Completed" />
+        <item key="Priority" value="Priority" />
+        <item key="ToDoText" value="TO-DO" />
+        <item key="EndDate" value="End Date" />
+        <item key="Created" value="Created" />
+      </group>
+    </form>
+    <form id="ImageExportSettingForm">
+      <group id="Form">
+        <item key="Title" value="Export Settings" />
+        <item key="ExportContent" value="Export Content" />
+        <item key="Size" value="Size" />
+        <item key="Background" value="Background" />
+        <item key="ExportOnlyActiveLayer" value="Export Only Active Layer" />
+        <item key="ExportHiddenLayers" value="Export Hidden Layers" />
+        <item key="Width" value="Width" />
+        <item key="Height" value="Height" />
+        <item key="Transparent" value="Transparent" />
+        <item key="Color1" value="Color 1:" />
+        <item key="Color2" value="Color 2:" />
+      </group>
+    </form>
+    <form id="TaskEditorForm">
+      <group id="Form">
+        <item key="Title" value="Task" />
+        <item key="Name" value="Name:" />
+        <item key="ID" value="ID:" />
+        <item key="StartDate" value="Start Date:" />
+        <item key="EndDate" value="End Date:" />
+        <item key="Priority" value="Priority:" />
+        <item key="Phase" value="Phase:" />
+        <item key="Progress" value="Progress:" />
+        <item key="Description" value="Description:" />
+        <item key="General" value="General" />
+        <item key="Persons" value="Persons" />
+        <item key="Lowest" value="Lowest" />
+        <item key="Low" value="Low" />
+        <item key="Normal" value="Normal" />
+        <item key="Hight" value="Hight" />
+        <item key="Highest" value="Highest" />
+      </group>
+    </form>
+    <form id="XmiImportResultForm">
+      <group id="Form">
+        <item key="Title" value="XMI Import Result" />
+        <item key="CreateDiagrams" value="Create Diagrams" />
+      </group>
+    </form>
+    <form id="DatabaseSelectionForm">
+      <group id="Form">
+        <item key="Title" value="Database Selection" />
+        <item key="DataSource" value="Data source:" />
+        <item key="ServerName" value="Server name:" />
+        <item key="Authentication" value="Authentication" />
+        <item key="AuthenticationType" value="Authentication type:" />
+        <item key="UserName" value="User name:" />
+        <item key="Password" value="Password:" />
+        <item key="DatabaseName" value="Database name:" />
+      </group>
+    </form>
+    <form id="DatabaseImportForm">
+      <group id="Form">
+        <item key="Title" value="Import Database" />
+        <item key="ConnectionString" value="Connection string:" />
+        <item key="LoadTables" value="Load Tables" />
+        <item key="Tables" value="Tables" />
+      </group>
+    </form>
+    <form id="ObjectModelImportForm">
+      <group id="Form">
+        <item key="Title" value="Import Object Model" />
+        <item key="Assemblies" value="Assemblies" />
+        <item key="Namespaces" value="Namespaces/Packages" />
+      </group>
+    </form>
+    <form id="DiagramElementsSelectionForm">
+      <group id="Form">
+        <item key="Title" value="Diagram Elements" />
+      </group>
+    </form>
+    <form id="SourceCodeGenerationSettingsForm">
+      <group id="Form">
+        <item key="Title" value="Source Code Generation" />
+        <item key="General" value="General" />
+        <item key="Imports" value="Imports" />
+        <item key="Language" value="Language:" />
+        <item key="OutputDirectory" value="Output directory:" />
+        <item key="Generate" value="Generate" />
+      </group>
+    </form>
+    <form id="RelationInsertForm">
+      <group id="Form">
+        <item key="Title" value="New Relation" />
+        <item key="FromElement" value="From element:" />
+        <item key="ToElement" value="To element:" />
+      </group>
+    </form>
+    <form id="DefaultNamesForm">
+      <group id="Form">
+        <item key="Title" value="Default Names and IDs" />
+        <item key="DiagramType" value="Diagram type:" />
+        <item key="ElementType" value="Element type" />
+        <item key="DefaultName" value="Default name:" />
+        <item key="DefaultID" value="Default ID:" />
+      </group>
+    </form>
+    <form id="TypesForm">
+      <group id="Form">
+        <item key="Title" value="Types" />
+        <item key="NewTypeSet" value="&amp;New Type Set" />
+        <item key="ImportTypeSet" value="&amp;Import Type Set" />
+        <item key="TypeSets" value="Type Sets" />
+        <item key="CustomTypes" value="Custom Types" />
+      </group>
+    </form>
+    <form id="TypeSetEditorControl">
+      <group id="Control">
+        <item key="TypeDefinition" value="Type definition" />
+        <item key="ID" value="ID:" />
+        <item key="Name" value="Name:" />
+        <item key="Description" value="Description:" />
+      </group>
+    </form>
+    <form id="TypeSetEditorForm">
+      <group id="Form">
+        <item key="Title" value="Type Set Editor" />
+      </group>
+    </form>
+    <form id="StereotypesForm">
+      <group id="Form">
+        <item key="Title" value="Stereotypes" />
+        <item key="ElementType" value="Element type:" />
+        <item key="General" value="General" />
+        <item key="AppliesTo" value="Applies To" />
+        <item key="Name" value="Name:" />
+        <item key="Description" value="Description:" />
+      </group>
+    </form>
+    <form id="NewTypeSetForm">
+      <group id="Form">
+        <item key="Title" value="New Type Set" />
+        <item key="Name" value="Name:" />
+      </group>
+    </form>
+    <form id="ToDoEditorForm">
+      <group id="Form">
+        <item key="Title" value="To Do" />
+        <item key="Lowest" value="Lowest" />
+        <item key="Low" value="Low" />
+        <item key="Normal" value="Normal" />
+        <item key="Hight" value="Hight" />
+        <item key="Highest" value="Highest" />
+        <item key="Text" value="Text:" />
+        <item key="Priority" value="Priority:" />
+        <item key="EndDate" value="End date:" />
+        <item key="Completed" value="Completed" />
+      </group>
+    </form>
+    <form id="TaskManagementForm">
+      <group id="Form">
+        <item key="Title" value="Task Management" />
+        <item key="ID" value="ID" />
+        <item key="Name" value="Name" />
+        <item key="Priority" value="Priority" />
+        <item key="Progress" value="Progress" />
+        <item key="StartDate" value="Start Date" />
+        <item key="EndDate" value="End Date" />
+        <item key="Persons" value="Persons" />
+        <item key="AddTask" value="Add Task" />
+        <item key="EditTask" value="Edit Task" />
+        <item key="DeleteTask" value="Delete Task" />
+        <item key="AssignPerson" value="Assign Person" />
+      </group>
+    </form>
+    <form id="PersonsForm">
+      <group id="Form">
+        <item key="Title" value="Persons" />
+        <item key="FirstName" value="First Name" />
+        <item key="LastName" value="Last Name" />
+        <item key="Role" value="Role" />
+        <item key="EMail" value="E-mail" />
+        <item key="PhoneNumber" value="Phone Number" />
+        <item key="AddPerson" value="Add Person" />
+        <item key="EditPerson" value="Edit Person" />
+        <item key="DeletePerson" value="Delete Person" />
+      </group>
+    </form>
+    <form id="PersonEditorForm">
+      <group id="Form">
+        <item key="Title" value="Person" />
+        <item key="FirstName" value="First Name:" />
+        <item key="LastName" value="Last Name:" />
+        <item key="Role" value="Role:" />
+        <item key="EMail" value="E-mail:" />
+        <item key="PhoneNumber" value="Phone Number:" />
+        <item key="Description" value="Description:" />
+      </group>
+    </form>
+    <form id="ModelPropertiesForm">
+      <group id="Form">
+        <item key="Title" value="Model Properties" />
+        <item key="General" value="General" />
+        <item key="Documentation" value="Documentation" />
+        <item key="Name" value="Name:" />
+        <item key="CustomNamespace" value="Custom Namespace:" />
+      </group>
+    </form>
+    <form id="DocumentationGenerationForm">
+      <group id="Form">
+        <item key="Title" value="Generate Documentation" />
+        <item key="General" value="General" />
+        <item key="Format" value="Format" />
+        <item key="HTML" value="HTML" />
+        <item key="RTF" value="RTF" />
+        <item key="PDF" value="PDF" />
+        <item key="Texts" value="Texts" />
+        <item key="DocumentTitle" value="Document title:" />
+        <item key="DocumentSubtitle" value="Document subtitle:" />
+        <item key="Company" value="Company:" />
+        <item key="Authors" value="Authors:" />
+        <item key="OutputFile" value="Output file:" />
+        <item key="Generate" value="Generate" />
+      </group>
+    </form>
+    <form id="TimingEvents">
+      <group id="Control">
+        <item key="State" value="State" />
+        <item key="Duration" value="Duration" />
+        <item key="Stimulus" value="Stimulus" />
+        <item key="DurationConstraint" value="Duration Constraint" />
+      </group>
+    </form>
+    <form id="TimingTickMarkValues">
+      <group id="Control">
+        <item key="Position" value="Position" />
+        <item key="Label" value="Label" />
+      </group>
+    </form>
+    <form id="TimingStatesControl">
+      <group id="Control">
+        <item key="State" value="State" />
+      </group>
+    </form>
+    <form id="ElementBrowserForm">
+      <group id="Form">
+        <item key="Title" value="Element Browser" />
+        <item key="OpenDiagram" value="Open Diagram" />
+        <item key="Rename" value="Rename" />
+        <item key="Delete" value="Delete" />
+        <item key="Properties" value="Properties" />
+        <item key="Name" value="Name" />
+        <item key="ID" value="ID" />
+        <item key="Type" value="Type" />
+      </group>
+    </form>
+    <form id="ActivationForm">
+      <group id="Form">
+        <item key="Title" value="Activation" />
+        <item key="Text" value="If you want to use Software Ideas Modeler for commercial purposes, you have to register and pay registration fee." />
+        <item key="Step1" value="Step 1:" />
+        <item key="Step2" value="Step 2:" />
+        <item key="Step3" value="Step 3:" />
+        <item key="Step1Text" value="Pay registration fee" />
+        <item key="Step2Text" value="Wait for activation key, which will be sent to your e-mail." />
+        <item key="Step3Text" value="Type activation key in the text box below and confirm it by clicking on the button Activate." />
+        <item key="ActivationKey" value="Aktivointiavain:" />
+        <item key="Activate" value="Aktivoi" />
+        <item key="Close" value="Sulje" />
+        <item key="ActivationMessage" value="Aktivointi onnistui. Tämä Software Ideas Modeler kopio on nyt lisensoitu kaupalliseen käyttöön." />
+        <item key="WrongActivationCodeMessage" value="Väärä aktivointikoodi." />
+      </group>
+    </form>
+    <form id="BatchExportForm">
+      <group id="Form">
+        <item key="Title" value="Sarjavienti" />
+        <item key="Exporting" value="Viemässä..." />
+        <item key="Format" value="Formaatti" />
+        <item key="ImageFormat" value="Kuvaformaatti:" />
+        <item key="Output" value="Uloste" />
+        <item key="Content" value="Sisältö" />
+        <item key="Diagrams" value="Kaaviot" />
+        <item key="Files" value="Tiedostot" />
+        <item key="FileNames" value="Tiedostonimet:" />
+        <item key="DiagramName" value="Kaavion nimi:" />
+        <item key="Custom" value="Custom:" />
+        <item key="OutputDirectory" value="Tallennushakemisto:" />
+        <item key="ExportContent" value="Vie sisältö" />
+        <item key="Size" value="Koko" />
+        <item key="Background" value="Tausta" />
+        <item key="ExportOnlyActiveLayer" value="Vie vain aktiivinen taso" />
+        <item key="ExportHiddenLayers" value="Vie piilotetut tasot" />
+        <item key="Absolute" value="Absoluuttinen" />
+        <item key="Relative" value="Suhteellinen" />
+        <item key="Width" value="Leveys:" />
+        <item key="Height" value="Korkeus:" />
+        <item key="Transparent" value="Läpinäkyvä" />
+        <item key="Color1" value="Väri 1:" />
+        <item key="Color2" value="Väri 2:" />
+      </group>
+    </form>
+    <form id="PrintForm">
+      <group id="Form">
+        <item key="Title" value="Tulosta"></item>
+        <item key="Print" value="Tulosta" />
+        <item key="PageSetup" value="Sivun asetukset" />
+        <item key="Preview" value="Esikatselu" />
+        <item key="Diagrams" value="Kaaviot" />
+        <item key="Settings" value="Asetukset" />
+        <item key="Zoom" value="Tarkenna:" />
+        <item key="PreviousPage" value="Edellinen sivu" />
+        <item key="NextPage" value="Seuraava sivu" />
+        <item key="RefreshPreview" value="Refresh Preview" />
+        <item key="PagesPerDiagram" value="Sivuja per diagrammi" />
+        <item key="SinglePage" value="Yksi sivu" />
+        <item key="MultiplePages" value="Useita sivuja" />
+        <item key="Horizontal" value="Vaakasuunta:" />
+        <item key="Vertical" value="Pystysuunta:" />
+      </group>
+    </form>
+  </items>
+</language>
